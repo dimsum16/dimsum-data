@@ -2769,7 +2769,7 @@ is	AUX	B-verb.stative
 Falling	VERB	B-verb.motion
 Flat	PRT	O
 |	PUNCT	O
-Resume	NOUN	B-NOUN.person
+Resume	NOUN	B-noun.person
 Companion	NOUN	I-noun.person
 URL	NOUN	B-noun.communication
 
