@@ -23,7 +23,7 @@ def is_tag(t):
 def f1(prec, rec):
     return 2*prec*rec/(prec+rec) if prec+rec>0 else float('nan')
 
-RE_TAGGING = re.compile(r'^(O|B(o|b[iīĩ]+|[IĪĨ])*[IĪĨ]+)+$'.decode('utf-8'))
+RE_TAGGING = re.compile(r'^(O|B(o|b[iīĩ]+|[IĪĨ])*[IĪĨ]+)+$')
 
 def require_valid_tagging(tagging, simplify_gaps, simplify_weak):
     assert re.match(r'^(O|B(o|b[iīĩ]+|[IĪĨ])*[IĪĨ]+)+$', tagging)
@@ -38,7 +38,7 @@ i_TILDE = 'ĩ'
 I_BAR = 'Ī'
 i_BAR = 'ī'
 
-def simplify(sentid, tokens, poses, tags, simplification=None and 'gaps' and 'weak' and 'gaps+weak', 
+def simplify(tags, simplification=None and 'gaps' and 'weak' and 'gaps+weak', 
     policy='all' or 'best'):
     '''
     For each possible conversion of the sentence under the given simplification scheme, 
@@ -53,7 +53,6 @@ def simplify(sentid, tokens, poses, tags, simplification=None and 'gaps' and 'we
                           'gaps+weak': 1}   # combination of the above
     
     gold_tags = set(tags)
-    print(gold_tags)
     assert gold_tags<=set('OoBbIi') | {'Ī','Ĩ','ī','ĩ'}
     simplify_gaps = simplification in {'gaps','gaps+weak'} and not gold_tags<={'O','B','I','Ī','Ĩ'}
     simplify_weak = simplification in {'weak','gaps+weak'} and not gold_tags<=set('OoBbIi')
@@ -175,11 +174,8 @@ def simplify(sentid, tokens, poses, tags, simplification=None and 'gaps' and 'we
     if policy=='best':
         results = [results[BEST_POLICY_RESULT[simplification]]]
     
-    for result in results:
-        assert len(tokens)==len(result)
-        for w,pp,t in zip(tokens,poses,result):
-            print(w, '\t'.join(pp), t, sentid, sep='\t')
-        print()
+    
+    return results
     
 if __name__=='__main__':
     mode = sys.argv[1]

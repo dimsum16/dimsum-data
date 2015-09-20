@@ -23,14 +23,15 @@ def add_mwe(sent):
 		token = sent[i]
 		if token['bio'] == "B":
 			if i < (len(sent) - 2) and sent[i + 1]['bio'] == "I":
-				token['mwe'] = "B-" + token['supersense']
-				token['mwe_strength'] = '_'
+				token['mwe'] = "B"
+				token['mwe_strength'] = ''
 			else:
-				token['mwe'] = "O-" + token['supersense']
+				token['mwe'] = "O"
 		elif token['bio'] == "I":
 			# token['mwe'] = sent[i - 1]['mwe'].replace("B-", "I-")
-			token['mwe'] = "Ĩ-" + token['supersense']
-			token['mwe_strength'] = '_'
+			token['mwe'] = "I"
+			token['supersense'] = ''
+			token['mwe_strength'] = ''
 			token['mwe_offset'] = i
 
 def output_sent(sent):
