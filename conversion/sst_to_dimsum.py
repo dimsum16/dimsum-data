@@ -2,7 +2,7 @@ import argparse
 from pathlib import Path
 
 parser = argparse.ArgumentParser(description="""
-Converts the three-column supersense-tagged datasets into the DIMSUM 
+Converts the three-column supersense-tagged datasets into the DiMSUM 
 shared-task format
 
 """)

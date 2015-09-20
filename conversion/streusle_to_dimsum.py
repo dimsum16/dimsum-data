@@ -3,7 +3,7 @@ from pathlib import Path
 from mwe_simplify import simplify
 
 parser = argparse.ArgumentParser(description="""
-- Converts names of supersenses in the Streusel dataset to match DIMSUM conventions.
+- Converts names of supersenses in the STREUSLE dataset to match DiMSUM conventions.
 - Performs simplification of BIO notation
 """)
 parser.add_argument('file', help="Original file in TSV format", type=Path)
