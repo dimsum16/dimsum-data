@@ -66,7 +66,7 @@ It	PRON	O
 depends	VERB	B-verb.stative
 .	PUNCT	O
 Find	VERB	B-verb.possession
-out	PRT	O
+out	PART	O
 why	ADV	O
 URL	NOUN	B-noun.communication
 
@@ -142,7 +142,7 @@ about	ADP	O
 it	PRON	O
 URL	NOUN	B-noun.communication
 Check	VERB	B-verb.cognition
-out	PRT	O
+out	PART	O
 his	DET	O
 hot	ADJ	O
 &	CONJ	O
@@ -245,7 +245,7 @@ Estate	NOUN	B-noun.state
 agency	NOUN	I-noun.state
 insolvencies	NOUN	I-noun.state
 '	PUNCT	O
-up	PRT	O
+up	PART	O
 NUMBER	NUM	B-noun.attribute
 URL	NOUN	B-noun.communication
 
@@ -396,7 +396,7 @@ guess	VERB	B-verb.cognition
 this	PRON	O
 leaves	VERB	B-verb.motion
 me	PRON	O
-out	PRT	O
+out	PART	O
 !	PUNCT	O
 LOL	X	O
 A	DET	O
@@ -435,7 +435,7 @@ not	ADV	O
 start	VERB	B-verb.change
 the	DET	O
 week	NOUN	B-noun.time
-out	PRT	O
+out	PART	O
 by	ADP	O
 getting	VERB	B-verb.possession
 depressed	ADJ	O
@@ -1619,7 +1619,7 @@ URL	NOUN	B-noun.communication
 :	PUNCT	O
 COUNT	VERB	B-verb.communication
 ME	PRON	O
-IN	PRT	O
+IN	PART	O
 !	PUNCT	O
 Ted	PROPN	B-noun.person
 Cruz	PROPN	I-noun.person
@@ -1636,7 +1636,7 @@ Defund	VERB	O
 Obamacare	PROPN	B-noun.person
 .	PUNCT	O
 URL	NOUN	B-noun.communication
-Pls	PRT	O
+Pls	PART	O
 RT	VERB	O
 
 NUMBER	NUM	B-noun.attribute
@@ -1819,7 +1819,7 @@ Cognitive	NOUN	I-noun.cognition
 Biases	NOUN	I-noun.cognition
 That	PRON	O
 Screw	VERB	B-verb.contact
-Up	PRT	O
+Up	PART	O
 How	ADV	O
 We	PRON	O
 Think	VERB	B-verb.cognition
@@ -2093,7 +2093,7 @@ URL	NOUN	B-noun.communication
 When	ADV	O
 I	PRON	O
 grow	VERB	B-verb.change
-up	PRT	O
+up	PART	O
 ,	PUNCT	O
 I	PRON	O
 want	VERB	B-verb.emotion
@@ -2226,7 +2226,7 @@ Aug	NOUN	I-noun.attribute
 NUMBER	NUM	I-noun.attribute
 !	PUNCT	O
 Find	VERB	B-verb.possession
-out	PRT	O
+out	PART	O
 how	ADV	O
 to	ADP	O
 win	VERB	B-verb.competition
@@ -2499,9 +2499,9 @@ a	DET	O
 cricket	NOUN	B-noun.animal
 bat	NOUN	I-noun.animal
 !!	PUNCT	O
-No	PRT	O
+No	PART	O
 Albion	PROPN	B-noun.location
-No	PRT	O
+No	PART	O
 ,	PUNCT	O
 Im	VERB	O
 available	ADJ	O
@@ -2767,7 +2767,7 @@ Job	NOUN	B-noun.act
 Search	NOUN	I-noun.act
 is	AUX	B-verb.stative
 Falling	VERB	B-verb.motion
-Flat	PRT	O
+Flat	PART	O
 |	PUNCT	O
 Resume	NOUN	B-noun.person
 Companion	NOUN	I-noun.person
@@ -3062,7 +3062,7 @@ late	ADJ	O
 did	AUX	B-verb.social
 you	PRON	O
 stay	VERB	B-verb.change
-up	PRT	O
+up	PART	O
 last	ADJ	O
 night	NOUN	B-noun.time
 and	CONJ	O
@@ -3123,7 +3123,7 @@ Temazo	PROPN	B-noun.person
 ?	PUNCT	O
 Wake	VERB	B-verb.body
 Me	PRON	O
-Up	PRT	O
+Up	PART	O
 -	PUNCT	O
 Radio	NOUN	B-noun.person
 Edit	NOUN	I-noun.person
@@ -3154,7 +3154,7 @@ Screens	NOUN	I-noun.artifact
 Will	AUX	B-verb.communication
 Not	ADV	O
 Take	VERB	B-verb.social
-Over	PRT	O
+Over	PART	O
 :	PUNCT	O
 Scientific	ADJ	O
 American	PROPN	B-noun.communication
@@ -3199,7 +3199,7 @@ party	NOUN	B-noun.group
 gets	VERB	B-verb.possession
 what's	AUX	O
 coming	VERB	B-verb.motion
-down	PRT	O
+down	PART	O
 the	DET	O
 pike	NOUN	B-noun.artifact
 "	PUNCT	O
@@ -3213,7 +3213,7 @@ of	ADP	O
 URL	NOUN	B-noun.communication
 
 Check	VERB	B-verb.cognition
-out	PRT	O
+out	PART	O
 our	DET	O
 new	ADJ	O
 ,	PUNCT	O
@@ -3233,7 +3233,7 @@ love	VERB	B-verb.emotion
 getting	VERB	B-verb.possession
 to	ADP	O
 word	VERB	B-verb.communication
-out	PRT	O
+out	PART	O
 about	ADP	O
 ur	DET	O
 #indies	NOUN	B-noun.person
