@@ -1,10 +1,3 @@
-Files
------
-
-- streusle.sst: Initial annotations, in human-readable and JSON formats, along with gold POS tags.
-- streusle.tags: Automatic conversion of streusle.sst to the tagging scheme appropriate for training sequence models. A few intricately structured MWEs have been simplified to fit the tagging scheme, and lemmas from the WordNet lemmatizer have been added.
-- streusle.tags.sst: Conversion of streusle.tags back to the .sst format, now with lemmas and tags.
-
 # DiMSUM 2016 shared task data
 
 ## Files
