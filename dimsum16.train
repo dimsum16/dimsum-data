@@ -66,7 +66,7 @@
 15	depends	depends	VERB	O			v.stative	lowlands-4
 16	.	.	PUNCT	O				lowlands-4
 17	Find	find	VERB	O			v.possession	lowlands-4
-18	out	out	PRT	O				lowlands-4
+18	out	out	PART	O				lowlands-4
 19	why	why	ADV	O				lowlands-4
 20	URL	url	NOUN	O			n.communication	lowlands-4
 
@@ -142,7 +142,7 @@
 10	it	it	PRON	O				lowlands-9
 11	URL	url	NOUN	O			n.communication	lowlands-9
 12	Check	check	VERB	O			v.cognition	lowlands-9
-13	out	out	PRT	O				lowlands-9
+13	out	out	PART	O				lowlands-9
 14	his	his	DET	O				lowlands-9
 15	hot	hot	ADJ	O				lowlands-9
 16	&	&	CONJ	O				lowlands-9
@@ -245,7 +245,7 @@
 2	agency	agency	NOUN	I	1			lowlands-16
 3	insolvencies	insolvencies	NOUN	I	2			lowlands-16
 4	'	'	PUNCT	O				lowlands-16
-5	up	up	PRT	O				lowlands-16
+5	up	up	PART	O				lowlands-16
 6	NUMBER	number	NUM	O			n.attribute	lowlands-16
 7	URL	url	NOUN	O			n.communication	lowlands-16
 
@@ -396,7 +396,7 @@
 16	this	this	PRON	O				lowlands-24
 17	leaves	leaves	VERB	O			v.motion	lowlands-24
 18	me	me	PRON	O				lowlands-24
-19	out	out	PRT	O				lowlands-24
+19	out	out	PART	O				lowlands-24
 20	!	!	PUNCT	O				lowlands-24
 21	LOL	lol	X	O				lowlands-24
 22	A	a	DET	O				lowlands-24
@@ -435,7 +435,7 @@
 3	start	start	VERB	O			v.change	lowlands-27
 4	the	the	DET	O				lowlands-27
 5	week	week	NOUN	O			n.time	lowlands-27
-6	out	out	PRT	O				lowlands-27
+6	out	out	PART	O				lowlands-27
 7	by	by	ADP	O				lowlands-27
 8	getting	getting	VERB	O			v.possession	lowlands-27
 9	depressed	depressed	ADJ	O				lowlands-27
@@ -1619,7 +1619,7 @@
 2	:	:	PUNCT	O				lowlands-99
 3	COUNT	count	VERB	O			v.communication	lowlands-99
 4	ME	me	PRON	O				lowlands-99
-5	IN	in	PRT	O				lowlands-99
+5	IN	in	PART	O				lowlands-99
 6	!	!	PUNCT	O				lowlands-99
 7	Ted	ted	PROPN	B			n.person	lowlands-99
 8	Cruz	cruz	PROPN	I	7			lowlands-99
@@ -1636,7 +1636,7 @@
 19	Obamacare	obamacare	PROPN	O			n.person	lowlands-99
 20	.	.	PUNCT	O				lowlands-99
 21	URL	url	NOUN	O			n.communication	lowlands-99
-22	Pls	pls	PRT	O				lowlands-99
+22	Pls	pls	PART	O				lowlands-99
 23	RT	rt	VERB	O				lowlands-99
 
 1	NUMBER	number	NUM	O			n.attribute	lowlands-100
@@ -1819,7 +1819,7 @@
 6	Biases	biases	NOUN	I	5			lowlands-110
 7	That	that	PRON	O				lowlands-110
 8	Screw	screw	VERB	O			v.contact	lowlands-110
-9	Up	up	PRT	O				lowlands-110
+9	Up	up	PART	O				lowlands-110
 10	How	how	ADV	O				lowlands-110
 11	We	we	PRON	O				lowlands-110
 12	Think	think	VERB	O			v.cognition	lowlands-110
@@ -2093,7 +2093,7 @@
 1	When	when	ADV	O				lowlands-128
 2	I	i	PRON	O				lowlands-128
 3	grow	grow	VERB	O			v.change	lowlands-128
-4	up	up	PRT	O				lowlands-128
+4	up	up	PART	O				lowlands-128
 5	,	,	PUNCT	O				lowlands-128
 6	I	i	PRON	O				lowlands-128
 7	want	want	VERB	O			v.emotion	lowlands-128
@@ -2226,7 +2226,7 @@
 11	NUMBER	number	NUM	I	10			lowlands-136
 12	!	!	PUNCT	O				lowlands-136
 13	Find	find	VERB	O			v.possession	lowlands-136
-14	out	out	PRT	O				lowlands-136
+14	out	out	PART	O				lowlands-136
 15	how	how	ADV	O				lowlands-136
 16	to	to	ADP	O				lowlands-136
 17	win	win	VERB	O			v.competition	lowlands-136
@@ -2499,9 +2499,9 @@
 10	cricket	cricket	NOUN	B			n.animal	lowlands-152
 11	bat	bat	NOUN	I	10			lowlands-152
 12	!!	!!	PUNCT	O				lowlands-152
-13	No	no	PRT	O				lowlands-152
+13	No	no	PART	O				lowlands-152
 14	Albion	albion	PROPN	O			n.location	lowlands-152
-15	No	no	PRT	O				lowlands-152
+15	No	no	PART	O				lowlands-152
 16	,	,	PUNCT	O				lowlands-152
 17	Im	im	VERB	O				lowlands-152
 18	available	available	ADJ	O				lowlands-152
@@ -2767,7 +2767,7 @@
 5	Search	search	NOUN	I	4			lowlands-170
 6	is	is	AUX	O			v.stative	lowlands-170
 7	Falling	falling	VERB	O			v.motion	lowlands-170
-8	Flat	flat	PRT	O				lowlands-170
+8	Flat	flat	PART	O				lowlands-170
 9	|	|	PUNCT	O				lowlands-170
 10	Resume	resume	NOUN	B			n.person	lowlands-170
 11	Companion	companion	NOUN	I	10			lowlands-170
@@ -3062,7 +3062,7 @@
 3	did	did	AUX	O			v.social	lowlands-189
 4	you	you	PRON	O				lowlands-189
 5	stay	stay	VERB	O			v.change	lowlands-189
-6	up	up	PRT	O				lowlands-189
+6	up	up	PART	O				lowlands-189
 7	last	last	ADJ	O				lowlands-189
 8	night	night	NOUN	O			n.time	lowlands-189
 9	and	and	CONJ	O				lowlands-189
@@ -3123,7 +3123,7 @@
 3	?	?	PUNCT	O				lowlands-194
 4	Wake	wake	VERB	O			v.body	lowlands-194
 5	Me	me	PRON	O				lowlands-194
-6	Up	up	PRT	O				lowlands-194
+6	Up	up	PART	O				lowlands-194
 7	-	-	PUNCT	O				lowlands-194
 8	Radio	radio	NOUN	B			n.person	lowlands-194
 9	Edit	edit	NOUN	I	8			lowlands-194
@@ -3154,7 +3154,7 @@
 4	Will	will	AUX	O			v.communication	lowlands-196
 5	Not	not	ADV	O				lowlands-196
 6	Take	take	VERB	O			v.social	lowlands-196
-7	Over	over	PRT	O				lowlands-196
+7	Over	over	PART	O				lowlands-196
 8	:	:	PUNCT	O				lowlands-196
 9	Scientific	scientific	ADJ	O				lowlands-196
 10	American	american	PROPN	B			n.communication	lowlands-196
@@ -3199,7 +3199,7 @@
 4	gets	gets	VERB	O			v.possession	lowlands-199
 5	what's	what's	AUX	O				lowlands-199
 6	coming	coming	VERB	O			v.motion	lowlands-199
-7	down	down	PRT	O				lowlands-199
+7	down	down	PART	O				lowlands-199
 8	the	the	DET	O				lowlands-199
 9	pike	pike	NOUN	O			n.artifact	lowlands-199
 10	"	"	PUNCT	O				lowlands-199
@@ -3213,7 +3213,7 @@
 18	URL	url	NOUN	O			n.communication	lowlands-199
 
 1	Check	check	VERB	O			v.cognition	lowlands-200
-2	out	out	PRT	O				lowlands-200
+2	out	out	PART	O				lowlands-200
 3	our	our	DET	O				lowlands-200
 4	new	new	ADJ	O				lowlands-200
 5	,	,	PUNCT	O				lowlands-200
@@ -3233,7 +3233,7 @@
 19	getting	getting	VERB	O			v.possession	lowlands-200
 20	to	to	ADP	O				lowlands-200
 21	word	word	VERB	O			v.communication	lowlands-200
-22	out	out	PRT	O				lowlands-200
+22	out	out	PART	O				lowlands-200
 23	about	about	ADP	O				lowlands-200
 24	ur	ur	DET	O				lowlands-200
 25	#indies	#indies	NOUN	O			n.person	lowlands-200
@@ -3274,7 +3274,7 @@
 10	chance	chance	NOUN	O			n.state	ritter-1
 11	when	when	ADV	O				ritter-1
 12	theycame	theycame	VERB	O				ritter-1
-13	to	to	PRT	O				ritter-1
+13	to	to	PART	O				ritter-1
 14	the	the	DET	O				ritter-1
 15	uk	uk	PROPN	O				ritter-1
 16	this	this	DET	O				ritter-1
@@ -3318,7 +3318,7 @@
 2	miss	miss	VERB	O			v.emotion	ritter-3
 3	being	being	AUX	O			v.stative	ritter-3
 4	able	able	ADJ	O				ritter-3
-5	to	to	PRT	O				ritter-3
+5	to	to	PART	O				ritter-3
 6	run	run	VERB	O			v.motion	ritter-3
 7	and	and	CONJ	O				ritter-3
 8	dance	dance	VERB	O			v.motion	ritter-3
@@ -3328,7 +3328,7 @@
 12	instead	instead	ADV	O				ritter-3
 13	of	of	ADP	O				ritter-3
 14	having	having	AUX	O			v.possession	ritter-3
-15	to	to	PRT	O				ritter-3
+15	to	to	PART	O				ritter-3
 16	catch	catch	VERB	O			v.possession	ritter-3
 17	my	my	PRON	O				ritter-3
 18	breath	breath	NOUN	O			n.act	ritter-3
@@ -3360,7 +3360,7 @@
 18	Ca	ca	AUX	O				ritter-4
 19	n't	n't	ADV	O				ritter-4
 20	wait	wait	VERB	O			v.stative	ritter-4
-21	to	to	PRT	O				ritter-4
+21	to	to	PART	O				ritter-4
 22	see	see	VERB	O			v.perception	ritter-4
 23	what	what	PRON	O				ritter-4
 24	people	people	NOUN	O			n.group	ritter-4
@@ -3374,7 +3374,7 @@
 5	a	a	DET	O				ritter-5
 6	happy	happy	ADJ	O				ritter-5
 7	way	way	NOUN	O			n.attribute	ritter-5
-8	to	to	PRT	O				ritter-5
+8	to	to	PART	O				ritter-5
 9	preserve	preserve	VERB	O			v.stative	ritter-5
 10	it	it	PRON	O				ritter-5
 11	but	but	CONJ	O				ritter-5
@@ -3408,7 +3408,7 @@
 7	you	you	PRON	O				ritter-6
 8	want	want	VERB	O			v.emotion	ritter-6
 9	me	me	PRON	O				ritter-6
-10	to	to	PRT	O				ritter-6
+10	to	to	PART	O				ritter-6
 11	go	go	VERB	O			v.motion	ritter-6
 12	back	back	ADV	O				ritter-6
 13	live	live	ADV	O				ritter-6
@@ -3462,7 +3462,7 @@
 17	.	.	PUNCT	O				ritter-8
 
 1	How	how	ADV	O				ritter-9
-2	to	to	PRT	O				ritter-9
+2	to	to	PART	O				ritter-9
 3	Write	write	VERB	O			v.communication	ritter-9
 4	a	a	DET	O				ritter-9
 5	Resume	resume	NOUN	O			n.communication	ritter-9
@@ -3473,7 +3473,7 @@
 10	Dealing	dealing	VERB	O			v.social	ritter-9
 11	with	with	ADP	O				ritter-9
 12	how	how	ADV	O				ritter-9
-13	to	to	PRT	O				ritter-9
+13	to	to	PART	O				ritter-9
 14	write	write	VERB	O			v.communication	ritter-9
 15	a	a	DET	O				ritter-9
 16	resume	resume	NOUN	O			n.communication	ritter-9
@@ -3491,7 +3491,7 @@
 2	Le	le	PROPN	I	1			ritter-10
 3	Bon	bon	PROPN	I	2			ritter-10
 4	is	is	AUX	O			v.stative	ritter-10
-5	to	to	PRT	O				ritter-10
+5	to	to	PART	O				ritter-10
 6	walk	walk	VERB	O			v.motion	ritter-10
 7	in	in	ADP	O				ritter-10
 8	Giles	giles	PROPN	B			n.person	ritter-10
@@ -3521,7 +3521,7 @@
 18	get	get	VERB	O			v.possession	ritter-11
 19	some	some	DET	O				ritter-11
 20	time	time	NOUN	O			n.time	ritter-11
-21	to	to	PRT	O				ritter-11
+21	to	to	PART	O				ritter-11
 22	myself	myself	PRON	O				ritter-11
 23	and	and	CONJ	O				ritter-11
 24	God	god	PROPN	O			n.person	ritter-11
@@ -3539,7 +3539,7 @@
 4	sorting	sorting	VERB	O			v.social	ritter-12
 5	pope	pope	PROPN	O			n.person	ritter-12
 6	visit	visit	NOUN	O			n.act	ritter-12
-7	to	to	PRT	O				ritter-12
+7	to	to	PART	O				ritter-12
 8	birmingham	birmingham	PROPN	O			n.location	ritter-12
 9	stuff	stuff	NOUN	O			n.substance	ritter-12
 10	out	out	PART	O				ritter-12
@@ -3600,7 +3600,7 @@
 15	!	!	PUNCT	O				ritter-14
 16	Make	make	VERB	O			v.social	ritter-14
 17	sure	sure	ADJ	O				ritter-14
-18	to	to	PRT	O				ritter-14
+18	to	to	PART	O				ritter-14
 19	subscribe	subscribe	VERB	O			v.possession	ritter-14
 20	so	so	ADP	O				ritter-14
 21	Jobs	jobs	PROPN	O			n.person	ritter-14
@@ -3616,7 +3616,7 @@
 4	work	work	NOUN	O			n.act	ritter-15
 5	!	!	PUNCT	O				ritter-15
 6	going	going	VERB	O			v.motion	ritter-15
-7	to	to	PRT	O				ritter-15
+7	to	to	PART	O				ritter-15
 8	alderwood	alderwood	PROPN	O			n.location	ritter-15
 9	again	again	ADV	O				ritter-15
 10	:)	:)	INTJ	O				ritter-15
@@ -3649,7 +3649,7 @@
 13	?	?	PUNCT	O				ritter-16
 14	please	please	INTJ	O				ritter-16
 15	?	?	PUNCT	O				ritter-16
-16	to	to	PRT	O				ritter-16
+16	to	to	PART	O				ritter-16
 17	talk	talk	VERB	O			v.communication	ritter-16
 18	right	right	ADV	O				ritter-16
 19	!	!	PUNCT	O				ritter-16
@@ -3685,7 +3685,7 @@
 25	so	so	ADP	O				ritter-17
 26	dnt	dnt	VERB	O			v.stative	ritter-17
 27	talk	talk	VERB	O			v.communication	ritter-17
-28	to	to	PRT	O				ritter-17
+28	to	to	PART	O				ritter-17
 29	me	me	PRON	O				ritter-17
 30	right	right	ADV	O				ritter-17
 31	now	now	ADV	O				ritter-17
@@ -3730,7 +3730,7 @@
 
 1	Israel	israel	PROPN	O			n.location	ritter-20
 2	grinds	grinds	VERB	O			v.motion	ritter-20
-3	to	to	PRT	O				ritter-20
+3	to	to	PART	O				ritter-20
 4	a	a	DET	O				ritter-20
 5	halt	halt	NOUN	O			n.state	ritter-20
 6	for	for	ADP	O				ritter-20
@@ -3886,7 +3886,7 @@
 4	today~	today~	NOUN	O			n.time	ritter-26
 5	So	so	ADV	O				ritter-26
 6	happy	happy	ADJ	O				ritter-26
-7	to	to	PRT	O				ritter-26
+7	to	to	PART	O				ritter-26
 8	play	play	VERB	O			v.motion	ritter-26
 9	again	again	NOUN	O				ritter-26
 10	:)	:)	INTJ	O				ritter-26
@@ -3953,7 +3953,7 @@
 7	tonight	tonight	NOUN	O			n.time	ritter-29
 8	but	but	CONJ	O				ritter-29
 9	goin	goin	VERB	O			v.motion	ritter-29
-10	to	to	PRT	O				ritter-29
+10	to	to	PART	O				ritter-29
 11	the	the	DET	O				ritter-29
 12	archery	archery	NOUN	B			n.location	ritter-29
 13	range	range	NOUN	I	12			ritter-29
@@ -3966,7 +3966,7 @@
 2	I	i	PRON	O				ritter-30
 3	'm	'm	AUX	O			v.stative	ritter-30
 4	going	going	VERB	O			v.motion	ritter-30
-5	to	to	PRT	O				ritter-30
+5	to	to	PART	O				ritter-30
 6	give	give	VERB	O			v.possession	ritter-30
 7	in	in	PART	O				ritter-30
 8	and	and	CONJ	O				ritter-30
@@ -4002,7 +4002,7 @@
 17	!	!	PUNCT	O				ritter-32
 18	Fantastic	fantastic	ADJ	O				ritter-32
 19	Place	place	NOUN	O			n.location	ritter-32
-20	to	to	PRT	O				ritter-32
+20	to	to	PART	O				ritter-32
 21	Play	play	VERB	O			v.competition	ritter-32
 22	http://bit.ly/aoDEls?=njq4	http://bit.ly/aodels?=njq4	X	O				ritter-32
 
@@ -4012,7 +4012,7 @@
 4	PG&lt;E	pg&lt;e	PROPN	O			n.group	ritter-33
 5	donated	donated	VERB	O			v.possession	ritter-33
 6	35G	35g	NUM	O				ritter-33
-7	to	to	PRT	O				ritter-33
+7	to	to	PART	O				ritter-33
 8	state	state	NOUN	B			n.person	ritter-33
 9	committe	committe	NOUN	I	8			ritter-33
 10	chairman	chairman	NOUN	I	9			ritter-33
@@ -4088,7 +4088,7 @@
 5	I	i	PRON	O				ritter-37
 6	finally	finally	ADV	O				ritter-37
 7	get	get	VERB	O			v.possession	ritter-37
-8	to	to	PRT	O				ritter-37
+8	to	to	PART	O				ritter-37
 9	relax	relax	VERB	O			v.change	ritter-37
 10	:)	:)	INTJ	O				ritter-37
 
@@ -4134,7 +4134,7 @@
 18	even	even	ADV	O				ritter-40
 19	gonna	gonna	VERB	O				ritter-40
 20	stoop	stoop	VERB	O			v.motion	ritter-40
-21	to	to	PRT	O				ritter-40
+21	to	to	PART	O				ritter-40
 22	her	her	PRON	O				ritter-40
 23	leve	leve	NOUN	O			n.location	ritter-40
 24	but	but	CONJ	O				ritter-40
@@ -4205,7 +4205,7 @@
 13	sum	sum	DET	O				ritter-43
 14	hawt	hawt	ADJ	O				ritter-43
 15	dude	dude	NOUN	O			n.person	ritter-43
-16	2	2	PRT	O				ritter-43
+16	2	2	PART	O				ritter-43
 17	keep	keep	VERB	O			v.stative	ritter-43
 18	ur	ur	PRON	O				ritter-43
 19	intrest	intrest	NOUN	O			n.relation	ritter-43
@@ -4295,7 +4295,7 @@
 6	Serie	serie	PROPN	B			n.group	ritter-47
 7	A	a	PROPN	I	6			ritter-47
 8	continues	continues	VERB	O			v.stative	ritter-47
-9	to	to	PRT	O				ritter-47
+9	to	to	PART	O				ritter-47
 10	be	be	AUX	O			v.stative	ritter-47
 11	on	on	ADP	O				ritter-47
 12	the	the	DET	O				ritter-47
@@ -4336,11 +4336,11 @@
 1	http://bit.ly/aTTQYq	http://bit.ly/attqyq	X	O				ritter-49
 2	When	when	ADV	O				ritter-49
 3	Pepsi	pepsi	PROPN	O			n.food	ritter-49
-4	to	to	PRT	O				ritter-49
+4	to	to	PART	O				ritter-49
 5	ring	ring	VERB	O			v.communication	ritter-49
 6	usually	usually	ADV	O				ritter-49
 7	confirm	confirm	VERB	O			v.communication	ritter-49
-8	to	to	PRT	O				ritter-49
+8	to	to	PART	O				ritter-49
 9	,	,	PUNCT	O				ritter-49
 10	winning	winning	VERB	O			v.possession	ritter-49
 11	a	a	DET	O				ritter-49
@@ -4350,7 +4350,7 @@
 
 1	Just	just	ADV	O				ritter-50
 2	tried	tried	VERB	O			v.social	ritter-50
-3	to	to	PRT	O				ritter-50
+3	to	to	PART	O				ritter-50
 4	watch	watch	VERB	O			v.perception	ritter-50
 5	The	the	PROPN	B			n.communication	ritter-50
 6	Inbetweeners	inbetweeners	PROPN	I	5			ritter-50
@@ -4481,7 +4481,7 @@
 23	My	my	PRON	O				ritter-55
 24	sister	sister	NOUN	O			n.person	ritter-55
 25	wants	wants	VERB	O			v.emotion	ritter-55
-26	to	to	PRT	O				ritter-55
+26	to	to	PART	O				ritter-55
 27	cry	cry	VERB	O			v.emotion	ritter-55
 28	she	she	PRON	O				ritter-55
 29	hates	hates	VERB	O			v.emotion	ritter-55
@@ -4491,7 +4491,7 @@
 33	.	.	PUNCT	O				ritter-55
 
 1	Goin	goin	VERB	O			v.motion	ritter-56
-2	to	to	PRT	O				ritter-56
+2	to	to	PART	O				ritter-56
 3	my	my	PRON	O				ritter-56
 4	BEST	best	ADJ	O				ritter-56
 5	friends	friends	NOUN	O			n.person	ritter-56
@@ -4535,7 +4535,7 @@
 11	I	i	PRON	O				ritter-57
 12	give	give	VERB	O			v.possession	ritter-57
 13	birth	birth	NOUN	O			n.process	ritter-57
-14	to	to	PRT	O				ritter-57
+14	to	to	PART	O				ritter-57
 15	a	a	DET	O				ritter-57
 16	pig	pig	NOUN	O			n.animal	ritter-57
 
@@ -4596,7 +4596,7 @@
 5	@greggarbo	@greggarbo	PROPN	O				ritter-61
 6	@johnlloydtaylor	@johnlloydtaylor	PROPN	O				ritter-61
 7	Rock	rock	VERB	O			v.motion	ritter-61
-8	to	to	PRT	O				ritter-61
+8	to	to	PART	O				ritter-61
 9	SECTION	section	NOUN	O			n.location	ritter-61
 10	204	204	NUM	O				ritter-61
 11	tonight	tonight	NOUN	O			n.time	ritter-61
@@ -4611,7 +4611,7 @@
 7	staying	staying	VERB	O			v.stative	ritter-62
 8	in	in	PART	O				ritter-62
 9	2day	2day	NOUN	O			n.time	ritter-62
-10	2	2	PRT	O				ritter-62
+10	2	2	PART	O				ritter-62
 11	rest	rest	VERB	O			v.stative	ritter-62
 12	this	this	DET	O				ritter-62
 13	week	week	NOUN	O			n.time	ritter-62
@@ -4690,7 +4690,7 @@
 7	you	you	PRON	O				ritter-66
 8	want	want	VERB	O			v.emotion	ritter-66
 9	me	me	PRON	O				ritter-66
-10	to	to	PRT	O				ritter-66
+10	to	to	PART	O				ritter-66
 11	go	go	VERB	O			v.motion	ritter-66
 12	back	back	ADV	O				ritter-66
 13	live	live	ADJ	O				ritter-66
@@ -4782,7 +4782,7 @@
 5	u	u	PRON	O				ritter-71
 6	go	go	VERB	O			v.motion	ritter-71
 7	out	out	PART	O				ritter-71
-8	to	to	PRT	O				ritter-71
+8	to	to	PART	O				ritter-71
 9	practice	practice	VERB	O			v.social	ritter-71
 
 1	@JoshRamsayArmy	@joshramsayarmy	PROPN	O				ritter-72
@@ -5020,14 +5020,14 @@
 8	changed	changed	VERB	O			v.change	ritter-82
 9	in	in	ADP	O				ritter-82
 10	order	order	NOUN	O				ritter-82
-11	to	to	PRT	O				ritter-82
+11	to	to	PART	O				ritter-82
 12	reduce	reduce	VERB	O			v.change	ritter-82
 13	the	the	DET	O				ritter-82
 14	time	time	NOUN	O			n.time	ritter-82
 15	required	required	VERB	O			v.stative	ritter-82
 16	for	for	ADP	O				ritter-82
 17	you	you	PRON	O				ritter-82
-18	to	to	PRT	O				ritter-82
+18	to	to	PART	O				ritter-82
 19	provide	provide	VERB	O			v.possession	ritter-82
 20	solutions	solutions	NOUN	O			n.act	ritter-82
 21	?	?	PUNCT	O				ritter-82
@@ -5141,12 +5141,12 @@
 8	then	then	ADP	O				ritter-90
 9	i	i	PRON	O				ritter-90
 10	went	went	VERB	O			v.motion	ritter-90
-11	to	to	PRT	O				ritter-90
+11	to	to	PART	O				ritter-90
 12	then	then	ADP	O				ritter-90
 13	when	when	ADV	O				ritter-90
 14	i	i	PRON	O				ritter-90
 15	went	went	VERB	O			v.motion	ritter-90
-16	to	to	PRT	O				ritter-90
+16	to	to	PART	O				ritter-90
 17	lhs	lhs	PROPN	O			n.act	ritter-90
 
 1	@ToriVicotia	@torivicotia	PROPN	O				ritter-91
@@ -5224,7 +5224,7 @@
 11	months	months	NOUN	O			n.time	ritter-95
 12	(	(	PUNCT	O				ritter-95
 13	trying	trying	VERB	O			v.social	ritter-95
-14	to	to	PRT	O				ritter-95
+14	to	to	PART	O				ritter-95
 15	help	help	VERB	O			v.social	ritter-95
 16	someone	someone	NOUN	O			n.person	ritter-95
 17	order	order	VERB	O			v.possession	ritter-95
@@ -5251,7 +5251,7 @@
 
 1	I	i	PRON	O				ritter-97
 2	need	need	AUX	O			v.stative	ritter-97
-3	to	to	PRT	O				ritter-97
+3	to	to	PART	O				ritter-97
 4	draw	draw	VERB	O			v.creation	ritter-97
 5	FASTER	faster	ADJ	O				ritter-97
 6	.	.	PUNCT	O				ritter-97
@@ -5264,7 +5264,7 @@
 13	worth	worth	ADJ	O				ritter-97
 14	of	of	ADP	O				ritter-97
 15	doodles	doodles	NOUN	O			n.artifact	ritter-97
-16	to	to	PRT	O				ritter-97
+16	to	to	PART	O				ritter-97
 17	get	get	VERB	O			v.possession	ritter-97
 18	going	going	VERB	O			v.motion	ritter-97
 19	,	,	PUNCT	O				ritter-97
@@ -5280,7 +5280,7 @@
 7	TURNS	turns	VERB	O			v.motion	ritter-98
 8	ON	on	PART	O				ritter-98
 9	YOU	you	PRON	O				ritter-98
-10	TO	to	PRT	O				ritter-98
+10	TO	to	PART	O				ritter-98
 11	SPITE	spite	VERB	O			v.emotion	ritter-98
 12	YOU	you	PRON	O				ritter-98
 13	?	?	PUNCT	O				ritter-98
@@ -5310,7 +5310,7 @@
 2	@itsPLG	@itsplg	PROPN	O				ritter-100
 3	:	:	PUNCT	O				ritter-100
 4	Congrats	congrats	NOUN	O			n.communication	ritter-100
-5	to	to	PRT	O				ritter-100
+5	to	to	PART	O				ritter-100
 6	@bobburnquist	@bobburnquist	PROPN	O				ritter-100
 7	for	for	ADP	O				ritter-100
 8	qualifying	qualifying	VERB	O			v.competition	ritter-100
@@ -5335,7 +5335,7 @@
 
 1	@toukie_s	@toukie_s	PROPN	O				ritter-102
 2	i'mgoing	i'mgoing	VERB	O				ritter-102
-3	to	to	PRT	O				ritter-102
+3	to	to	PART	O				ritter-102
 4	sleep	sleep	VERB	O			v.body	ritter-102
 5	,	,	PUNCT	O				ritter-102
 6	not	not	ADV	O				ritter-102
@@ -5372,7 +5372,7 @@
 1	RT	rt	X	O				ritter-104
 2	@dropolo	@dropolo	PROPN	O				ritter-104
 3	Headed	headed	VERB	O			v.motion	ritter-104
-4	to	to	PRT	O				ritter-104
+4	to	to	PART	O				ritter-104
 5	da	da	DET	O				ritter-104
 6	gump	gump	NOUN	O			n.location	ritter-104
 7	today	today	NOUN	O			n.time	ritter-104
@@ -5383,7 +5383,7 @@
 12	&lt;	&lt;	CONJ	O				ritter-104
 13	&lt;	&lt;	CONJ	O				ritter-104
 14	come	come	VERB	O			v.motion	ritter-104
-15	to	to	PRT	O				ritter-104
+15	to	to	PART	O				ritter-104
 16	shut	shut	VERB	O			v.social	ritter-104
 17	it	it	PRON	O				ritter-104
 18	down	down	PART	O				ritter-104
@@ -5493,7 +5493,7 @@
 14	a	a	DET	O				ritter-108
 15	shout	shout	NOUN	O			n.communication	ritter-108
 16	out	out	ADP	O				ritter-108
-17	to	to	PRT	O				ritter-108
+17	to	to	PART	O				ritter-108
 18	her	her	PRON	O				ritter-108
 19	,	,	PUNCT	O				ritter-108
 
@@ -5511,7 +5511,7 @@
 12	'm	'm	AUX	O			v.stative	ritter-109
 13	going	going	VERB	O			v.motion	ritter-109
 14	home	home	NOUN	O			n.location	ritter-109
-15	to	to	PRT	O				ritter-109
+15	to	to	PART	O				ritter-109
 16	Wisconsin	wisconsin	PROPN	O			n.location	ritter-109
 17	for	for	ADP	O				ritter-109
 18	a	a	DET	O				ritter-109
@@ -5566,7 +5566,7 @@
 12	pard	pard	NOUN	O			n.animal	ritter-111
 13	taught	taught	VERB	O			v.communication	ritter-111
 14	me	me	PRON	O				ritter-111
-15	to	to	PRT	O				ritter-111
+15	to	to	PART	O				ritter-111
 16	do	do	AUX	O			v.social	ritter-111
 17	..	..	PUNCT	O				ritter-111
 18	ears	ears	NOUN	O			n.body	ritter-111
@@ -5676,7 +5676,7 @@
 16	find	find	VERB	O			v.possession	ritter-116
 17	a	a	DET	O				ritter-116
 18	way	way	NOUN	O			n.attribute	ritter-116
-19	to	to	PRT	O				ritter-116
+19	to	to	PART	O				ritter-116
 20	get	get	VERB	O			v.possession	ritter-116
 21	it	it	PRON	O				ritter-116
 22	.	.	PUNCT	O				ritter-116
@@ -5793,7 +5793,7 @@
 3	:	:	PUNCT	O				ritter-121
 4	Shout	shout	VERB	O			v.communication	ritter-121
 5	out	out	PART	O				ritter-121
-6	to	to	PRT	O				ritter-121
+6	to	to	PART	O				ritter-121
 7	@Laureluxe	@laureluxe	PROPN	O				ritter-121
 8	for	for	ADP	O				ritter-121
 9	a	a	DET	O				ritter-121
@@ -5877,7 +5877,7 @@
 4	our	our	PRON	O				ritter-125
 5	Half	half	ADJ	O				ritter-125
 6	Way	way	NOUN	O				ritter-125
-7	to	to	PRT	O				ritter-125
+7	to	to	PART	O				ritter-125
 8	St	st	PROPN	O			n.person	ritter-125
 9	.	.	PUNCT	O				ritter-125
 10	Patty	patty	PROPN	B			n.act	ritter-125
@@ -5896,7 +5896,7 @@
 23	..	..	PUNCT	O				ritter-125
 24	tex	tex	VERB	O			v.communication	ritter-125
 25	980-333-3923	980-333-3923	NUM	O				ritter-125
-26	to	to	PRT	O				ritter-125
+26	to	to	PART	O				ritter-125
 27	get	get	VERB	O			v.possession	ritter-125
 28	on	on	ADP	O				ritter-125
 29	the	the	DET	O				ritter-125
@@ -5909,7 +5909,7 @@
 3	room	room	NOUN	O			n.location	ritter-126
 4	.	.	PUNCT	O				ritter-126
 5	Need	need	AUX	O			v.stative	ritter-126
-6	to	to	PRT	O				ritter-126
+6	to	to	PART	O				ritter-126
 7	do	do	VERB	O			v.creation	ritter-126
 8	my	my	PRON	O				ritter-126
 9	hair	hair	NOUN	O			n.body	ritter-126
@@ -5969,7 +5969,7 @@
 27	a	a	DET	O				ritter-129
 28	612	612	NUM	O				ritter-129
 
-1	to	to	PRT	O				ritter-130
+1	to	to	PART	O				ritter-130
 2	all	all	DET	O				ritter-130
 3	my	my	PRON	O				ritter-130
 4	girls	girls	NOUN	O			n.person	ritter-130
@@ -6068,7 +6068,7 @@
 24	!	!	PUNCT	O				ritter-133
 25	Be	be	AUX	O			v.stative	ritter-133
 26	sure	sure	ADJ	O				ritter-133
-27	to	to	PRT	O				ritter-133
+27	to	to	PART	O				ritter-133
 28	check	check	VERB	O			v.cognition	ritter-133
 29	it	it	PRON	O				ritter-133
 30	out	out	PART	O				ritter-133
@@ -6078,7 +6078,7 @@
 2	.	.	PUNCT	O				ritter-134
 3	Bono	bono	PROPN	B			n.person	ritter-134
 4	Mack	mack	PROPN	I	3			ritter-134
-5	to	to	PRT	O				ritter-134
+5	to	to	PART	O				ritter-134
 6	criticize	criticize	VERB	O			v.communication	ritter-134
 7	fellow	fellow	ADJ	O				ritter-134
 8	desert	desert	NOUN	B			n.person	ritter-134
@@ -6108,7 +6108,7 @@
 15	Take	take	VERB	O			v.social	ritter-135
 16	a	a	DET	O				ritter-135
 17	visit	visit	NOUN	O			n.act	ritter-135
-18	to	to	PRT	O				ritter-135
+18	to	to	PART	O				ritter-135
 19	one	one	NUM	O				ritter-135
 20	of	of	ADP	O				ritter-135
 21	the	the	DET	O				ritter-135
@@ -6257,7 +6257,7 @@
 15	it	it	PRON	O				ritter-141
 16	just	just	ADV	O				ritter-141
 17	appears	appears	VERB	O			v.perception	ritter-141
-18	to	to	PRT	O				ritter-141
+18	to	to	PART	O				ritter-141
 19	be	be	AUX	O			v.stative	ritter-141
 20	waiting	waiting	VERB	O			v.stative	ritter-141
 21	in	in	ADP	O				ritter-141
@@ -6279,7 +6279,7 @@
 8	?	?	PUNCT	O				ritter-142
 9	I	i	PRON	O				ritter-142
 10	used	used	VERB	O			v.social	ritter-142
-11	to	to	PRT	O				ritter-142
+11	to	to	PART	O				ritter-142
 12	be	be	AUX	O			v.stative	ritter-142
 13	that	that	DET	O				ritter-142
 14	guy	guy	NOUN	O			n.person	ritter-142
@@ -6366,7 +6366,7 @@
 6	,	,	PUNCT	O				ritter-146
 7	im	im	PRON	O				ritter-146
 8	going	going	VERB	O			v.motion	ritter-146
-9	to	to	PRT	O				ritter-146
+9	to	to	PART	O				ritter-146
 10	say	say	VERB	O			v.communication	ritter-146
 11	"	"	PUNCT	O				ritter-146
 12	the	the	DET	O				ritter-146
@@ -6558,7 +6558,7 @@
 13	you	you	PRON	O				ritter-154
 14	're	're	AUX	O			v.stative	ritter-154
 15	supposed	supposed	VERB	O			v.stative	ritter-154
-16	to	to	PRT	O				ritter-154
+16	to	to	PART	O				ritter-154
 17	be	be	AUX	O			v.stative	ritter-154
 18	studying/doing	studying/doing	VERB	O			v.cognition	ritter-154
 19	homework	homework	NOUN	O			n.act	ritter-154
@@ -6583,7 +6583,7 @@
 16	I	i	PRON	O				ritter-155
 17	are	are	AUX	O			v.stative	ritter-155
 18	beginning	beginning	VERB	O			v.change	ritter-155
-19	to	to	PRT	O				ritter-155
+19	to	to	PART	O				ritter-155
 20	look	look	VERB	O			v.perception	ritter-155
 21	at	at	ADP	O				ritter-155
 22	re	re	NOUN	O				ritter-155
@@ -6679,7 +6679,7 @@
 3	,	,	PUNCT	O				ritter-160
 4	I	i	PRON	O				ritter-160
 5	want	want	VERB	O			v.emotion	ritter-160
-6	to	to	PRT	O				ritter-160
+6	to	to	PART	O				ritter-160
 7	load	load	VERB	O			v.possession	ritter-160
 8	up	up	PART	O				ritter-160
 9	on	on	ADP	O				ritter-160
@@ -6695,7 +6695,7 @@
 4	Indian	indian	PROPN	B			n.person	ritter-161
 5	Prime	prime	PROPN	I	4			ritter-161
 6	Minister	minister	PROPN	I	5			ritter-161
-7	to	to	PRT	O				ritter-161
+7	to	to	PART	O				ritter-161
 8	declare	declare	VERB	O			v.communication	ritter-161
 9	national	national	ADJ	O				ritter-161
 10	Vegetarian	vegetarian	NOUN	B			n.time	ritter-161
@@ -6863,7 +6863,7 @@
 18	'll	'll	AUX	O				ritter-169
 19	support	support	VERB	O			v.social	ritter-169
 20	u	u	PRON	O				ritter-169
-21	to	to	PRT	O				ritter-169
+21	to	to	PART	O				ritter-169
 22	the	the	DET	O				ritter-169
 23	end	end	NOUN	O			n.state	ritter-169
 24	no	no	DET	O				ritter-169
@@ -6977,7 +6977,7 @@
 2	yaaaayyy	yaaaayyy	INTJ	O				ritter-176
 3	!!!!!	!!!!!	PUNCT	O				ritter-176
 4	Same	same	ADJ	O				ritter-176
-5	to	to	PRT	O				ritter-176
+5	to	to	PART	O				ritter-176
 6	you	you	PRON	O				ritter-176
 7	rhea	rhea	PROPN	O			n.person	ritter-176
 8	!!!!!	!!!!!	PUNCT	O				ritter-176
@@ -6990,7 +6990,7 @@
 15	!!!	!!!	PUNCT	O				ritter-176
 16	Be	be	AUX	O			v.stative	ritter-176
 17	sure	sure	ADJ	O				ritter-176
-18	to	to	PRT	O				ritter-176
+18	to	to	PART	O				ritter-176
 19	ride	ride	VERB	O			v.motion	ritter-176
 20	that	that	DET	O				ritter-176
 21	epic	epic	NOUN	B			n.event	ritter-176
@@ -7006,12 +7006,12 @@
 7	2011	2011	NUM	O				ritter-177
 8	is	is	AUX	O			v.stative	ritter-177
 9	proving	proving	VERB	O			v.stative	ritter-177
-10	to	to	PRT	O				ritter-177
+10	to	to	PART	O				ritter-177
 11	be	be	AUX	O			v.stative	ritter-177
 12	a	a	DET	O				ritter-177
 13	great	great	ADJ	O				ritter-177
 14	time	time	NOUN	O			n.time	ritter-177
-15	to	to	PRT	O				ritter-177
+15	to	to	PART	O				ritter-177
 16	buy	buy	VERB	O			v.possession	ritter-177
 17	real	real	NOUN	B			n.possession	ritter-177
 18	estate	estate	NOUN	I	17			ritter-177
@@ -7078,7 +7078,7 @@
 25	..	..	PUNCT	O				ritter-179
 
 1	going	going	VERB	O			v.motion	ritter-180
-2	to	to	PRT	O				ritter-180
+2	to	to	PART	O				ritter-180
 3	portland	portland	PROPN	O			n.location	ritter-180
 4	in	in	ADP	O				ritter-180
 5	t-minus	t-minus	NOUN	O			n.time	ritter-180
@@ -7120,7 +7120,7 @@
 3	go	go	VERB	O			v.motion	ritter-184
 4	wit	wit	ADP	O				ritter-184
 5	me	me	PRON	O				ritter-184
-6	to	to	PRT	O				ritter-184
+6	to	to	PART	O				ritter-184
 7	get	get	VERB	O			v.possession	ritter-184
 8	my	my	PRON	O				ritter-184
 9	nails	nails	NOUN	O			n.body	ritter-184
@@ -7201,7 +7201,7 @@
 1	@AuntB	@auntb	PROPN	O				ritter-188
 2	@rachel_w	@rachel_w	PROPN	O				ritter-188
 3	@randomjeweler	@randomjeweler	PROPN	O				ritter-188
-4	To	to	PRT	O				ritter-188
+4	To	to	PART	O				ritter-188
 5	further	further	VERB	O			v.social	ritter-188
 6	your	your	PRON	O				ritter-188
 7	daily	daily	NOUN	B			n.state	ritter-188
@@ -7586,7 +7586,7 @@
 8	now	now	ADV	O				ritter-207
 9	shes	shes	PRON	O				ritter-207
 10	trying	trying	VERB	O			v.social	ritter-207
-11	to	to	PRT	O				ritter-207
+11	to	to	PART	O				ritter-207
 12	get	get	VERB	O			v.social	ritter-207
 13	with	with	ADP	O				ritter-207
 14	Vinny	vinny	PROPN	O			n.person	ritter-207
@@ -7669,7 +7669,7 @@
 13	22	22	NUM	O				ritter-211
 14	,	,	PUNCT	O				ritter-211
 15	4:30	4:30	NUM	O				ritter-211
-16	to	to	PRT	O				ritter-211
+16	to	to	PART	O				ritter-211
 17	??.	??.	PUNCT	O				ritter-211
 18	Contact	contact	VERB	O			v.communication	ritter-211
 19	Doug	doug	PROPN	O			n.person	ritter-211
@@ -7682,7 +7682,7 @@
 1	@iians	@iians	PROPN	O				ritter-212
 2	Id	id	PRON	O				ritter-212
 3	love	love	VERB	O			v.emotion	ritter-212
-4	to	to	PRT	O				ritter-212
+4	to	to	PART	O				ritter-212
 5	see	see	VERB	O			v.perception	ritter-212
 6	IDWT	idwt	PROPN	O			n.communication	ritter-212
 7	live	live	ADJ	O				ritter-212
@@ -7694,9 +7694,9 @@
 13	day	day	NOUN	O			n.time	ritter-212
 14	I	i	PRON	O				ritter-212
 15	hope	hope	VERB	O			v.emotion	ritter-212
-16	to	to	PRT	O				ritter-212
+16	to	to	PART	O				ritter-212
 17	go	go	VERB	O			v.motion	ritter-212
-18	to	to	PRT	O				ritter-212
+18	to	to	PART	O				ritter-212
 19	ces	ces	PROPN	O			n.location	ritter-212
 20	myself	myself	PRON	O				ritter-212
 21	.	.	PUNCT	O				ritter-212
@@ -7710,7 +7710,7 @@
 1	@CELLY32	@celly32	PROPN	O				ritter-214
 2	I	i	PRON	O				ritter-214
 3	went	went	VERB	O			v.motion	ritter-214
-4	to	to	PRT	O				ritter-214
+4	to	to	PART	O				ritter-214
 5	kolb	kolb	PROPN	O			n.location	ritter-214
 6	for	for	ADP	O				ritter-214
 7	a	a	DET	O				ritter-214
@@ -7734,7 +7734,7 @@
 10	She	she	PRON	O				ritter-215
 11	is	is	AUX	O			v.stative	ritter-215
 12	scheduled	scheduled	VERB	O			v.stative	ritter-215
-13	to	to	PRT	O				ritter-215
+13	to	to	PART	O				ritter-215
 14	be	be	AUX	O			v.stative	ritter-215
 15	put	put	VERB	O			v.contact	ritter-215
 16	down	down	PART	O				ritter-215
@@ -7752,7 +7752,7 @@
 3	:	:	PUNCT	O				ritter-216
 4	Shout	shout	VERB	O			v.communication	ritter-216
 5	out	out	PART	O				ritter-216
-6	2	2	PRT	O				ritter-216
+6	2	2	PART	O				ritter-216
 7	all	all	DET	O				ritter-216
 8	the	the	DET	O				ritter-216
 9	real	real	ADJ	O				ritter-216
@@ -7769,9 +7769,9 @@
 20	what	what	PRON	O				ritter-216
 21	he	he	PRON	O				ritter-216
 22	has	has	AUX	O			v.possession	ritter-216
-23	2	2	PRT	O				ritter-216
+23	2	2	PART	O				ritter-216
 24	do	do	AUX	O			v.social	ritter-216
-25	2	2	PRT	O				ritter-216
+25	2	2	PART	O				ritter-216
 26	make	make	VERB	O			v.social	ritter-216
 27	it	it	PRON	O				ritter-216
 28	in	in	ADP	O				ritter-216
@@ -7788,7 +7788,7 @@
 4	have	have	AUX	O			v.possession	ritter-217
 5	no	no	DET	O				ritter-217
 6	time	time	NOUN	O			n.time	ritter-217
-7	to	to	PRT	O				ritter-217
+7	to	to	PART	O				ritter-217
 8	fan-girl	fan-girl	VERB	O			n.person	ritter-217
 9	...	...	PUNCT	O				ritter-217
 10	I	i	PRON	O				ritter-217
@@ -7832,7 +7832,7 @@
 7	shore	shore	PROPN	I	6			ritter-219
 8	.	.	PUNCT	O				ritter-219
 9	time	time	NOUN	O			n.time	ritter-219
-10	to	to	PRT	O				ritter-219
+10	to	to	PART	O				ritter-219
 11	get	get	VERB	O			v.possession	ritter-219
 12	of	of	ADP	O				ritter-219
 13	now	now	ADV	O				ritter-219
@@ -7976,12 +7976,12 @@
 
 1	i	i	PRON	O				ritter-227
 2	have	have	AUX	O			v.possession	ritter-227
-3	to	to	PRT	O				ritter-227
+3	to	to	PART	O				ritter-227
 4	say	say	VERB	O			v.communication	ritter-227
 5	.	.	PUNCT	O				ritter-227
 6	bringing	bringing	VERB	O			v.motion	ritter-227
 7	luna	luna	PROPN	O			n.animal	ritter-227
-8	to	to	PRT	O				ritter-227
+8	to	to	PART	O				ritter-227
 9	work	work	NOUN	O			n.location	ritter-227
 10	makes	makes	VERB	O			v.change	ritter-227
 11	the	the	DET	O				ritter-227
@@ -7996,7 +7996,7 @@
 20	i	i	PRON	O				ritter-227
 21	do	do	AUX	O			v.social	ritter-227
 22	have	have	AUX	O			v.possession	ritter-227
-23	to	to	PRT	O				ritter-227
+23	to	to	PART	O				ritter-227
 24	clean	clean	VERB	O			v.change	ritter-227
 25	up	up	PART	O				ritter-227
 26	her	her	PRON	O				ritter-227
@@ -8020,7 +8020,7 @@
 1	sitting	sitting	VERB	O			v.stative	ritter-229
 2	here	here	ADV	O				ritter-229
 3	trying	trying	VERB	O			v.social	ritter-229
-4	to	to	PRT	O				ritter-229
+4	to	to	PART	O				ritter-229
 5	setup	setup	VERB	O			v.creation	ritter-229
 6	googleTV	googletv	PROPN	O			n.artifact	ritter-229
 7	in	in	ADP	O				ritter-229
@@ -8188,7 +8188,7 @@
 6	gonna	gonna	VERB	O				ritter-235
 7	be	be	AUX	O			v.stative	ritter-235
 8	one	one	NUM	O				ritter-235
-9	to	to	PRT	O				ritter-235
+9	to	to	PART	O				ritter-235
 10	remember	remember	VERB	O			v.cognition	ritter-235
 11	,	,	PUNCT	O				ritter-235
 12	cause	cause	ADP	O				ritter-235
@@ -8210,7 +8210,7 @@
 28	occassion	occassion	NOUN	I	27			ritter-235
 
 1	Going	going	VERB	O			v.motion	ritter-236
-2	to	to	PRT	O				ritter-236
+2	to	to	PART	O				ritter-236
 3	kill	kill	VERB	O			v.motion	ritter-236
 4	myself	myself	PRON	O				ritter-236
 5	today	today	NOUN	O			n.time	ritter-236
@@ -8227,7 +8227,7 @@
 1	@christinamarks_	@christinamarks_	PROPN	O				ritter-237
 2	u	u	PRON	O				ritter-237
 3	try	try	VERB	O			v.social	ritter-237
-4	to	to	PRT	O				ritter-237
+4	to	to	PART	O				ritter-237
 5	be	be	VERB	O			v.stative	ritter-237
 6	like	like	ADP	O				ritter-237
 7	April	april	PROPN	O			n.person	ritter-237
@@ -8264,7 +8264,7 @@
 7	for	for	ADP	O				ritter-239
 8	a	a	DET	O				ritter-239
 9	relationship	relationship	NOUN	O			n.relation	ritter-239
-10	to	to	PRT	O				ritter-239
+10	to	to	PART	O				ritter-239
 11	survive	survive	VERB	O			v.stative	ritter-239
 12	is	is	AUX	O			v.stative	ritter-239
 13	when	when	ADV	O				ritter-239
@@ -8282,7 +8282,7 @@
 5	had	had	AUX	O			v.possession	ritter-240
 6	a	a	DET	O				ritter-240
 7	chance	chance	NOUN	O			n.state	ritter-240
-8	to	to	PRT	O				ritter-240
+8	to	to	PART	O				ritter-240
 9	go	go	VERB	O			v.motion	ritter-240
 10	for	for	ADP	O				ritter-240
 11	a	a	DET	O				ritter-240
@@ -8312,7 +8312,7 @@
 6	work	work	NOUN	O			n.act	ritter-241
 7	are	are	AUX	O			v.stative	ritter-241
 8	starting	starting	VERB	O			v.change	ritter-241
-9	to	to	PRT	O				ritter-241
+9	to	to	PART	O				ritter-241
 10	pay	pay	VERB	O			v.possession	ritter-241
 11	off	off	PART	O				ritter-241
 12	with	with	ADP	O				ritter-241
@@ -8325,7 +8325,7 @@
 19	years	years	NOUN	O			n.time	ritter-241
 20	are	are	VERB	O			v.stative	ritter-241
 21	critical	critical	ADJ	O				ritter-241
-22	to	to	PRT	O				ritter-241
+22	to	to	PART	O				ritter-241
 23	development	development	NOUN	O			n.process	ritter-241
 24	.	.	PUNCT	O				ritter-241
 
@@ -8335,7 +8335,7 @@
 4	:	:	PUNCT	O				ritter-242
 5	Attendees	attendees	NOUN	O			n.person	ritter-242
 6	take	take	VERB	O			v.motion	ritter-242
-7	to	to	PRT	O				ritter-242
+7	to	to	PART	O				ritter-242
 8	Twitter	twitter	PROPN	O			n.location	ritter-242
 9	on	on	ADP	O				ritter-242
 10	opening	opening	NOUN	B			n.time	ritter-242
@@ -8344,7 +8344,7 @@
 13	If	if	ADP	O				ritter-242
 14	we	we	PRON	O				ritter-242
 15	listened	listened	VERB	O			v.perception	ritter-242
-16	to	to	PRT	O				ritter-242
+16	to	to	PART	O				ritter-242
 17	attendees	attendees	NOUN	O			n.person	ritter-242
 18	at	at	ADP	O				ritter-242
 19	the	the	DET	O				ritter-242
@@ -8437,7 +8437,7 @@
 12	's	's	AUX	O			v.stative	ritter-248
 13	another	another	DET	O				ritter-248
 14	chance	chance	NOUN	O			n.state	ritter-248
-15	to	to	PRT	O				ritter-248
+15	to	to	PART	O				ritter-248
 16	see	see	VERB	O			v.perception	ritter-248
 17	@pink	@pink	PROPN	O				ritter-248
 18	:	:	PUNCT	O				ritter-248
@@ -8464,7 +8464,7 @@
 1	@bakermattbaker	@bakermattbaker	PROPN	O				ritter-250
 2	im	im	PRON	O				ritter-250
 3	coming	coming	VERB	O			v.motion	ritter-250
-4	to	to	PRT	O				ritter-250
+4	to	to	PART	O				ritter-250
 5	see	see	VERB	O			v.social	ritter-250
 6	you	you	PRON	O				ritter-250
 7	on	on	ADP	O				ritter-250
@@ -8474,7 +8474,7 @@
 11	you	you	PRON	O				ritter-250
 12	come	come	VERB	O			v.motion	ritter-250
 13	out	out	PART	O				ritter-250
-14	to	to	PRT	O				ritter-250
+14	to	to	PART	O				ritter-250
 15	the	the	DET	O				ritter-250
 16	gates	gates	NOUN	O			n.artifact	ritter-250
 17	after	after	ADP	O				ritter-250
@@ -8485,7 +8485,7 @@
 22	mum	mum	NOUN	O			n.person	ritter-250
 23	would	would	AUX	O				ritter-250
 24	love	love	VERB	O			v.emotion	ritter-250
-25	to	to	PRT	O				ritter-250
+25	to	to	PART	O				ritter-250
 26	meet	meet	VERB	O			v.social	ritter-250
 27	you	you	PRON	O				ritter-250
 28	!!!	!!!	PUNCT	O				ritter-250
@@ -8615,7 +8615,7 @@
 
 1	I	i	PRON	O				ritter-258
 2	need	need	AUX	O			v.stative	ritter-258
-3	to	to	PRT	O				ritter-258
+3	to	to	PART	O				ritter-258
 4	go	go	VERB	O			v.motion	ritter-258
 5	get	get	VERB	O			v.possession	ritter-258
 6	some	some	DET	O				ritter-258
@@ -8643,7 +8643,7 @@
 17	in	in	ADP	O				ritter-259
 18	da	da	DET	O				ritter-259
 19	mood	mood	NOUN	O			n.state	ritter-259
-20	to	to	PRT	O				ritter-259
+20	to	to	PART	O				ritter-259
 21	deal	deal	VERB	O			v.communication	ritter-259
 22	wit	wit	ADP	O				ritter-259
 23	their	their	PRON	O				ritter-259
@@ -8678,7 +8678,7 @@
 15	in	in	ADP	O				ritter-261
 16	the	the	DET	O				ritter-261
 17	low	low	ADJ	O				ritter-261
-18	to	to	PRT	O				ritter-261
+18	to	to	PART	O				ritter-261
 19	mid	mid	ADJ	O				ritter-261
 20	40s	40s	NUM	O				ritter-261
 21	,	,	PUNCT	O				ritter-261
@@ -8903,7 +8903,7 @@
 19	made	made	VERB	O			v.motion	ritter-272
 20	it	it	PRON	O				ritter-272
 21	out	out	PART	O				ritter-272
-22	to	to	PRT	O				ritter-272
+22	to	to	PART	O				ritter-272
 23	P-D	p-d	PROPN	O			n.location	ritter-272
 24	...	...	PUNCT	O				ritter-272
 25	http://bit.ly/gsSina	http://bit.ly/gssina	X	O				ritter-272
@@ -8933,7 +8933,7 @@
 23	now	now	ADV	O				ritter-273
 24	its	its	PRON	O				ritter-273
 25	time	time	NOUN	O			n.event	ritter-273
-26	to	to	PRT	O				ritter-273
+26	to	to	PART	O				ritter-273
 27	step	step	VERB	O			v.change	ritter-273
 28	my	my	PRON	O				ritter-273
 29	tweet	tweet	NOUN	B			n.act	ritter-273
@@ -9029,7 +9029,7 @@
 5	We	we	PRON	O				ritter-278
 6	are	are	AUX	O				ritter-278
 7	going	going	VERB	O			v.motion	ritter-278
-8	to	to	PRT	O				ritter-278
+8	to	to	PART	O				ritter-278
 9	Lucilles	lucilles	PROPN	O			n.location	ritter-278
 10	for	for	ADP	O				ritter-278
 11	Valentines	valentines	PROPN	B			n.time	ritter-278
@@ -9058,7 +9058,7 @@
 3	..	..	PUNCT	O				ritter-280
 4	i	i	PRON	O				ritter-280
 5	have	have	AUX	O			v.stative	ritter-280
-6	to	to	PRT	O				ritter-280
+6	to	to	PART	O				ritter-280
 7	go	go	VERB	O			v.motion	ritter-280
 8	now	now	ADV	O				ritter-280
 9	see	see	VERB	O			v.perception	ritter-280
@@ -9117,7 +9117,7 @@
 
 1	Happy	happy	ADJ	O				ritter-282
 2	birthday	birthday	NOUN	O			n.time	ritter-282
-3	to	to	PRT	O				ritter-282
+3	to	to	PART	O				ritter-282
 4	my	my	PRON	O				ritter-282
 5	not	not	ADV	O				ritter-282
 6	so	so	ADV	O				ritter-282
@@ -9217,7 +9217,7 @@
 12	=(	=(	INTJ	O				ritter-286
 13	i	i	PRON	O				ritter-286
 14	have	have	AUX	O				ritter-286
-15	to	to	PRT	O				ritter-286
+15	to	to	PART	O				ritter-286
 16	do	do	AUX	O			v.cognition	ritter-286
 17	it	it	PRON	O				ritter-286
 18	before	before	ADP	O				ritter-286
@@ -9314,7 +9314,7 @@
 23	http://bit.ly/fci92L	http://bit.ly/fci92l	X	O				ritter-292
 
 1	LISTEN	listen	VERB	O			v.perception	ritter-293
-2	TO	to	PRT	O				ritter-293
+2	TO	to	PART	O				ritter-293
 3	Haunted	haunted	PROPN	B			n.communication	ritter-293
 4	Hearts	hearts	PROPN	I	3			ritter-293
 5	TUNE	tune	NOUN	O			n.communication	ritter-293
@@ -9328,7 +9328,7 @@
 13	TUNE	tune	NOUN	O			n.communication	ritter-293
 14	ABOUT	about	ADP	O				ritter-293
 15	LISTENING	listening	VERB	O			v.perception	ritter-293
-16	TO	to	PRT	O				ritter-293
+16	TO	to	PART	O				ritter-293
 17	YOUR	your	PRON	O				ritter-293
 18	FAVOURITE	favourite	ADJ	O				ritter-293
 19	RECORDS	records	NOUN	O			n.communication	ritter-293
@@ -9405,7 +9405,7 @@
 18	I	i	PRON	O				ritter-297
 19	love	love	VERB	O			v.emotion	ritter-297
 20	goin	goin	VERB	O			v.motion	ritter-297
-21	to	to	PRT	O				ritter-297
+21	to	to	PART	O				ritter-297
 22	the	the	DET	O				ritter-297
 23	movies	movies	NOUN	O			n.location	ritter-297
 24	.	.	PUNCT	O				ritter-297
@@ -9484,7 +9484,7 @@
 8	Take	take	VERB	O			v.social	ritter-302
 9	a	a	DET	O				ritter-302
 10	moment	moment	NOUN	O			n.time	ritter-302
-11	to	to	PRT	O				ritter-302
+11	to	to	PART	O				ritter-302
 12	fill	fill	VERB	O			v.change	ritter-302
 13	out	out	ADP	O				ritter-302
 14	a	a	DET	O				ritter-302
@@ -9566,7 +9566,7 @@
 4	atmosphere	atmosphere	PROPN	O			n.state	ritter-306
 5	might	might	AUX	O				ritter-306
 6	have	have	AUX	O				ritter-306
-7	to	to	PRT	O				ritter-306
+7	to	to	PART	O				ritter-306
 8	slip	slip	VERB	O			v.motion	ritter-306
 9	into	into	ADP	O				ritter-306
 10	there	there	ADV	O				ritter-306
@@ -9619,7 +9619,7 @@
 3	count	count	VERB	O			v.cognition	ritter-309
 4	my	my	PRON	O				ritter-309
 5	reasons	reasons	NOUN	O			n.motive	ritter-309
-6	to	to	PRT	O				ritter-309
+6	to	to	PART	O				ritter-309
 7	get	get	VERB	O			v.motion	ritter-309
 8	out	out	ADP	O				ritter-309
 9	of	of	ADP	O				ritter-309
@@ -9747,7 +9747,7 @@
 9	for	for	ADP	O				ritter-316
 10	a	a	DET	O				ritter-316
 11	chance	chance	NOUN	O			n.state	ritter-316
-12	to	to	PRT	O				ritter-316
+12	to	to	PART	O				ritter-316
 13	win	win	VERB	O			v.competition	ritter-316
 14	.	.	PUNCT	O				ritter-316
 15	Ends	ends	VERB	O			v.stative	ritter-316
@@ -9909,7 +9909,7 @@
 14	should	should	AUX	O				ritter-323
 15	be	be	AUX	O				ritter-323
 16	given	given	VERB	O			v.possession	ritter-323
-17	to	to	PRT	O				ritter-323
+17	to	to	PART	O				ritter-323
 18	2nd	2nd	NOUN	O			n.group	ritter-323
 19	in	in	ADP	O				ritter-323
 20	table	table	NOUN	O			n.artifact	ritter-323
@@ -9917,7 +9917,7 @@
 22	If	if	ADP	O				ritter-323
 23	MLS	mls	PROPN	O			n.group	ritter-323
 24	wants	wants	VERB	O			v.emotion	ritter-323
-25	to	to	PRT	O				ritter-323
+25	to	to	PART	O				ritter-323
 26	win	win	VERB	O			v.competition	ritter-323
 27	it	it	PRON	O				ritter-323
 28	.	.	PUNCT	O				ritter-323
@@ -10019,7 +10019,7 @@
 5	,	,	PUNCT	O				ritter-328
 6	just	just	ADV	O				ritter-328
 7	need	need	AUX	O			v.stative	ritter-328
-8	to	to	PRT	O				ritter-328
+8	to	to	PART	O				ritter-328
 9	sort	sort	VERB	O			v.cognition	ritter-328
 10	it	it	PRON	O				ritter-328
 11	out	out	PART	O				ritter-328
@@ -10154,7 +10154,7 @@
 5	people	people	NOUN	O			n.group	ritter-334
 6	!!!	!!!	PUNCT	O				ritter-334
 7	Off	off	ADP	O				ritter-334
-8	2	2	PRT	O				ritter-334
+8	2	2	PART	O				ritter-334
 9	bed	bed	NOUN	O			n.artifact	ritter-334
 10	....	....	PUNCT	O				ritter-334
 11	Again	again	ADV	O				ritter-334
@@ -10175,7 +10175,7 @@
 13	.	.	PUNCT	O				ritter-335
 14	Ive	ive	PRON	O				ritter-335
 15	been	been	AUX	O			v.stative	ritter-335
-16	to	to	PRT	O				ritter-335
+16	to	to	PART	O				ritter-335
 17	the	the	DET	O				ritter-335
 18	gym	gym	NOUN	O			n.artifact	ritter-335
 19	with	with	ADP	O				ritter-335
@@ -10341,9 +10341,9 @@
 9	and	and	CONJ	O				ritter-343
 10	then	then	ADV	O				ritter-343
 11	going	going	VERB	O			v.motion	ritter-343
-12	to	to	PRT	O				ritter-343
+12	to	to	PART	O				ritter-343
 13	f__AND__e	f__and__e	PROPN	O			n.person	ritter-343
-14	to	to	PRT	O				ritter-343
+14	to	to	PART	O				ritter-343
 15	do	do	VERB	O			v.social	ritter-343
 16	an	an	DET	O				ritter-343
 17	overnight	overnight	NOUN	O			n.event	ritter-343
@@ -10359,7 +10359,7 @@
 4	Exclusive	exclusive	NOUN	O			n.communication	ritter-344
 5	:	:	PUNCT	O				ritter-344
 6	FOX	fox	PROPN	O			n.communication	ritter-344
-7	to	to	PRT	O				ritter-344
+7	to	to	PART	O				ritter-344
 8	give	give	VERB	O			v.possession	ritter-344
 9	"	"	PUNCT	O				ritter-344
 10	The	the	PROPN	B			n.communication	ritter-344
@@ -10409,7 +10409,7 @@
 1	People	people	NOUN	B			n.group	ritter-346
 2	who	who	PRON	I	1			ritter-346
 3	tweet	tweet	VERB	O			v.communication	ritter-346
-4	to	to	PRT	O				ritter-346
+4	to	to	PART	O				ritter-346
 5	follow	follow	VERB	O			v.communication	ritter-346
 6	@GuyGirlTweets	@guygirltweets	PROPN	O				ritter-346
 7	will	will	AUX	O				ritter-346
@@ -10554,7 +10554,7 @@
 7	!	!	PUNCT	O				ritter-352
 8	I	i	PRON	O				ritter-352
 9	have	have	AUX	O				ritter-352
-10	to	to	PRT	O				ritter-352
+10	to	to	PART	O				ritter-352
 11	clean	clean	VERB	O			v.contact	ritter-352
 12	60	60	NUM	O				ritter-352
 13	lbs	lbs	NOUN	O			n.quantity	ritter-352
@@ -10568,7 +10568,7 @@
 2	Snipes	snipes	PROPN	I	1			ritter-353
 3	is	is	AUX	O				ritter-353
 4	going	going	VERB	O			v.motion	ritter-353
-5	to	to	PRT	O				ritter-353
+5	to	to	PART	O				ritter-353
 6	jail	jail	NOUN	O			n.artifact	ritter-353
 7	.	.	PUNCT	O				ritter-353
 8	For	for	ADP	O				ritter-353
@@ -10609,7 +10609,7 @@
 22	things	things	NOUN	O			n.other	ritter-354
 23	are	are	AUX	O				ritter-354
 24	beginning	beginning	VERB	O			v.change	ritter-354
-25	to	to	PRT	O				ritter-354
+25	to	to	PART	O				ritter-354
 26	look	look	VERB	O			v.perception	ritter-354
 27	up	up	PART	O				ritter-354
 
@@ -10623,7 +10623,7 @@
 8	do	do	AUX	O				ritter-355
 9	n't	n't	ADV	O				ritter-355
 10	respond	respond	VERB	O			v.communication	ritter-355
-11	to	to	PRT	O				ritter-355
+11	to	to	PART	O				ritter-355
 12	emails	emails	NOUN	O			n.communication	ritter-355
 13	ASAP	asap	ADV	O				ritter-355
 14	&lt;	&lt;	CONJ	O				ritter-355
@@ -10636,7 +10636,7 @@
 21	she	she	PRON	O				ritter-355
 22	never	never	ADV	O				ritter-355
 23	responds	responds	VERB	O			v.communication	ritter-355
-24	to	to	PRT	O				ritter-355
+24	to	to	PART	O				ritter-355
 25	me	me	PRON	O				ritter-355
 26	ASAP	asap	ADV	O				ritter-355
 27	!	!	PUNCT	O				ritter-355
@@ -10668,7 +10668,7 @@
 25	wanna	wanna	VERB	O				ritter-356
 26	go	go	VERB	O			v.motion	ritter-356
 27	out	out	PART	O				ritter-356
-28	to	to	PRT	O				ritter-356
+28	to	to	PART	O				ritter-356
 29	eat	eat	VERB	O			v.consumption	ritter-356
 30	"...	"...	PUNCT	O				ritter-356
 31	-______-	-______-	INTJ	O				ritter-356
@@ -10723,7 +10723,7 @@
 5	Little	little	ADJ	O				ritter-359
 6	Secret	secret	NOUN	O			n.communication	ritter-359
 7	When	when	ADV	O				ritter-359
-8	to	to	PRT	O				ritter-359
+8	to	to	PART	O				ritter-359
 9	Avail	avail	VERB	O			v.consumption	ritter-359
 10	For	for	ADP	O				ritter-359
 11	Mortgage	mortgage	NOUN	O			n.possession	ritter-359
@@ -10773,9 +10773,9 @@
 13	there	there	ADV	O				ritter-361
 14	another	another	DET	O				ritter-361
 15	way	way	NOUN	O			n.attribute	ritter-361
-16	to	to	PRT	O				ritter-361
+16	to	to	PART	O				ritter-361
 17	listen	listen	VERB	O			v.perception	ritter-361
-18	to	to	PRT	O				ritter-361
+18	to	to	PART	O				ritter-361
 19	nicki	nicki	PROPN	B			n.communication	ritter-361
 20	album	album	PROPN	I	19			ritter-361
 21	beside	beside	ADP	O				ritter-361
@@ -10795,7 +10795,7 @@
 11	comp	comp	VERB	O			n.artifact	ritter-362
 12	long	long	ADJ	O				ritter-362
 13	pass	pass	NOUN	I	12			ritter-362
-14	to	to	PRT	O				ritter-362
+14	to	to	PART	O				ritter-362
 15	end	end	VERB	O			v.stative	ritter-362
 16	half	half	NOUN	O			n.quantity	ritter-362
 17	9-6	9-6	ADV	O				ritter-362
@@ -10809,7 +10809,7 @@
 7	.	.	PUNCT	O				ritter-363
 8	They	they	PRON	O				ritter-363
 9	go	go	VERB	O			v.motion	ritter-363
-10	to	to	PRT	O				ritter-363
+10	to	to	PART	O				ritter-363
 11	a	a	DET	O				ritter-363
 12	commercial	commercial	NOUN	O			n.communication	ritter-363
 13	right	right	ADV	O				ritter-363
@@ -10866,7 +10866,7 @@
 9	era	era	NOUN	I	8			ritter-366
 10	got	got	VERB	O			v.change	ritter-366
 11	off	off	PART	O				ritter-366
-12	to	to	PRT	O				ritter-366
+12	to	to	PART	O				ritter-366
 13	a	a	DET	O				ritter-366
 14	good	good	ADJ	O				ritter-366
 15	start	start	NOUN	O			n.event	ritter-366
@@ -10878,7 +10878,7 @@
 21	Cowboys	cowboys	NOUN	O			n.person	ritter-366
 22	will	will	AUX	O				ritter-366
 23	try	try	VERB	O			v.social	ritter-366
-24	to	to	PRT	O				ritter-366
+24	to	to	PART	O				ritter-366
 25	snap	snap	VERB	O			v.communication	ritter-366
 26	a	a	DET	O				ritter-366
 27	f	f	NOUN	O				ritter-366
@@ -10935,7 +10935,7 @@
 8	gonna	gonna	VERB	O				ritter-369
 9	trust	trust	VERB	O			v.cognition	ritter-369
 10	drivers	drivers	NOUN	O			n.person	ritter-369
-11	to	to	PRT	O				ritter-369
+11	to	to	PART	O				ritter-369
 12	not	not	ADV	O				ritter-369
 13	kill	kill	VERB	O			v.contact	ritter-369
 14	me	me	PRON	O				ritter-369
@@ -10956,7 +10956,7 @@
 29	.	.	PUNCT	O				ritter-369
 
 1	time	time	NOUN	O			n.event	ritter-370
-2	to	to	PRT	O				ritter-370
+2	to	to	PART	O				ritter-370
 3	help	help	VERB	O			v.social	ritter-370
 4	our	our	PRON	O				ritter-370
 5	fellow	fellow	ADJ	O				ritter-370
@@ -11091,7 +11091,7 @@
 13	era	era	NOUN	I	12			ritter-377
 14	got	got	VERB	O			v.motion	ritter-377
 15	off	off	ADP	O				ritter-377
-16	to	to	PRT	O				ritter-377
+16	to	to	PART	O				ritter-377
 17	a	a	DET	O				ritter-377
 18	good	good	ADJ	O				ritter-377
 19	start	start	NOUN	O			n.event	ritter-377
@@ -11113,7 +11113,7 @@
 7	the	the	DET	O				ritter-378
 8	drugs	drugs	NOUN	O			n.artifact	ritter-378
 9	began	began	VERB	O			v.change	ritter-378
-10	to	to	PRT	O				ritter-378
+10	to	to	PART	O				ritter-378
 11	take	take	VERB	B			v.social	ritter-378
 12	hold	hold	NOUN	I	11			ritter-378
 13	....	....	PUNCT	O				ritter-378
@@ -11154,7 +11154,7 @@
 4	,	,	PUNCT	O				ritter-380
 5	'll	'll	AUX	O				ritter-380
 6	fly	fly	VERB	O			v.motion	ritter-380
-7	to	to	PRT	O				ritter-380
+7	to	to	PART	O				ritter-380
 8	the	the	DET	O				ritter-380
 9	sky	sky	NOUN	O			n.location	ritter-380
 10	.	.	PUNCT	O				ritter-380
@@ -11233,7 +11233,7 @@
 4	Exclusive	exclusive	NOUN	O			n.communication	ritter-384
 5	:	:	PUNCT	O				ritter-384
 6	FOX	fox	PROPN	O			n.communication	ritter-384
-7	to	to	PRT	O				ritter-384
+7	to	to	PART	O				ritter-384
 8	give	give	VERB	O			v.possession	ritter-384
 9	"	"	PUNCT	O				ritter-384
 10	The	the	PROPN	B			n.communication	ritter-384
@@ -11300,18 +11300,18 @@
 11	would	would	AUX	O				ritter-387
 12	be	be	AUX	O			v.stative	ritter-387
 13	difficult	difficult	ADJ	O				ritter-387
-14	to	to	PRT	O				ritter-387
+14	to	to	PART	O				ritter-387
 15	explain	explain	VERB	O			v.communication	ritter-387
 16	.	.	PUNCT	O				ritter-387
 17	When	when	ADV	O				ritter-387
 18	this	this	DET	O				ritter-387
 19	stuff	stuff	NOUN	O			n.substance	ritter-387
 20	happens	happens	VERB	O			v.change	ritter-387
-21	to	to	PRT	O				ritter-387
+21	to	to	PART	O				ritter-387
 22	me	me	PRON	O				ritter-387
 23	I	i	PRON	O				ritter-387
 24	want	want	VERB	O			v.cognition	ritter-387
-25	to	to	PRT	O				ritter-387
+25	to	to	PART	O				ritter-387
 26	yell	yell	VERB	O			v.communication	ritter-387
 27	,	,	PUNCT	O				ritter-387
 28	"	"	PUNCT	O				ritter-387
@@ -11320,7 +11320,7 @@
 
 1	@paulskemp	@paulskemp	PROPN	O				ritter-388
 2	Sorry	sorry	ADJ	O				ritter-388
-3	to	to	PRT	O				ritter-388
+3	to	to	PART	O				ritter-388
 4	hear	hear	VERB	O			v.perception	ritter-388
 5	!	!	PUNCT	O				ritter-388
 6	:(	:(	INTJ	O				ritter-388
@@ -11336,12 +11336,12 @@
 16	was	was	AUX	O			v.stative	ritter-388
 17	really	really	ADV	O				ritter-388
 18	tough	tough	ADJ	O				ritter-388
-19	to	to	PRT	O				ritter-388
+19	to	to	PART	O				ritter-388
 20	lose	lose	VERB	O			v.possession	ritter-388
 21	him	him	PRON	O				ritter-388
 22	.	.	PUNCT	O				ritter-388
 23	Tough	tough	ADJ	O				ritter-388
-24	to	to	PRT	O				ritter-388
+24	to	to	PART	O				ritter-388
 25	lose	lose	VERB	O			v.possession	ritter-388
 26	my	my	PRON	O				ritter-388
 27	second	second	ADJ	O				ritter-388
@@ -11700,7 +11700,7 @@
 20	gets	gets	VERB	O			v.motion	ritter-409
 21	my	my	PRON	O				ritter-409
 22	application	application	NOUN	O			n.communication	ritter-409
-23	to	to	PRT	O				ritter-409
+23	to	to	PART	O				ritter-409
 24	the	the	DET	O				ritter-409
 25	person	person	NOUN	O			n.person	ritter-409
 26	!	!	PUNCT	O				ritter-409
@@ -11715,7 +11715,7 @@
 1	Got	got	VERB	O			v.possession	ritter-410
 2	the	the	DET	O				ritter-410
 3	stuff	stuff	NOUN	O			n.substance	ritter-410
-4	to	to	PRT	O				ritter-410
+4	to	to	PART	O				ritter-410
 5	make	make	VERB	O			v.creation	ritter-410
 6	egg	egg	NOUN	B			n.food	ritter-410
 7	rolls	rolls	NOUN	I	6			ritter-410
@@ -11751,7 +11751,7 @@
 10	:	:	PUNCT	O				ritter-412
 11	After	after	ADP	O				ritter-412
 12	failing	failing	VERB	O			v.social	ritter-412
-13	to	to	PRT	O				ritter-412
+13	to	to	PART	O				ritter-412
 14	recapture	recapture	VERB	O			v.creation	ritter-412
 15	the	the	DET	O				ritter-412
 16	East	east	PROPN	B			n.location	ritter-412
@@ -11793,7 +11793,7 @@
 6	r	r	VERB	O				ritter-414
 7	very	very	ADV	O				ritter-414
 8	lucky	lucky	ADJ	O				ritter-414
-9	to	to	PRT	O				ritter-414
+9	to	to	PART	O				ritter-414
 10	know	know	VERB	O			v.cognition	ritter-414
 11	me	me	PRON	O				ritter-414
 12	in	in	ADP	O				ritter-414
@@ -11863,7 +11863,7 @@
 6	Yes	yes	INTJ	O				ritter-417
 7	.	.	PUNCT	O				ritter-417
 8	Need	need	AUX	O			v.consumption	ritter-417
-9	to	to	PRT	O				ritter-417
+9	to	to	PART	O				ritter-417
 10	get	get	VERB	O			v.change	ritter-417
 11	tolerance	tolerance	NOUN	O			n.attribute	ritter-417
 12	up	up	PART	O				ritter-417
@@ -11974,7 +11974,7 @@
 6	i	i	PRON	O				ritter-423
 7	got	got	VERB	O				ritter-423
 8	paid	paid	VERB	O			v.possession	ritter-423
-9	to	to	PRT	O				ritter-423
+9	to	to	PART	O				ritter-423
 10	freak	freak	VERB	O			v.emotion	ritter-423
 11	people	people	NOUN	O			n.group	ritter-423
 12	out	out	PART	O				ritter-423
@@ -12040,7 +12040,7 @@
 
 1	@Kristi_Taylor	@kristi_taylor	PROPN	O				ritter-427
 2	Going	going	VERB	O			v.motion	ritter-427
-3	to	to	PRT	O				ritter-427
+3	to	to	PART	O				ritter-427
 4	Windsor	windsor	PROPN	O			n.location	ritter-427
 5	tomorrow	tomorrow	NOUN	O			n.time	ritter-427
 6	.	.	PUNCT	O				ritter-427
@@ -12109,7 +12109,7 @@
 7	with	with	ADP	O				ritter-430
 8	my	my	PRON	O				ritter-430
 9	girls	girls	NOUN	O			n.group	ritter-430
-10	to	to	PRT	O				ritter-430
+10	to	to	PART	O				ritter-430
 11	get	get	VERB	O			v.change	ritter-430
 12	ready	ready	ADJ	O				ritter-430
 13	for	for	ADP	O				ritter-430
@@ -12167,7 +12167,7 @@
 3	with	with	ADP	O				ritter-433
 4	drama	drama	PROPN	O			n.person	ritter-433
 5	tonight	tonight	NOUN	O			n.time	ritter-433
-6	to	to	PRT	O				ritter-433
+6	to	to	PART	O				ritter-433
 7	check	check	VERB	O			v.perception	ritter-433
 8	out	out	PART	O				ritter-433
 9	his	his	PRON	O				ritter-433
@@ -12309,7 +12309,7 @@
 7	teen	teen	NOUN	B			n.person	ritter-440
 8	who	who	PRON	I	7			ritter-440
 9	refuses	refuses	VERB	O			v.communication	ritter-440
-10	to	to	PRT	O				ritter-440
+10	to	to	PART	O				ritter-440
 11	pull	pull	VERB	O			v.contact	ritter-440
 12	up	up	PART	O				ritter-440
 13	saggy	saggy	NOUN	B			n.artifact	ritter-440
@@ -12330,7 +12330,7 @@
 12	ones	ones	NOUN	O			n.person	ritter-441
 13	even	even	ADV	O				ritter-441
 14	going	going	VERB	O				ritter-441
-15	to	to	PRT	O				ritter-441
+15	to	to	PART	O				ritter-441
 16	look	look	VERB	O			v.perception	ritter-441
 17	at	at	ADP	O				ritter-441
 18	!	!	PUNCT	O				ritter-441
@@ -12520,7 +12520,7 @@
 20	i	i	PRON	O				ritter-451
 21	dont	dont	VERB	O				ritter-451
 22	want	want	VERB	O			v.emotion	ritter-451
-23	to	to	PRT	O				ritter-451
+23	to	to	PART	O				ritter-451
 24	later	later	ADV	O				ritter-451
 25	...	...	PUNCT	O				ritter-451
 26	lol	lol	INTJ	O				ritter-451
@@ -12599,7 +12599,7 @@
 19	~Stephen	~stephen	PROPN	B			n.person	ritter-455
 20	Girard~	girard~	PROPN	I	19			ritter-455
 21	Come	come	VERB	O			v.motion	ritter-455
-22	to	to	PRT	O				ritter-455
+22	to	to	PART	O				ritter-455
 23	the	the	DET	O				ritter-455
 24	Tree	tree	PROPN	O			n.event	ritter-455
 25	of	of	ADP	O				ritter-455
@@ -12651,7 +12651,7 @@
 14	when	when	ADV	O				ritter-457
 15	you	you	PRON	O				ritter-457
 16	want	want	VERB	O			v.emotion	ritter-457
-17	too	too	PRT	O				ritter-457
+17	too	too	PART	O				ritter-457
 18	???	???	PUNCT	O				ritter-457
 
 1	This	this	DET	O				ritter-458
@@ -12675,7 +12675,7 @@
 2	Sponsors	sponsors	VERB	O			v.possession	ritter-460
 3	Drug	drug	NOUN	B			n.act	ritter-460
 4	Toss	toss	NOUN	I	3			ritter-460
-5	To	to	PRT	O				ritter-460
+5	To	to	PART	O				ritter-460
 6	Dispose	dispose	VERB	O			v.possession	ritter-460
 7	Of	of	ADP	O				ritter-460
 8	Expired	expired	ADJ	O				ritter-460
@@ -12813,7 +12813,7 @@
 9	life	life	NOUN	O			n.state	ritter-467
 10	..	..	PUNCT	O				ritter-467
 11	thanks	thanks	NOUN	O				ritter-467
-12	to	to	PRT	O				ritter-467
+12	to	to	PART	O				ritter-467
 13	some	some	DET	O				ritter-467
 14	people	people	NOUN	O			n.group	ritter-467
 15	and	and	CONJ	O				ritter-467
@@ -12966,7 +12966,7 @@
 8	class	class	NOUN	I	7			ritter-475
 9	invited	invited	VERB	O			v.social	ritter-475
 10	me	me	PRON	O				ritter-475
-11	to	to	PRT	O				ritter-475
+11	to	to	PART	O				ritter-475
 12	an	an	DET	O				ritter-475
 13	Evangelist	evangelist	NOUN	B			n.event	ritter-475
 14	revival	revival	NOUN	I	13			ritter-475
@@ -13036,7 +13036,7 @@
 8	I	i	PRON	O				ritter-479
 9	'm	'm	AUX	O			v.stative	ritter-479
 10	way	way	ADV	O				ritter-479
-11	to	to	PRT	O				ritter-479
+11	to	to	PART	O				ritter-479
 12	excited	excited	ADJ	O				ritter-479
 13	are	are	VERB	O			v.stative	ritter-479
 14	n't	n't	ADV	O				ritter-479
@@ -13063,7 +13063,7 @@
 2	1	1	NUM	O				ritter-481
 3	month	month	NOUN	B			n.time	ritter-481
 4	anniversary	anniversary	NOUN	I	3			ritter-481
-5	to	to	PRT	O				ritter-481
+5	to	to	PART	O				ritter-481
 6	my	my	PRON	O				ritter-481
 7	wonderful	wonderful	ADJ	O				ritter-481
 8	wife	wife	NOUN	O			n.person	ritter-481
@@ -13107,7 +13107,7 @@
 4	!	!	PUNCT	O				ritter-484
 5	really	really	ADV	O				ritter-484
 6	need	need	AUX	O			v.stative	ritter-484
-7	to	to	PRT	O				ritter-484
+7	to	to	PART	O				ritter-484
 8	catch	catch	VERB	O			v.social	ritter-484
 9	up	up	PART	O				ritter-484
 10	-	-	PUNCT	O				ritter-484
@@ -13195,7 +13195,7 @@
 19	it	it	PRON	O				ritter-487
 20	!	!	PUNCT	O				ritter-487
 21	Time	time	NOUN	O			n.event	ritter-487
-22	to	to	PRT	O				ritter-487
+22	to	to	PART	O				ritter-487
 23	sync	sync	VERB	O			v.change	ritter-487
 24	up	up	PART	O				ritter-487
 25	my	my	PRON	O				ritter-487
@@ -13209,7 +13209,7 @@
 5	do	do	VERB	O			v.social	ritter-488
 6	a	a	DET	O				ritter-488
 7	countdown	countdown	NOUN	O			n.act	ritter-488
-8	to	to	PRT	O				ritter-488
+8	to	to	PART	O				ritter-488
 9	#wku	#wku	NOUN	B			n.act	ritter-488
 10	homecoming	homecoming	NOUN	I	9			ritter-488
 11	?	?	PUNCT	O				ritter-488
@@ -13298,7 +13298,7 @@
 3	!!!!	!!!!	PUNCT	O				ritter-493
 4	They	they	PRON	O				ritter-493
 5	going	going	VERB	O				ritter-493
-6	to	to	PRT	O				ritter-493
+6	to	to	PART	O				ritter-493
 7	remake	remake	VERB	O			v.creation	ritter-493
 8	every	every	DET	O				ritter-493
 9	single	single	ADJ	O				ritter-493
@@ -13340,7 +13340,7 @@
 3	the	the	DET	O				ritter-495
 4	last	last	ADJ	O				ritter-495
 5	day	day	NOUN	O			n.time	ritter-495
-6	to	to	PRT	O				ritter-495
+6	to	to	PART	O				ritter-495
 7	join	join	VERB	O			v.social	ritter-495
 8	our	our	PRON	O				ritter-495
 9	team	team	NOUN	O			n.group	ritter-495
@@ -13357,7 +13357,7 @@
 20	the	the	DET	O				ritter-495
 21	instructions	instructions	NOUN	O			n.communication	ritter-495
 22	below	below	ADP	O				ritter-495
-23	to	to	PRT	O				ritter-495
+23	to	to	PART	O				ritter-495
 24	...	...	PUNCT	O				ritter-495
 25	http://fb.me/HdvXNndg	http://fb.me/hdvxnndg	X	O				ritter-495
 
@@ -13405,7 +13405,7 @@
 1	It	it	PRON	O				ritter-498
 2	's	's	AUX	O			v.stative	ritter-498
 3	time	time	NOUN	O			n.event	ritter-498
-4	to	to	PRT	O				ritter-498
+4	to	to	PART	O				ritter-498
 5	leave	leave	VERB	O			v.motion	ritter-498
 6	.	.	PUNCT	O				ritter-498
 7	Thanks	thanks	NOUN	O			n.communication	ritter-498
@@ -13516,7 +13516,7 @@
 14	Anyone	anyone	NOUN	O			n.person	ritter-503
 15	know	know	VERB	O			v.cognition	ritter-503
 16	where	where	ADV	O				ritter-503
-17	to	to	PRT	O				ritter-503
+17	to	to	PART	O				ritter-503
 18	get	get	VERB	O			v.possession	ritter-503
 19	cheap	cheap	ADJ	O				ritter-503
 20	brooms	brooms	NOUN	O			n.artifact	ritter-503
@@ -13665,7 +13665,7 @@
 8	..	..	PUNCT	O				ritter-511
 9	PLEASE	please	VERB	O				ritter-511
 10	come	come	VERB	O			v.stative	ritter-511
-11	to	to	PRT	O				ritter-511
+11	to	to	PART	O				ritter-511
 12	the	the	DET	O				ritter-511
 13	#SBLeurope	#sbleurope	NOUN	O			n.event	ritter-511
 14	Next	next	ADJ	O				ritter-511
@@ -13692,7 +13692,7 @@
 9	so	so	ADP	O				ritter-512
 10	imma	imma	PRON	O				ritter-512
 11	go	go	VERB	O			v.motion	ritter-512
-12	to	to	PRT	O				ritter-512
+12	to	to	PART	O				ritter-512
 13	sleep	sleep	VERB	I	12			ritter-512
 14	:)	:)	INTJ	O				ritter-512
 15	good	good	ADJ	O				ritter-512
@@ -13890,7 +13890,7 @@
 3	@penguin	@penguin	PROPN	O				ritter-520
 4	is	is	AUX	O			v.stative	ritter-520
 5	coming	coming	VERB	O			v.motion	ritter-520
-6	to	to	PRT	O				ritter-520
+6	to	to	PART	O				ritter-520
 7	see	see	VERB	O			v.social	ritter-520
 8	me	me	PRON	O				ritter-520
 9	next	next	ADJ	O				ritter-520
@@ -13957,7 +13957,7 @@
 10	I	i	PRON	O				ritter-523
 11	cant	cant	AUX	O			v.motion	ritter-523
 12	come	come	VERB	O			v.motion	ritter-523
-13	to	to	PRT	O				ritter-523
+13	to	to	PART	O				ritter-523
 14	the	the	DET	O				ritter-523
 15	meeting	meeting	NOUN	O			n.group	ritter-523
 16	tomorrow	tomorrow	NOUN	O			n.time	ritter-523
@@ -14040,7 +14040,7 @@
 11	Be	be	AUX	O			v.stative	ritter-527
 12	Rockin	rockin	VERB	O			v.motion	ritter-527
 13	Out	out	PART	O				ritter-527
-14	To	to	PRT	O				ritter-527
+14	To	to	PART	O				ritter-527
 15	'	'	PUNCT	O				ritter-527
 16	Baby'...Even	baby'...even	PROPN	O			n.communication	ritter-527
 17	If	if	ADP	O				ritter-527
@@ -14084,7 +14084,7 @@
 1	Not	not	ADV	O				ritter-529
 2	feeling	feeling	VERB	O			v.emotion	ritter-529
 3	up	up	ADP	O				ritter-529
-4	to	to	PRT	O				ritter-529
+4	to	to	PART	O				ritter-529
 5	par	par	NOUN	O				ritter-529
 6	today	today	NOUN	I	5			ritter-529
 7	.	.	PUNCT	O				ritter-529
@@ -14136,7 +14136,7 @@
 1	Gotta	gotta	VERB	O				ritter-532
 2	call	call	VERB	O			v.communication	ritter-532
 3	mom	mom	NOUN	O			n.person	ritter-532
-4	2	2	PRT	O				ritter-532
+4	2	2	PART	O				ritter-532
 5	let	let	VERB	O			v.communication	ritter-532
 6	her	her	PRON	O				ritter-532
 7	know	know	VERB	I	6			ritter-532
@@ -14177,7 +14177,7 @@
 9	location	location	NOUN	O			n.location	ritter-533
 10	its	its	PRON	O				ritter-533
 11	going	going	VERB	O			v.change	ritter-533
-12	to	to	PRT	O				ritter-533
+12	to	to	PART	O				ritter-533
 13	be	be	AUX	O			v.stative	ritter-533
 14	on	on	ADP	O				ritter-533
 15	#Vh1	#vh1	NOUN	O			n.artifact	ritter-533
@@ -14198,7 +14198,7 @@
 3	I	i	PRON	O				ritter-534
 4	can	can	AUX	O			v.change	ritter-534
 5	get	get	VERB	O			v.motion	ritter-534
-6	to	to	PRT	O				ritter-534
+6	to	to	PART	O				ritter-534
 7	@glasgowfilm	@glasgowfilm	PROPN	O				ritter-534
 8	for	for	ADP	O				ritter-534
 9	Winter	winter	PROPN	O			n.communication	ritter-534
@@ -14206,7 +14206,7 @@
 11	Bone	bone	PROPN	I	10			ritter-534
 12	-	-	PUNCT	O				ritter-534
 13	need	need	AUX	O			v.stative	ritter-534
-14	to	to	PRT	O				ritter-534
+14	to	to	PART	O				ritter-534
 15	get	get	VERB	O			v.motion	ritter-534
 16	on	on	ADP	O				ritter-534
 17	with	with	ADP	O				ritter-534
@@ -14231,7 +14231,7 @@
 10	who	who	PRON	I	9			ritter-535
 11	brings	brings	VERB	O			v.motion	ritter-535
 12	kids	kids	NOUN	O			n.person	ritter-535
-13	to	to	PRT	O				ritter-535
+13	to	to	PART	O				ritter-535
 14	the	the	DET	O				ritter-535
 15	school	school	NOUN	O			n.group	ritter-535
 16	then	then	ADV	O				ritter-535
@@ -14282,7 +14282,7 @@
 
 1	Happy	happy	ADJ	O				ritter-538
 2	birfday	birfday	NOUN	O			n.time	ritter-538
-3	to	to	PRT	O				ritter-538
+3	to	to	PART	O				ritter-538
 4	the	the	DET	O				ritter-538
 5	only	only	ADJ	O				ritter-538
 6	p-i-m-p	p-i-m-p	NOUN	O			n.person	ritter-538
@@ -14340,7 +14340,7 @@
 13	events	events	NOUN	O			n.event	ritter-540
 14	leading	leading	VERB	O			v.change	ritter-540
 15	up	up	ADP	O				ritter-540
-16	to	to	PRT	O				ritter-540
+16	to	to	PART	O				ritter-540
 17	this	this	DET	O				ritter-540
 18	moment	moment	NOUN	O			n.time	ritter-540
 19	,	,	PUNCT	O				ritter-540
@@ -14419,7 +14419,7 @@
 18	it	it	PRON	O				ritter-544
 19	a	a	DET	O				ritter-544
 20	week	week	NOUN	O			n.time	ritter-544
-21	to	to	PRT	O				ritter-544
+21	to	to	PART	O				ritter-544
 22	get	get	VERB	O			v.possession	ritter-544
 23	it	it	PRON	O				ritter-544
 24	in	in	ADP	O				ritter-544
@@ -14525,7 +14525,7 @@
 2	...	...	PUNCT	O				ritter-549
 3	ive	ive	PRON	O				ritter-549
 4	been	been	AUX	O			v.social	ritter-549
-5	to	to	PRT	O				ritter-549
+5	to	to	PART	O				ritter-549
 6	13	13	NUM	O				ritter-549
 7	30stm	30stm	PROPN	B			n.event	ritter-549
 8	concerts	concerts	NOUN	I	7			ritter-549
@@ -14546,7 +14546,7 @@
 
 1	looking	looking	VERB	O			v.cognition	ritter-550
 2	forward	forward	ADV	O				ritter-550
-3	to	to	PRT	O				ritter-550
+3	to	to	PART	O				ritter-550
 4	a	a	DET	O				ritter-550
 5	weekend	weekend	NOUN	O			n.time	ritter-550
 6	resting	resting	VERB	O			v.body	ritter-550
@@ -14626,7 +14626,7 @@
 5	reason	reason	NOUN	O			n.motive	ritter-554
 6	i	i	PRON	O				ritter-554
 7	tried	tried	VERB	O			v.motion	ritter-554
-8	to	to	PRT	O				ritter-554
+8	to	to	PART	O				ritter-554
 9	kill	kill	VERB	O			v.contact	ritter-554
 10	myself	myself	PRON	O				ritter-554
 11	the	the	DET	O				ritter-554
@@ -14672,7 +14672,7 @@
 4	Who	who	PRON	O			n.group	ritter-556
 5	is	is	AUX	O			v.stative	ritter-556
 6	coming	coming	VERB	O			v.stative	ritter-556
-7	to	to	PRT	O				ritter-556
+7	to	to	PART	O				ritter-556
 8	the	the	DET	O				ritter-556
 9	show	show	NOUN	O			n.event	ritter-556
 10	tomorrow	tomorrow	NOUN	O			n.time	ritter-556
@@ -14686,7 +14686,7 @@
 4	ago	ago	ADV	O				ritter-557
 5	I	i	PRON	O				ritter-557
 6	responded	responded	VERB	O			v.communication	ritter-557
-7	to	to	PRT	O				ritter-557
+7	to	to	PART	O				ritter-557
 8	a	a	DET	O				ritter-557
 9	angry	angry	ADJ	O				ritter-557
 10	cardiologist	cardiologist	NOUN	O			n.person	ritter-557
@@ -14700,7 +14700,7 @@
 18	he	he	PRON	O				ritter-557
 19	spit	spit	VERB	O			v.body	ritter-557
 20	venom	venom	NOUN	O			n.substance	ritter-557
-21	to	to	PRT	O				ritter-557
+21	to	to	PART	O				ritter-557
 22	the	the	DET	O				ritter-557
 23	newspaper	newspaper	NOUN	O			n.communication	ritter-557
 24	but	but	CONJ	O				ritter-557
@@ -14759,7 +14759,7 @@
 4	went	went	VERB	O			v.change	ritter-560
 5	from	from	ADP	O				ritter-560
 6	awful	awful	ADJ	O				ritter-560
-7	to	to	PRT	O				ritter-560
+7	to	to	PART	O				ritter-560
 8	awesome	awesome	ADJ	O				ritter-560
 9	from	from	ADP	O				ritter-560
 10	the	the	DET	O				ritter-560
@@ -14795,7 +14795,7 @@
 4	,	,	PUNCT	O				ritter-562
 5	driving	driving	VERB	O			v.motion	ritter-562
 6	away	away	ADV	O				ritter-562
-7	to	to	PRT	O				ritter-562
+7	to	to	PART	O				ritter-562
 8	Phil	phil	PROPN	O			n.person	ritter-562
 9	.	.	PUNCT	O				ritter-562
 10	Tasty	tasty	ADJ	O				ritter-562
@@ -14998,7 +14998,7 @@
 3	's	's	AUX	O			v.stative	ritter-572
 4	not	not	ADV	O				ritter-572
 5	supposed	supposed	VERB	O			v.cognition	ritter-572
-6	to	to	PRT	O				ritter-572
+6	to	to	PART	O				ritter-572
 7	rain	rain	VERB	O			v.weather	ritter-572
 8	till	till	ADP	O				ritter-572
 9	Sunday	sunday	PROPN	B			n.time	ritter-572
@@ -15013,7 +15013,7 @@
 6	;	;	PUNCT	O				ritter-573
 7	t	t	ADV	O				ritter-573
 8	gone	gone	VERB	O			v.stative	ritter-573
-9	to	to	PRT	O				ritter-573
+9	to	to	PART	O				ritter-573
 10	well	well	ADV	O				ritter-573
 11	,	,	PUNCT	O				ritter-573
 12	hopefully	hopefully	ADV	O				ritter-573
@@ -15025,7 +15025,7 @@
 18	!	!	PUNCT	O				ritter-573
 
 1	Going	going	VERB	O			v.motion	ritter-574
-2	to	to	PRT	O				ritter-574
+2	to	to	PART	O				ritter-574
 3	the	the	DET	O				ritter-574
 4	country	country	NOUN	B			n.event	ritter-574
 5	fair	fair	NOUN	I	4			ritter-574
@@ -15113,7 +15113,7 @@
 4	Chicago	chicago	PROPN	O			n.location	ritter-579
 5	!	!	PUNCT	O				ritter-579
 6	Nice	nice	ADJ	O				ritter-579
-7	to	to	PRT	O				ritter-579
+7	to	to	PART	O				ritter-579
 8	get	get	VERB	O			v.motion	ritter-579
 9	away	away	ADV	O				ritter-579
 10	from	from	ADP	O				ritter-579
@@ -15161,7 +15161,7 @@
 13	up	up	PART	O				ritter-581
 14	....	....	PUNCT	O				ritter-581
 15	about	about	ADP	O				ritter-581
-16	to	to	PRT	O				ritter-581
+16	to	to	PART	O				ritter-581
 17	give	give	VERB	O			v.cognition	ritter-581
 18	up	up	PART	O				ritter-581
 19	on	on	ADP	O				ritter-581
@@ -15197,7 +15197,7 @@
 11	than	than	ADP	O				ritter-583
 12	7	7	NUM	O				ritter-583
 13	mins	mins	NOUN	O			n.time	ritter-583
-14	to	to	PRT	O				ritter-583
+14	to	to	PART	O				ritter-583
 15	play	play	VERB	O			v.competition	ritter-583
 
 1	Aggressive	aggressive	ADJ	O				ritter-584
@@ -15217,7 +15217,7 @@
 4	..	..	PUNCT	O				ritter-585
 5	i	i	PRON	O				ritter-585
 6	need	need	AUX	O			v.stative	ritter-585
-7	to	to	PRT	O				ritter-585
+7	to	to	PART	O				ritter-585
 8	stop	stop	VERB	O			v.motion	ritter-585
 9	before	before	ADP	O				ritter-585
 10	my	my	PRON	O				ritter-585
@@ -15402,7 +15402,7 @@
 12	delay	delay	NOUN	O			n.time	ritter-594
 13	between	between	ADP	O				ritter-594
 14	commit	commit	VERB	O			v.social	ritter-594
-15	to	to	PRT	O				ritter-594
+15	to	to	PART	O				ritter-594
 16	SCM	scm	PROPN	O			n.communication	ritter-594
 17	and	and	CONJ	O				ritter-594
 18	running	running	VERB	O			v.stative	ritter-594
@@ -15550,7 +15550,7 @@
 2	hard	hard	ADJ	O				ritter-602
 3	work	work	NOUN	O			n.act	ritter-602
 4	going	going	VERB	O			v.social	ritter-602
-5	to	to	PRT	O				ritter-602
+5	to	to	PART	O				ritter-602
 6	the	the	DET	O				ritter-602
 7	gym	gym	NOUN	O			n.artifact	ritter-602
 8	on	on	ADP	O				ritter-602
@@ -15584,7 +15584,7 @@
 8	for	for	ADP	O				ritter-603
 9	Sage	sage	PROPN	B			n.act	ritter-603
 10	Award	award	PROPN	I	9			ritter-603
-11	to	to	PRT	O				ritter-603
+11	to	to	PART	O				ritter-603
 12	Nov	nov	PROPN	O			n.time	ritter-603
 13	.	.	PUNCT	O				ritter-603
 14	5	5	NUM	O				ritter-603
@@ -15628,7 +15628,7 @@
 1	@FeeninforPretty	@feeninforpretty	PROPN	O				ritter-606
 2	making	making	VERB	O			v.creation	ritter-606
 3	something	something	NOUN	O			n.food	ritter-606
-4	to	to	PRT	O				ritter-606
+4	to	to	PART	O				ritter-606
 5	eat	eat	VERB	O			v.consumption	ritter-606
 6	,	,	PUNCT	O				ritter-606
 7	aint	aint	VERB	O				ritter-606
@@ -15645,7 +15645,7 @@
 7	2morrow	2morrow	NOUN	O			n.time	ritter-607
 8	we	we	PRON	O				ritter-607
 9	foin	foin	VERB	O			v.social	ritter-607
-10	2	2	PRT	O				ritter-607
+10	2	2	PART	O				ritter-607
 11	da	da	DET	O				ritter-607
 12	fall	fall	NOUN	B			n.event	ritter-607
 13	festival	festival	NOUN	I	12			ritter-607
@@ -15710,7 +15710,7 @@
 6	can	can	AUX	O			v.change	ritter-612
 7	say	say	VERB	O			v.communication	ritter-612
 8	anything	anything	NOUN	O			n.communication	ritter-612
-9	to	to	PRT	O				ritter-612
+9	to	to	PART	O				ritter-612
 10	someone	someone	NOUN	O			n.person	ritter-612
 11	on	on	ADP	O				ritter-612
 12	an	an	DET	O				ritter-612
@@ -15768,7 +15768,7 @@
 
 1	cant	cant	AUX	O			v.motion	ritter-616
 2	wait	wait	VERB	O			v.stative	ritter-616
-3	to	to	PRT	O				ritter-616
+3	to	to	PART	O				ritter-616
 4	see	see	VERB	O			v.social	ritter-616
 5	my	my	PRON	O				ritter-616
 6	beautiful	beautiful	ADJ	O				ritter-616
@@ -16024,7 +16024,7 @@
 17	"	"	PUNCT	O				ritter-627
 18	is	is	AUX	O			v.stative	ritter-627
 19	insult	insult	NOUN	O			n.act	ritter-627
-20	to	to	PRT	O				ritter-627
+20	to	to	PART	O				ritter-627
 21	injury	injury	NOUN	O			n.state	ritter-627
 22	.	.	PUNCT	O				ritter-627
 23	They	they	PRON	O				ritter-627
@@ -16163,14 +16163,14 @@
 4	old	old	ADJ	O				ritter-635
 5	office	office	NOUN	O			n.location	ritter-635
 6	tomorrow	tomorrow	NOUN	O			n.time	ritter-635
-7	to	to	PRT	O				ritter-635
+7	to	to	PART	O				ritter-635
 8	catch	catch	VERB	O			v.cognition	ritter-635
 9	the	the	DET	O				ritter-635
 10	bookkeeping	bookkeeping	NOUN	O			n.act	ritter-635
 11	up	up	PART	O				ritter-635
 12	.	.	PUNCT	O				ritter-635
 13	Money	money	NOUN	O			n.possession	ritter-635
-14	to	to	PRT	O				ritter-635
+14	to	to	PART	O				ritter-635
 15	do	do	AUX	O			v.creation	ritter-635
 16	easy	easy	ADJ	O				ritter-635
 17	stuff	stuff	NOUN	O			n.act	ritter-635
@@ -16238,7 +16238,7 @@
 9	U	u	PRON	O				ritter-638
 10	scared	scared	VERB	O			v.emotion	ritter-638
 11	me	me	PRON	O				ritter-638
-12	to	to	PRT	O				ritter-638
+12	to	to	PART	O				ritter-638
 13	hell	hell	NOUN	O			n.cognition	ritter-638
 14	yesterday	yesterday	NOUN	O			n.time	ritter-638
 15	,	,	PUNCT	O				ritter-638
@@ -16322,7 +16322,7 @@
 1	RT	rt	X	O				ritter-641
 2	@TRAEABN	@traeabn	PROPN	O				ritter-641
 3	Headed	headed	VERB	O			v.motion	ritter-641
-4	to	to	PRT	O				ritter-641
+4	to	to	PART	O				ritter-641
 5	Shreveport	shreveport	PROPN	O			n.location	ritter-641
 6	then	then	ADP	O				ritter-641
 7	Lake	lake	PROPN	B			n.location	ritter-641
@@ -16467,7 +16467,7 @@
 12	We	we	PRON	O				ritter-647
 13	Asked	asked	VERB	O			v.communication	ritter-647
 14	Five	five	NUM	O				ritter-647
-15	to	to	PRT	O				ritter-647
+15	to	to	PART	O				ritter-647
 16	Enlighten	enlighten	VERB	O			v.communication	ritter-647
 17	Us	us	PRON	O				ritter-647
 18	!	!	PUNCT	O				ritter-647
@@ -16506,7 +16506,7 @@
 3	yes	yes	INTJ	O				ritter-649
 4	:)	:)	INTJ	O				ritter-649
 5	have	have	AUX	O			v.possession	ritter-649
-6	to	to	PRT	O				ritter-649
+6	to	to	PART	O				ritter-649
 7	go	go	VERB	O			v.motion	ritter-649
 8	speak	speak	VERB	O			v.communication	ritter-649
 9	tomorrow	tomorrow	NOUN	O			n.time	ritter-649
@@ -16522,7 +16522,7 @@
 5	When	when	ADV	O				ritter-650
 6	everything	everything	NOUN	O			n.other	ritter-650
 7	seems	seems	VERB	O			v.perception	ritter-650
-8	to	to	PRT	O				ritter-650
+8	to	to	PART	O				ritter-650
 9	be	be	AUX	O				ritter-650
 10	going	going	VERB	O			v.stative	ritter-650
 11	against	against	ADP	O				ritter-650
@@ -16666,11 +16666,11 @@
 19	and	and	CONJ	O				ritter-656
 20	lady	lady	NOUN	O			n.person	ritter-656
 21	next	next	ADJ	O				ritter-656
-22	to	to	PRT	O				ritter-656
+22	to	to	PART	O				ritter-656
 23	me	me	PRON	O				ritter-656
 24	spilling	spilling	VERB	O			v.contact	ritter-656
 25	over	over	ADP	O				ritter-656
-26	to	to	PRT	O				ritter-656
+26	to	to	PART	O				ritter-656
 27	my	my	PRON	O				ritter-656
 28	chair	chair	NOUN	O			n.artifact	ritter-656
 29	..	..	PUNCT	O				ritter-656
@@ -16815,7 +16815,7 @@
 23	is	is	AUX	O			v.stative	ritter-663
 24	that	that	ADP	O				ritter-663
 25	suppose	suppose	VERB	O			v.communication	ritter-663
-26	to	to	PRT	O				ritter-663
+26	to	to	PART	O				ritter-663
 27	go	go	VERB	O			v.motion	ritter-663
 28	"	"	PUNCT	O				ritter-663
 
@@ -16896,7 +16896,7 @@
 15	had	had	AUX	O			v.possession	ritter-668
 16	the	the	DET	O				ritter-668
 17	time	time	NOUN	O			n.time	ritter-668
-18	to	to	PRT	O				ritter-668
+18	to	to	PART	O				ritter-668
 19	write	write	VERB	O			v.creation	ritter-668
 20	it	it	PRON	O				ritter-668
 21	down	down	PART	O				ritter-668
@@ -16908,7 +16908,7 @@
 4	Pope	pope	PROPN	O			n.person	ritter-669
 5	asked	asked	VERB	O			v.communication	ritter-669
 6	me	me	PRON	O				ritter-669
-7	to	to	PRT	O				ritter-669
+7	to	to	PART	O				ritter-669
 8	stay	stay	VERB	O			v.motion	ritter-669
 9	after	after	ADP	O				ritter-669
 10	class	class	NOUN	O			n.time	ritter-669
@@ -16935,7 +16935,7 @@
 18	Friday	friday	PROPN	O			n.time	ritter-670
 19	.	.	PUNCT	O				ritter-670
 20	Listening	listening	VERB	O			v.perception	ritter-670
-21	to	to	PRT	O				ritter-670
+21	to	to	PART	O				ritter-670
 22	the	the	DET	O				ritter-670
 23	arts	arts	NOUN	B			n.communication	ritter-670
 24	show	show	NOUN	I	23			ritter-670
@@ -17017,7 +17017,7 @@
 12	God	god	PROPN	O			n.person	ritter-674
 13	tel	tel	VERB	O			v.communication	ritter-674
 14	me	me	PRON	O				ritter-674
-15	to	to	PRT	O				ritter-674
+15	to	to	PART	O				ritter-674
 16	cum	cum	VERB	O			v.motion	ritter-674
 17	home	home	NOUN	O			n.location	ritter-674
 18	is	is	AUX	O			v.stative	ritter-674
@@ -17033,7 +17033,7 @@
 28	makin	makin	VERB	O			v.creation	ritter-674
 29	this	this	DET	O				ritter-674
 30	money	money	NOUN	O			n.possession	ritter-674
-31	to	to	PRT	O				ritter-674
+31	to	to	PART	O				ritter-674
 32	leav	leav	VERB	O			v.motion	ritter-674
 33	...	...	PUNCT	O				ritter-674
 
@@ -17099,7 +17099,7 @@
 14	!	!	PUNCT	O				ritter-677
 
 1	Time	time	NOUN	O			n.event	ritter-678
-2	to	to	PRT	O				ritter-678
+2	to	to	PART	O				ritter-678
 3	have	have	VERB	O			v.social	ritter-678
 4	#sex	#sex	NOUN	O			n.act	ritter-678
 
@@ -17162,9 +17162,9 @@
 5	things	things	NOUN	O			n.communication	ritter-682
 6	you	you	PRON	O				ritter-682
 7	want	want	VERB	O			v.emotion	ritter-682
-8	to	to	PRT	O				ritter-682
+8	to	to	PART	O				ritter-682
 9	say	say	VERB	O			v.communication	ritter-682
-10	to	to	PRT	O				ritter-682
+10	to	to	PART	O				ritter-682
 11	ten	ten	NUM	O				ritter-682
 12	different	different	ADJ	O				ritter-682
 13	people	people	NOUN	O			n.person	ritter-682
@@ -17321,9 +17321,9 @@
 3	it	it	PRON	O				ritter-691
 4	's	's	AUX	O			v.stative	ritter-691
 5	better	better	ADJ	O				ritter-691
-6	to	to	PRT	O				ritter-691
+6	to	to	PART	O				ritter-691
 7	go	go	VERB	O			v.change	ritter-691
-8	to	to	PRT	O				ritter-691
+8	to	to	PART	O				ritter-691
 9	bed	bed	NOUN	O			n.location	ritter-691
 10	after	after	ADP	O				ritter-691
 11	this	this	DET	O				ritter-691
@@ -17339,7 +17339,7 @@
 6	wear	wear	VERB	O			v.body	ritter-692
 7	my	my	PRON	O				ritter-692
 8	shorts	shorts	NOUN	O			n.artifact	ritter-692
-9	to	to	PRT	O				ritter-692
+9	to	to	PART	O				ritter-692
 10	the	the	DET	O				ritter-692
 11	party	party	NOUN	O			n.event	ritter-692
 12	tonight	tonight	NOUN	O			n.time	ritter-692
@@ -17347,7 +17347,7 @@
 14	so	so	CONJ	O				ritter-692
 15	I	i	PRON	O				ritter-692
 16	have	have	AUX	O			v.stative	ritter-692
-17	to	to	PRT	O				ritter-692
+17	to	to	PART	O				ritter-692
 18	wear	wear	VERB	O			v.body	ritter-692
 19	sweat	sweat	NOUN	B			n.artifact	ritter-692
 20	pants	pants	NOUN	I	19			ritter-692
@@ -17463,7 +17463,7 @@
 13	brands	brands	NOUN	O			n.communication	ritter-697
 14	usually	usually	ADV	O				ritter-697
 15	look	look	VERB	O			v.communication	ritter-697
-16	to	to	PRT	O				ritter-697
+16	to	to	PART	O				ritter-697
 17	the	the	DET	O				ritter-697
 18	big	big	ADJ	O				ritter-697
 19	social	social	NOUN	B			n.communication	ritter-697
@@ -17482,7 +17482,7 @@
 7	official	official	ADJ	O				ritter-698
 8	set	set	NOUN	B			n.artifact	ritter-698
 9	list	list	NOUN	I	8			ritter-698
-10	to	to	PRT	O				ritter-698
+10	to	to	PART	O				ritter-698
 11	the	the	DET	O				ritter-698
 12	show	show	NOUN	O			n.act	ritter-698
 13	at	at	ADP	O				ritter-698
@@ -17612,14 +17612,14 @@
 6	DC	dc	PROPN	O			n.location	ritter-707
 7	!	!	PUNCT	O				ritter-707
 8	About	about	ADV	O				ritter-707
-9	to	to	PRT	O				ritter-707
+9	to	to	PART	O				ritter-707
 10	get	get	VERB	O			v.possession	ritter-707
 11	some	some	DET	O				ritter-707
 12	rest	rest	NOUN	O			n.act	ritter-707
 13	!	!	PUNCT	O				ritter-707
 14	Looking	looking	VERB	O			v.emotion	ritter-707
 15	forward	forward	ADV	O				ritter-707
-16	to	to	PRT	O				ritter-707
+16	to	to	PART	O				ritter-707
 17	tonight	tonight	NOUN	O			n.time	ritter-707
 18	!	!	PUNCT	O				ritter-707
 19	Yes-sir	yes-sir	INTJ	O				ritter-707
@@ -17639,7 +17639,7 @@
 1	@NeilPen	@neilpen	PROPN	O				ritter-709
 2	I	i	PRON	O				ritter-709
 3	position	position	NOUN	O			v.motion	ritter-709
-4	to	to	PRT	O				ritter-709
+4	to	to	PART	O				ritter-709
 5	Manchester	manchester	PROPN	O			n.location	ritter-709
 6	tomorrow	tomorrow	NOUN	O			n.time	ritter-709
 7	on	on	ADP	O				ritter-709
@@ -17647,7 +17647,7 @@
 9	2910	2910	NUM	O				ritter-709
 10	and	and	CONJ	O				ritter-709
 11	fly	fly	VERB	O			v.motion	ritter-709
-12	to	to	PRT	O				ritter-709
+12	to	to	PART	O				ritter-709
 13	Barbados	barbados	PROPN	O			n.location	ritter-709
 14	on	on	ADP	O				ritter-709
 15	Sunday	sunday	PROPN	O			n.time	ritter-709
@@ -17694,7 +17694,7 @@
 4	it	it	PRON	O				ritter-712
 5	would	would	AUX	O				ritter-712
 6	have	have	AUX	O			v.stative	ritter-712
-7	to	to	PRT	O				ritter-712
+7	to	to	PART	O				ritter-712
 8	go	go	VERB	O			v.motion	ritter-712
 9	down	down	ADP	O				ritter-712
 10	Saturday	saturday	PROPN	B			n.time	ritter-712
@@ -17878,7 +17878,7 @@
 11	she	she	PRON	O				ritter-722
 12	's	's	AUX	O			v.stative	ritter-722
 13	going	going	VERB	O			v.change	ritter-722
-14	to	to	PRT	O				ritter-722
+14	to	to	PART	O				ritter-722
 15	turn	turn	VERB	O			v.change	ritter-722
 16	Friday	friday	PROPN	B			n.process	ritter-722
 17	news	news	NOUN	I	16			ritter-722
@@ -18079,7 +18079,7 @@
 5	?	?	PUNCT	O				ritter-732
 
 1	Going	going	VERB	O				ritter-733
-2	to	to	PRT	O				ritter-733
+2	to	to	PART	O				ritter-733
 3	start	start	VERB	O			v.change	ritter-733
 4	#HelloMornings	#hellomornings	NOUN	O			n.act	ritter-733
 5	on	on	ADP	O				ritter-733
@@ -18115,7 +18115,7 @@
 2	I	i	PRON	O				ritter-735
 3	can	can	AUX	O			v.change	ritter-735
 4	upgrade	upgrade	VERB	O			v.change	ritter-735
-5	to	to	PRT	O				ritter-735
+5	to	to	PART	O				ritter-735
 6	a	a	DET	O				ritter-735
 7	BlackBerry	blackberry	PROPN	O			n.artifact	ritter-735
 8	in	in	ADP	O				ritter-735
@@ -18143,7 +18143,7 @@
 8	free	free	ADJ	O				ritter-736
 9	...	...	PUNCT	O				ritter-736
 10	Father	father	NOUN	O			n.person	ritter-736
-11	to	to	PRT	O				ritter-736
+11	to	to	PART	O				ritter-736
 12	tha	tha	DET	O				ritter-736
 13	Game	game	NOUN	O			n.artifact	ritter-736
 14	is	is	AUX	O			v.stative	ritter-736
@@ -18183,7 +18183,7 @@
 2	n't	n't	ADV	O				ritter-739
 3	Have	have	AUX	O			v.possession	ritter-739
 4	Time	time	NOUN	O			n.time	ritter-739
-5	To	to	PRT	O				ritter-739
+5	To	to	PART	O				ritter-739
 6	Stop	stop	VERB	O			v.motion	ritter-739
 7	In	in	PART	O				ritter-739
 8	???	???	PUNCT	O				ritter-739
@@ -18206,7 +18206,7 @@
 4	a	a	DET	O				ritter-740
 5	good	good	ADJ	O				ritter-740
 6	day	day	NOUN	O			n.time	ritter-740
-7	to	to	PRT	O				ritter-740
+7	to	to	PART	O				ritter-740
 8	chill	chill	VERB	O			v.body	ritter-740
 9	:)	:)	INTJ	O				ritter-740
 
@@ -18271,7 +18271,7 @@
 1	#woot	#woot	X	O				ritter-745
 2	I'd	i'd	PRON	O				ritter-745
 3	like	like	VERB	O			v.emotion	ritter-745
-4	to	to	PRT	O				ritter-745
+4	to	to	PART	O				ritter-745
 5	buy	buy	VERB	O			v.possession	ritter-745
 6	this	this	DET	O				ritter-745
 7	,	,	PUNCT	O				ritter-745
@@ -18292,7 +18292,7 @@
 3	:	:	PUNCT	O				ritter-746
 4	Pisces	pisces	NOUN	O			n.group	ritter-746
 5	tend	tend	VERB	O			v.stative	ritter-746
-6	to	to	PRT	O				ritter-746
+6	to	to	PART	O				ritter-746
 7	escape	escape	VERB	O			v.social	ritter-746
 8	into	into	ADP	O				ritter-746
 9	fantasy	fantasy	NOUN	O			n.cognition	ritter-746
@@ -18398,7 +18398,7 @@
 23	my	my	PRON	O				ritter-750
 24	son	son	NOUN	O			n.person	ritter-750
 25	listens	listens	VERB	O			v.perception	ritter-750
-26	to'.	to'.	PRT	O				ritter-750
+26	to'.	to'.	PART	O				ritter-750
 
 1	Antick	antick	PROPN	B			n.communication	ritter-751
 2	Musings	musings	PROPN	I	1			ritter-751
@@ -18454,7 +18454,7 @@
 18	It	it	PRON	O				ritter-753
 19	's	's	AUX	O			v.stative	ritter-753
 20	starting	starting	VERB	O			v.change	ritter-753
-21	to	to	PRT	O				ritter-753
+21	to	to	PART	O				ritter-753
 22	taste	taste	VERB	O			v.perception	ritter-753
 23	pretty	pretty	ADV	O				ritter-753
 24	much	much	ADV	O				ritter-753
@@ -18777,7 +18777,7 @@
 10	mean	mean	VERB	O			v.cognition	ritter-767
 11	the	the	DET	O				ritter-767
 12	world	world	NOUN	O			n.natural_object	ritter-767
-13	to	to	PRT	O				ritter-767
+13	to	to	PART	O				ritter-767
 14	me	me	PRON	O				ritter-767
 15	if	if	ADP	O				ritter-767
 16	I	i	PRON	O				ritter-767
@@ -18793,7 +18793,7 @@
 
 1	Happy	happy	ADJ	O				ritter-768
 2	Monday	monday	PROPN	O			n.time	ritter-768
-3	to	to	PRT	O				ritter-768
+3	to	to	PART	O				ritter-768
 4	Everyone	everyone	NOUN	O			n.person	ritter-768
 5	!	!	PUNCT	O				ritter-768
 6	#education	#education	NOUN	O			n.cognition	ritter-768
@@ -18894,10 +18894,10 @@
 1	Do	do	AUX	O				ritter-772
 2	you	you	PRON	O				ritter-772
 3	want	want	VERB	O			v.emotion	ritter-772
-4	to	to	PRT	O				ritter-772
+4	to	to	PART	O				ritter-772
 5	learn	learn	VERB	O			v.cognition	ritter-772
 6	how	how	ADV	O				ritter-772
-7	to	to	PRT	O				ritter-772
+7	to	to	PART	O				ritter-772
 8	get	get	VERB	O			v.possession	ritter-772
 9	rooms	rooms	NOUN	O			n.artifact	ritter-772
 10	at	at	ADP	O				ritter-772
@@ -18986,7 +18986,7 @@
 16	week	week	NOUN	O			n.time	ritter-776
 17	about	about	ADP	O				ritter-776
 18	wanting	wanting	VERB	O			v.emotion	ritter-776
-19	to	to	PRT	O				ritter-776
+19	to	to	PART	O				ritter-776
 20	role	role	VERB	B			v.social	ritter-776
 21	play	play	VERB	I	20			ritter-776
 22	.	.	PUNCT	O				ritter-776
@@ -19067,7 +19067,7 @@
 2	'm	'm	AUX	O			v.stative	ritter-780
 3	so	so	ADV	O				ritter-780
 4	addicted	addicted	VERB	O				ritter-780
-5	to	to	PRT	O				ritter-780
+5	to	to	PART	O				ritter-780
 6	Twitter	twitter	PROPN	O			n.communication	ritter-780
 7	now	now	ADV	O				ritter-780
 8	that	that	ADP	O				ritter-780
@@ -19170,7 +19170,7 @@
 2	Fruit	fruit	PROPN	I	1			ritter-785
 3	:	:	PUNCT	O				ritter-785
 4	How	how	ADV	O				ritter-785
-5	to	to	PRT	O				ritter-785
+5	to	to	PART	O				ritter-785
 6	Deal	deal	VERB	O			v.social	ritter-785
 7	When	when	ADV	O				ritter-785
 8	Your	your	PRON	O				ritter-785
@@ -19211,7 +19211,7 @@
 29	n't	n't	ADV	O				ritter-786
 30	wanna	wanna	VERB	O				ritter-786
 31	talk	talk	VERB	O			v.communication	ritter-786
-32	to	to	PRT	O				ritter-786
+32	to	to	PART	O				ritter-786
 33	u	u	PRON	O				ritter-786
 34	!!!!!	!!!!!	PUNCT	O				ritter-786
 
