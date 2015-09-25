@@ -1,6 +1,6 @@
 # DiMSUM 2016 shared task data
 
-September 23, 2015  
+September 25, 2015  
 Anders Johannsen  
 Nathan Schneider
 
@@ -35,6 +35,6 @@ Nine tab-separated columns:
 8. supersense label, if applicable
 9. sentence ID
 
-Fields 5, 6, and 8 need to be predicted at test time; the rest will be present in the input. Field 6 can be deterministically filled in given the tagging in field 5. Field 7 should be left blank.
+Fields 5, 6, and 8 need to be predicted at test time; the rest will be present in the input. Field 6 can be deterministically filled in given the tagging in field 5. Field 7 should be left blank. The file [TAGSET.md](TAGSET.md) describes the MWE and supersense tagsets.
 
 All sentences in the training data are marked with an identifier whose prefix indicate the source dataset (field 9). In the test data, this field will contain a unique ID for the sentence, but the ID will be uninformative: it will not reveal the domain or document position of the sentence.
