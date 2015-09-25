@@ -1,8 +1,13 @@
 # DiMSUM 2016 shared task data
 
-September 25, 2015  
+September 25, 2015
+
 Anders Johannsen  
-Nathan Schneider
+Nathan Schneider  
+Dirk Hovy  
+Marine Carpuat
+
+This release contains data for the [DiMSUM](http://dimsum16.github.io/) shared task at SemEval 2016.
 
 ## Files
 
