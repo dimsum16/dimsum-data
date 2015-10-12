@@ -10188,7 +10188,7 @@ evening	NOUN	B-noun.time
 .	PUNCT	O
 
 Small	ADJ	O
-Biz	PROPN	I-noun.event
+Biz	PROPN	B-noun.event
 Tech	PROPN	I-noun.event
 Tour	PROPN	I-noun.event
 2010	NUM	O
