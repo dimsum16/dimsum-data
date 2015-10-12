@@ -21,18 +21,32 @@ def standardize_supersense(supersense):
 def add_mwe(sent):
 	for i in range(len(sent)):
 		token = sent[i]
-		if token['bio'] == "B":
-			if i < (len(sent) - 2) and sent[i + 1]['bio'] == "I":
-				token['mwe'] = "B"
-				token['mwe_strength'] = ''
-			else:
-				token['mwe'] = "O"
-		elif token['bio'] == "I":
-			# token['mwe'] = sent[i - 1]['mwe'].replace("B-", "I-")
-			token['mwe'] = "I"
+		token['mwe_strength'] = ''
+		token['mwe'] = 'O'
+		
+		if token['bio'] == 'B':
+			next_none_o_tags = [sent[j]['bio'] for j in range(i + 1, len(sent)) 
+								if sent[j]['bio'] != 'O']
+			#print(token)
+			#print(next_none_o_tags)
+			if next_none_o_tags and next_none_o_tags[0] == 'I':
+				token['mwe'] = 'B'
+
+		elif token['bio'] == 'I':
+			token['mwe'] = 'I'
 			token['supersense'] = ''
-			token['mwe_strength'] = ''
-			token['mwe_offset'] = i
+			for j in reversed(range(0, i)):
+				# Token ids in the dimsum file format are 1-based, while
+				# they are 0-based in this loop
+				if sent[j]['mwe'] in ('B', 'I'):
+					token['mwe_offset'] = j + 1
+					break
+				elif sent[j]['mwe'] == 'O':
+					# The gappy version of 'O'
+					sent[j]['mwe'] = 'o'
+
+			assert('mwe_offset' in token)
+
 
 def output_sent(sent):
 	# TAGS format

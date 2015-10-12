@@ -3498,7 +3498,7 @@
 9	Deacon	deacon	PROPN	I	8			ritter-10
 10	's	's	PART	O				ritter-10
 11	Monday	monday	PROPN	O			n.time	ritter-10
-12	LFW	lfw	PROPN	O			n.communication	ritter-10
+12	LFW	lfw	PROPN	B			n.communication	ritter-10
 13	show	show	NOUN	I	12			ritter-10
 
 1	@KFSH	@kfsh	PROPN	O				ritter-11
@@ -5868,7 +5868,7 @@
 1	@besocialonline	@besocialonline	PROPN	O				ritter-124
 2	dank	dank	X	O				ritter-124
 3	je	je	ADP	O				ritter-124
-4	Gert	gert	PROPN	O			n.person	ritter-124
+4	Gert	gert	PROPN	B			n.person	ritter-124
 5	Jan	jan	PROPN	I	4			ritter-124
 
 1	Do	do	AUX	O			v.social	ritter-125
@@ -6317,9 +6317,9 @@
 9	-	-	PUNCT	O				ritter-143
 10	Songs	songs	NOUN	B			n.communication	ritter-143
 11	Named	named	VERB	I	10			ritter-143
-12	After	after	ADP	O				ritter-143
-13	a	a	DET	O				ritter-143
-14	Girl	girl	NOUN	I	13			ritter-143
+12	After	after	ADP	o				ritter-143
+13	a	a	DET	o				ritter-143
+14	Girl	girl	NOUN	I	11			ritter-143
 15	http://youtu.be/ErPsx8zdnX4?a	http://youtu.be/erpsx8zdnx4?a	X	O				ritter-143
 
 1	@bookpage	@bookpage	PROPN	O				ritter-144
@@ -6401,8 +6401,8 @@
 18	...:	...:	PUNCT	O				ritter-147
 19	EL	el	PROPN	B			n.location	ritter-147
 20	PASO	paso	PROPN	I	19			ritter-147
-21	,	,	PUNCT	O				ritter-147
-22	TX	tx	PROPN	I	21			ritter-147
+21	,	,	PUNCT	o				ritter-147
+22	TX	tx	PROPN	I	20			ritter-147
 23	-	-	PUNCT	O				ritter-147
 24	DECEMBER	december	PROPN	O			n.time	ritter-147
 25	30	30	NUM	O				ritter-147
@@ -6469,9 +6469,9 @@
 3	Notre	notre	PROPN	B			n.group	ritter-151
 4	Dame	dame	PROPN	I	3			ritter-151
 5	at	at	ADP	O				ritter-151
-6	Miami	miami	PROPN	O			n.location	ritter-151
-7	(	(	PUNCT	O				ritter-151
-8	FL	fl	PROPN	I	7			ritter-151
+6	Miami	miami	PROPN	B			n.location	ritter-151
+7	(	(	PUNCT	o				ritter-151
+8	FL	fl	PROPN	I	6			ritter-151
 9	)	)	PUNCT	O				ritter-151
 10	-	-	PUNCT	O				ritter-151
 11	Dec	dec	PROPN	O			n.time	ritter-151
@@ -6484,8 +6484,8 @@
 18	...:	...:	PUNCT	O				ritter-151
 19	EL	el	PROPN	B			n.location	ritter-151
 20	PASO	paso	PROPN	I	19			ritter-151
-21	,	,	PUNCT	O				ritter-151
-22	TX	tx	PROPN	I	21			ritter-151
+21	,	,	PUNCT	o				ritter-151
+22	TX	tx	PROPN	I	20			ritter-151
 23	-	-	PUNCT	O				ritter-151
 24	DECEMBER	december	PROPN	O			n.time	ritter-151
 25	30	30	NUM	O				ritter-151
@@ -6921,9 +6921,9 @@
 6	check	check	VERB	O			v.perception	ritter-173
 7	out	out	PART	O				ritter-173
 8	your	your	PRON	O				ritter-173
-9	crush	crush	NOUN	O			n.communication	ritter-173
-10	's	's	AUX	O				ritter-173
-11	FB	fb	PROPN	I	10			ritter-173
+9	crush	crush	NOUN	B			n.communication	ritter-173
+10	's	's	AUX	o				ritter-173
+11	FB	fb	PROPN	I	9			ritter-173
 12	profile	profile	NOUN	I	11			ritter-173
 13	alot	alot	ADV	O				ritter-173
 14	and	and	CONJ	O				ritter-173
@@ -7081,9 +7081,9 @@
 2	to	to	PART	O				ritter-180
 3	portland	portland	PROPN	O			n.location	ritter-180
 4	in	in	ADP	O				ritter-180
-5	t-minus	t-minus	NOUN	O			n.time	ritter-180
-6	26	26	NUM	O				ritter-180
-7	days	days	NOUN	I	6			ritter-180
+5	t-minus	t-minus	NOUN	B			n.time	ritter-180
+6	26	26	NUM	o				ritter-180
+7	days	days	NOUN	I	5			ritter-180
 
 1	AUTUMN	autumn	PROPN	O			n.phenomenon	ritter-181
 2	COMES	comes	VERB	O			v.motion	ritter-181
@@ -8206,7 +8206,7 @@
 24	yours	yours	PRON	O				ritter-235
 25	is	is	AUX	O			v.stative	ritter-235
 26	marked	marked	VERB	O			v.contact	ritter-235
-27	special	special	NOUN	O			n.act	ritter-235
+27	special	special	NOUN	B			n.act	ritter-235
 28	occassion	occassion	NOUN	I	27			ritter-235
 
 1	Going	going	VERB	O			v.motion	ritter-236
@@ -8505,9 +8505,9 @@
 12	"	"	PUNCT	O				ritter-251
 13	fuck43	fuck43	NOUN	O			n.communication	ritter-251
 14	"	"	PUNCT	O				ritter-251
-15	bit	bit	NOUN	O			n.communication	ritter-251
-16	.	.	PUNCT	O				ritter-251
-17	ly	ly	NOUN	I	16			ritter-251
+15	bit	bit	NOUN	B			n.communication	ritter-251
+16	.	.	PUNCT	o				ritter-251
+17	ly	ly	NOUN	I	15			ritter-251
 18	on	on	ADP	O				ritter-251
 19	Friday	friday	PROPN	O			n.time	ritter-251
 20	--	--	PUNCT	O				ritter-251
@@ -8698,12 +8698,12 @@
 9	(	(	PUNCT	O				ritter-262
 10	8th	8th	PROPN	B			n.location	ritter-262
 11	Ave	ave	PROPN	I	10			ritter-262
-12	,	,	PUNCT	O				ritter-262
-13	W	w	PROPN	I	12			ritter-262
+12	,	,	PUNCT	o				ritter-262
+13	W	w	PROPN	I	11			ritter-262
 14	38th	38th	PROPN	I	13			ritter-262
 15	St	st	PROPN	I	14			ritter-262
-16	,	,	PUNCT	O				ritter-262
-17	New	new	PROPN	I	16			ritter-262
+16	,	,	PUNCT	o				ritter-262
+17	New	new	PROPN	I	15			ritter-262
 18	York	york	PROPN	I	17			ritter-262
 19	)	)	PUNCT	O				ritter-262
 20	http://4sq.com/e1rqnP	http://4sq.com/e1rqnp	X	O				ritter-262
@@ -8776,8 +8776,8 @@
 7	SW	sw	PROPN	B			n.location	ritter-266
 8	67th	67th	PROPN	I	7			ritter-266
 9	Ave	ave	PROPN	I	8			ritter-266
-10	,	,	PUNCT	O				ritter-266
-11	SW	sw	PROPN	I	10			ritter-266
+10	,	,	PUNCT	o				ritter-266
+11	SW	sw	PROPN	I	9			ritter-266
 12	8th	8th	PROPN	I	11			ritter-266
 13	St	st	PROPN	I	12			ritter-266
 14	.,	.,	ADP	O				ritter-266
@@ -8814,9 +8814,9 @@
 8	livestream	livestream	VERB	O			n.communication	ritter-269
 9	our	our	PRON	O				ritter-269
 10	"	"	PUNCT	O				ritter-269
-11	ThinkMobile	thinkmobile	PROPN	O			n.event	ritter-269
-12	"	"	PUNCT	O				ritter-269
-13	event	event	NOUN	I	12			ritter-269
+11	ThinkMobile	thinkmobile	PROPN	B			n.event	ritter-269
+12	"	"	PUNCT	o				ritter-269
+13	event	event	NOUN	I	11			ritter-269
 14	aimed	aimed	VERB	O			v.cognition	ritter-269
 15	at	at	ADP	O				ritter-269
 16	helping	helping	VERB	O			v.social	ritter-269
@@ -8865,8 +8865,8 @@
 8	the	the	DET	O				ritter-271
 9	Mississippi	mississippi	PROPN	B			n.artifact	ritter-271
 10	Museum	museum	PROPN	I	9			ritter-271
-11	of	of	ADP	O				ritter-271
-12	Art	art	PROPN	I	11			ritter-271
+11	of	of	ADP	o				ritter-271
+12	Art	art	PROPN	I	10			ritter-271
 13	host	host	VERB	O			v.communication	ritter-271
 14	a	a	DET	O				ritter-271
 15	presentation	presentation	NOUN	O			n.communication	ritter-271
@@ -9291,8 +9291,8 @@
 
 1	Coventry	coventry	PROPN	B			n.communication	ritter-292
 2	Rugby	rugby	PROPN	I	1			ritter-292
-3	v	v	PROPN	O				ritter-292
-4	Barking	barking	PROPN	I	3			ritter-292
+3	v	v	PROPN	o				ritter-292
+4	Barking	barking	PROPN	I	2			ritter-292
 5	match	match	NOUN	I	4			ritter-292
 6	preview	preview	NOUN	I	5			ritter-292
 7	__AND__	__and__	CONJ	O				ritter-292
@@ -9370,11 +9370,11 @@
 7	Glee	glee	PROPN	O			n.communication	ritter-296
 8	doing	doing	VERB	O			v.communication	ritter-296
 9	"	"	PUNCT	O				ritter-296
-10	Bills	bills	PROPN	O			n.communication	ritter-296
-11	,	,	PUNCT	O				ritter-296
-12	Bills	bills	PROPN	I	11			ritter-296
-13	,	,	PUNCT	O				ritter-296
-14	Bills	bills	PROPN	I	13			ritter-296
+10	Bills	bills	PROPN	B			n.communication	ritter-296
+11	,	,	PUNCT	o				ritter-296
+12	Bills	bills	PROPN	I	10			ritter-296
+13	,	,	PUNCT	o				ritter-296
+14	Bills	bills	PROPN	I	12			ritter-296
 15	"	"	PUNCT	O				ritter-296
 16	last	last	ADJ	O				ritter-296
 17	night	night	NOUN	O			n.time	ritter-296
@@ -9434,11 +9434,11 @@
 5	someone	someone	NOUN	O			n.person	ritter-299
 6	make	make	VERB	O			v.creation	ritter-299
 7	me	me	PRON	O				ritter-299
-8	Steelers	steelers	PROPN	O			n.artifact	ritter-299
-9	(	(	PUNCT	O				ritter-299
-10	Happy	happy	ADJ	O				ritter-299
-11	)	)	PUNCT	O				ritter-299
-12	gifs	gifs	NOUN	I	11			ritter-299
+8	Steelers	steelers	PROPN	B			n.artifact	ritter-299
+9	(	(	PUNCT	o				ritter-299
+10	Happy	happy	ADJ	o				ritter-299
+11	)	)	PUNCT	o				ritter-299
+12	gifs	gifs	NOUN	I	8			ritter-299
 13	from	from	ADP	O				ritter-299
 14	last	last	ADJ	O				ritter-299
 15	night	night	NOUN	O			n.time	ritter-299
@@ -9581,9 +9581,9 @@
 19	show	show	NOUN	O			n.act	ritter-306
 20	of	of	ADP	O				ritter-306
 21	theirs	theirs	PRON	O				ritter-306
-22	end	end	NOUN	O			n.time	ritter-306
-23	of	of	ADP	O				ritter-306
-24	February	february	PROPN	I	23			ritter-306
+22	end	end	NOUN	B			n.time	ritter-306
+23	of	of	ADP	o				ritter-306
+24	February	february	PROPN	I	22			ritter-306
 25	.	.	PUNCT	O				ritter-306
 26	good	good	ADJ	O				ritter-306
 27	call	call	NOUN	O			n.cognition	ritter-306
@@ -9960,9 +9960,9 @@
 14	me	me	PRON	O				ritter-325
 15	of	of	ADP	O				ritter-325
 16	your	your	PRON	O				ritter-325
-17	rule	rule	NOUN	O			n.cognition	ritter-325
-18	of	of	ADP	O				ritter-325
-19	thumb	thumb	NOUN	I	18			ritter-325
+17	rule	rule	NOUN	B			n.cognition	ritter-325
+18	of	of	ADP	o				ritter-325
+19	thumb	thumb	NOUN	I	17			ritter-325
 20	that	that	ADP	O				ritter-325
 21	I	i	PRON	O				ritter-325
 22	retweeted	retweeted	VERB	O			v.communication	ritter-325
@@ -10135,9 +10135,9 @@
 14	Big	big	PROPN	B			n.possession	ritter-333
 15	12	12	PROPN	I	14			ritter-333
 16	Rookie	rookie	NOUN	I	15			ritter-333
-17	of	of	ADP	O				ritter-333
-18	the	the	DET	O				ritter-333
-19	Week	week	NOUN	I	18			ritter-333
+17	of	of	ADP	o				ritter-333
+18	the	the	DET	o				ritter-333
+19	Week	week	NOUN	I	16			ritter-333
 20	Award	award	NOUN	I	19			ritter-333
 21	-	-	PUNCT	O				ritter-333
 22	and	and	CONJ	O				ritter-333
@@ -10366,9 +10366,9 @@
 11	Good	good	PROPN	I	10			ritter-344
 12	Guys	guys	PROPN	I	11			ritter-344
 13	"	"	PUNCT	O				ritter-344
-14	Saturday	saturday	PROPN	O			n.time	ritter-344
-15	late-night	late-night	ADJ	O				ritter-344
-16	slot	slot	NOUN	I	15			ritter-344
+14	Saturday	saturday	PROPN	B			n.time	ritter-344
+15	late-night	late-night	ADJ	o				ritter-344
+16	slot	slot	NOUN	I	14			ritter-344
 17	;	;	PUNCT	O				ritter-344
 18	"	"	PUNCT	O				ritter-344
 19	Running	running	PROPN	B			n.communication	ritter-344
@@ -10792,9 +10792,9 @@
 8	own	own	ADJ	O				ritter-362
 9	46	46	NUM	O				ritter-362
 10	orr	orr	PROPN	O				ritter-362
-11	comp	comp	VERB	O			n.artifact	ritter-362
-12	long	long	ADJ	O				ritter-362
-13	pass	pass	NOUN	I	12			ritter-362
+11	comp	comp	VERB	B			n.artifact	ritter-362
+12	long	long	ADJ	o				ritter-362
+13	pass	pass	NOUN	I	11			ritter-362
 14	to	to	PART	O				ritter-362
 15	end	end	VERB	O			v.stative	ritter-362
 16	half	half	NOUN	O			n.quantity	ritter-362
@@ -11240,9 +11240,9 @@
 11	Good	good	PROPN	I	10			ritter-384
 12	Guys	guys	PROPN	I	11			ritter-384
 13	"	"	PUNCT	O				ritter-384
-14	Saturday	saturday	PROPN	O			n.time	ritter-384
-15	late-night	late-night	ADJ	O				ritter-384
-16	slot	slot	NOUN	I	15			ritter-384
+14	Saturday	saturday	PROPN	B			n.time	ritter-384
+15	late-night	late-night	ADJ	o				ritter-384
+16	slot	slot	NOUN	I	14			ritter-384
 17	;	;	PUNCT	O				ritter-384
 18	"	"	PUNCT	O				ritter-384
 19	Running	running	PROPN	B			n.communication	ritter-384
@@ -11484,8 +11484,8 @@
 1	NO	no	INTJ	O				ritter-397
 2	Saints	saints	PROPN	B			n.person	ritter-397
 3	R	r	VERB	I	2			ritter-397
-4	.	.	PUNCT	O				ritter-397
-5	Buch	buch	PROPN	I	4			ritter-397
+4	.	.	PUNCT	o				ritter-397
+5	Buch	buch	PROPN	I	3			ritter-397
 6	might	might	AUX	O				ritter-397
 7	come	come	VERB	O			v.motion	ritter-397
 8	back	back	ADV	O				ritter-397
@@ -11774,9 +11774,9 @@
 11	am	am	AUX	O				ritter-413
 12	picking	picking	VERB	O			v.possession	ritter-413
 13	my	my	PRON	O				ritter-413
-14	book	book	NOUN	O			n.artifact	ritter-413
-15	of	of	ADP	O				ritter-413
-16	shadows	shadows	NOUN	I	15			ritter-413
+14	book	book	NOUN	B			n.artifact	ritter-413
+15	of	of	ADP	o				ritter-413
+16	shadows	shadows	NOUN	I	14			ritter-413
 17	II	ii	ADV	O				ritter-413
 18	tomorrow	tomorrow	NOUN	O			n.time	ritter-413
 19	!	!	PUNCT	O				ritter-413
@@ -12401,9 +12401,9 @@
 7	Taco	taco	PROPN	I	6			ritter-446
 8	Day	day	PROPN	I	7			ritter-446
 9	.	.	PUNCT	O				ritter-446
-10	BOGO	bogo	PROPN	O			n.food	ritter-446
-11	FREE	free	ADJ	O				ritter-446
-12	tacos	tacos	NOUN	I	11			ritter-446
+10	BOGO	bogo	PROPN	B			n.food	ritter-446
+11	FREE	free	ADJ	o				ritter-446
+12	tacos	tacos	NOUN	I	10			ritter-446
 13	at	at	ADP	O				ritter-446
 14	all	all	DET	O				ritter-446
 15	three	three	NUM	O				ritter-446
@@ -12601,9 +12601,9 @@
 21	Come	come	VERB	O			v.motion	ritter-455
 22	to	to	PART	O				ritter-455
 23	the	the	DET	O				ritter-455
-24	Tree	tree	PROPN	O			n.event	ritter-455
-25	of	of	ADP	O				ritter-455
-26	Life	life	NOUN	I	25			ritter-455
+24	Tree	tree	PROPN	B			n.event	ritter-455
+25	of	of	ADP	o				ritter-455
+26	Life	life	NOUN	I	24			ritter-455
 27	Celebration	celebration	NOUN	I	26			ritter-455
 28	!	!	PUNCT	O				ritter-455
 29	...	...	PUNCT	O				ritter-455
@@ -13347,10 +13347,10 @@
 10	as	as	ADP	O				ritter-495
 11	we	we	PRON	O				ritter-495
 12	"	"	PUNCT	O				ritter-495
-13	Race	race	VERB	O			v.social	ritter-495
-14	for	for	ADP	O				ritter-495
-15	the	the	DET	O				ritter-495
-16	Cure	cure	NOUN	I	15			ritter-495
+13	Race	race	VERB	B			v.social	ritter-495
+14	for	for	ADP	o				ritter-495
+15	the	the	DET	o				ritter-495
+16	Cure	cure	NOUN	I	13			ritter-495
 17	"!!	"!!	PUNCT	O				ritter-495
 18	Please	please	VERB	O				ritter-495
 19	follow	follow	VERB	O			v.cognition	ritter-495
@@ -13452,20 +13452,20 @@
 27	.	.	PUNCT	O				ritter-499
 
 1	Small	small	ADJ	O				ritter-500
-2	Biz	biz	PROPN	I	1			ritter-500
+2	Biz	biz	PROPN	B			n.event	ritter-500
 3	Tech	tech	PROPN	I	2			ritter-500
 4	Tour	tour	PROPN	I	3			ritter-500
 5	2010	2010	NUM	O				ritter-500
-6	Launches	launches	VERB	O			v.social	ritter-500
-7	Five	five	NUM	O				ritter-500
-8	City	city	NOUN	I	7			ritter-500
+6	Launches	launches	VERB	B			v.social	ritter-500
+7	Five	five	NUM	o				ritter-500
+8	City	city	NOUN	I	6			ritter-500
 9	Tour	tour	NOUN	I	8			ritter-500
 10	MONTCLAIR	montclair	PROPN	O			n.location	ritter-500
-11	N.J.	n.j.	PROPN	O			n.location	ritter-500
-12	...:	...:	PUNCT	O				ritter-500
-13	The	the	DET	O				ritter-500
-14	all	all	DET	O				ritter-500
-15	day	day	NOUN	I	14			ritter-500
+11	N.J.	n.j.	PROPN	B			n.location	ritter-500
+12	...:	...:	PUNCT	o				ritter-500
+13	The	the	DET	o				ritter-500
+14	all	all	DET	o				ritter-500
+15	day	day	NOUN	I	11			ritter-500
 16	event	event	NOUN	I	15			ritter-500
 17	features	features	VERB	O			v.stative	ritter-500
 18	America's...	america's...	PROPN	O			n.group	ritter-500
@@ -13676,9 +13676,9 @@
 19	you	you	PRON	O				ritter-511
 20	there	there	ADV	O				ritter-511
 21	!	!	PUNCT	O				ritter-511
-22	*puss	*puss	NOUN	O			n.person	ritter-511
-23	in	in	ADP	O				ritter-511
-24	boots	boots	NOUN	I	23			ritter-511
+22	*puss	*puss	NOUN	B			n.person	ritter-511
+23	in	in	ADP	o				ritter-511
+24	boots	boots	NOUN	I	22			ritter-511
 25	eyes*	eyes*	NOUN	O			n.body	ritter-511
 
 1	Kk	kk	INTJ	O				ritter-512
@@ -13691,9 +13691,9 @@
 8	tired	tired	ADJ	O				ritter-512
 9	so	so	ADP	O				ritter-512
 10	imma	imma	PRON	O				ritter-512
-11	go	go	VERB	O			v.motion	ritter-512
-12	to	to	PART	O				ritter-512
-13	sleep	sleep	VERB	I	12			ritter-512
+11	go	go	VERB	B			v.motion	ritter-512
+12	to	to	PART	o				ritter-512
+13	sleep	sleep	VERB	I	11			ritter-512
 14	:)	:)	INTJ	O				ritter-512
 15	good	good	ADJ	O				ritter-512
 16	nyt	nyt	NOUN	O			n.time	ritter-512
@@ -14082,11 +14082,11 @@
 30	http://tinyurl.com/27r2pdz	http://tinyurl.com/27r2pdz	X	O				ritter-528
 
 1	Not	not	ADV	O				ritter-529
-2	feeling	feeling	VERB	O			v.emotion	ritter-529
-3	up	up	ADP	O				ritter-529
-4	to	to	PART	O				ritter-529
-5	par	par	NOUN	O				ritter-529
-6	today	today	NOUN	I	5			ritter-529
+2	feeling	feeling	VERB	B			v.emotion	ritter-529
+3	up	up	ADP	o				ritter-529
+4	to	to	PART	o				ritter-529
+5	par	par	NOUN	o				ritter-529
+6	today	today	NOUN	I	2			ritter-529
 7	.	.	PUNCT	O				ritter-529
 8	#stressing	#stressing	NOUN	O			n.cognition	ritter-529
 
@@ -14137,9 +14137,9 @@
 2	call	call	VERB	O			v.communication	ritter-532
 3	mom	mom	NOUN	O			n.person	ritter-532
 4	2	2	PART	O				ritter-532
-5	let	let	VERB	O			v.communication	ritter-532
-6	her	her	PRON	O				ritter-532
-7	know	know	VERB	I	6			ritter-532
+5	let	let	VERB	B			v.communication	ritter-532
+6	her	her	PRON	o				ritter-532
+7	know	know	VERB	I	5			ritter-532
 8	it	it	PRON	O				ritter-532
 9	's	's	AUX	O			v.stative	ritter-532
 10	almost	almost	ADV	O				ritter-532
@@ -14201,9 +14201,9 @@
 6	to	to	PART	O				ritter-534
 7	@glasgowfilm	@glasgowfilm	PROPN	O				ritter-534
 8	for	for	ADP	O				ritter-534
-9	Winter	winter	PROPN	O			n.communication	ritter-534
-10	's	's	AUX	O				ritter-534
-11	Bone	bone	PROPN	I	10			ritter-534
+9	Winter	winter	PROPN	B			n.communication	ritter-534
+10	's	's	AUX	o				ritter-534
+11	Bone	bone	PROPN	I	9			ritter-534
 12	-	-	PUNCT	O				ritter-534
 13	need	need	AUX	O			v.stative	ritter-534
 14	to	to	PART	O				ritter-534
@@ -14456,9 +14456,9 @@
 11	FOR	for	ADP	O				ritter-546
 12	FOLLOW	follow	NOUN	B			n.communication	ritter-546
 13	FRIDAY	friday	PROPN	I	12			ritter-546
-14	LET	let	VERB	O			v.communication	ritter-546
-15	ME	me	PRON	O				ritter-546
-16	KNOW	know	VERB	I	15			ritter-546
+14	LET	let	VERB	B			v.communication	ritter-546
+15	ME	me	PRON	o				ritter-546
+16	KNOW	know	VERB	I	14			ritter-546
 17	!!	!!	PUNCT	O				ritter-546
 18	WE	we	PRON	O				ritter-546
 19	AINT	aint	VERB	O			v.stative	ritter-546
@@ -14538,9 +14538,9 @@
 15	on	on	ADP	O				ritter-549
 16	stage	stage	NOUN	O			n.location	ritter-549
 17	during/before	during/before	ADV	O				ritter-549
-18	kings	kings	PROPN	O			n.communication	ritter-549
-19	and	and	CONJ	O				ritter-549
-20	queens	queens	PROPN	I	19			ritter-549
+18	kings	kings	PROPN	B			n.communication	ritter-549
+19	and	and	CONJ	o				ritter-549
+20	queens	queens	PROPN	I	18			ritter-549
 21	:(	:(	INTJ	O				ritter-549
 22	((	((	INTJ	O				ritter-549
 
@@ -14711,10 +14711,10 @@
 
 1	@Strigy	@strigy	PROPN	O				ritter-558
 2	got	got	VERB	O			v.possession	ritter-558
-3	mine	mine	NOUN	O			n.artifact	ritter-558
-4	in	in	ADP	O				ritter-558
-5	bbt	bbt	PROPN	O				ritter-558
-6	aintree	aintree	PROPN	I	5			ritter-558
+3	mine	mine	NOUN	B			n.artifact	ritter-558
+4	in	in	ADP	o				ritter-558
+5	bbt	bbt	PROPN	o				ritter-558
+6	aintree	aintree	PROPN	I	3			ritter-558
 7	today	today	NOUN	I	6			ritter-558
 8	.	.	PUNCT	O				ritter-558
 9	Played	played	VERB	O			v.competition	ritter-558
@@ -14803,11 +14803,11 @@
 12	tonight	tonight	NOUN	O			n.time	ritter-562
 13	with	with	ADP	O				ritter-562
 14	the	the	DET	O				ritter-562
-15	Society	society	PROPN	O			n.group	ritter-562
-16	of	of	ADP	O				ritter-562
-17	Mining	mining	PROPN	I	16			ritter-562
-18	and	and	CONJ	O				ritter-562
-19	Metallurgy	metallurgy	PROPN	I	18			ritter-562
+15	Society	society	PROPN	B			n.group	ritter-562
+16	of	of	ADP	o				ritter-562
+17	Mining	mining	PROPN	I	15			ritter-562
+18	and	and	CONJ	o				ritter-562
+19	Metallurgy	metallurgy	PROPN	I	17			ritter-562
 20	Engineers	engineers	PROPN	I	19			ritter-562
 21	.	.	PUNCT	O				ritter-562
 
@@ -15170,15 +15170,15 @@
 1	#blackholidays	#blackholidays	X	O				ritter-582
 2	"	"	PUNCT	O				ritter-582
 3	National	national	ADJ	O				ritter-582
-4	forget	forget	VERB	O			n.event	ritter-582
-5	the	the	DET	O				ritter-582
-6	he	he	PRON	O				ritter-582
-7	say	say	VERB	I	6			ritter-582
-8	she	she	PRON	O				ritter-582
-9	say	say	VERB	I	8			ritter-582
-10	...	...	PUNCT	O				ritter-582
-11	what	what	PRON	O				ritter-582
-12	do	do	AUX	I	11			ritter-582
+4	forget	forget	VERB	B			n.event	ritter-582
+5	the	the	DET	o				ritter-582
+6	he	he	PRON	o				ritter-582
+7	say	say	VERB	I	4			ritter-582
+8	she	she	PRON	o				ritter-582
+9	say	say	VERB	I	7			ritter-582
+10	...	...	PUNCT	o				ritter-582
+11	what	what	PRON	o				ritter-582
+12	do	do	AUX	I	9			ritter-582
 13	God	god	PROPN	I	12			ritter-582
 14	say	say	VERB	I	13			ritter-582
 15	day	day	NOUN	I	14			ritter-582
@@ -15976,9 +15976,9 @@
 2	@DaymiCarolina	@daymicarolina	PROPN	O				ritter-625
 3	:	:	PUNCT	O				ritter-625
 4	Yayaayayay	yayaayayay	INTJ	O				ritter-625
-5	kings	kings	PROPN	O			n.group	ritter-625
-6	of	of	ADP	O				ritter-625
-7	leon	leon	PROPN	I	6			ritter-625
+5	kings	kings	PROPN	B			n.group	ritter-625
+6	of	of	ADP	o				ritter-625
+7	leon	leon	PROPN	I	5			ritter-625
 8	tonight	tonight	NOUN	O			n.time	ritter-625
 9	!!!	!!!	PUNCT	O				ritter-625
 
@@ -16112,9 +16112,9 @@
 19	items	items	NOUN	O			n.artifact	ritter-631
 20	arrive	arrive	VERB	O			v.motion	ritter-631
 21	from	from	ADP	O				ritter-631
-22	D	d	PROPN	O			n.location	ritter-631
-23	.	.	PUNCT	O				ritter-631
-24	C	c	PROPN	I	23			ritter-631
+22	D	d	PROPN	B			n.location	ritter-631
+23	.	.	PUNCT	o				ritter-631
+24	C	c	PROPN	I	22			ritter-631
 25	.	.	PUNCT	O				ritter-631
 
 1	RT	rt	X	O				ritter-632
@@ -16621,9 +16621,9 @@
 
 1	Exclusive	exclusive	ADJ	O				ritter-655
 2	:	:	PUNCT	O				ritter-655
-3	Rep	rep	PROPN	O			n.person	ritter-655
-4	.	.	PUNCT	O				ritter-655
-5	Steve	steve	PROPN	I	4			ritter-655
+3	Rep	rep	PROPN	B			n.person	ritter-655
+4	.	.	PUNCT	o				ritter-655
+5	Steve	steve	PROPN	I	3			ritter-655
 6	King	king	PROPN	I	5			ritter-655
 7	on	on	ADP	O				ritter-655
 8	ObamaCare	obamacare	PROPN	O			n.act	ritter-655
@@ -17676,9 +17676,9 @@
 1	In	in	ADP	O				ritter-711
 2	bed	bed	NOUN	O			n.location	ritter-711
 3	watching	watching	VERB	O			v.perception	ritter-711
-4	Day	day	NOUN	O			n.communication	ritter-711
-5	51	51	NUM	O				ritter-711
-6	HLs	hls	PROPN	I	5			ritter-711
+4	Day	day	NOUN	B			n.communication	ritter-711
+5	51	51	NUM	o				ritter-711
+6	HLs	hls	PROPN	I	4			ritter-711
 7	.	.	PUNCT	O				ritter-711
 8	(	(	PUNCT	O				ritter-711
 9	Awaiting	awaiting	VERB	O			v.cognition	ritter-711
@@ -17809,10 +17809,10 @@
 19	free	free	ADJ	O				ritter-719
 20	travel	travel	NOUN	B			n.attribute	ritter-719
 21	size	size	NOUN	I	20			ritter-719
-22	pronto	pronto	NOUN	O			n.artifact	ritter-719
-23	invisible	invisible	ADJ	O				ritter-719
-24	dry	dry	ADJ	O				ritter-719
-25	shampoo	shampoo	NOUN	I	24			ritter-719
+22	pronto	pronto	NOUN	B			n.artifact	ritter-719
+23	invisible	invisible	ADJ	o				ritter-719
+24	dry	dry	ADJ	o				ritter-719
+25	shampoo	shampoo	NOUN	I	22			ritter-719
 26	!	!	PUNCT	O				ritter-719
 
 1	Oh	oh	INTJ	O				ritter-720
@@ -17919,7 +17919,7 @@
 22	the	the	DET	O				ritter-723
 23	end	end	NOUN	O			n.time	ritter-723
 24	.	.	PUNCT	O				ritter-723
-25	-Larry	-larry	PROPN	O			n.person	ritter-723
+25	-Larry	-larry	PROPN	B			n.person	ritter-723
 26	Bird	bird	PROPN	I	25			ritter-723
 
 1	I	i	PRON	O				ritter-724
@@ -18061,9 +18061,9 @@
 
 1	I	i	PRON	O				ritter-731
 2	heart	heart	VERB	O			v.emotion	ritter-731
-3	Park(ing	park(ing	PROPN	O			n.event	ritter-731
-4	)	)	PUNCT	O				ritter-731
-5	Day	day	PROPN	I	4			ritter-731
+3	Park(ing	park(ing	PROPN	B			n.event	ritter-731
+4	)	)	PUNCT	o				ritter-731
+5	Day	day	PROPN	I	3			ritter-731
 6	!	!	PUNCT	O				ritter-731
 7	Photo	photo	NOUN	O			n.artifact	ritter-731
 8	of	of	ADP	O				ritter-731
