@@ -48,7 +48,7 @@ def add_mwe(sent):
 					# The gappy version of 'O'
 					sent[j]['mwe'] = 'o'
 
-			assert('mwe_offset' in token)
+			assert 'mwe_offset' in token, "Token '%s' in\t%s" % (token, sent)
 
 
 def output_sent(sent):

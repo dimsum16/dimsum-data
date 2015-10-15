@@ -6663,7 +6663,7 @@ I	PRON	O
 may	AUX	O
 not	ADV	O
 have	AUX	O
-got	VERB	I-verb.possession
+got	VERB	B-verb.possession
 a	DET	O
 job	NOUN	B-noun.act
 yet	ADV	O
