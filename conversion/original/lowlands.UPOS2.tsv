@@ -49,7 +49,7 @@ URL	NOUN	B-noun.communication
 on	ADP	O
 @USER	PROPN	B-noun.person
 
-Is	AUX	B-verb.stative
+Is	VERB	B-verb.stative
 your	DET	O
 cat	NOUN	B-noun.animal
 safe	ADJ	O
@@ -114,7 +114,7 @@ URL	NOUN	B-noun.communication
 Messi	PROPN	B-noun.person
 ,	PUNCT	O
 who	PRON	O
-is	AUX	B-verb.stative
+is	AUX	O
 recovering	VERB	B-verb.possession
 from	ADP	O
 a	DET	O
@@ -135,7 +135,7 @@ your	DET	O
 sexual	ADJ	O
 fantasy	NOUN	B-noun.person
 @USER	PROPN	I-noun.person
-has	AUX	B-verb.possession
+has	AUX	O
 probably	ADV	O
 written	VERB	B-verb.creation
 about	ADP	O
@@ -167,14 +167,14 @@ URL	NOUN	B-noun.communication
 #DoIt4Mucho	NOUN	B-noun.person
 #FreeKush	NOUN	B-noun.person
 
-Are	AUX	B-verb.stative
+Are	VERB	B-verb.stative
 you	PRON	O
 on	ADP	O
 Google+	PROPN	B-noun.person
 ?	PUNCT	O
 If	ADP	O
 you	PRON	O
-are	AUX	B-verb.stative
+are	VERB	B-verb.stative
 ,	PUNCT	O
 make	VERB	B-verb.social
 sure	ADJ	O
@@ -269,7 +269,7 @@ and	CONJ	O
 low	ADJ	O
 rain	NOUN	B-noun.state
 chances	NOUN	I-noun.state
-are	AUX	B-verb.stative
+are	VERB	B-verb.stative
 on	ADP	O
 tap	NOUN	B-noun.event
 to	ADP	O
@@ -308,7 +308,7 @@ URL	NOUN	B-noun.communication
 #Cinetainment	NOUN	B-noun.person
 :	PUNCT	O
 #Warning	NOUN	B-noun.person
-is	AUX	B-verb.stative
+is	VERB	B-verb.stative
 an	DET	O
 upcoming	ADJ	O
 Thriller	NOUN	B-noun.communication
@@ -325,7 +325,7 @@ features	VERB	B-verb.stative
 ...	PUNCT	O
 URL	NOUN	B-noun.communication
 
-Do	AUX	B-verb.social
+Do	AUX	O
 you	PRON	O
 know	VERB	B-verb.cognition
 Benjamin	PROPN	B-noun.event
@@ -366,7 +366,7 @@ in	ADP	O
 Oxford	PROPN	B-noun.location
 last	ADJ	O
 week	NOUN	B-noun.time
-was	AUX	B-verb.stative
+was	VERB	B-verb.stative
 magical	ADJ	O
 .	PUNCT	O
 Listen	VERB	B-verb.perception
@@ -382,7 +382,7 @@ URL	NOUN	B-noun.communication
 K-Dawg	PROPN	B-noun.person
 )	PUNCT	O
 I	PRON	O
-can	AUX	B-verb.change
+can	AUX	O
 cook	VERB	B-verb.creation
 ,	PUNCT	O
 bit	CONJ	O
@@ -521,7 +521,7 @@ advantage	NOUN	B-noun.attribute
 over	ADP	O
 cricket	NOUN	B-noun.animal
 of	ADP	O
-being	AUX	B-verb.stative
+being	AUX	O
 sooner	ADV	O
 ended	VERB	B-verb.stative
 -	PUNCT	O
@@ -531,7 +531,7 @@ Shaw	PROPN	B-noun.person
 URL	NOUN	B-noun.communication
 #Quotes	NOUN	B-noun.person
 
-Were	AUX	B-verb.stative
+Were	AUX	O
 ordered	VERB	B-verb.communication
 to	ADP	O
 chant	VERB	B-verb.communication
@@ -685,7 +685,7 @@ dad	NOUN	I-noun.person
 "	PUNCT	O
 Our	DET	O
 desire	NOUN	B-noun.feeling
-is	AUX	B-verb.stative
+is	VERB	B-verb.stative
 to	ADP	O
 make	VERB	B-verb.social
 it	PRON	O
@@ -711,7 +711,7 @@ controller(ACCA	NOUN	I-noun.person
 URL	NOUN	B-noun.communication
 
 We've	AUX	O
-been	AUX	B-verb.stative
+been	AUX	O
 waiting	VERB	B-verb.stative
 for	ADP	O
 you	PRON	O
@@ -951,7 +951,7 @@ The	DET	O
 Western	ADJ	O
 fence	NOUN	B-noun.animal
 lizard	NOUN	I-noun.animal
-has	AUX	B-verb.possession
+has	VERB	B-verb.possession
 a	DET	O
 protein	NOUN	B-noun.substance
 in	ADP	O
@@ -1130,7 +1130,7 @@ AgriNews	PROPN	B-noun.person
 :	PUNCT	O
 #Vilsack	PROPN	B-noun.person
 #US	PROPN	I-noun.person
-will	AUX	B-verb.communication
+will	AUX	O
 stop	VERB	B-verb.motion
 #cotton	NOUN	B-noun.possession
 payments	NOUN	I-noun.possession
@@ -1248,7 +1248,7 @@ Sturridge	PROPN	B-noun.person
 :	PUNCT	O
 The	DET	O
 NUMBER	NUM	B-noun.attribute
-has	AUX	B-verb.possession
+has	AUX	O
 scored	VERB	B-verb.competition
 winning	ADV	O
 ...	PUNCT	O
@@ -1259,7 +1259,7 @@ on	ADP	O
 @USER	PROPN	B-noun.person
 :	PUNCT	O
 VT	PROPN	B-noun.location
-is	AUX	B-verb.stative
+is	AUX	O
 starting	VERB	B-verb.change
 a	DET	O
 true	ADJ	O
@@ -1371,7 +1371,7 @@ Instagram	PROPN	B-noun.person
 URL	NOUN	B-noun.communication
 
 I	PRON	O
-DON	AUX	B-verb.body
+DON	AUX	O
 ?	PUNCT	O
 T	AUX	O
 GET	VERB	B-verb.possession
@@ -1629,7 +1629,7 @@ a	DET	O
 Grassroots	NOUN	B-noun.event
 Tsunami	NOUN	I-noun.event
 '	PUNCT	O
-is	AUX	B-verb.stative
+is	AUX	O
 Needed	VERB	B-verb.stative
 to	ADP	O
 Defund	VERB	O
@@ -1708,7 +1708,7 @@ Syria	PROPN	B-noun.location
 Changes	VERB	B-verb.change
 Course	NOUN	B-noun.act
 ,	PUNCT	O
-Will	AUX	B-verb.communication
+Will	AUX	O
 Allow	VERB	B-verb.social
 Inspectors	NOUN	B-noun.person
 :	PUNCT	O
@@ -1768,7 +1768,7 @@ Marriage	NOUN	I-noun.communication
 Legislation	NOUN	I-noun.communication
 "	PUNCT	O
 What	PRON	O
-do	AUX	B-verb.social
+do	AUX	O
 you	PRON	O
 think	VERB	B-verb.cognition
 ?	PUNCT	O
@@ -1928,7 +1928,7 @@ or	CONJ	O
 how	ADV	O
 low	ADJ	O
 you	PRON	O
-can	AUX	B-verb.change
+can	AUX	O
 set	VERB	B-verb.contact
 your	DET	O
 price	NOUN	B-noun.attribute
@@ -2106,7 +2106,7 @@ Godin	PROPN	I-noun.person
 .	PUNCT	O
 You	PRON	O
 don't	AUX	O
-need	AUX	B-verb.stative
+need	AUX	O
 to	ADP	O
 boil	VERB	B-verb.change
 the	DET	O
@@ -2157,14 +2157,14 @@ Imaging	PROPN	B-noun.cognition
 Society	PROPN	B-noun.group
 URL	NOUN	B-noun.communication
 
-Does	AUX	B-verb.social
+Does	AUX	O
 Evil	PROPN	B-noun.act
 ever	ADV	O
 really	ADV	O
 sleep	VERB	B-verb.body
 ?	PUNCT	O
 Or	CONJ	O
-does	AUX	B-verb.social
+does	AUX	O
 it	PRON	O
 just	ADV	O
 wait	VERB	B-verb.stative
@@ -2263,7 +2263,7 @@ gear	NOUN	I-noun.artifact
 URL	NOUN	B-noun.communication
 URL	NOUN	B-noun.communication
 
-Don	AUX	B-verb.body
+Don	AUX	O
 ?	PUNCT	O
 t	AUX	O
 get	VERB	B-verb.possession
@@ -2332,7 +2332,7 @@ You	PRON	O
 and	CONJ	O
 jack	PROPN	B-noun.quantity
 should	AUX	O
-get	AUX	B-verb.possession
+get	AUX	O
 married	VERB	B-verb.social
 already	ADV	O
 .	PUNCT	O
@@ -2347,14 +2347,14 @@ michigan	PROPN	B-noun.location
 URL	NOUN	B-noun.communication
 
 #NowPlaying	NOUN	B-noun.person
-Do	AUX	B-verb.social
+Do	VERB	B-verb.social
 You	PRON	O
 ...	PUNCT	O
 by	ADP	O
 Miguel	PROPN	B-noun.person
 on	ADP	O
 #Spotify	PROPN	B-noun.person
-Do	AUX	B-verb.social
+Do	AUX	O
 you	PRON	O
 like	VERB	B-verb.emotion
 drugs	NOUN	B-noun.artifact
@@ -2404,7 +2404,7 @@ Kraigg	PROPN	B-noun.person
 Brathwaite	PROPN	B-noun.person
 URL	NOUN	B-noun.communication
 
-Have	AUX	B-verb.possession
+Have	AUX	O
 you	PRON	O
 tried	VERB	B-verb.social
 our	DET	O
@@ -2606,7 +2606,7 @@ via	ADP	O
 @USER	PROPN	B-noun.person
 
 Who	PRON	O
-Is	AUX	B-verb.stative
+Is	AUX	O
 Missing	VERB	B-verb.perception
 From	ADP	O
 Danity	PROPN	B-noun.group
@@ -2765,7 +2765,7 @@ Reasons	NOUN	I-noun.motive
 Your	DET	O
 Job	NOUN	B-noun.act
 Search	NOUN	I-noun.act
-is	AUX	B-verb.stative
+is	AUX	O
 Falling	VERB	B-verb.motion
 Flat	PART	O
 |	PUNCT	O
@@ -2923,7 +2923,7 @@ Google	PROPN	B-noun.communication
 s	NOUN	B-noun.time
 local	ADJ	O
 business	NOUN	B-noun.group
-is	AUX	B-verb.stative
+is	AUX	O
 ?	PUNCT	O
 really	ADV	O
 struggling	VERB	B-verb.social
@@ -3059,7 +3059,7 @@ URL	NOUN	B-noun.communication
 
 How	ADV	O
 late	ADJ	O
-did	AUX	B-verb.social
+did	AUX	O
 you	PRON	O
 stay	VERB	B-verb.change
 up	PART	O
@@ -3151,7 +3151,7 @@ URL	NOUN	B-noun.communication
 Why	ADV	O
 Touch	NOUN	B-noun.artifact
 Screens	NOUN	I-noun.artifact
-Will	AUX	B-verb.communication
+Will	AUX	O
 Not	ADV	O
 Take	VERB	B-verb.social
 Over	PART	O

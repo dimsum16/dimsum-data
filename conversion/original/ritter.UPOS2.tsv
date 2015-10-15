@@ -1,6 +1,6 @@
 @PERSONGUY6661	PROPN	O
 I	PRON	O
-have	AUX	B-verb.possession
+have	VERB	B-verb.possession
 n't	ADV	O
 unfortunately	ADJ	O
 :(	INTJ	O
@@ -41,7 +41,7 @@ hate	VERB	B-verb.emotion
 when	ADV	O
 people	NOUN	B-noun.group
 say	VERB	B-verb.communication
-do	AUX	B-verb.social
+do	AUX	O
 n't	ADV	O
 judge	VERB	B-verb.cognition
 a	DET	O
@@ -52,7 +52,7 @@ cover	NOUN	B-noun.artifact
 
 I	PRON	O
 miss	VERB	B-verb.emotion
-being	AUX	B-verb.stative
+being	VERB	B-verb.stative
 able	ADJ	O
 to	PART	O
 run	VERB	B-verb.motion
@@ -63,7 +63,7 @@ all	DET	O
 day	NOUN	B-noun.time
 instead	ADV	O
 of	ADP	O
-having	AUX	B-verb.possession
+having	AUX	O
 to	PART	O
 catch	VERB	B-verb.possession
 my	PRON	O
@@ -76,7 +76,7 @@ my	PRON	O
 life	NOUN	B-noun.state
 .	PUNCT	O
 
-Is	AUX	B-verb.stative
+Is	AUX	O
 all	DET	O
 done	VERB	B-verb.creation
 getting	VERB	B-verb.possession
@@ -104,7 +104,7 @@ think	VERB	B-verb.cognition
 .	PUNCT	O
 
 I	PRON	O
-'ve	AUX	B-verb.possession
+'ve	AUX	O
 never	ADV	O
 found	VERB	B-verb.possession
 a	DET	O
@@ -115,7 +115,7 @@ preserve	VERB	B-verb.stative
 it	PRON	O
 but	CONJ	O
 it	PRON	O
-'s	AUX	B-verb.stative
+'s	VERB	B-verb.stative
 usually	ADV	O
 affordable	ADJ	O
 most	ADJ	O
@@ -153,7 +153,7 @@ Ustream	PROPN	B-noun.communication
 later	ADV	O
 tonight	NOUN	B-noun.time
 
-Have	AUX	B-verb.possession
+Have	VERB	B-verb.stative
 DJ	NOUN	B-noun.person
 Got	VERB	B-verb.possession
 Us	PRON	O
@@ -203,7 +203,7 @@ Write	VERB	B-verb.communication
 a	DET	O
 Resume	NOUN	B-noun.communication
 After	ADP	O
-Being	AUX	B-verb.stative
+Being	AUX	O
 Fired	VERB	B-verb.competition
 :	PUNCT	O
 Dealing	VERB	B-verb.social
@@ -214,7 +214,7 @@ write	VERB	B-verb.communication
 a	DET	O
 resume	NOUN	B-noun.communication
 after	ADP	O
-being	AUX	B-verb.stative
+being	AUX	O
 fired	NOUN	B-verb.competition
 is	VERB	B-verb.stative
 something	NOUN	B-noun.artifact
@@ -226,7 +226,7 @@ http://bit.ly/amRxFJ	X	O
 Amber	PROPN	B-noun.person
 Le	PROPN	I-noun.person
 Bon	PROPN	I-noun.person
-is	AUX	B-verb.stative
+is	AUX	O
 to	PART	O
 walk	VERB	B-verb.motion
 in	ADP	O
@@ -241,7 +241,7 @@ show	NOUN	I-noun.communication
 totally	INTJ	O
 !	PUNCT	O
 I	PRON	O
-can	AUX	B-verb.change
+can	AUX	O
 go	VERB	B-verb.motion
 a	DET	O
 week	NOUN	B-noun.time
@@ -327,7 +327,7 @@ us	PRON	O
 out	PART	O
 -	PUNCT	O
 we	PRON	O
-'re	AUX	B-verb.stative
+'re	AUX	O
 FEATURED	VERB	B-verb.stative
 on	ADP	O
 iTunes	PROPN	B-noun.artifact
@@ -372,7 +372,7 @@ today	NOUN	B-noun.time
 
 @justinbieber	PROPN	O
 I	PRON	O
-have	AUX	B-verb.possession
+have	VERB	B-verb.possession
 chance	NOUN	B-noun.state
 with	ADP	O
 you	PRON	O
@@ -405,10 +405,10 @@ from	ADP	O
 ppl	NOUN	B-noun.group
 when	ADV	O
 I	PRON	O
-'m	AUX	B-verb.stative
+'m	AUX	O
 jus	ADV	O
 tryna	VERB	B-verb.stative
-be	AUX	B-verb.stative
+be	VERB	B-verb.stative
 nice	ADJ	O
 n	CONJ	O
 shit	NOUN	B-noun.attribute
@@ -416,7 +416,7 @@ shit	NOUN	B-noun.attribute
 WTF	INTJ	O
 now	ADV	O
 I	PRON	O
-'m	AUX	B-verb.stative
+'m	VERB	B-verb.stative
 mad	ADJ	O
 so	ADP	O
 dnt	VERB	B-verb.stative
@@ -433,19 +433,19 @@ I	PRON	O
 remember	VERB	B-verb.cognition
 when	ADV	O
 i	PRON	O
-was	AUX	B-verb.stative
+was	VERB	B-verb.stative
 your	PRON	O
 age	NOUN	B-noun.attribute
 ,	PUNCT	O
 spencer	PROPN	B-noun.person
 from	ADP	O
 iCarly	PROPN	B-noun.person
-was	AUX	B-verb.stative
+was	VERB	B-verb.stative
 Crazy	PROPN	B-noun.person
 Steve	PROPN	I-noun.person
 ,	PUNCT	O
 Carly	PROPN	B-noun.person
-was	AUX	B-verb.stative
+was	VERB	B-verb.stative
 Megan	PROPN	B-noun.person
 and	CONJ	O
 Josh	PROPN	B-noun.person
@@ -511,7 +511,7 @@ I	PRON	O
 know	VERB	B-verb.cognition
 !	PUNCT	O
 She	PRON	O
-is	AUX	B-verb.stative
+is	VERB	B-verb.stative
 simply	ADV	O
 the	DET	O
 best	ADJ	O
@@ -537,7 +537,7 @@ Sodium	NOUN	B-noun.substance
 labels	NOUN	B-noun.communication
 may	AUX	O
 only	ADV	O
-have	AUX	B-verb.possession
+have	VERB	B-verb.possession
 25%	NUM	O
 less	ADJ	O
 sodium	NOUN	B-noun.substance
@@ -587,7 +587,7 @@ ha	INTJ	O
 Going	VERB	B-verb.motion
 now	ADV	O
 .	PUNCT	O
-Be	AUX	B-verb.stative
+Be	VERB	B-verb.stative
 back	ADV	O
 later	ADV	O
 tonight	NOUN	B-noun.time
@@ -644,7 +644,7 @@ day	NOUN	B-noun.time
 .	PUNCT	O
 My	PRON	O
 eyes	NOUN	B-noun.body
-are	AUX	B-verb.stative
+are	VERB	B-verb.stative
 getting	VERB	B-verb.change
 smaller	ADJ	O
 and	CONJ	O
@@ -700,7 +700,7 @@ sunday	PROPN	B-noun.time
 
 Think	VERB	B-verb.cognition
 I	PRON	O
-'m	AUX	B-verb.stative
+'m	AUX	O
 going	VERB	B-verb.motion
 to	PART	O
 give	VERB	B-verb.possession
@@ -760,7 +760,7 @@ explosion	NOUN	B-noun.event
 in	ADP	O
 #sanBrunofire	X	O
 -Who	PRON	O
-is	AUX	B-verb.stative
+is	AUX	O
 still	ADV	O
 defendi	VERB	B-verb.communication
 ...	PUNCT	O
@@ -818,7 +818,7 @@ again	ADV	O
 ?	PUNCT	O
 
 Today	NOUN	B-noun.time
-was	AUX	B-verb.stative
+was	VERB	B-verb.stative
 awesome	ADJ	O
 ,	PUNCT	O
 I	PRON	O
@@ -833,7 +833,7 @@ relax	VERB	B-verb.change
 My	PRON	O
 #twitter	NOUN	B-noun.attribute
 age	NOUN	I-noun.attribute
-is	AUX	B-verb.stative
+is	VERB	B-verb.stative
 458	NUM	O
 days	NOUN	B-noun.time
 0	NUM	O
@@ -891,18 +891,18 @@ tonight	NOUN	B-noun.time
 ....	PUNCT	O
 good	ADJ	O
 times	NOUN	B-noun.time
-are	AUX	B-verb.stative
+are	AUX	O
 approaching	VERB	B-verb.motion
 
 It	PRON	O
-'s	AUX	B-verb.stative
+'s	VERB	B-verb.stative
 official	NOUN	B-noun.communication
 .	PUNCT	O
 Next	ADJ	O
 book	NOUN	B-noun.act
 club	NOUN	I-noun.act
 selection	NOUN	I-noun.act
-is	AUX	B-verb.stative
+is	VERB	B-verb.stative
 "	PUNCT	O
 Not	PROPN	B-noun.communication
 a	PROPN	I-noun.communication
@@ -927,7 +927,7 @@ fantastic	ADJ	O
 .	PUNCT	O
 
 @FirstLadyEve	PROPN	O
-have	AUX	B-verb.possession
+have	VERB	B-verb.possession
 a	DET	O
 dating	NOUN	B-noun.act
 show	NOUN	I-noun.act
@@ -949,7 +949,7 @@ like	ADP	O
 @willdemps	PROPN	O
 my$	PRON	O
 on	ADP	O
-will	AUX	B-verb.communication
+will	VERB	B-verb.communication
 
 RT	X	O
 @twitter	PROPN	O
@@ -970,7 +970,7 @@ at	ADP	O
 PST	PROPN	B-noun.time
 .	PUNCT	O
 'll	AUX	O
-be	AUX	B-verb.stative
+be	AUX	O
 responding	VERB	B-verb.communication
 from	ADP	O
 his	PRON	O
@@ -982,7 +982,7 @@ Make	VERB	B-verb.social
 ...	PUNCT	O
 
 I	PRON	O
-need	AUX	B-verb.emotion
+need	VERB	B-verb.emotion
 a	DET	O
 syringe	NOUN	B-noun.artifact
 of	ADP	O
@@ -991,7 +991,7 @@ you	PRON	O
 want	VERB	B-verb.emotion
 but	CONJ	O
 which	DET	O
-will	AUX	B-verb.communication
+will	AUX	O
 switch	VERB	B-verb.change
 me	PRON	O
 off	PART	O
@@ -1008,7 +1008,7 @@ RT	X	O
 #FACT	NOUN	B-noun.communication
 when	ADV	O
 you	PRON	O
-are	AUX	B-verb.stative
+are	VERB	B-verb.stative
 comfortable	ADJ	O
 with	ADP	O
 yourself	PRON	O
@@ -1016,7 +1016,7 @@ nothing	NOUN	B-noun.quantity
 else	ADV	O
 matters	VERB	B-verb.stative
 nobody	NOUN	B-noun.person
-can	AUX	B-verb.change
+can	AUX	O
 tell	VERB	B-verb.communication
 you	PRON	O
 about	ADP	O
@@ -1032,7 +1032,7 @@ Serie	PROPN	B-noun.group
 A	PROPN	I-noun.group
 continues	VERB	B-verb.stative
 to	PART	O
-be	AUX	B-verb.stative
+be	VERB	B-verb.stative
 on	ADP	O
 the	DET	O
 tv	NOUN	B-noun.communication
@@ -1042,7 +1042,7 @@ week	NOUN	B-noun.time
 .	PUNCT	O
 This	DET	O
 strike	NOUN	B-noun.act
-has	AUX	B-verb.possession
+has	VERB	B-verb.possession
 fans	NOUN	B-noun.group
 of	ADP	O
 Calcio	PROPN	B-noun.group
@@ -1176,7 +1176,7 @@ me	PRON	O
 know	VERB	B-verb.cognition
 ,	PUNCT	O
 I	PROPN	B-noun.person
-will	AUX	B-verb.communication
+will	AUX	O
 let	VERB	B-verb.social
 you	PRON	O
 know	VERB	B-verb.cognition
@@ -1194,7 +1194,7 @@ lot	NOUN	B-noun.quantity
 
 @CULTOFMIKEY	PROPN	O
 It	PRON	O
-'s	AUX	B-verb.stative
+'s	VERB	B-verb.stative
 too	ADV	O
 long	ADJ	O
 ,	PUNCT	O
@@ -1203,7 +1203,7 @@ it	PRON	O
 just	ADV	O
 ...	PUNCT	O
 I	PRON	O
-do	AUX	B-verb.social
+do	AUX	O
 n't	ADV	O
 know	VERB	B-verb.cognition
 ,	PUNCT	O
@@ -1237,11 +1237,11 @@ party	NOUN	I-noun.act
 .	PUNCT	O
 As	ADP	O
 u	PRON	O
-can	AUX	B-verb.change
+can	AUX	O
 see	VERB	B-verb.perception
 her	PRON	O
 name	NOUN	B-noun.attribute
-is	AUX	B-verb.stative
+is	VERB	B-verb.stative
 taylor	PROPN	B-noun.person
 and	CONJ	O
 i	PRON	O
@@ -1265,7 +1265,7 @@ go	VERB	B-verb.motion
 shirtless	ADJ	O
 in	ADP	O
 school	NOUN	B-noun.location
-is	AUX	B-verb.stative
+is	VERB	B-verb.stative
 the	DET	O
 day	NOUN	B-noun.time
 I	PRON	O
@@ -1343,7 +1343,7 @@ home	X	O
 chilling	VERB	B-verb.stative
 guess	VERB	B-verb.cognition
 I	PRON	O
-'m	AUX	B-verb.stative
+'m	AUX	O
 staying	VERB	B-verb.stative
 in	PART	O
 2day	NOUN	B-noun.time
@@ -1351,7 +1351,7 @@ in	PART	O
 rest	VERB	B-verb.stative
 this	DET	O
 week	NOUN	B-noun.time
-was	AUX	B-verb.stative
+was	VERB	B-verb.stative
 crazy	ADJ	O
 but	CONJ	O
 I	PRON	O
@@ -1392,7 +1392,7 @@ and	CONJ	O
 as	ADV	O
 if	ADP	O
 I	PRON	O
-was	AUX	B-verb.stative
+was	AUX	O
 n't	ADV	O
 obsessed	VERB	B-verb.emotion
 with	ADP	O
@@ -1402,14 +1402,14 @@ already	ADV	O
 after	ADP	O
 Sunday	PROPN	B-noun.time
 I	PRON	O
-'ve	AUX	B-verb.possession
+'ve	AUX	O
 gotten	VERB	B-verb.possession
 even	ADV	O
 more	ADV	O
 so	ADV	O
 !!	PUNCT	O
 I	PRON	O
-'m	AUX	B-verb.stative
+'m	AUX	O
 so	ADV	O
 obsessed	VERB	B-verb.emotion
 with	ADP	O
@@ -1439,8 +1439,8 @@ tonight	NOUN	B-noun.time
 Hopefully	ADV	O
 the	DET	O
 Force	PROPN	B-noun.phenomenon
-will	AUX	B-verb.communication
-be	AUX	B-verb.stative
+will	AUX	O
+be	VERB	B-verb.stative
 VERY	ADV	O
 strong	ADJ	O
 with	ADP	O
@@ -1488,7 +1488,7 @@ drivers	NOUN	I-noun.communication
 http://f.ast.ly/DfxRf	X	O
 
 I	PRON	O
-was	AUX	B-verb.stative
+was	VERB	B-verb.stative
 15	NUM	O
 minutes	NOUN	B-noun.time
 late	ADJ	O
@@ -1502,7 +1502,7 @@ earlier	ADV	O
 today	NOUN	B-noun.time
 .	PUNCT	O
 I	PRON	O
-will	AUX	B-verb.communication
+will	AUX	O
 be	VERB	B-verb.stative
 20	NUM	O
 minutes	NOUN	B-noun.time
@@ -1531,11 +1531,11 @@ dad	NOUN	B-noun.person
 lest	VERB	O
 when	ADV	O
 i	PRON	O
-was	AUX	B-verb.stative
+was	VERB	B-verb.stative
 3	NUM	O
 .	PUNCT	O
 He	PRON	O
-has	AUX	B-verb.possession
+has	VERB	B-verb.possession
 issues	NOUN	B-noun.cognition
 .	PUNCT	O
 He	PRON	O
@@ -1546,7 +1546,7 @@ at	ADP	O
 mom	NOUN	B-noun.person
 .	PUNCT	O
 I	PRON	O
-can	AUX	B-verb.change
+can	AUX	O
 STILL	ADV	O
 remember	VERB	B-verb.cognition
 that	DET	O
@@ -1648,7 +1648,7 @@ pre-show	NOUN	I-noun.communication
 again	ADV	O
 lol	INTJ	O
 it	PRON	O
-was	AUX	B-verb.stative
+was	VERB	B-verb.stative
 n't	ADV	O
 even	ADV	O
 a	DET	O
@@ -1674,12 +1674,12 @@ tonight	NOUN	B-noun.time
 http://fb.me/I91IUaEq	X	O
 
 This	DET	O
-is	AUX	B-verb.stative
+is	VERB	B-verb.stative
 the	DET	O
 2nd	NUM	O
 hospital	NOUN	B-noun.location
 ive	PRON	O
-been	AUX	B-verb.stative
+been	VERB	B-verb.stative
 in	ADP	O
 today	NOUN	B-noun.time
 ,	PUNCT	O
@@ -1701,12 +1701,12 @@ justin	PROPN	B-noun.person
 
 Personal	ADJ	O
 Twitter	PROPN	B-noun.artifact
-is	AUX	B-verb.stative
+is	VERB	B-verb.stative
 now	ADV	O
 ago	ADV	O
 .	PUNCT	O
 People	NOUN	B-noun.group
-can	AUX	B-verb.change
+can	AUX	O
 now	ADV	O
 keep	VERB	B-verb.stative
 track	NOUN	B-noun.relation
@@ -1727,8 +1727,8 @@ whispering	VERB	B-verb.communication
 cause	ADP	O
 I	PRON	O
 may	AUX	O
-have	AUX	B-verb.possession
-had	AUX	B-verb.possession
+have	AUX	O
+had	VERB	B-verb.possession
 1	NUM	O
 too	ADV	O
 many	ADJ	O
@@ -1737,7 +1737,7 @@ vodka	NOUN	B-noun.food
 last	ADJ	O
 night	NOUN	B-noun.time
 and	CONJ	O
-am	AUX	B-verb.stative
+am	VERB	B-verb.stative
 a	DET	O
 lil	ADJ	O
 fragile	NOUN	B-noun.feeling
@@ -1752,7 +1752,7 @@ about	ADP	O
 the	DET	O
 site	NOUN	B-noun.location
 could	AUX	O
-be	AUX	B-verb.stative
+be	AUX	O
 changed	VERB	B-verb.change
 in	ADP	O
 order	NOUN	O
@@ -1857,7 +1857,7 @@ case	NOUN	B-noun.state
 I	PRON	O
 suppose	VERB	B-verb.cognition
 you	PRON	O
-will	AUX	B-verb.communication
+will	AUX	O
 not	ADV	O
 let	VERB	B-verb.social
 it	PRON	O
@@ -1869,8 +1869,8 @@ days	NOUN	B-noun.time
 
 So	ADP	O
 this	DET	O
-will	AUX	B-verb.communication
-be	AUX	B-verb.stative
+will	AUX	O
+be	VERB	B-verb.stative
 more	ADJ	O
 lhs	PROPN	B-noun.act
 games	NOUN	I-noun.act
@@ -1910,7 +1910,7 @@ when	ADV	O
 ya	PRON	O
 download	NOUN	B-noun.quantity
 limit	NOUN	I-noun.quantity
-has	AUX	B-verb.possession
+has	AUX	O
 been	VERB	B-verb.stative
 succeeded	ADV	O
 like	INTJ	O
@@ -1925,7 +1925,7 @@ MY	PRON	O
 MOTHER	NOUN	B-noun.person
 !!!!!!!!!!!...	PUNCT	O
 Where	ADV	O
-is	AUX	B-verb.stative
+is	VERB	B-verb.stative
 Dee	PROPN	B-noun.person
 when	ADV	O
 I	PRON	O
@@ -1948,13 +1948,13 @@ Container	PROPN	I-noun.artifact
 )	PUNCT	O
 
 MetroPCS	PROPN	B-noun.location
-has	AUX	B-verb.possession
+has	VERB	B-verb.possession
 the	DET	O
 worst	ADJ	O
 customer	NOUN	B-noun.relation
 service	NOUN	B-noun.relation
 I	PRON	O
-'ve	AUX	B-verb.possession
+'ve	AUX	O
 experienced	VERB	B-verb.perception
 in	ADP	O
 months	NOUN	B-noun.time
@@ -1972,7 +1972,7 @@ phone	NOUN	B-noun.artifact
 
 @xSophieBx	PROPN	O
 He	PRON	O
-has	AUX	B-verb.possession
+has	VERB	B-verb.possession
 a	DET	O
 habit	NOUN	B-noun.cognition
 of	ADP	O
@@ -1986,13 +1986,13 @@ you	PRON	O
 lol	INTJ	O
 
 I	PRON	O
-need	AUX	B-verb.stative
+need	AUX	O
 to	PART	O
 draw	VERB	B-verb.creation
 FASTER	ADJ	O
 .	PUNCT	O
 I	PRON	O
-'m	AUX	B-verb.stative
+'m	AUX	O
 gonna	VERB	O
 scan	VERB	B-verb.creation
 two	NUM	O
@@ -2141,7 +2141,7 @@ made	VERB	B-verb.social
 me	PRON	O
 smile	VERB	B-verb.body
 :D	INTJ	O
-do	AUX	B-verb.social
+do	AUX	O
 n't	ADV	O
 ring	VERB	B-verb.contact
 the	DET	O
@@ -2172,7 +2172,7 @@ with	ADP	O
 you	PRON	O
 what	PRON	O
 I`ll	PRON	O
-do	AUX	B-verb.social
+do	VERB	B-verb.social
 o	DET	O
 show	NOUN	B-noun.act
 in	ADP	O
@@ -2244,7 +2244,7 @@ work	NOUN	B-noun.location
 and	CONJ	O
 tomorrow	NOUN	B-noun.time
 I	PRON	O
-'m	AUX	B-verb.stative
+'m	AUX	O
 going	VERB	B-verb.motion
 home	NOUN	B-noun.location
 to	PART	O
@@ -2266,7 +2266,7 @@ now	ADV	O
 It	PRON	O
 might	AUX	O
 just	ADV	O
-be	AUX	B-verb.stative
+be	VERB	B-verb.stative
 me	PRON	O
 but	CONJ	O
 when	ADV	O
@@ -2303,7 +2303,7 @@ pard	NOUN	B-noun.animal
 taught	VERB	B-verb.communication
 me	PRON	O
 to	PART	O
-do	AUX	B-verb.social
+do	VERB	B-verb.social
 ..	PUNCT	O
 ears	NOUN	B-noun.body
 pulled	VERB	B-verb.contact
@@ -2317,7 +2317,7 @@ long*	ADJ	O
 Must	AUX	O
 say	VERB	B-verb.communication
 iPhone	NOUN	B-noun.artifact
-is	AUX	B-verb.stative
+is	VERB	B-verb.stative
 more	ADV	O
 accurate	ADJ	O
 .	PUNCT	O
@@ -2328,7 +2328,7 @@ here	ADP	O
 though	ADV	O
 ,	PUNCT	O
 Wrawby	PROPN	B-noun.location
-is	AUX	B-verb.stative
+is	VERB	B-verb.stative
 where	ADV	O
 I	PRON	O
 spent	VERB	B-verb.stative
@@ -2408,7 +2408,7 @@ bad	ADJ	O
 enough	ADV	O
 ,	PUNCT	O
 you	PRON	O
-will	AUX	B-verb.communication
+will	AUX	O
 find	VERB	B-verb.possession
 a	DET	O
 way	NOUN	B-noun.attribute
@@ -2441,7 +2441,7 @@ because	ADP	O
 I	PRON	O
 said	VERB	B-verb.communication
 you	PRON	O
-were	AUX	B-verb.stative
+were	VERB	B-verb.stative
 awesome	ADJ	O
 for	ADP	O
 joining	VERB	B-verb.social
@@ -2466,7 +2466,7 @@ RT	X	O
 Fall	PROPN	B-noun.group
 Out	PROPN	I-noun.group
 Boy	PROPN	I-noun.group
-is	AUX	B-verb.stative
+is	VERB	B-verb.stative
 gay	ADJ	O
 #reallymeans	X	O
 I	PRON	O
@@ -2481,7 +2481,7 @@ fan	NOUN	B-noun.person
 My	PRON	O
 first	ADJ	O
 assignment	NOUN	B-noun.communication
-was	AUX	B-verb.stative
+was	VERB	B-verb.stative
 a	DET	O
 medical	ADJ	O
 illustration	NOUN	B-noun.communication
@@ -2515,7 +2515,7 @@ the	DET	O
 other	ADJ	O
 day	NOUN	B-noun.time
 .	PUNCT	O
-Do	AUX	B-verb.social
+Do	AUX	O
 n't	ADV	O
 even	ADV	O
 waste	VERB	B-verb.possession
@@ -2555,16 +2555,16 @@ the	DET	O
 day	NOUN	B-noun.time
 Justin	PROPN	B-noun.person
 Bieber	PROPN	I-noun.person
-was	AUX	B-verb.stative
+was	AUX	O
 born	VERB	B-verb.stative
-was	AUX	B-verb.stative
+was	VERB	B-verb.stative
 a	DET	O
 rainy	ADJ	O
 day	NOUN	B-noun.time
 ,	PUNCT	O
 but	CONJ	O
 it	PRON	O
-was	AUX	B-verb.stative
+was	VERB	B-verb.stative
 no	DET	O
 rain	NOUN	B-noun.phenomenon
 ,	PUNCT	O
@@ -2572,7 +2572,7 @@ NO	INTJ	O
 !	PUNCT	O
 the	DET	O
 heaven	NOUN	B-noun.location
-was	AUX	B-verb.stative
+was	AUX	O
 crying	VERB	B-verb.emotion
 cause	ADP	O
 he	PRON	O
@@ -2607,7 +2607,7 @@ je	ADP	O
 Gert	PROPN	B-noun.person
 Jan	PROPN	I-noun.person
 
-Do	AUX	B-verb.social
+Do	AUX	O
 n't	ADV	O
 miss	VERB	B-verb.stative
 our	PRON	O
@@ -2623,8 +2623,8 @@ Party	NOUN	I-noun.act
 Tonight	NOUN	B-noun.time
 !	PUNCT	O
 We	PRON	O
-'re	AUX	B-verb.stative
-having	AUX	B-verb.possession
+'re	AUX	O
+having	VERB	B-verb.possession
 crazy	ADJ	O
 drink	NOUN	B-noun.food
 Specials	NOUN	I-noun.food
@@ -2644,7 +2644,7 @@ Tidyin	VERB	B-verb.change
 my	PRON	O
 room	NOUN	B-noun.location
 .	PUNCT	O
-Need	AUX	B-verb.stative
+Need	AUX	O
 to	PART	O
 do	VERB	B-verb.creation
 my	PRON	O
@@ -2681,8 +2681,8 @@ four	NUM	O
 fucking	ADJ	O
 years	NOUN	B-noun.time
 I	PRON	O
-'ve	AUX	B-verb.possession
-been	AUX	B-verb.stative
+'ve	AUX	O
+been	AUX	O
 configuring	VERB	B-verb.creation
 iBGP	PROPN	B-noun.artifact
 and	CONJ	O
@@ -2729,7 +2729,7 @@ there	ADV	O
 NEXT	ADJ	O
 YEAR	NOUN	B-noun.time
 I	PRON	O
-WILL	AUX	B-verb.communication
+WILL	VERB	B-verb.communication
 !	PUNCT	O
 
 RT	X	O
@@ -2752,7 +2752,7 @@ Etc	X	O
 Etc	X	O
 ....	PUNCT	O
 I	PRON	O
-'m	AUX	B-verb.stative
+'m	AUX	O
 gonna	VERB	O
 need	VERB	B-verb.stative
 some	DET	O
@@ -2787,13 +2787,13 @@ ACF	PROPN	B-noun.group
 Friday	PROPN	I-noun.group
 Large	PROPN	I-noun.group
 Group	PROPN	I-noun.group
-is	AUX	B-verb.stative
+is	VERB	B-verb.stative
 at	ADP	O
 PITT	PROPN	B-noun.group
 University	PROPN	I-noun.group
 !	PUNCT	O
 It	PRON	O
-'s	AUX	B-verb.stative
+'s	VERB	B-verb.stative
 at	ADP	O
 Cathedral	PROPN	B-noun.location
 of	PROPN	I-noun.location
@@ -2802,7 +2802,7 @@ G24	PROPN	I-noun.location
 at	ADP	O
 7pm	NUM	O
 !	PUNCT	O
-Be	AUX	B-verb.stative
+Be	VERB	B-verb.stative
 sure	ADJ	O
 to	PART	O
 check	VERB	B-verb.cognition
@@ -2900,7 +2900,7 @@ wood	PROPN	B-noun.person
 .	PUNCT	O
 "	PUNCT	O
 I	PRON	O
-'m	AUX	B-verb.stative
+'m	AUX	O
 scared	VERB	B-verb.emotion
 "	PUNCT	O
 #pow#pow#pow@Cowboy_Wingo	X	O
@@ -2980,7 +2980,7 @@ we	PRON	O
 or	CONJ	O
 the	DET	O
 best	ADJ	O
-is	AUX	B-verb.stative
+is	AUX	O
 just	ADV	O
 walking	VERB	B-verb.motion
 along	ADP	O
@@ -2994,7 +2994,7 @@ it	PRON	O
 just	ADV	O
 appears	VERB	B-verb.perception
 to	PART	O
-be	AUX	B-verb.stative
+be	AUX	O
 waiting	VERB	B-verb.stative
 in	ADP	O
 front	NOUN	B-noun.location
@@ -3006,7 +3006,7 @@ time	NOUN	B-noun.time
 #icky	X	O
 
 What	PRON	O
-is	AUX	B-verb.stative
+is	VERB	B-verb.stative
 it	PRON	O
 with	ADP	O
 people	NOUN	B-noun.group
@@ -3016,20 +3016,20 @@ punctuality	ADV	O
 I	PRON	O
 used	VERB	B-verb.social
 to	PART	O
-be	AUX	B-verb.stative
+be	VERB	B-verb.stative
 that	DET	O
 guy	NOUN	B-noun.person
 and	CONJ	O
 honestly	ADV	O
 ,	PUNCT	O
 it	PRON	O
-'s	AUX	B-verb.stative
+'s	VERB	B-verb.stative
 a	DET	O
 haze	NOUN	B-noun.phenomenon
 now	ADV	O
 .	PUNCT	O
 Just	ADV	O
-be	AUX	B-verb.stative
+be	VERB	B-verb.stative
 on	ADP	O
 time	NOUN	B-noun.time
 .	PUNCT	O
@@ -3061,7 +3061,7 @@ http://youtu.be/ErPsx8zdnX4?a	X	O
 @bookpage	PROPN	O
 We	PRON	O
 should	AUX	O
-'ve	AUX	B-verb.possession
+'ve	AUX	O
 scheduled	VERB	B-verb.cognition
 a	DET	O
 meeting	NOUN	B-noun.act
@@ -3084,7 +3084,7 @@ the	DET	O
 most	ADV	O
 important	ADJ	O
 thing	NOUN	B-noun.state
-is	AUX	B-verb.stative
+is	VERB	B-verb.stative
 that	DET	O
 'll	AUX	O
 be	VERB	B-verb.stative
@@ -3095,7 +3095,7 @@ that	DET	O
 !	PUNCT	O
 
 I	PRON	O
-have	AUX	B-verb.possession
+have	VERB	B-verb.possession
 a	DET	O
 test	NOUN	B-noun.act
 tomorrow	NOUN	B-noun.time
@@ -3107,7 +3107,7 @@ say	VERB	B-verb.communication
 "	PUNCT	O
 the	DET	O
 shore	NOUN	B-noun.communication
-was	AUX	B-verb.stative
+was	VERB	B-verb.stative
 on	ADP	O
 ,	PUNCT	O
 and	CONJ	O
@@ -3152,7 +3152,7 @@ http://bit.ly/f3YPEB	X	O
 @Cuthouse_Hadi	PROPN	O
 when	ADV	O
 someone	NOUN	B-noun.person
-is	AUX	B-verb.stative
+is	AUX	O
 talking	VERB	B-verb.communication
 shit	NOUN	B-noun.communication
 ,	PUNCT	O
@@ -3181,7 +3181,7 @@ ROH	PROPN	B-noun.act
 shows	NOUN	I-noun.act
 .	PUNCT	O
 How	ADV	O
-am	AUX	B-verb.stative
+am	AUX	O
 I	PRON	O
 gonna	VERB	O
 rep	VERB	B-verb.social
@@ -3233,7 +3233,7 @@ Cier	PROPN	B-noun.person
 http://bit.ly/f3YPEB	X	O
 
 @YasminBaildon	PROPN	O
-do	AUX	B-verb.social
+do	AUX	O
 you	PRON	O
 think	VERB	B-verb.cognition
 its	PRON	O
@@ -3256,7 +3256,7 @@ big	ADJ	O
 
 So	INTJ	O
 I	PRON	O
-'m	AUX	B-verb.stative
+'m	AUX	O
 currently	ADV	O
 looking	VERB	B-verb.perception
 at	ADP	O
@@ -3268,7 +3268,7 @@ and	CONJ	O
 months	NOUN	B-noun.time
 if	ADP	O
 I	PRON	O
-can	AUX	B-verb.change
+can	AUX	O
 get	VERB	B-verb.motion
 out	ADP	O
 of	ADP	O
@@ -3285,17 +3285,17 @@ RT	X	O
 Retweet	VERB	B-verb.communication
 if	ADP	O
 you	PRON	O
-'re	AUX	B-verb.stative
-being	AUX	B-verb.stative
+'re	AUX	O
+being	AUX	O
 distracted	VERB	B-verb.emotion
 by	ADP	O
 twitter	PROPN	B-noun.artifact
 when	ADV	O
 you	PRON	O
-'re	AUX	B-verb.stative
+'re	AUX	O
 supposed	VERB	B-verb.stative
 to	PART	O
-be	AUX	B-verb.stative
+be	AUX	O
 studying/doing	VERB	B-verb.cognition
 homework	NOUN	B-noun.act
 !	PUNCT	O
@@ -3317,7 +3317,7 @@ My	PRON	O
 wife	NOUN	B-noun.person
 and	CONJ	O
 I	PRON	O
-are	AUX	B-verb.stative
+are	AUX	O
 beginning	VERB	B-verb.change
 to	PART	O
 look	VERB	B-verb.perception
@@ -3328,7 +3328,7 @@ http://bit.ly/hgMKjS	X	O
 
 @justinbieber	PROPN	O
 I	PRON	O
-have	AUX	B-verb.possession
+have	VERB	B-verb.possession
 this	DET	O
 on	ADP	O
 my	PRON	O
@@ -3378,7 +3378,7 @@ year	NOUN	B-noun.time
 ago	ADV	O
 ...	PUNCT	O
 you	PRON	O
-can	AUX	B-verb.change
+can	AUX	O
 prolly	ADV	O
 stay	VERB	B-verb.social
 with	ADP	O
@@ -3441,7 +3441,7 @@ http://newzfor.me/?bv5q	X	O
 
 @elizabethgrace7	PROPN	O
 I	PRON	O
-'m	AUX	B-verb.stative
+'m	AUX	O
 leaving	VERB	B-verb.motion
 June	PROPN	B-noun.time
 21	NUM	O
@@ -3457,7 +3457,7 @@ Europe	PROPN	B-noun.location
 
 wait	INTJ	O
 what	PRON	O
-was	AUX	B-verb.stative
+was	VERB	B-verb.stative
 ur	PRON	O
 question	NOUN	B-noun.communication
 :o	INTJ	O
@@ -3540,7 +3540,7 @@ today	NOUN	B-noun.time
 Threesum	NOUN	B-noun.act
 !	PUNCT	O
 This	DET	O
-is	AUX	B-verb.stative
+is	VERB	B-verb.stative
 the	DET	O
 time	NOUN	B-noun.event
 !	PUNCT	O
@@ -3619,7 +3619,7 @@ Progress	NOUN	B-noun.act
 Steps	PROPN	I-noun.group
 Back	PROPN	I-noun.group
 will	AUX	O
-be	AUX	B-verb.stative
+be	AUX	O
 playing	VERB	B-verb.communication
 at	ADP	O
 Ugly	PROPN	B-noun.location
@@ -3665,7 +3665,7 @@ alot	ADV	O
 and	CONJ	O
 then	ADP	O
 they	PRON	O
-do	AUX	B-verb.social
+do	VERB	B-verb.social
 this	DET	O
 ''	PUNCT	O
 Top	PROPN	B-noun.person
@@ -3685,7 +3685,7 @@ tryy~	VERB	B-verb.stative
 Hope	VERB	B-verb.emotion
 the	DET	O
 Sharks	PROPN	B-noun.animal
-will	AUX	B-verb.communication
+will	AUX	O
 try	VERB	B-verb.social
 tonight	NOUN	B-noun.time
 ,	PUNCT	O
@@ -3724,7 +3724,7 @@ epic-ism	ADJ	O
 all	DET	O
 over	ADP	O
 !!!	PUNCT	O
-Be	AUX	B-verb.stative
+Be	VERB	B-verb.stative
 sure	ADJ	O
 to	PART	O
 ride	VERB	B-verb.motion
@@ -3740,10 +3740,10 @@ interest	NOUN	B-noun.possession
 rates	NOUN	I-noun.possession
 ,	PUNCT	O
 2011	NUM	O
-is	AUX	B-verb.stative
+is	AUX	O
 proving	VERB	B-verb.stative
 to	PART	O
-be	AUX	B-verb.stative
+be	VERB	B-verb.stative
 a	DET	O
 great	ADJ	O
 time	NOUN	B-noun.time
@@ -3768,7 +3768,7 @@ your	PRON	O
 face	NOUN	B-noun.body
 .	PUNCT	O
 i	PRON	O
-was	AUX	B-verb.stative
+was	AUX	O
 thinking	VERB	B-verb.cognition
 the	DET	O
 other	ADJ	O
@@ -3776,7 +3776,7 @@ day	NOUN	B-noun.time
 how	ADV	O
 excited	ADJ	O
 you	PRON	O
-were	AUX	B-verb.stative
+were	VERB	B-verb.stative
 when	ADV	O
 you	PRON	O
 first	ADV	O
@@ -3795,7 +3795,7 @@ unfollowing	NOUN	B-noun.act
 spree	NOUN	I-noun.act
 ...	PUNCT	O
 there	DET	O
-'s	AUX	B-verb.stative
+'s	VERB	B-verb.stative
 no	DET	O
 point	NOUN	B-noun.cognition
 of	ADP	O
@@ -3803,7 +3803,7 @@ following	VERB	B-verb.communication
 you	PRON	O
 if	ADP	O
 you	PRON	O
-have	AUX	B-verb.communication
+have	AUX	O
 n't	ADV	O
 tweeted	VERB	B-verb.communication
 in	ADP	O
@@ -3887,13 +3887,13 @@ Wild	PROPN	B-noun.group
 :	PUNCT	O
 Thursday	PROPN	B-noun.time
 night	NOUN	I-noun.time
-is	AUX	B-verb.stative
+is	AUX	O
 reserved	VERB	B-verb.possession
 for	ADP	O
 hockey	NOUN	B-noun.act
 as	ADP	O
 we	PRON	O
-are	AUX	B-verb.stative
+are	AUX	O
 taking	VERB	B-verb.stative
 a	DET	O
 good	ADJ	O
@@ -3904,8 +3904,8 @@ the	DET	O
 http://bit.ly/gw8oSb	X	O
 
 I	PRON	O
-'ve	AUX	B-verb.possession
-been	AUX	B-verb.stative
+'ve	AUX	O
+been	VERB	B-verb.stative
 at	ADP	O
 this	DET	O
 '	PUNCT	O
@@ -3973,14 +3973,14 @@ night	NOUN	B-noun.state
 Heyyyyy	INTJ	O
 !	PUNCT	O
 When	ADV	O
-are	AUX	B-verb.stative
+are	AUX	O
 you	PRON	O
 ever	ADV	O
 coming	VERB	B-verb.motion
 back	ADV	O
 .	PUNCT	O
 Ummm	INTJ	O
-can	AUX	B-verb.change
+can	AUX	O
 you	PRON	O
 like	ADV	O
 call	VERB	B-verb.communication
@@ -3991,7 +3991,7 @@ meee	PRON	O
 me	PRON	O
 thinks	VERB	B-verb.cognition
 it	PRON	O
-was	AUX	B-verb.stative
+was	VERB	B-verb.stative
 tedious	ADJ	O
 and	CONJ	O
 a	DET	O
@@ -4030,7 +4030,7 @@ tomorrow	NOUN	B-noun.time
 ...	PUNCT	O
 and	CONJ	O
 i	PRON	O
-will	AUX	B-verb.communication
+will	VERB	B-verb.communication
 
 @hime8644	PROPN	O
 LOL	INTJ	O
@@ -4053,8 +4053,8 @@ http://www.youtube.com/watch?v=8zJKZJ7TGlU	X	O
 OMG	INTJ	O
 *DROOLS*	INTJ	O
 
-Has	AUX	B-verb.possession
-been	AUX	B-verb.stative
+Has	AUX	O
+been	VERB	B-verb.stative
 a	DET	O
 good	ADJ	O
 week	NOUN	B-noun.time
@@ -4085,7 +4085,7 @@ RT	X	O
 Yeah	INTJ	O
 if	ADP	O
 I	PRON	O
-were	AUX	B-verb.stative
+were	VERB	B-verb.stative
 you	PRON	O
 I'd	PRON	O
 sleep	VERB	B-verb.stative
@@ -4119,18 +4119,18 @@ RT	X	O
 :	PUNCT	O
 Scrubs	PROPN	B-noun.group
 fans	NOUN	I-noun.group
-are	AUX	B-verb.stative
+are	VERB	B-verb.stative
 on	ADP	O
 fire	NOUN	B-noun.attribute
 !	PUNCT	O
 Our	PRON	O
 tvguide.ca/soaps	PROPN	B-noun.artifact
 poll	NOUN	I-noun.artifact
-is	AUX	B-verb.stative
+is	VERB	B-verb.stative
 fiery	ADJ	O
 tonight	NOUN	B-noun.time
 .	PUNCT	O
-Do	AUX	B-verb.social
+Do	AUX	O
 n't	ADV	O
 f*ck	VERB	B-verb.social
 with	ADP	O
@@ -4173,10 +4173,10 @@ haha	INTJ	O
 Sleep	VERB	B-verb.stative
 .	PUNCT	O
 Tomorrow	NOUN	B-noun.time
-is	AUX	B-verb.stative
+is	VERB	B-verb.stative
 Friday	PROPN	B-noun.time
 which	DET	O
-is	AUX	B-verb.stative
+is	VERB	B-verb.stative
 good	ADJ	O
 ,	PUNCT	O
 but	CONJ	O
@@ -4184,19 +4184,19 @@ then	ADP	O
 Saturday	PROPN	B-noun.time
 ,	PUNCT	O
 I	PRON	O
-have	AUX	B-verb.possession
+have	VERB	B-verb.possession
 work	NOUN	B-noun.act
 .	PUNCT	O
 Ugh	INTJ	O
 .	PUNCT	O
 I	PRON	O
-have	AUX	B-verb.possession
+have	VERB	B-verb.possession
 basically	ADV	O
 no	DET	O
 break	NOUN	B-noun.act
 because	ADP	O
 I	PRON	O
-am	AUX	B-verb.stative
+am	AUX	O
 doing	VERB	B-verb.creation
 homework	NOUN	B-noun.act
 sunday	NOUN	B-noun.time
@@ -4438,7 +4438,7 @@ myself	PRON	O
 .	PUNCT	O
 
 when	ADV	O
-does	AUX	B-verb.social
+does	AUX	O
 skins	PROPN	B-noun.artifact
 start	VERB	B-verb.change
 ?	PUNCT	O
@@ -4468,10 +4468,10 @@ save	VERB	B-verb.social
 Sunshine	PROPN	B-noun.animal
 .	PUNCT	O
 She	PRON	O
-is	AUX	B-verb.stative
+is	AUX	O
 scheduled	VERB	B-verb.stative
 to	PART	O
-be	AUX	B-verb.stative
+be	AUX	O
 put	VERB	B-verb.contact
 down	PART	O
 at	ADP	O
@@ -4500,13 +4500,13 @@ man	NOUN	B-noun.person
 down	ADP	O
 when	ADV	O
 he	PRON	O
-'s	AUX	B-verb.stative
+'s	AUX	O
 doin	VERB	B-verb.stative
 what	PRON	O
 he	PRON	O
-has	AUX	B-verb.possession
+has	AUX	O
 2	PART	O
-do	AUX	B-verb.social
+do	AUX	O
 2	PART	O
 make	VERB	B-verb.social
 it	PRON	O
@@ -4521,7 +4521,7 @@ T	NOUN	O
 @Khunnie0624	PROPN	O
 because	ADP	O
 I	PRON	O
-have	AUX	B-verb.possession
+have	VERB	B-verb.possession
 no	DET	O
 time	NOUN	B-noun.time
 to	PART	O
@@ -4543,7 +4543,7 @@ when	ADV	O
 Sid	PROPN	B-noun.person
 and	CONJ	O
 Jack	PROPN	B-noun.person
-were	AUX	B-verb.stative
+were	AUX	O
 both	DET	O
 drafted	VERB	B-verb.social
 before	ADP	O
@@ -4561,7 +4561,7 @@ times	NOUN	B-noun.time
 
 my	PRON	O
 tl	NOUN	B-noun.artifact
-is	AUX	B-verb.stative
+is	VERB	B-verb.stative
 full	ADJ	O
 of	ADP	O
 jersey	PROPN	B-noun.artifact
@@ -4576,7 +4576,7 @@ now	ADV	O
 
 Jersey	PROPN	B-noun.artifact
 Shore	PROPN	I-noun.artifact
-is	AUX	B-verb.stative
+is	AUX	O
 overrated	VERB	B-verb.cognition
 .	PUNCT	O
 studying	VERB	B-verb.cognition
@@ -4633,7 +4633,7 @@ he	PRON	O
 and	CONJ	O
 Ally	PROPN	B-noun.person
 Hilfiger	PROPN	I-noun.person
-are	AUX	B-verb.stative
+are	AUX	O
 now	ADV	O
 working	VERB	B-verb.social
 together	ADV	O
@@ -4668,7 +4668,7 @@ yo	INTJ	O
 too	ADV	O
 many	ADJ	O
 kidz	NOUN	B-noun.person
-be	AUX	B-verb.stative
+be	AUX	O
 gettin	VERB	I-verb.stative
 high	NOUN	B-noun.attribute
 all	DET	O
@@ -4683,7 +4683,7 @@ enough	ADJ	O
 SKILLS	NOUN	B-noun.attribute
 .	PUNCT	O
 that	DET	O
-'s	AUX	B-verb.stative
+'s	VERB	B-verb.stative
 what	PRON	O
 we	PRON	O
 call	VERB	B-verb.communication
@@ -4695,7 +4695,7 @@ st	NOUN	O
 ...	PUNCT	O
 
 I	PRON	O
-have	AUX	B-verb.possession
+have	VERB	B-verb.possession
 $7	NOUN	B-noun.possession
 and	CONJ	O
 my	PRON	O
@@ -4711,7 +4711,7 @@ Weeeeee	INTJ	O
 !	PUNCT	O
 
 i	PRON	O
-have	AUX	B-verb.possession
+have	AUX	O
 to	PART	O
 say	VERB	B-verb.communication
 .	PUNCT	O
@@ -4730,8 +4730,8 @@ interesting	ADJ	O
 even	ADV	O
 if	ADP	O
 i	PRON	O
-do	AUX	B-verb.social
-have	AUX	B-verb.possession
+do	AUX	O
+have	AUX	O
 to	PART	O
 clean	VERB	B-verb.change
 up	PART	O
@@ -4784,16 +4784,16 @@ RT	X	O
 :	PUNCT	O
 It	PRON	O
 would	AUX	O
-be	AUX	B-verb.stative
+be	VERB	B-verb.stative
 perfect	ADJ	O
 if	ADP	O
 girls	NOUN	B-noun.person
-had	AUX	B-verb.possession
+had	VERB	B-verb.possession
 mute	NOUN	B-noun.artifact
 buttons	NOUN	I-noun.artifact
 ,	PUNCT	O
 guys	NOUN	B-noun.person
-had	AUX	B-verb.possession
+had	VERB	B-verb.possession
 edit	NOUN	B-noun.artifact
 buttons	NOUN	I-noun.artifact
 ,	PUNCT	O
@@ -4812,7 +4812,7 @@ time	NOUN	B-noun.event
 @keridiculous	PROPN	O
 He	PRON	O
 may	AUX	O
-need	AUX	B-verb.stative
+need	AUX	O
 cure	NOUN	B-noun.artifact
 named	VERB	B-verb.communication
 The	PROPN	B-noun.act
@@ -4862,7 +4862,7 @@ RT	X	O
 :	PUNCT	O
 If	ADP	O
 I	PRON	O
-was	AUX	B-verb.stative
+was	VERB	B-verb.stative
 a	DET	O
 whale	NOUN	B-noun.animal
 I'd	PRON	O
@@ -4904,7 +4904,7 @@ watch	VERB	B-verb.perception
 :	PUNCT	O
 My	PRON	O
 question	NOUN	B-noun.communication
-is	AUX	B-verb.stative
+is	VERB	B-verb.stative
 why	ADV	O
 ,	PUNCT	O
 when	ADV	O
@@ -4921,8 +4921,8 @@ aww	INTJ	O
 yeah	INTJ	O
 ,	PUNCT	O
 its	PRON	O
-gonna	VERB	O
-be	AUX	B-verb.stative
+gonna	AUX	O
+be	VERB	B-verb.stative
 one	NUM	O
 to	PART	O
 remember	VERB	B-verb.cognition
@@ -4934,13 +4934,13 @@ day	NOUN	B-noun.time
 ,	PUNCT	O
 my	PRON	O
 sis	NOUN	B-noun.person
-is	AUX	B-verb.stative
+is	AUX	O
 getting	VERB	B-verb.social
 married	VERB	I-verb.social
 &lt;	INTJ	O
 3	INTJ	O
 yours	PRON	O
-is	AUX	B-verb.stative
+is	AUX	O
 marked	VERB	B-verb.contact
 special	NOUN	B-noun.act
 occassion	NOUN	I-noun.act
@@ -4976,7 +4976,7 @@ Oh	INTJ	O
 no	INTJ	O
 ,	PUNCT	O
 I	PRON	O
-did	AUX	B-verb.social
+did	VERB	B-verb.social
 it	PRON	O
 after	ADP	O
 you	PRON	O
@@ -5002,7 +5002,7 @@ a	DET	O
 relationship	NOUN	B-noun.relation
 to	PART	O
 survive	VERB	B-verb.stative
-is	AUX	B-verb.stative
+is	VERB	B-verb.stative
 when	ADV	O
 no	DET	O
 one	NOUN	B-noun.quantity
@@ -5013,9 +5013,9 @@ it	PRON	O
 
 @YvesSaintLinda	PROPN	O
 I	PRON	O
-have	AUX	B-verb.possession
+have	AUX	O
 n't	ADV	O
-had	AUX	B-verb.possession
+had	VERB	B-verb.possession
 a	DET	O
 chance	NOUN	B-noun.state
 to	PART	O
@@ -5028,7 +5028,7 @@ shopping	NOUN	B-noun.act
 spree	NOUN	I-noun.act
 but	CONJ	O
 i	PRON	O
-will	AUX	B-verb.communication
+will	VERB	B-verb.communication
 soon	ADV	O
 .	PUNCT	O
 Everyone	NOUN	B-noun.person
@@ -5046,7 +5046,7 @@ Years	NOUN	B-noun.time
 of	ADP	O
 hard	ADJ	O
 work	NOUN	B-noun.act
-are	AUX	B-verb.stative
+are	AUX	O
 starting	VERB	B-verb.change
 to	PART	O
 pay	VERB	B-verb.possession
@@ -5090,7 +5090,7 @@ http://bit.ly/gy6Oqe	X	O
 
 @amandamaryyy	PROPN	O
 that	DET	O
-'s	AUX	B-verb.stative
+'s	VERB	B-verb.stative
 no	DET	O
 good	ADJ	O
 maybe	ADV	O
@@ -5109,7 +5109,7 @@ out	ADP	O
 the	DET	O
 dryer	NOUN	B-noun.artifact
 it	PRON	O
-will	AUX	B-verb.communication
+will	AUX	O
 be	VERB	B-verb.stative
 nice	ADJ	O
 and	CONJ	O
@@ -5152,7 +5152,7 @@ Friday	PROPN	B-noun.person
 barbiez	NOUN	I-noun.person
 !!	PUNCT	O
 monsters	NOUN	B-noun.person
-are	AUX	B-verb.stative
+are	AUX	O
 taking	VERB	B-verb.social
 over	ADP	O
 .	PUNCT	O
@@ -5165,12 +5165,12 @@ RT	X	O
 Oh	INTJ	O
 ,	PUNCT	O
 and	CONJ	O
-do	AUX	B-verb.social
+do	AUX	O
 n't	ADV	O
 forget	VERB	B-verb.cognition
 that	ADP	O
 there	DET	O
-'s	AUX	B-verb.stative
+'s	VERB	B-verb.stative
 another	DET	O
 chance	NOUN	B-noun.state
 to	PART	O
@@ -5206,7 +5206,7 @@ you	PRON	O
 on	ADP	O
 wednesday	PROPN	B-noun.time
 .....	PUNCT	O
-will	AUX	B-verb.communication
+will	AUX	O
 you	PRON	O
 come	VERB	B-verb.motion
 out	PART	O
@@ -5350,7 +5350,7 @@ night	NOUN	B-noun.time
 !	PUNCT	O
 
 I	PRON	O
-need	AUX	B-verb.stative
+need	AUX	O
 to	PART	O
 go	VERB	B-verb.motion
 get	VERB	B-verb.possession
@@ -5478,7 +5478,7 @@ Gates	PROPN	B-noun.person
 :	PUNCT	O
 The	DET	O
 Sun	NOUN	B-noun.object
-Will	AUX	B-verb.communication
+Will	AUX	O
 Rise	VERB	B-verb.motion
 ...	PUNCT	O
 This	DET	O
@@ -5645,7 +5645,7 @@ P-D	PROPN	B-noun.location
 http://bit.ly/gsSina	X	O
 
 Today	NOUN	B-noun.time
-is	AUX	B-verb.stative
+is	VERB	B-verb.stative
 a	DET	O
 new	ADJ	O
 day	NOUN	B-noun.state
@@ -5793,7 +5793,7 @@ GooDNighT	INTJ	O
 ELFs	NOUN	B-noun.group
 ..	PUNCT	O
 i	PRON	O
-have	AUX	B-verb.stative
+have	AUX	O
 to	PART	O
 go	VERB	B-verb.motion
 now	ADV	O
@@ -5896,13 +5896,13 @@ OMG	INTJ	O
 ,	PUNCT	O
 you	PRON	O
 guys	NOUN	B-noun.group
-are	AUX	B-verb.stative
+are	VERB	B-verb.stative
 too	ADV	O
 funny	ADJ	O
 today	ADV	B-noun.time
 .	PUNCT	O
 I	PRON	O
-'m	AUX	B-verb.stative
+'m	VERB	B-verb.stative
 all	DET	O
 about	ADP	O
 the	DET	O
@@ -5954,7 +5954,7 @@ book	NOUN	B-noun.communication
 i	PRON	O
 have	AUX	O
 to	PART	O
-do	AUX	B-verb.cognition
+do	VERB	B-verb.cognition
 it	PRON	O
 before	ADP	O
 Feb	PROPN	B-noun.time
@@ -6135,7 +6135,7 @@ night	NOUN	B-noun.time
 .	PUNCT	O
 That	DET	O
 movie	NOUN	B-noun.communication
-was	AUX	B-verb.stative
+was	VERB	B-verb.stative
 dope	ADJ	O
 !!	PUNCT	O
 I	PRON	O
@@ -6211,7 +6211,7 @@ today	NOUN	B-noun.time
 :D	INTJ	O
 
 February	PROPN	B-noun.time
-is	AUX	B-verb.stative
+is	VERB	B-verb.stative
 Love	PROPN	B-noun.time
 Your	PROPN	I-noun.time
 Library	PROPN	I-noun.time
@@ -6311,7 +6311,7 @@ also	ADV	O
 .	PUNCT	O
 I	PRON	O
 might	AUX	O
-be	AUX	B-verb.stative
+be	AUX	O
 hitting	VERB	B-verb.motion
 a	DET	O
 show	NOUN	B-noun.act
@@ -6394,7 +6394,7 @@ RT	X	O
 @CHINOXL	PROPN	O
 :	PUNCT	O
 Today	NOUN	B-noun.time
-is	AUX	B-verb.stative
+is	VERB	B-verb.stative
 my	PRON	O
 main	ADJ	O
 goonie	NOUN	B-noun.person
@@ -6421,7 +6421,7 @@ he	PRON	O
 HBCU	PROPN	B-noun.group
 's	AUX	O
 should	AUX	O
-have	AUX	B-verb.creation
+have	VERB	B-verb.creation
 a	DET	O
 free	ADJ	O
 JORDAN	PROPN	B-noun.event
@@ -6502,7 +6502,7 @@ Tonight	NOUN	B-noun.time
 (	PUNCT	O
 2/7	NUM	O
 )	PUNCT	O
-is	AUX	B-verb.stative
+is	VERB	B-verb.stative
 Drink	PROPN	B-verb.consumption
 __AND__	CONJ	O
 Draw	PROPN	B-verb.creation
@@ -6515,7 +6515,7 @@ Decatur	PROPN	B-noun.location
 @8pm	NUM	O
 .	PUNCT	O
 It	PRON	O
-'s	AUX	B-verb.stative
+'s	VERB	B-verb.stative
 our	PRON	O
 first	ADJ	O
 time	NOUN	B-noun.event
@@ -6662,7 +6662,7 @@ it	PRON	O
 I	PRON	O
 may	AUX	O
 not	ADV	O
-have	AUX	B-verb.possession
+have	AUX	O
 got	VERB	I-verb.possession
 a	DET	O
 job	NOUN	B-noun.act
@@ -6735,7 +6735,7 @@ listings	NOUN	I-noun.communication
 http://t.co/	X	O
 ...	PUNCT	O
 
-Is	AUX	B-verb.stative
+Is	AUX	O
 thinking	VERB	B-verb.cognition
 about	ADP	O
 doing	VERB	B-verb.social
@@ -6751,10 +6751,10 @@ comedy	NOUN	I-noun.event
 @OrionCards	PROPN	O
 there	DET	O
 will	AUX	O
-be	AUX	B-verb.stative
+be	VERB	B-verb.stative
 ,	PUNCT	O
 just	ADV	O
-need	AUX	B-verb.stative
+need	AUX	O
 to	PART	O
 sort	VERB	B-verb.cognition
 it	PRON	O
@@ -6904,13 +6904,13 @@ evening	INTJ	O
 hope	VERB	B-verb.emotion
 you	PRON	O
 all	DET	O
-had	AUX	B-verb.possession
+had	VERB	B-verb.possession
 a	DET	O
 fab	ADJ	O
 day	NOUN	B-noun.state
 .	PUNCT	O
 Ive	PRON	O
-been	AUX	B-verb.stative
+been	VERB	B-verb.stative
 to	PART	O
 the	DET	O
 gym	NOUN	B-noun.artifact
@@ -6987,7 +6987,7 @@ fro	ADP	O
 @nfldraftdog	PROPN	O
 He	PRON	O
 definitely	ADV	O
-will	AUX	B-verb.communication
+will	VERB	B-verb.communication
 as	ADV	O
 long	ADV	O
 as	ADP	O
@@ -7025,7 +7025,7 @@ yes	INTJ	O
 RT	X	O
 @GeeSPOT_	PROPN	O
 :	PUNCT	O
-does	AUX	B-verb.social
+does	AUX	O
 a	DET	O
 new	ADJ	O
 ep	NOUN	B-noun.communication
@@ -7134,7 +7134,7 @@ player	NOUN	B-noun.person
 ,	PUNCT	O
 when	ADV	O
 he	PRON	O
-was	AUX	B-verb.stative
+was	AUX	O
 hurt	VERB	B-verb.change
 ,	PUNCT	O
 they	PRON	O
@@ -7193,7 +7193,7 @@ E	PROPN	O
 @yoopergirl89	PROPN	O
 Yeah	INTJ	O
 it	PRON	O
-was	AUX	B-verb.stative
+was	VERB	B-verb.stative
 a	DET	O
 long	ADJ	O
 week	NOUN	B-noun.time
@@ -7216,26 +7216,26 @@ I	PRON	O
 wish	VERB	B-verb.emotion
 that	ADP	O
 you	PRON	O
-are	AUX	B-verb.stative
+are	VERB	B-verb.stative
 here	ADV	O
 with	ADP	O
 me	PRON	O
 ,	PUNCT	O
 but	CONJ	O
 we	PRON	O
-'re	AUX	B-verb.stative
+'re	VERB	B-verb.stative
 stuck	ADJ	O
 where	ADV	O
 we	PRON	O
-are	AUX	B-verb.stative
+are	VERB	B-verb.stative
 .	PUNCT	O
 It	PRON	O
-'s	AUX	B-verb.stative
+'s	VERB	B-verb.stative
 so	ADV	O
 hard	ADJ	O
 ,	PUNCT	O
 you	PRON	O
-'re	AUX	B-verb.stative
+'re	VERB	B-verb.stative
 so	ADV	O
 far	ADV	O
 ..	PUNCT	O
@@ -7366,7 +7366,7 @@ ASAP	ADV	O
 yet	CONJ	O
 I	PRON	O
 always	ADV	O
-do	AUX	B-verb.social
+do	VERB	B-verb.social
 ,	PUNCT	O
 yet	CONJ	O
 she	PRON	O
@@ -7419,7 +7419,7 @@ Santa	PROPN	B-noun.artifact
 hat	NOUN	I-noun.artifact
 !:	PUNCT	O
 It	PRON	O
-'s	AUX	B-verb.stative
+'s	VERB	B-verb.stative
 November	PROPN	B-noun.time
 and	CONJ	O
 almost	ADV	O
@@ -7505,7 +7505,7 @@ o_O	INTJ	O
 RT	X	O
 @ReginaPearl	PROPN	O
 yo	INTJ	O
-is	AUX	B-verb.stative
+is	VERB	B-verb.stative
 there	ADV	O
 another	DET	O
 way	NOUN	B-noun.attribute
@@ -7654,7 +7654,7 @@ does	AUX	O
 n't	ADV	O
 mean	VERB	B-verb.stative
 I	PRON	O
-will	AUX	B-verb.communication
+will	VERB	B-verb.communication
 -	PUNCT	O
 all	DET	O
 the	DET	O
@@ -7718,7 +7718,7 @@ __AND__	CONJ	O
 the	PROPN	B-noun.communication
 big	PROPN	I-noun.communication
 lebowski	PROPN	I-noun.communication
-is	AUX	B-verb.stative
+is	VERB	B-verb.stative
 in	ADP	O
 order	NOUN	B-noun.time
 tonight	NOUN	B-noun.time
@@ -7765,7 +7765,7 @@ action	NOUN	B-noun.act
 
 @yeastieboys	PROPN	O
 that	DET	O
-'s	AUX	B-verb.stative
+'s	VERB	B-verb.stative
 terrible	ADJ	O
 .	PUNCT	O
 I	PRON	O
@@ -7781,7 +7781,7 @@ long	ADV	O
 .	PUNCT	O
 My	PRON	O
 parents	NOUN	B-noun.person
-are	AUX	B-verb.stative
+are	VERB	B-verb.stative
 in	ADP	O
 Ashvegas	PROPN	B-noun.location
 but	CONJ	O
@@ -7841,7 +7841,7 @@ http://bit.ly/amHf2G	X	O
 #Cowboys	NOUN	B-noun.person
 
 it	PRON	O
-was	AUX	B-verb.stative
+was	VERB	B-verb.stative
 half	NOUN	B-noun.time
 past	ADJ	O
 8	NUM	O
@@ -7869,7 +7869,7 @@ accident	NOUN	I-noun.event
 ?	PUNCT	O
 I	PRON	O
 remember	VERB	B-verb.cognition
-being	AUX	B-verb.stative
+being	VERB	B-verb.stative
 in	ADP	O
 Hawaii	PROPN	B-noun.location
 a	DET	O
@@ -7899,7 +7899,7 @@ your	PRON	O
 eyes	NOUN	B-noun.body
 ,	PUNCT	O
 I	PRON	O
-'m	AUX	B-verb.stative
+'m	VERB	B-verb.stative
 at	ADP	O
 your	PRON	O
 side	NOUN	B-noun.body
@@ -7915,9 +7915,9 @@ fine	ADJ	O
 @Redilocks	PROPN	O
 ya	INTJ	O
 know....he	INTJ	O
-'s	AUX	B-verb.stative
-gonna	VERB	O
-be	AUX	B-verb.stative
+'s	AUX	O
+gonna	AUX	O
+be	VERB	B-verb.stative
 there	ADV	O
 Saturday	PROPN	B-noun.time
 .	PUNCT	O
@@ -8026,15 +8026,15 @@ http://goo.gl/fb/X7T4s	X	O
 @msloaf	PROPN	O
 Though	ADP	O
 I	PRON	O
-do	AUX	B-verb.social
+do	AUX	O
 agree	VERB	B-verb.communication
 that	ADP	O
 it	PRON	O
-is	AUX	B-verb.stative
+is	VERB	B-verb.stative
 offensive	ADJ	O
 and	CONJ	O
 would	AUX	O
-be	AUX	B-verb.stative
+be	VERB	B-verb.stative
 difficult	ADJ	O
 to	PART	O
 explain	VERB	B-verb.communication
@@ -8061,7 +8061,7 @@ hear	VERB	B-verb.perception
 !	PUNCT	O
 :(	INTJ	O
 I	PRON	O
-had	AUX	B-verb.possession
+had	VERB	B-verb.possession
 a	DET	O
 dog	NOUN	B-noun.animal
 for	ADP	O
@@ -8069,7 +8069,7 @@ for	ADP	O
 years	NOUN	B-noun.time
 and	CONJ	O
 it	PRON	O
-was	AUX	B-verb.stative
+was	VERB	B-verb.stative
 really	ADV	O
 tough	ADJ	O
 to	PART	O
@@ -8090,7 +8090,7 @@ let	VERB	B-verb.communication
 me	PRON	O
 know	VERB	B-verb.cognition
 .	PUNCT	O
-is	AUX	B-verb.stative
+is	AUX	O
 it	PRON	O
 goin	VERB	B-verb.change
 off	PART	O
@@ -8186,7 +8186,7 @@ RT	X	O
 Friggg	PROPN	B-noun.person
 how	ADV	O
 long	ADJ	O
-is	AUX	B-verb.stative
+is	VERB	B-verb.stative
 flow	PROPN	B-noun.communication
 93.5	PROPN	I-noun.communication
 gonna	VERB	O
@@ -8248,7 +8248,7 @@ damn	INTJ	O
 @MrPregameShawty	PROPN	O
 Lol	INTJ	O
 i	PRON	O
-be	AUX	B-verb.stative
+be	AUX	O
 trippin	VERB	B-verb.emotion
 when	ADV	O
 i	PRON	O
@@ -8257,7 +8257,7 @@ bored	ADJ	O
 !	PUNCT	O
 
 I	PRON	O
-do	AUX	B-verb.social
+do	AUX	O
 hope	VERB	B-verb.emotion
 we	PRON	O
 beat	VERB	B-verb.competition
@@ -8302,13 +8302,13 @@ Saying	VERB	B-verb.communication
 "	PUNCT	O
 I	PRON	O
 'm	AUX	O
-having	AUX	B-verb.possession
+having	VERB	B-verb.possession
 a	DET	O
 bad	ADJ	O
 hair	NOUN	B-noun.time
 day	NOUN	I-noun.time
 "	PUNCT	O
-is	AUX	B-verb.stative
+is	VERB	B-verb.stative
 a	DET	O
 huge	ADJ	O
 understatement	NOUN	B-noun.communication
@@ -8364,7 +8364,7 @@ o	INTJ	O
 
 omfg	INTJ	O
 there	DET	O
-was	AUX	B-verb.stative
+was	VERB	B-verb.stative
 a	DET	O
 pigeon	NOUN	B-noun.animal
 and	CONJ	O
@@ -8465,7 +8465,7 @@ Steve	PROPN	B-noun.person
 hello	INTJ	O
 ,	PUNCT	O
 how	ADV	O
-are	AUX	B-verb.stative
+are	VERB	B-verb.stative
 you	PRON	O
 ?	PUNCT	O
 All	DET	O
@@ -8538,7 +8538,7 @@ year	NOUN	B-noun.time
 ago	ADV	O
 .	PUNCT	O
 i	PRON	O
-had	AUX	B-verb.possession
+had	VERB	B-verb.possession
 1	NUM	O
 mention	NOUN	B-noun.communication
 from	ADP	O
@@ -8575,7 +8575,7 @@ shit	NOUN	B-noun.substance
 So	INTJ	O
 ,	PUNCT	O
 when	ADV	O
-do	AUX	B-verb.social
+do	AUX	O
 you	PRON	O
 start	VERB	B-verb.change
 the	DET	O
@@ -8598,7 +8598,7 @@ cocktails	NOUN	B-noun.food
 .	PUNCT	O
 Yes	INTJ	O
 .	PUNCT	O
-Need	AUX	B-verb.consumption
+Need	AUX	O
 to	PART	O
 get	VERB	B-verb.change
 tolerance	NOUN	B-noun.attribute
@@ -8606,7 +8606,7 @@ up	PART	O
 again	ADV	O
 .	PUNCT	O
 I	PRON	O
-have	AUX	B-verb.possession
+have	VERB	B-verb.possession
 none	NOUN	B-noun.attribute
 .	PUNCT	O
 (	PUNCT	O
@@ -8667,9 +8667,9 @@ Lol	INTJ	O
 @ginamak	PROPN	O
 I	PRON	O
 've	AUX	O
-had	AUX	B-verb.consumption
+had	VERB	B-verb.consumption
 what	PRON	O
-was	AUX	B-verb.stative
+was	VERB	B-verb.stative
 purportedly	ADV	O
 Chicago-style	ADJ	O
 thin	ADJ	O
@@ -8692,7 +8692,7 @@ the	DET	O
 ...	PUNCT	O
 
 #oneofmyfollowers	NOUN	B-noun.person
-has	AUX	B-verb.possession
+has	VERB	B-verb.possession
 the	DET	O
 hoodie	NOUN	B-noun.artifact
 I	PRON	O
@@ -8716,7 +8716,7 @@ people	NOUN	B-noun.group
 out	PART	O
 .	PUNCT	O
 it	PRON	O
-'s	AUX	B-verb.stative
+'s	VERB	B-verb.stative
 so	ADV	O
 funny	ADJ	O
 when	ADV	O
@@ -8770,7 +8770,7 @@ just	ADV	O
 stay	VERB	B-verb.motion
 cus	ADP	O
 he	PRON	O
-'s	AUX	B-verb.stative
+'s	AUX	O
 gonna	VERB	O
 cum	VERB	B-verb.motion
 
@@ -8890,7 +8890,7 @@ it	PRON	O
 before	ADP	O
 ,	PUNCT	O
 I	PRON	O
-'m	AUX	B-verb.stative
+'m	VERB	B-verb.stative
 sure	ADJ	O
 it	PRON	O
 must	AUX	O
@@ -8920,7 +8920,7 @@ since	ADP	O
 the	DET	O
 day	NOUN	B-noun.time
 you	PRON	O
-were	AUX	B-verb.stative
+were	AUX	O
 born	VERB	B-verb.body
 :)	INTJ	O
 #MOMMATWEET	NOUN	B-noun.communication
@@ -8982,13 +8982,13 @@ RT	X	O
 @ashtondoyle	PROPN	O
 :	PUNCT	O
 I	PRON	O
-am	AUX	B-verb.stative
+am	VERB	B-verb.stative
 a	DET	O
 total	ADJ	O
 dork	NOUN	B-noun.person
 .	PUNCT	O
 But	CONJ	O
-having	AUX	B-verb.stative
+having	AUX	O
 Flipboard	VERB	B-noun.artifact
 up	ADP	O
 on	ADP	O
@@ -9082,7 +9082,7 @@ RP	PROPN	B-noun.person
 ...	PUNCT	O
 Hope	VERB	B-verb.emotion
 you	PRON	O
-'re	AUX	B-verb.stative
+'re	AUX	O
 having	VERB	B-verb.stative
 a	DET	O
 great	ADJ	O
@@ -9098,7 +9098,7 @@ drink	NOUN	I-noun.food
 ...	PUNCT	O
 which	DET	O
 may	AUX	O
-be	AUX	B-verb.stative
+be	AUX	O
 banned	VERB	O
 ..	PUNCT	O
 because	ADP	O
@@ -9212,7 +9212,7 @@ http://yfrog.com/j7o94pj	X	O
 .	PUNCT	O
 
 I	PRON	O
-'m	AUX	B-verb.stative
+'m	AUX	O
 stressed	VERB	O
 at	ADP	O
 9am	NUM	O
@@ -9235,7 +9235,7 @@ today	NOUN	B-noun.time
 #retailtherapy	NOUN	B-noun.cognition
 
 I	PRON	O
-am	AUX	B-verb.stative
+am	VERB	B-verb.stative
 in	ADP	O
 such	ADJ	O
 a	DET	O
@@ -9245,7 +9245,7 @@ mood	NOUN	B-noun.state
 i	PRON	O
 should	AUX	O
 probably	ADV	O
-do	AUX	B-verb.social
+do	VERB	B-verb.social
 my	PRON	O
 math	NOUN	B-noun.act
 before	ADP	O
@@ -9269,7 +9269,7 @@ After	ADP	O
 Bday	NOUN	B-noun.event
 Bash	NOUN	I-noun.event
 I	PRON	O
-'m	AUX	B-verb.stative
+'m	AUX	O
 not	ADV	O
 doing	VERB	B-verb.social
 nothing	NOUN	B-noun.quantity
@@ -9354,7 +9354,7 @@ second	ADJ	O
 time	NOUN	B-noun.event
 ..	PUNCT	O
 she	PRON	O
-'s	AUX	B-verb.stative
+'s	VERB	B-verb.stative
 a	DET	O
 lawyer	NOUN	B-noun.person
 !?	PUNCT	O
@@ -9421,7 +9421,7 @@ Louisville	PROPN	B-noun.location
 and	CONJ	O
 several	ADJ	O
 partners	NOUN	B-noun.person
-are	AUX	B-verb.stative
+are	AUX	O
 offering	VERB	B-verb.possession
 three	NUM	O
 days	NOUN	B-noun.time
@@ -9495,7 +9495,7 @@ RT	X	O
 Even	ADV	O
 when	ADV	O
 u	PRON	O
-have	AUX	B-verb.possession
+have	VERB	B-verb.possession
 no	DET	O
 job	NOUN	B-noun.act
 ,	PUNCT	O
@@ -9511,7 +9511,7 @@ about	ADP	O
 '	PUNCT	O
 bet	VERB	B-verb.competition
 id	PRON	O
-have	AUX	B-verb.possession
+have	VERB	B-verb.possession
 money	NOUN	B-noun.possession
 then	ADV	O
 '	PUNCT	O
@@ -9539,7 +9539,7 @@ days	NOUN	B-noun.time
 man	NOUN	B-noun.person
 
 It	PRON	O
-was	AUX	B-verb.stative
+was	VERB	B-verb.stative
 just	ADV	O
 the	DET	O
 best	ADJ	O
@@ -9567,13 +9567,13 @@ advice	NOUN	B-noun.communication
 
 @pegasus_za	PROPN	O
 You	PRON	O
-'re	AUX	B-verb.stative
+'re	VERB	B-verb.stative
 welcome	ADJ	O
 .	PUNCT	O
 Yeah	INTJ	O
 ,	PUNCT	O
 it	PRON	O
-'s	AUX	B-verb.stative
+'s	VERB	B-verb.stative
 not	ADV	O
 a	DET	O
 bad	ADJ	O
@@ -9588,7 +9588,7 @@ and	CONJ	O
 ill	PRON	O
 .	PUNCT	O
 How	ADV	O
-'s	AUX	B-verb.stative
+'s	AUX	O
 it	PRON	O
 going	VERB	B-verb.stative
 with	ADP	O
@@ -9624,7 +9624,7 @@ the	DET	O
 flyin	PROPN	B-noun.person
 pilot	PROPN	I-noun.person
 I	PRON	O
-was	AUX	B-verb.stative
+was	VERB	B-verb.stative
 at	ADP	O
 last	ADJ	O
 night	NOUN	B-noun.time
@@ -9641,7 +9641,7 @@ WELL	INTJ	O
 seems	VERB	B-verb.perception
 like	ADP	O
 you	PRON	O
-had	AUX	B-verb.possession
+had	VERB	B-verb.possession
 a	DET	O
 fantastic	ADJ	O
 time	NOUN	B-noun.event
@@ -9675,7 +9675,7 @@ milkshake	NOUN	I-noun.food
 Most	ADJ	O
 things	NOUN	B-noun.Tops
 usually	ADV	O
-do	AUX	B-verb.social
+do	VERB	B-verb.social
 RT	X	O
 @johncabell	PROPN	O
 Somehow	ADV	O
@@ -9770,7 +9770,7 @@ tonight	NOUN	B-noun.time
 :D	INTJ	O
 wow	INTJ	O
 I	PRON	O
-'m	AUX	B-verb.stative
+'m	VERB	B-verb.stative
 way	ADV	O
 to	PART	O
 excited	ADJ	O
@@ -9842,7 +9842,7 @@ night	NOUN	B-noun.act
 email-athon	NOUN	I-noun.act
 !	PUNCT	O
 really	ADV	O
-need	AUX	B-verb.stative
+need	AUX	O
 to	PART	O
 catch	VERB	B-verb.social
 up	PART	O
@@ -9890,7 +9890,7 @@ RT	X	O
 @UWEauClaire	PROPN	O
 :	PUNCT	O
 It	PRON	O
-'s	AUX	B-verb.stative
+'s	VERB	B-verb.stative
 Fire	PROPN	B-noun.time
 Prevention	PROPN	I-noun.time
 Week	PROPN	I-noun.time
@@ -10072,7 +10072,7 @@ RETWEET	VERB	B-verb.communication
 !!!	PUNCT	O
 
 Tomorrow	NOUN	B-noun.time
-is	AUX	B-verb.stative
+is	VERB	B-verb.stative
 the	DET	O
 last	ADJ	O
 day	NOUN	B-noun.time
@@ -10119,7 +10119,7 @@ tweet	NOUN	B-noun.communication
 well	INTJ	O
 i	PRON	O
 will	AUX	O
-be	AUX	B-verb.stative
+be	VERB	B-verb.stative
 back	ADV	O
 later	ADV	O
 no	DET	O
@@ -10139,7 +10139,7 @@ later	ADV	O
 xx	INTJ	O
 
 It	PRON	O
-'s	AUX	B-verb.stative
+'s	VERB	B-verb.stative
 time	NOUN	B-noun.event
 to	PART	O
 leave	VERB	B-verb.motion
@@ -10161,13 +10161,13 @@ painful	ADJ	O
 
 @paulwalk	PROPN	O
 It	PRON	O
-'s	AUX	B-verb.stative
+'s	VERB	B-verb.stative
 the	DET	O
 view	NOUN	B-noun.cognition
 from	ADP	O
 where	ADV	O
 I	PRON	O
-'m	AUX	B-verb.stative
+'m	AUX	O
 living	VERB	B-verb.stative
 for	ADP	O
 two	NUM	O
@@ -10212,11 +10212,11 @@ http://tinyurl.com/28hd9fu	X	O
 I	PRON	O
 think	VERB	B-verb.cognition
 that	DET	O
-'s	AUX	B-verb.stative
+'s	VERB	B-verb.stative
 when	ADV	O
 I	PRON	O
-'m	AUX	B-verb.stative
-gonna	VERB	O
+'m	AUX	O
+gonna	AUX	O
 be	VERB	B-verb.stative
 there	ADV	O
 
@@ -10269,16 +10269,16 @@ As	ADP	O
 an	DET	O
 #Aries	NOUN	B-noun.person
 romance	NOUN	B-noun.state
-is	AUX	B-verb.stative
+is	VERB	B-verb.stative
 n't	ADV	O
 about	ADP	O
 what	PRON	O
 you	PRON	O
-'re	AUX	B-verb.stative
+'re	VERB	B-verb.stative
 after	ADP	O
 --	PUNCT	O
 it	PRON	O
-'s	AUX	B-verb.stative
+'s	AUX	O
 about	ADP	O
 taking	VERB	B-verb.social
 chances	NOUN	B-noun.act
@@ -10302,7 +10302,7 @@ today	NOUN	B-noun.time
 the	DET	O
 party	NOUN	B-noun.event
 has	AUX	O
-been	AUX	B-verb.stative
+been	AUX	O
 canceled	VERB	B-verb.social
 makes	VERB	B-verb.change
 too	ADV	O
@@ -10336,7 +10336,7 @@ style	NOUN	B-noun.attribute
 amusing	ADJ	O
 ?	PUNCT	O
 This	DET	O
-is	AUX	B-verb.stative
+is	VERB	B-verb.stative
 some	DET	O
 of	ADP	O
 the	DET	O
@@ -10478,7 +10478,7 @@ day	NOUN	B-noun.time
 off	ADP	O
 ...	PUNCT	O
 i	PRON	O
-have	AUX	B-verb.stative
+have	VERB	B-verb.stative
 a	DET	O
 4	NUM	O
 day	NOUN	B-noun.time
@@ -10520,14 +10520,14 @@ http://tinyurl.com/26zeju5	X	O
 @k8_walsh	PROPN	O
 I	PRON	O
 've	AUX	O
-been	AUX	B-verb.social
+been	VERB	B-verb.social
 out	ADP	O
 of	ADP	O
 the	DET	O
 loop	NOUN	B-noun.communication
 ,	PUNCT	O
 but	CONJ	O
-is	AUX	B-verb.stative
+is	VERB	B-verb.stative
 Private	PROPN	B-noun.communication
 Practice	PROPN	I-noun.communication
 coming	VERB	B-verb.change
@@ -10624,7 +10624,7 @@ http://bit.ly/bsyz9H	X	O
 Yay	INTJ	O
 .	PUNCT	O
 @penguin	PROPN	O
-is	AUX	B-verb.stative
+is	AUX	O
 coming	VERB	B-verb.motion
 to	PART	O
 see	VERB	B-verb.social
@@ -10691,7 +10691,7 @@ news	NOUN	B-noun.communication
 ,	PUNCT	O
 Yeah	INTJ	O
 I	PRON	O
-cant	AUX	B-verb.motion
+cant	AUX	O
 come	VERB	B-verb.motion
 to	PART	O
 the	DET	O
@@ -10773,7 +10773,7 @@ Old	ADJ	O
 ,	PUNCT	O
 Imma	PRON	O
 Still	ADV	O
-Be	AUX	B-verb.stative
+Be	AUX	O
 Rockin	VERB	B-verb.motion
 Out	PART	O
 To	PART	O
@@ -10829,7 +10829,7 @@ today	NOUN	I-noun.time
 Thanks	INTJ	O
 and	CONJ	O
 I	PRON	O
-will	AUX	B-verb.communication
+will	VERB	B-verb.communication
 RT	X	O
 @InnerGizerBunni	PROPN	O
 @kizfoprez_TR	PROPN	O
@@ -10840,7 +10840,7 @@ Birthday	NOUN	B-noun.time
 I	PRON	O
 hope	VERB	B-verb.cognition
 u	PRON	O
-have	AUX	B-verb.social
+have	VERB	B-verb.social
 fun	ADJ	O
 &	CONJ	O
 live	VERB	B-verb.social
@@ -10877,7 +10877,7 @@ let	VERB	B-verb.communication
 her	PRON	O
 know	VERB	I-verb.communication
 it	PRON	O
-'s	AUX	B-verb.stative
+'s	VERB	B-verb.stative
 almost	ADV	O
 3	NUM	O
 .	PUNCT	O
@@ -10914,7 +10914,7 @@ location	NOUN	B-noun.location
 its	PRON	O
 going	VERB	B-verb.change
 to	PART	O
-be	AUX	B-verb.stative
+be	VERB	B-verb.stative
 on	ADP	O
 #Vh1	NOUN	B-noun.artifact
 so	ADV	O
@@ -10932,7 +10932,7 @@ something	NOUN	B-noun.cognition
 Really	ADV	O
 hope	VERB	B-verb.emotion
 I	PRON	O
-can	AUX	B-verb.change
+can	AUX	O
 get	VERB	B-verb.motion
 to	PART	O
 @glasgowfilm	PROPN	O
@@ -10941,7 +10941,7 @@ Winter	PROPN	B-noun.communication
 's	AUX	O
 Bone	PROPN	I-noun.communication
 -	PUNCT	O
-need	AUX	B-verb.stative
+need	AUX	O
 to	PART	O
 get	VERB	B-verb.motion
 on	ADP	O
@@ -10960,7 +10960,7 @@ one	NUM	O
 of	ADP	O
 the	DET	O
 complainers	NOUN	B-noun.person
-is	AUX	B-verb.stative
+is	VERB	B-verb.stative
 a	DET	O
 child	NOUN	B-noun.person
 minder	NOUN	I-noun.person
@@ -10986,7 +10986,7 @@ Bonfire	NOUN	B-noun.event
 tonite	NOUN	B-noun.time
 .	PUNCT	O
 All	DET	O
-are	AUX	B-verb.stative
+are	AUX	O
 welcome	VERB	O
 ,	PUNCT	O
 joe	PROPN	B-noun.person
@@ -11028,7 +11028,7 @@ know	VERB	B-verb.cognition
 @amcdavid	PROPN	O
 !	PUNCT	O
 We	PRON	O
-'re	AUX	B-verb.stative
+'re	AUX	O
 getting	VERB	B-verb.change
 "	PUNCT	O
 white	ADJ	O
@@ -11046,7 +11046,7 @@ me	PRON	O
 At	ADP	O
 night	NOUN	B-noun.time
 I	PRON	O
-'m	AUX	B-verb.stative
+'m	VERB	B-verb.stative
 wide	ADV	O
 awake	ADJ	O
 but	CONJ	O
@@ -11054,14 +11054,14 @@ the	DET	O
 daytime	NOUN	B-noun.time
 ,	PUNCT	O
 I	PRON	O
-'m	AUX	B-verb.stative
+'m	VERB	B-verb.stative
 so	ADV	O
 tired	ADJ	O
 my	PRON	O
 day	NOUN	B-noun.time
 drags	VERB	B-verb.stative
 
-Is	AUX	B-verb.stative
+Is	VERB	B-verb.stative
 Joaquin	PROPN	B-noun.person
 Phoenix	PROPN	I-noun.person
 Our	PRON	O
@@ -11088,7 +11088,7 @@ http://bit.ly/aUZ2on	X	O
 
 Not	ADV	O
 only	ADV	O
-is	AUX	B-verb.stative
+is	VERB	B-verb.stative
 it	PRON	O
 #BattlestarGalactica	NOUN	B-noun.communication
 's	AUX	O
@@ -11212,9 +11212,9 @@ RT	X	O
 @rockerfuckerak	PROPN	O
 :	PUNCT	O
 What	PRON	O
-'s	AUX	B-verb.stative
+'s	AUX	O
 done	VERB	B-verb.social
-is	AUX	B-verb.stative
+is	AUX	O
 done	VERB	B-verb.social
 ,	PUNCT	O
 Just	ADV	O
@@ -11223,7 +11223,7 @@ it	PRON	O
 alone	ADV	O
 ,	PUNCT	O
 and	CONJ	O
-do	AUX	B-verb.social
+do	AUX	O
 n't	ADV	O
 regret	VERB	B-verb.emotion
 .	PUNCT	O
@@ -11260,7 +11260,7 @@ time	NOUN	B-noun.time
 @jaredleto	PROPN	O
 ...	PUNCT	O
 ive	PRON	O
-been	AUX	B-verb.social
+been	VERB	B-verb.social
 to	PART	O
 13	NUM	O
 30stm	PROPN	B-noun.event
@@ -11300,17 +11300,17 @@ Power	NOUN	B-noun.act
 nap	NOUN	I-noun.act
 .	PUNCT	O
 I	PRON	O
-need	AUX	B-verb.stative
+need	VERB	B-verb.stative
 it	PRON	O
 .	PUNCT	O
 Its	PRON	O
-been	AUX	B-verb.stative
+been	VERB	B-verb.stative
 a	DET	O
 stressful	ADJ	O
 week	NOUN	B-noun.time
 .	PUNCT	O
 I	PRON	O
-'m	AUX	B-verb.stative
+'m	AUX	O
 excited	VERB	B-verb.emotion
 for	ADP	O
 xmas	PROPN	B-noun.event
@@ -11357,7 +11357,7 @@ http://yhoo.it/9VAD4A	X	O
 
 my	PRON	O
 past	NOUN	B-noun.time
-was	AUX	B-verb.stative
+was	VERB	B-verb.stative
 the	DET	O
 reason	NOUN	B-noun.motive
 i	PRON	O
@@ -11406,7 +11406,7 @@ http://bit.ly/a0F3dO	X	O
 RT	X	O
 @themaine	PROPN	O
 Who	PRON	B-noun.group
-is	AUX	B-verb.stative
+is	AUX	O
 coming	VERB	B-verb.stative
 to	PART	O
 the	DET	O
@@ -11547,7 +11547,7 @@ Metallurgy	PROPN	I-noun.group
 Engineers	PROPN	I-noun.group
 .	PUNCT	O
 
-Have	AUX	B-verb.social
+Have	VERB	B-verb.social
 a	DET	O
 practice	NOUN	B-noun.event
 session	NOUN	I-noun.event
@@ -11632,7 +11632,7 @@ owners	NOUN	B-noun.person
 informed	VERB	B-verb.communication
 me	PRON	O
 it	PRON	O
-'s	AUX	B-verb.stative
+'s	VERB	B-verb.stative
 '	PUNCT	O
 double-pawed	ADJ	O
 '	PUNCT	O
@@ -11669,7 +11669,7 @@ thinner	ADJ	O
 stool	NOUN	B-noun.artifact
 than	ADP	O
 usual	ADJ	O
-can	AUX	B-verb.change
+can	AUX	O
 be	AUX	O
 identified	VERB	B-verb.cognition
 and	CONJ	O
@@ -11696,7 +11696,7 @@ ASPEN	PROPN	B-noun.location
 The	PROPN	B-noun.communication
 Town	PROPN	I-noun.communication
 might	AUX	O
-be	AUX	B-verb.stative
+be	VERB	B-verb.stative
 one	NUM	O
 of	ADP	O
 the	DET	O
@@ -11731,7 +11731,7 @@ Really	ADV	O
 
 @Jsmoothhh	PROPN	O
 it	PRON	O
-'s	AUX	B-verb.stative
+'s	AUX	O
 not	ADV	O
 supposed	VERB	B-verb.cognition
 to	PART	O
@@ -11755,7 +11755,7 @@ well	ADV	O
 hopefully	ADV	O
 my	PRON	O
 night	NOUN	B-noun.time
-will	AUX	B-verb.communication
+will	AUX	O
 be	VERB	B-verb.stative
 better	ADJ	O
 !	PUNCT	O
@@ -11814,7 +11814,7 @@ remember	VERB	B-verb.cognition
 when	ADV	O
 you	PRON	O
 all	DET	O
-were	AUX	B-verb.stative
+were	VERB	B-verb.stative
 thiiis	DET	O
 big	ADJ	O
 ,	PUNCT	O
@@ -11887,7 +11887,7 @@ you	PRON	O
 ~~~	PUNCT	O
 @sunchips	PROPN	O
 this	DET	O
-is	AUX	B-verb.stative
+is	VERB	B-verb.stative
 the	DET	O
 second	ADJ	O
 time	NOUN	B-noun.event
@@ -11952,13 +11952,13 @@ i	PRON	O
 know	VERB	B-verb.cognition
 ..	PUNCT	O
 i	PRON	O
-need	AUX	B-verb.stative
+need	AUX	O
 to	PART	O
 stop	VERB	B-verb.motion
 before	ADP	O
 my	PRON	O
 room	NOUN	B-noun.artifact
-is	AUX	B-verb.stative
+is	AUX	O
 gonna	VERB	O
 get	VERB	O
 filled	VERB	B-verb.change
@@ -11980,13 +11980,13 @@ day	NOUN	B-noun.time
 @mekamoe927	PROPN	O
 I	PRON	O
 've	AUX	O
-had	AUX	B-verb.possession
+had	VERB	B-verb.possession
 one	NUM	O
 before	ADV	O
 ,	PUNCT	O
 but	CONJ	O
 it	PRON	O
-was	AUX	B-verb.stative
+was	VERB	B-verb.stative
 a	DET	O
 short	ADJ	O
 experience	NOUN	B-noun.cognition
@@ -12005,7 +12005,7 @@ doing	VERB	B-verb.social
 well	ADV	O
 when	ADV	O
 you	PRON	O
-can	AUX	B-verb.change
+can	AUX	O
 simply	ADV	O
 say	VERB	B-verb.communication
 great	ADJ	O
@@ -12016,7 +12016,7 @@ on	ADP	O
 ..	PUNCT	O
 [Haters	NOUN	B-noun.person
 u	PRON	O
-can	AUX	B-verb.change
+can	AUX	O
 kill	VERB	B-verb.contact
 yourself	PRON	O
 ]	PUNCT	O
@@ -12026,7 +12026,7 @@ losers	NOUN	B-noun.person
 
 If	ADP	O
 you	PRON	O
-are	AUX	B-verb.stative
+are	AUX	O
 staying	VERB	B-verb.stative
 in	ADP	O
 Gainesville	PROPN	B-noun.location
@@ -12040,7 +12040,7 @@ TONIGHT	NOUN	B-noun.time
 !	PUNCT	O
 Say	VERB	B-verb.communication
 you	PRON	O
-are	AUX	B-verb.stative
+are	VERB	B-verb.stative
 with	ADP	O
 salsa	PROPN	B-noun.person
 caliente	PROPN	I-noun.person
@@ -12051,14 +12051,14 @@ in	ADP	O
 http://fb.me/FZVzm8H9	X	O
 
 @godsgirl8494	PROPN	O
-can	AUX	B-verb.change
+can	AUX	O
 u	PRON	O
 please	VERB	O
 follow	VERB	B-verb.social
 me	PRON	O
 ?	PUNCT	O
 you	PRON	O
-will	AUX	B-verb.communication
+will	AUX	O
 make	VERB	B-verb.social
 my	PRON	O
 day	NOUN	B-noun.time
@@ -12070,7 +12070,7 @@ Ugh	INTJ	O
 I	PRON	O
 DO	AUX	O
 N'T	ADV	O
-HAVE	AUX	B-verb.possession
+HAVE	VERB	B-verb.possession
 MY	PRON	O
 EARPHONES	NOUN	B-noun.artifact
 I	PRON	O
@@ -12091,7 +12091,7 @@ Excuses	NOUN	B-noun.communication
 SMH	INTJ	O
 
 There	DET	O
-was	AUX	B-verb.stative
+was	VERB	B-verb.stative
 just	ADV	O
 a	DET	O
 fire	NOUN	B-noun.event
@@ -12099,7 +12099,7 @@ at	ADP	O
 work	NOUN	B-noun.location
 .	PUNCT	O
 Today	NOUN	B-noun.time
-is	AUX	B-verb.stative
+is	AUX	O
 looking	VERB	B-verb.cognition
 up	PART	O
 .	PUNCT	O
@@ -12157,7 +12157,7 @@ start	NOUN	B-noun.event
 for	ADP	O
 sharks	PROPN	B-noun.group
 tonight	NOUN	B-noun.time
-can	AUX	B-verb.change
+can	AUX	O
 only	ADV	O
 get	VERB	B-verb.change
 better	ADJ	O
@@ -12184,7 +12184,7 @@ unseen	NOUN	B-noun.cognition
 Okay	INTJ	O
 The	DET	O
 doc	NOUN	B-noun.person
-'s	AUX	B-verb.stative
+'s	AUX	O
 saying	VERB	B-verb.communication
 Keep	VERB	B-verb.stative
 it	PRON	O
@@ -12207,7 +12207,7 @@ start	VERB	B-verb.change
 ,	PUNCT	O
 how	ADV	O
 old	ADJ	O
-are	AUX	B-verb.stative
+are	VERB	B-verb.stative
 you	PRON	O
 ?	PUNCT	O
 HER	PRON	O
@@ -12282,7 +12282,7 @@ scheme	NOUN	I-noun.artifact
 ...	PUNCT	O
 http://bit.ly/blWf0e	X	O
 
-Was	AUX	B-verb.stative
+Was	VERB	B-verb.stative
 hard	ADJ	O
 work	NOUN	B-noun.act
 going	VERB	B-verb.social
@@ -12374,7 +12374,7 @@ day	NOUN	B-noun.time
 
 omg	INTJ	O
 simone	PROPN	B-noun.person
-is	AUX	B-verb.stative
+is	AUX	O
 coming	VERB	B-verb.motion
 over	ADP	O
 then	ADP	O
@@ -12385,7 +12385,7 @@ foin	VERB	B-verb.social
 da	DET	O
 fall	NOUN	B-noun.event
 festival	NOUN	I-noun.event
-cant	AUX	B-verb.motion
+cant	AUX	O
 wait	VERB	B-verb.stative
 4	ADP	O
 GAC	PROPN	O
@@ -12443,7 +12443,7 @@ RT	X	O
 :	PUNCT	O
 You	PRON	O
 basically	ADV	O
-can	AUX	B-verb.change
+can	AUX	O
 say	VERB	B-verb.communication
 anything	NOUN	B-noun.communication
 to	PART	O
@@ -12502,7 +12502,7 @@ website	NOUN	B-noun.communication
 ...	PUNCT	O
 http://blogs.thescore.com/nfl/2010/09/17/pizzolaw2/	X	O
 
-cant	AUX	B-verb.motion
+cant	AUX	O
 wait	VERB	B-verb.stative
 to	PART	O
 see	VERB	B-verb.social
@@ -12543,7 +12543,7 @@ or	CONJ	O
 steps	NOUN	B-noun.act
 when	ADV	O
 I	PRON	O
-am	AUX	B-verb.stative
+am	AUX	O
 tweeting	VERB	B-verb.communication
 links	NOUN	B-noun.artifact
 
@@ -12585,7 +12585,7 @@ drunk	ADJ	O
 status'.	NOUN	B-noun.communication
 must	AUX	O
 be	AUX	O
-having	AUX	B-verb.cognition
+having	VERB	B-verb.cognition
 a	DET	O
 great	ADJ	O
 time	NOUN	B-noun.cognition
@@ -12605,7 +12605,7 @@ over	ADP	O
 looking	ADJ	O
 the	DET	O
 lake	NOUN	B-noun.object
-is	AUX	B-verb.stative
+is	VERB	B-verb.stative
 just	ADV	O
 what	PRON	O
 the	DET	O
@@ -12655,7 +12655,7 @@ Ever	ADV	O
 wonder	VERB	B-verb.cognition
 if	ADP	O
 there	DET	O
-is	AUX	B-verb.stative
+is	VERB	B-verb.stative
 life	NOUN	B-noun.state
 after	ADP	O
 death	NOUN	B-noun.event
@@ -12671,7 +12671,7 @@ out	PART	O
 
 @mfeige	PROPN	O
 it	PRON	O
-'s	AUX	B-verb.stative
+'s	VERB	B-verb.stative
 on	ADP	O
 a	DET	O
 Saturday	PROPN	B-noun.time
@@ -12720,11 +12720,11 @@ tonight	NOUN	B-noun.time
 
 No	INTJ	O
 I	PRON	O
-'m	AUX	B-verb.stative
+'m	AUX	O
 not	ADV	O
 saying	VERB	B-verb.communication
 I	PRON	O
-'m	AUX	B-verb.stative
+'m	VERB	B-verb.stative
 sorry	ADJ	O
 One	NUM	O
 day	NOUN	B-noun.time
@@ -12746,7 +12746,7 @@ fixing	VERB	B-verb.change
 a	DET	O
 problem	NOUN	B-noun.state
 that	DET	O
-'s	AUX	B-verb.stative
+'s	VERB	B-verb.stative
 wholly	ADV	O
 their	PRON	O
 fault	NOUN	B-noun.act
@@ -12758,7 +12758,7 @@ a	DET	O
 one-time	ADJ	O
 courtesy	NOUN	B-noun.act
 "	PUNCT	O
-is	AUX	B-verb.stative
+is	VERB	B-verb.stative
 insult	NOUN	B-noun.act
 to	PART	O
 injury	NOUN	B-noun.state
@@ -12775,7 +12775,7 @@ sorry	ADJ	O
 up	ADP	O
 at	ADP	O
 him*	PRON	O
-Can	AUX	B-verb.change
+Can	VERB	B-verb.change
 we	PRON	O
 just	ADV	O
 ...	PUNCT	O
@@ -12790,7 +12790,7 @@ two	NUM	O
 ?	PUNCT	O
 
 I	PRON	O
-am	AUX	B-verb.stative
+am	AUX	O
 living	VERB	B-verb.stative
 my	PRON	O
 dream	NOUN	B-noun.cognition
@@ -12859,7 +12859,7 @@ RT	X	O
 RT	X	O
 if	ADP	O
 you	PRON	O
-are	AUX	B-verb.stative
+are	VERB	B-verb.stative
 happy	ADJ	O
 it	PRON	O
 's	VERB	B-verb.stative
@@ -12879,7 +12879,7 @@ tonight	NOUN	B-noun.time
 May	AUX	B-noun.person
 's	AUX	O
 costume	NOUN	B-noun.artifact
-is	AUX	B-verb.stative
+is	VERB	B-verb.stative
 the	DET	O
 giant	ADJ	O
 spider	NOUN	B-noun.animal
@@ -12889,7 +12889,7 @@ upper	NOUN	B-noun.body
 body	NOUN	I-noun.body
 .	PUNCT	O
 I	PRON	O
-'m	AUX	B-verb.stative
+'m	AUX	O
 JJ	VERB	B-noun.person
 .	PUNCT	O
 
@@ -12907,7 +12907,7 @@ up	PART	O
 .	PUNCT	O
 Money	NOUN	B-noun.possession
 to	PART	O
-do	AUX	B-verb.creation
+do	VERB	B-verb.creation
 easy	ADJ	O
 stuff	NOUN	B-noun.act
 when	ADV	O
@@ -12954,7 +12954,7 @@ RT	X	O
 RT	X	O
 if	ADP	O
 you	PRON	O
-are	AUX	B-verb.stative
+are	VERB	B-verb.stative
 happy	ADJ	O
 that	ADP	O
 today	NOUN	B-noun.time
@@ -12978,22 +12978,22 @@ to	PART	O
 hell	NOUN	B-noun.cognition
 yesterday	NOUN	B-noun.time
 ,	PUNCT	O
-cant	AUX	B-verb.motion
+cant	AUX	O
 live	VERB	B-verb.stative
 without	ADP	O
 u	PRON	O
 U	PRON	O
-'re	AUX	B-verb.stative
+'re	VERB	B-verb.stative
 more	ADJ	O
 than	ADP	O
 a	DET	O
 bro	NOUN	B-noun.person
 u	PRON	O
-'re	AUX	B-verb.stative
+'re	VERB	B-verb.stative
 Like	ADP	O
 my	PRON	O
 twin	NOUN	B-noun.person
-Need	AUX	B-verb.social
+Need	VERB	B-verb.social
 u	PRON	O
 ,	PUNCT	O
 come	VERB	B-verb.motion
@@ -13046,7 +13046,7 @@ kissing	VERB	B-verb.contact
 the	DET	O
 boo-boo	NOUN	B-noun.body
 "	PUNCT	O
-will	AUX	B-verb.communication
+will	AUX	O
 not	ADV	O
 make	VERB	B-verb.change
 it	PRON	O
@@ -13148,7 +13148,7 @@ me	PRON	O
 today	NOUN	B-noun.time
 so	ADP	O
 I	PRON	O
-better	AUX	B-verb.competition
+better	AUX	O
 post	VERB	B-verb.communication
 something	NOUN	B-noun.communication
 .	PUNCT	O
@@ -13162,7 +13162,7 @@ bath	NOUN	B-noun.artifact
 but	CONJ	O
 do	AUX	O
 n't	ADV	O
-have	AUX	B-verb.possession
+have	VERB	B-verb.possession
 a	DET	O
 bath	NOUN	B-noun.artifact
 ,	PUNCT	O
@@ -13170,15 +13170,15 @@ shut	VERB	B-verb.communication
 up	PART	O
 ,	PUNCT	O
 sam	PROPN	B-noun.person
-'s	AUX	B-verb.stative
+'s	AUX	O
 coming	VERB	B-verb.social
 tomorrow	NOUN	B-noun.time
 and	CONJ	O
 steve	PROPN	B-noun.person
 and	CONJ	O
 tanya	PROPN	B-noun.person
-will	AUX	B-verb.communication
-be	AUX	B-verb.stative
+will	AUX	O
+be	VERB	B-verb.stative
 round	ADV	O
 at	ADP	O
 10am	NUM	O
@@ -13241,7 +13241,7 @@ HARTS	PROPN	I-noun.location
 haha	INTJ	O
 yes	INTJ	O
 :)	INTJ	O
-have	AUX	B-verb.possession
+have	AUX	O
 to	PART	O
 go	VERB	B-verb.motion
 speak	VERB	B-verb.communication
@@ -13436,7 +13436,7 @@ in	ADP	O
 feb	PROPN	B-noun.time
 
 There	DET	O
-'s	AUX	B-verb.stative
+'s	VERB	B-verb.stative
 a	DET	O
 lot	NOUN	B-noun.quantity
 of	ADP	O
@@ -13452,7 +13452,7 @@ today	NOUN	B-noun.time
 so	ADV	O
 &	CONJ	O
 so	ADV	O
-is	AUX	B-verb.stative
+is	VERB	B-verb.stative
 at	ADP	O
 such	ADJ	O
 a	DET	O
@@ -13512,7 +13512,7 @@ on	ADP	O
 FB	PROPN	B-noun.communication
 ,	PUNCT	O
 they	PRON	O
-are	AUX	B-verb.stative
+are	VERB	B-verb.stative
 usually	ADV	O
 personal	ADJ	O
 messages	NOUN	B-noun.communication
@@ -13545,10 +13545,10 @@ It	PRON	O
 They	PRON	O
 Favorite	ADJ	O
 Line	NOUN	B-noun.communication
-Is	AUX	B-verb.stative
+Is	VERB	B-verb.stative
 "	PUNCT	O
 where	ADV	O
-is	AUX	B-verb.stative
+is	AUX	O
 that	ADP	O
 suppose	VERB	B-verb.communication
 to	PART	O
@@ -13558,7 +13558,7 @@ go	VERB	B-verb.motion
 Knowing	VERB	B-verb.cognition
 that	ADP	O
 I	PRON	O
-have	AUX	B-verb.social
+have	VERB	B-verb.social
 people	NOUN	B-noun.group
 who	PRON	I-noun.group
 love	VERB	B-verb.emotion
@@ -13583,7 +13583,7 @@ back	ADV	O
 !	PUNCT	O
 If	ADP	O
 she	PRON	O
-'s	AUX	B-verb.stative
+'s	VERB	B-verb.stative
 not	ADV	O
 tired	ADJ	O
 that	ADP	O
@@ -13593,7 +13593,7 @@ is	VERB	B-verb.stative
 @ashhleybrookee	PROPN	O
 it	PRON	O
 may	AUX	O
-be	AUX	B-verb.stative
+be	VERB	B-verb.stative
 nasty	ADJ	O
 but	CONJ	O
 ...	PUNCT	O
@@ -13617,7 +13617,7 @@ brat	NOUN	B-noun.person
 
 No	DET	O
 loss	NOUN	B-noun.possession
-is	AUX	B-verb.stative
+is	VERB	B-verb.stative
 greater	ADJ	O
 than	ADP	O
 the	DET	O
@@ -13629,7 +13629,7 @@ process	NOUN	I-noun.cognition
 before	ADP	O
 you	PRON	O
 've	AUX	O
-had	AUX	B-verb.possession
+had	VERB	B-verb.possession
 the	DET	O
 time	NOUN	B-noun.time
 to	PART	O
@@ -13661,7 +13661,7 @@ means	VERB	B-verb.cognition
 tired	ADJ	O
 London	PROPN	B-noun.person
 Ladies	NOUN	I-noun.person
-are	AUX	B-verb.stative
+are	VERB	B-verb.stative
 in	ADP	O
 bed	NOUN	B-noun.location
 by	ADP	O
@@ -13681,7 +13681,7 @@ on	ADP	O
 
 ....	PUNCT	O
 today	NOUN	B-noun.time
-is	AUX	B-verb.stative
+is	VERB	B-verb.stative
 better	ADV	O
 than	ADP	O
 yesterday	NOUN	B-noun.time
@@ -13690,7 +13690,7 @@ but	CONJ	O
 I	PRON	O
 hope	VERB	B-verb.emotion
 tomorrow	NOUN	B-noun.time
-is	AUX	B-verb.stative
+is	VERB	B-verb.stative
 better	ADV	O
 than	ADP	O
 today	NOUN	B-noun.time
@@ -13756,7 +13756,7 @@ me	PRON	O
 to	PART	O
 cum	VERB	B-verb.motion
 home	NOUN	B-noun.location
-is	AUX	B-verb.stative
+is	VERB	B-verb.stative
 when	ADV	O
 I	PRON	O
 wil	AUX	O
@@ -13774,7 +13774,7 @@ leav	VERB	B-verb.motion
 ...	PUNCT	O
 
 It	PRON	O
-'s	AUX	B-verb.stative
+'s	VERB	B-verb.stative
 5pm	NUM	O
 on	ADP	O
 Friday	PROPN	B-noun.time
@@ -13782,7 +13782,7 @@ Friday	PROPN	B-noun.time
 Wish	VERB	B-verb.emotion
 you	PRON	O
 guys	NOUN	B-noun.group
-have	AUX	B-verb.stative
+have	VERB	B-verb.stative
 a	DET	O
 fabulous	ADJ	O
 evening	NOUN	B-noun.time
@@ -13866,7 +13866,7 @@ RT	X	O
 @ajc	PROPN	O
 :	PUNCT	O
 Today	NOUN	B-noun.time
-'s	AUX	B-verb.stative
+'s	VERB	B-verb.stative
 the	DET	O
 102nd	ADJ	O
 birthday	NOUN	B-noun.time
@@ -13938,7 +13938,7 @@ religion	NOUN	B-noun.cognition
 '	PUNCT	O
 marginalized':	VERB	O
 That	DET	O
-'s	AUX	B-verb.stative
+'s	VERB	B-verb.stative
 why	ADV	O
 he	PRON	O
 ca	AUX	O
@@ -13983,12 +13983,12 @@ biotch	INTJ	O
 !	PUNCT	O
 
 I	PRON	O
-have	AUX	B-verb.cognition
+have	VERB	B-verb.cognition
 a	DET	O
 strong	ADJ	O
 hunch	NOUN	B-noun.cognition
 Adam	PROPN	B-noun.person
-will	AUX	B-verb.communication
+will	AUX	O
 be	VERB	B-verb.stative
 a	DET	O
 story	NOUN	B-noun.communication
@@ -14055,7 +14055,7 @@ time	NOUN	B-noun.event
 i	PRON	O
 think	VERB	B-verb.cognition
 it	PRON	O
-'s	AUX	B-verb.stative
+'s	VERB	B-verb.stative
 better	ADJ	O
 to	PART	O
 go	VERB	B-verb.change
@@ -14082,7 +14082,7 @@ tonight	NOUN	B-noun.time
 ,	PUNCT	O
 so	CONJ	O
 I	PRON	O
-have	AUX	B-verb.stative
+have	AUX	O
 to	PART	O
 wear	VERB	B-verb.body
 sweat	NOUN	B-noun.artifact
@@ -14110,7 +14110,7 @@ It	PRON	O
 Anyways	INTJ	O
 ,	PUNCT	O
 today	NOUN	B-noun.time
-will	AUX	B-verb.communication
+will	AUX	O
 be	VERB	B-verb.stative
 very	ADV	O
 busy	ADJ	O
@@ -14127,7 +14127,7 @@ Activity	PROPN	I-noun.communication
 2	NUM	O
 http://j.mp/ascgZr	X	O
 I	PRON	O
-'m	AUX	B-verb.stative
+'m	AUX	O
 not	ADV	O
 requesting	VERB	B-verb.communication
 it	PRON	O
@@ -14168,7 +14168,7 @@ The	DET	O
 Drama	PROPN	B-noun.communication
 Edition	PROPN	I-noun.communication
 :	PUNCT	O
-Had	AUX	B-verb.possession
+Had	VERB	B-verb.possession
 any	DET	O
 epic	ADJ	O
 meltdowns	NOUN	B-noun.process
@@ -14211,7 +14211,7 @@ http://bit.ly/bYWzrq	X	O
 
 @jackjohnson	PROPN	O
 where	ADV	O
-can	AUX	B-verb.change
+can	AUX	O
 I	PRON	O
 get	VERB	B-verb.possession
 the	DET	O
@@ -14429,7 +14429,7 @@ ya	INTJ	O
 but	CONJ	O
 it	PRON	O
 would	AUX	O
-have	AUX	B-verb.stative
+have	AUX	O
 to	PART	O
 go	VERB	B-verb.motion
 down	ADP	O
@@ -14444,7 +14444,7 @@ day	NOUN	B-noun.time
 lol	INTJ	O
 so	INTJ	O
 id	PRON	O
-be	AUX	B-verb.stative
+be	AUX	O
 cutting	VERB	B-verb.stative
 it	PRON	O
 close	ADJ	O
@@ -14532,7 +14532,7 @@ time	NOUN	B-noun.event
 again	ADV	O
 !	PUNCT	O
 #FreebieFriday	NOUN	B-noun.event
-Be	AUX	B-verb.stative
+Be	VERB	B-verb.stative
 the	DET	O
 15th	ADJ	O
 RT	X	O
@@ -14604,7 +14604,7 @@ http://bit	X	O
 I	PRON	O
 may	AUX	O
 have	AUX	O
-been	AUX	B-verb.stative
+been	VERB	B-verb.stative
 wrong	ADJ	O
 about	ADP	O
 Murkowski	PROPN	B-noun.person
@@ -14612,7 +14612,7 @@ Murkowski	PROPN	B-noun.person
 look	VERB	B-verb.perception
 like	ADP	O
 she	PRON	O
-'s	AUX	B-verb.stative
+'s	AUX	O
 going	VERB	B-verb.change
 to	PART	O
 turn	VERB	B-verb.change
@@ -14648,7 +14648,7 @@ time	NOUN	B-noun.time
 ,	PUNCT	O
 somehow	ADV	O
 things	NOUN	B-noun.Tops
-will	AUX	B-verb.communication
+will	AUX	O
 work	VERB	B-verb.social
 out	PART	O
 in	ADP	O
@@ -14674,7 +14674,7 @@ anything	NOUN	B-noun.Tops
 that	DET	O
 i	PRON	O
 loved	VERB	B-verb.emotion
-is	AUX	B-verb.stative
+is	AUX	O
 now	ADV	O
 gone	VERB	B-verb.stative
 
@@ -14688,7 +14688,7 @@ Woo-hoo	INTJ	O
 confetti*	NOUN	B-noun.artifact
 Now	ADV	O
 I	PRON	O
-can	AUX	B-verb.change
+can	AUX	O
 goof	VERB	B-verb.social
 off	PART	O
 tonight	NOUN	B-noun.time
@@ -14712,7 +14712,7 @@ years	NOUN	B-noun.time
 later	ADJ	O
 :	PUNCT	O
 Far	ADV	O
-be	AUX	B-verb.stative
+be	VERB	B-verb.stative
 it	PRON	O
 that	ADP	O
 the	DET	O
@@ -14729,14 +14729,14 @@ was	VERB	B-verb.stative
 http://bit.ly/cCjFBm	X	O
 
 It	PRON	O
-is	AUX	B-verb.stative
+is	VERB	B-verb.stative
 Friday	PROPN	B-noun.time
 afternoon	NOUN	I-noun.time
 adn	CONJ	O
 I	PRON	O
 could	AUX	O
 n't	ADV	O
-be	AUX	B-verb.stative
+be	VERB	B-verb.stative
 happier	ADJ	O
 .	PUNCT	O
 Ending	VERB	B-verb.stative
@@ -14756,7 +14756,7 @@ nice	ADJ	O
 tru	INTJ	O
 tru	INTJ	O
 I	PRON	O
-'m	AUX	B-verb.stative
+'m	AUX	O
 leavin	VERB	B-verb.motion
 again	ADV	O
 on	ADP	O
@@ -14772,7 +14772,7 @@ tonight	NOUN	B-noun.time
 
 The	DET	O
 guys	NOUN	B-noun.person
-are	AUX	B-verb.stative
+are	AUX	O
 cooking	VERB	B-verb.creation
 about	ADP	O
 a	DET	O
@@ -14849,7 +14849,7 @@ too	ADV	O
 
 ;	PUNCT	O
 I	PRON	O
-can	AUX	B-verb.change
+can	AUX	O
 upgrade	VERB	B-verb.change
 to	PART	O
 a	DET	O
@@ -14875,14 +14875,14 @@ one	NUM	O
 thats	DET	O
 out	ADJ	O
 now	ADV	O
-is	AUX	B-verb.stative
+is	VERB	B-verb.stative
 free	ADJ	O
 ...	PUNCT	O
 Father	NOUN	B-noun.person
 to	PART	O
 tha	DET	O
 Game	NOUN	B-noun.artifact
-is	AUX	B-verb.stative
+is	AUX	O
 droppin	VERB	B-verb.motion
 in	ADP	O
 a	DET	O
@@ -14917,7 +14917,7 @@ yaaaay	INTJ	O
 
 Do	AUX	O
 n't	ADV	O
-Have	AUX	B-verb.possession
+Have	VERB	B-verb.possession
 Time	NOUN	B-noun.time
 To	PART	O
 Stop	VERB	B-verb.motion
@@ -14950,7 +14950,7 @@ the	DET	O
 tears	NOUN	B-noun.body
 may	AUX	O
 have	AUX	O
-been	AUX	B-verb.stative
+been	AUX	O
 and	CONJ	O
 gone	VERB	B-verb.motion
 ,	PUNCT	O
@@ -14970,7 +14970,7 @@ my	PRON	O
 kick	NOUN	B-noun.feeling
 !	PUNCT	O
 It	PRON	O
-'s	AUX	B-verb.stative
+'s	AUX	O
 been	VERB	B-verb.stative
 a	DET	O
 solid	ADJ	O
@@ -14987,7 +14987,7 @@ tonight	NOUN	B-noun.time
 
 @abzmedic	PROPN	O
 I	PRON	O
-'m	AUX	B-verb.stative
+'m	AUX	O
 missing	VERB	B-verb.stative
 autumn	NOUN	B-noun.event
 because	ADP	O
@@ -15013,7 +15013,7 @@ this	DET	O
 ,	PUNCT	O
 but	CONJ	O
 i	PRON	O
-have	AUX	B-verb.cognition
+have	VERB	B-verb.cognition
 a	DET	O
 hard	ADJ	O
 time	NOUN	B-noun.Tops
@@ -15042,7 +15042,7 @@ are	VERB	B-verb.stative
 free	ADJ	O
 .	PUNCT	O
 
-Cant	AUX	B-verb.motion
+Cant	AUX	O
 wait	VERB	B-verb.cognition
 for	ADP	O
 the	DET	O
@@ -15060,7 +15060,7 @@ RT	X	O
 :	PUNCT	O
 THIS	DET	O
 TWEET	NOUN	B-noun.communication
-IS	AUX	B-verb.stative
+IS	VERB	B-verb.stative
 FOR	ADP	O
 MY	PRON	O
 EYES	NOUN	B-noun.body
@@ -15082,7 +15082,7 @@ forget	VERB	B-verb.cognition
 your	PRON	O
 PIN	NOUN	B-noun.communication
 #	NOUN	I-noun.communication
-is	AUX	B-verb.stative
+is	VERB	B-verb.stative
 3919	NUM	O
 .	PUNCT	O
 YOU	PRON	O
@@ -15174,8 +15174,8 @@ http://su.pr/1XBMfP	X	O
 @shinobi32768	PROPN	O
 I	PRON	O
 've	AUX	O
-been	AUX	B-verb.stative
-having	AUX	B-verb.consumption
+been	AUX	O
+having	VERB	B-verb.consumption
 soup	NOUN	B-noun.food
 all	DET	O
 week	NOUN	B-noun.time
@@ -15183,12 +15183,12 @@ week	NOUN	B-noun.time
 do	AUX	O
 n't	ADV	O
 really	ADV	O
-have	AUX	B-verb.possession
+have	VERB	B-verb.possession
 a	DET	O
 favourite	NOUN	B-noun.food
 .	PUNCT	O
 It	PRON	O
-'s	AUX	B-verb.stative
+'s	AUX	O
 starting	VERB	B-verb.change
 to	PART	O
 taste	VERB	B-verb.perception
@@ -15234,7 +15234,7 @@ volleyball	NOUN	B-noun.act
 tomorrow	NOUN	B-noun.time
 
 I	PRON	O
-'m	AUX	B-verb.stative
+'m	VERB	B-verb.stative
 not	ADV	O
 an	DET	O
 emotional	ADJ	O
@@ -15252,12 +15252,12 @@ sad	ADJ	O
 And	CONJ	O
 when	ADV	O
 I	PRON	O
-do	AUX	B-verb.social
+do	AUX	O
 get	VERB	B-verb.change
 sad	ADJ	O
 ,	PUNCT	O
 It	PRON	O
-'s	AUX	B-verb.stative
+'s	VERB	B-verb.stative
 often	ADV	O
 not	ADV	O
 that	ADV	O
@@ -15279,7 +15279,7 @@ that	ADP	O
 Director	NOUN	B-noun.person
 Nigel	PROPN	I-noun.person
 Cole	PROPN	I-noun.person
-will	AUX	B-verb.communication
+will	AUX	O
 join	VERB	B-verb.social
 our	PRON	O
 Made	PROPN	B-noun.act
@@ -15298,14 +15298,14 @@ http://bit.ly/cNOeyS	X	O
 but	CONJ	O
 then	ADV	O
 what	PRON	O
-'s	AUX	B-verb.stative
+'s	VERB	B-verb.stative
 the	DET	O
 point	NOUN	B-noun.cognition
 of	ADP	O
 twitter	PROPN	B-noun.communication
 if	ADP	O
 people	NOUN	B-noun.group
-can	AUX	B-verb.change
+can	AUX	O
 just	ADV	O
 write	VERB	B-verb.creation
 nice	ADJ	O
@@ -15324,7 +15324,7 @@ RT	X	O
 @SPN_minion	PROPN	O
 :	PUNCT	O
 #Supernatural	NOUN	B-noun.communication
-is	AUX	B-verb.stative
+is	VERB	B-verb.stative
 like	ADP	O
 a	DET	O
 vitamin	NOUN	B-noun.substance
@@ -15345,7 +15345,7 @@ so	ADV	O
 longggggg	ADJ	O
 ,	PUNCT	O
 I	PRON	O
-'m	AUX	B-verb.stative
+'m	VERB	B-verb.stative
 finally	ADV	O
 outta	ADP	O
 the	DET	O
@@ -15440,7 +15440,7 @@ better	ADJ	O
 ?	PUNCT	O
 
 He	PRON	O
-did	AUX	B-verb.social
+did	VERB	B-verb.social
 okay	ADJ	O
 when	ADV	O
 he	PRON	O
@@ -15451,20 +15451,20 @@ RT	X	O
 :	PUNCT	O
 @bmoreumissedit	PROPN	O
 It	PRON	O
-was	AUX	B-verb.stative
+was	VERB	B-verb.stative
 no	DET	O
 game	NOUN	B-noun.act
 for	ADP	O
 Adam	PROPN	B-noun.person
 ,	PUNCT	O
 what	PRON	O
-is	AUX	B-verb.stative
+is	AUX	O
 it	PRON	O
 called	VERB	B-verb.communication
 by-week	NOUN	O
 ?	PUNCT	O
 How	ADV	O
-did	AUX	B-verb.social
+did	AUX	O
 little	ADJ	O
 G	PROPN	B-noun.person
 do	VERB	B-verb.social
@@ -15503,7 +15503,7 @@ time	NOUN	B-noun.time
 
 @IAMtheCOMMODORE	PROPN	O
 Today	NOUN	B-noun.time
-is	AUX	B-verb.stative
+is	VERB	B-verb.stative
 my	PRON	O
 20th	ADJ	O
 birthday	NOUN	B-noun.time
@@ -15533,7 +15533,7 @@ to	PART	O
 Everyone	NOUN	B-noun.person
 !	PUNCT	O
 #education	NOUN	B-noun.cognition
-can	AUX	B-verb.change
+can	AUX	O
 never	ADV	O
 be	AUX	O
 taken	VERB	B-verb.possession
@@ -15553,7 +15553,7 @@ first	ADJ	O
 rain	NOUN	B-noun.phenomenon
 we	PRON	O
 've	AUX	O
-had	AUX	B-verb.possession
+had	VERB	B-verb.possession
 in	ADP	O
 months	NOUN	B-noun.time
 ...	PUNCT	O
@@ -15561,7 +15561,7 @@ love	VERB	B-verb.emotion
 it	PRON	O
 !	PUNCT	O
 Chukchansi	PROPN	B-noun.person
-had	AUX	B-verb.creation
+had	VERB	B-verb.creation
 a	DET	O
 pow	NOUN	B-noun.event
 wow	NOUN	I-noun.event
@@ -15760,7 +15760,7 @@ http://fb.me/HsqX911j	X	O
 
 Today	NOUN	B-noun.time
 has	AUX	O
-been	AUX	B-verb.stative
+been	VERB	B-verb.stative
 a	DET	O
 GREAT	ADJ	O
 day	NOUN	B-noun.time
@@ -15800,7 +15800,7 @@ tomorrow	NOUN	B-noun.time
 http://is.gd/fKm4j	X	O
 
 I	PRON	O
-'m	AUX	B-verb.stative
+'m	AUX	O
 so	ADV	O
 addicted	VERB	O
 to	PART	O
@@ -15808,7 +15808,7 @@ Twitter	PROPN	B-noun.communication
 now	ADV	O
 that	ADP	O
 I	PRON	O
-can	AUX	B-verb.change
+can	AUX	O
 tweet	VERB	B-verb.communication
 all	DET	O
 the	DET	O
@@ -15825,7 +15825,7 @@ aw	INTJ	O
 i	PRON	O
 thought	VERB	B-verb.cognition
 u	PRON	O
-was	AUX	B-verb.stative
+was	AUX	O
 talkin	VERB	B-verb.communication
 bout	ADP	O
 another	DET	O
@@ -15844,7 +15844,7 @@ niggaz	NOUN	B-noun.person
 now	ADV	O
 a	DET	O
 days	NOUN	B-noun.time
-is	AUX	B-verb.stative
+is	VERB	B-verb.stative
 strate	ADJ	O
 clowns	NOUN	B-noun.person
 ...	PUNCT	O
@@ -15865,7 +15865,7 @@ eachother	NOUN	B-noun.person
 No	INTJ	O
 .	PUNCT	O
 He	PRON	O
-'s	AUX	B-verb.stative
+'s	AUX	O
 gonna	VERB	O
 run	VERB	B-verb.change
 out	ADP	O
@@ -15878,7 +15878,7 @@ day	NOUN	B-noun.time
 @SincerelyKRenee	PROPN	O
 but	CONJ	O
 u	PRON	O
-can	AUX	B-verb.change
+can	AUX	O
 just	ADV	O
 get	VERB	B-verb.possession
 her	PRON	O
@@ -15911,7 +15911,7 @@ Deal	VERB	B-verb.social
 When	ADV	O
 Your	PRON	O
 Crush	NOUN	B-noun.person
-Is	AUX	B-verb.stative
+Is	AUX	O
 Taken	VERB	B-verb.social
 :	PUNCT	O
 http://yhoo.it/aFG5Ue	X	O
@@ -15924,7 +15924,7 @@ u	PRON	O
 call	VERB	B-verb.communication
 someone	NOUN	B-noun.person
 5x	NOUN	B-noun.quantity
-'s	AUX	B-verb.stative
+'s	PART	O
 a	DET	O
 day	NOUN	B-noun.time
 and	CONJ	O
@@ -15933,7 +15933,7 @@ do	AUX	O
 n't	ADV	O
 answer	VERB	B-verb.communication
 ,	PUNCT	O
-do	AUX	B-verb.social
+do	AUX	O
 u	PRON	O
 not	ADV	O
 get	VERB	B-verb.cognition
@@ -15952,14 +15952,14 @@ u	PRON	O
 !!!!!	PUNCT	O
 
 @lesanto	PROPN	O
-have	AUX	B-verb.possession
+have	VERB	B-verb.possession
 a	DET	O
 look	NOUN	B-noun.act
 at	ADP	O
 http://facebook.com/media14	X	O
 ,	PUNCT	O
 there	DET	O
-are	AUX	B-verb.stative
+are	VERB	B-verb.stative
 postings	NOUN	B-noun.communication
 from	ADP	O
 TechCrunch	PROPN	B-noun.group
@@ -15969,4 +15969,10 @@ that	DET	O
 may	AUX	O
 help	VERB	B-verb.social
 #mobile	X	O
+
+
+
+
+
+
 
