@@ -22,34 +22,34 @@ def standardize_supersense(supersense):
 
 
 def add_mwe(sent):
-	for i in range(len(sent)):
-		token = sent[i]
-		token['mwe_strength'] = ''
-		token['mwe'] = 'O'
+    for i in range(len(sent)):
+        token = sent[i]
+        token['mwe_strength'] = ''
+        token['mwe'] = 'O'
         token['mwe_offset'] = 0
-		
-		if token['bio'] == 'B':
-			next_none_o_tags = [sent[j]['bio'] for j in range(i + 1, len(sent)) 
-								if sent[j]['bio'] != 'O']
-			#print(token)
-			#print(next_none_o_tags)
-			if next_none_o_tags and next_none_o_tags[0] == 'I':
-				token['mwe'] = 'B'
 
-		elif token['bio'] == 'I':
-			token['mwe'] = 'I'
-			token['supersense'] = ''
-			for j in reversed(range(0, i)):
-				# Token ids in the dimsum file format are 1-based, while
-				# they are 0-based in this loop
-				if sent[j]['mwe'] in ('B', 'I'):
-					token['mwe_offset'] = j + 1
-					break
-				elif sent[j]['mwe'] == 'O':
-					# The gappy version of 'O'
-					sent[j]['mwe'] = 'o'
+        if token['bio'] == 'B':
+            next_none_o_tags = [sent[j]['bio'] for j in range(i + 1, len(sent))
+                                if sent[j]['bio'] != 'O']
+            #print(token)
+            #print(next_none_o_tags)
+            if next_none_o_tags and next_none_o_tags[0] == 'I':
+                token['mwe'] = 'B'
 
-			assert 'mwe_offset' in token, "Token '%s' in\t%s" % (token, sent)
+        elif token['bio'] == 'I':
+            token['mwe'] = 'I'
+            token['supersense'] = ''
+            for j in reversed(range(0, i)):
+                # Token ids in the dimsum file format are 1-based, while
+                # they are 0-based in this loop
+                if sent[j]['mwe'] in ('B', 'I'):
+                    token['mwe_offset'] = j + 1
+                    break
+                elif sent[j]['mwe'] == 'O':
+                    # The gappy version of 'O'
+                    sent[j]['mwe'] = 'o'
+
+        assert 'mwe_offset' in token, "Token '%s' in\t%s" % (token, sent)
 
 
 def output_sent(sent):
