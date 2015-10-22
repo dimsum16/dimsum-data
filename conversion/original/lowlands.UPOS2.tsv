@@ -10,7 +10,7 @@ of	ADP	O
 Ganeshotsav	PROPN	B-noun.person
 :	PUNCT	O
 police	NOUN	B-noun.group
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Magic	ADJ	O
 Key	NOUN	B-noun.person
@@ -25,7 +25,7 @@ Booked	VERB	B-verb.cognition
 Services	NOUN	B-noun.act
 with	ADP	O
 @USER	PROPN	B-noun.person
-URL	NOUN	B-noun.communication
+URL	X	O
 @USER	PROPN	B-noun.person
 
 #HNIC	PROPN	B-noun.person
@@ -45,7 +45,7 @@ international	NOUN	I-noun.group
 was	VERB	B-verb.stative
 in	ADP	O
 ...	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 on	ADP	O
 @USER	PROPN	B-noun.person
 
@@ -68,7 +68,7 @@ depends	VERB	B-verb.stative
 Find	VERB	B-verb.possession
 out	PART	O
 why	ADV	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 I	PRON	O
 posted	VERB	B-verb.contact
@@ -77,7 +77,7 @@ new	ADJ	O
 photo	NOUN	B-noun.artifact
 to	ADP	O
 Facebook	PROPN	B-noun.person
-URL	NOUN	B-noun.communication
+URL	X	O
 
 European	ADJ	O
 Study	NOUN	B-noun.act
@@ -97,7 +97,7 @@ the	DET	O
 Munich	PROPN	B-noun.substance
 Sc	NOUN	I-noun.substance
 ...	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 NUMBER	NUM	B-noun.state
 Challenge	NOUN	I-noun.state
@@ -108,8 +108,8 @@ Mile	NOUN	B-noun.quantity
 a	DET	O
 Day	NOUN	B-noun.time
 #getmefit2	NOUN	B-noun.person
-URL	NOUN	B-noun.communication
-URL	NOUN	B-noun.communication
+URL	X	O
+URL	X	O
 
 Messi	PROPN	B-noun.person
 ,	PUNCT	O
@@ -128,7 +128,7 @@ group	NOUN	B-noun.Tops
 on	ADP	O
 training	NOUN	B-noun.act
 today	NOUN	B-noun.time
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Whatever	ADV	O
 your	DET	O
@@ -140,7 +140,7 @@ probably	ADV	O
 written	VERB	B-verb.creation
 about	ADP	O
 it	PRON	O
-URL	NOUN	B-noun.communication
+URL	X	O
 Check	VERB	B-verb.cognition
 out	PART	O
 his	DET	O
@@ -162,7 +162,7 @@ Single	NOUN	B-noun.person
 @USER	PROPN	B-noun.person
 -	PUNCT	O
 Playtime	NOUN	B-noun.time
-URL	NOUN	B-noun.communication
+URL	X	O
 #RipMucho	NOUN	B-noun.person
 #DoIt4Mucho	NOUN	B-noun.person
 #FreeKush	NOUN	B-noun.person
@@ -182,13 +182,13 @@ to	ADP	O
 follow	VERB	B-verb.motion
 @USER	PROPN	B-noun.person
 !	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 '	PUNCT	O
 Manuelgross/management	PROPN	B-noun.person
 '	PUNCT	O
 news	NOUN	B-noun.communication
-URL	NOUN	I-noun.communication
+URL	X	O
 -	PUNCT	O
 top	ADJ	O
 stories	NOUN	B-noun.communication
@@ -221,7 +221,7 @@ a	DET	O
 good	ADJ	O
 source	NOUN	B-noun.location
 ...	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Why	ADV	O
 barefoot	NOUN	B-noun.person
@@ -230,7 +230,7 @@ best	ADJ	O
 for	ADP	O
 most	DET	O
 runners	NOUN	B-noun.person
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Target	NOUN	B-noun.communication
 :	PUNCT	O
@@ -239,7 +239,7 @@ Money	NOUN	I-noun.act
 Maker	NOUN	I-noun.act
 Deal	NOUN	I-noun.act
 !!	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Estate	NOUN	B-noun.state
 agency	NOUN	I-noun.state
@@ -247,7 +247,7 @@ insolvencies	NOUN	I-noun.state
 '	PUNCT	O
 up	PART	O
 NUMBER	NUM	B-noun.attribute
-URL	NOUN	B-noun.communication
+URL	X	O
 
 White	ADJ	O
 Paper	NOUN	B-noun.substance
@@ -261,7 +261,7 @@ Media	NOUN	B-noun.communication
 and	CONJ	O
 Online	ADJ	O
 Marketing	NOUN	B-noun.act
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Mild	ADJ	O
 temperatures	NOUN	B-noun.attribute
@@ -278,7 +278,7 @@ the	DET	O
 work	NOUN	B-noun.time
 week	NOUN	I-noun.time
 .	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Today	NOUN	B-noun.person
 stats	NOUN	I-noun.person
@@ -293,7 +293,7 @@ followed	VERB	B-verb.motion
 one	NUM	B-noun.Tops
 person	NOUN	I-noun.Tops
 via	ADP	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 #BBATheChase	PROPN	B-noun.person
 :	PUNCT	O
@@ -303,7 +303,7 @@ we	PRON	O
 loved	VERB	B-verb.emotion
 this	DET	O
 year	NOUN	B-noun.time
-URL	NOUN	B-noun.communication
+URL	X	O
 
 #Cinetainment	NOUN	B-noun.person
 :	PUNCT	O
@@ -323,7 +323,7 @@ The	DET	O
 film	NOUN	B-noun.communication
 features	VERB	B-verb.stative
 ...	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Do	AUX	O
 you	PRON	O
@@ -353,7 +353,7 @@ OR	CONJ	O
 FACEBOOK	PROPN	B-noun.person
 O	X	O
 ...	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 The	DET	O
 event	NOUN	B-noun.Tops
@@ -376,7 +376,7 @@ hour-long	ADJ	O
 podcast	NOUN	B-noun.person
 here	ADV	O
 :	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 (	PUNCT	O
 K-Dawg	PROPN	B-noun.person
@@ -404,7 +404,7 @@ handful	DET	O
 of	ADP	O
 YouTube	PROPN	B-noun.person
 ...	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Today	ADV	O
 stats	NOUN	B-noun.person
@@ -419,14 +419,14 @@ followed	VERB	B-verb.motion
 NUMBER	NUM	B-noun.group
 people	NOUN	I-noun.group
 via	ADP	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Relatively	ADV	O
 Satisfied	ADJ	O
 Customers	NOUN	B-noun.person
 :	PUNCT	O
 Dilbert	PROPN	B-noun.person
-URL	NOUN	B-noun.communication
+URL	X	O
 #CartoonsandPictures	NOUN	B-noun.person
 #UserExperience	NOUN	B-noun.person
 
@@ -453,7 +453,7 @@ to	ADP	O
 do	VERB	B-verb.social
 two	NUM	B-noun.quantity
 ...	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Venice	PROPN	B-noun.time
 Festival	NOUN	I-noun.time
@@ -477,7 +477,7 @@ looks	VERB	B-verb.perception
 to	ADP	O
 the	DET	O
 ...	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 @USER	PROPN	B-noun.person
 :	PUNCT	O
@@ -495,8 +495,8 @@ worth	ADJ	O
 ?	PUNCT	O
 NUMBER	NUM	B-noun.attribute
 !	PUNCT	O
-URL	NOUN	B-noun.communication
-URL	NOUN	B-noun.communication
+URL	X	O
+URL	X	O
 
 #Syria's	PROPN	B-noun.person
 #Assad	PROPN	I-noun.person
@@ -511,7 +511,7 @@ motivated	VERB	B-verb.creation
 The	DET	O
 Star	NOUN	B-noun.object
 Online	NOUN	B-noun.person
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Baseball	NOUN	B-noun.act
 has	VERB	B-verb.possession
@@ -528,7 +528,7 @@ ended	VERB	B-verb.stative
 George	PROPN	B-noun.person
 Bernard	PROPN	B-noun.person
 Shaw	PROPN	B-noun.person
-URL	NOUN	B-noun.communication
+URL	X	O
 #Quotes	NOUN	B-noun.person
 
 Were	AUX	O
@@ -546,7 +546,7 @@ film	NOUN	I-noun.person
 students	NOUN	I-noun.person
 after	ADP	O
 clash	NOUN	B-noun.event
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Zombie	NOUN	B-noun.communication
 News	NOUN	I-noun.communication
@@ -562,7 +562,7 @@ Season	NOUN	I-noun.quantity
 Right	ADV	O
 Here	ADV	O
 !	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 WMAL	X	O
 EXCLUSIVE	ADJ	O
@@ -581,7 +581,7 @@ Boot	NOUN	B-noun.artifact
 Donations	NOUN	B-noun.possession
 To	ADP	O
 Dwindle	VERB	B-verb.change
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Today	ADV	O
 stats	NOUN	B-noun.person
@@ -592,7 +592,7 @@ follower	NOUN	I-noun.person
 2	NUM	B-noun.person
 unfollowers	NOUN	I-noun.person
 via	ADP	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 For	ADP	O
 your	DET	O
@@ -613,7 +613,7 @@ More	ADV	O
 @USER	PROPN	B-noun.person
 )	PUNCT	O
 |	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Watch	VERB	B-verb.perception
 Aaron	PROPN	B-noun.artifact
@@ -623,7 +623,7 @@ Tape	NOUN	I-noun.artifact
 For	ADP	O
 Breaking	NOUN	B-noun.act
 Bad	NOUN	B-noun.attribute
-URL	NOUN	B-noun.communication
+URL	X	O
 
 @USER	PROPN	B-noun.person
 :	PUNCT	O
@@ -639,7 +639,7 @@ Niliria	PROPN	B-noun.person
 "	PUNCT	O
 @USER	PROPN	B-noun.person
 KCON	PROPN	B-noun.person
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Sihuan	PROPN	B-noun.artifact
 Pharmaceutical	NOUN	I-noun.artifact
@@ -647,7 +647,7 @@ Announces	VERB	B-verb.communication
 NUMBER	NUM	B-noun.attribute
 Interim	ADJ	O
 Results	NOUN	B-noun.phenomenon
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Howard	PROPN	B-noun.person
 :	PUNCT	O
@@ -658,7 +658,7 @@ not	ADV	O
 fazed	VERB	B-verb.emotion
 by	ADP	O
 bid	NOUN	B-noun.communication
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Today	NOUN	B-noun.person
 stats	NOUN	I-noun.person
@@ -673,7 +673,7 @@ followed	VERB	B-verb.motion
 NUMBER	NUM	B-noun.group
 people	NOUN	I-noun.group
 via	ADP	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 No	DET	O
 #usopen	PROPN	B-noun.communication
@@ -699,7 +699,7 @@ to	ADP	O
 gain	VERB	B-verb.possession
 entry	NOUN	B-noun.communication
 "	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Senior	ADJ	O
 Accountant/Financial	NOUN	B-noun.person
@@ -708,7 +708,7 @@ controller(ACCA	NOUN	I-noun.person
 -	PUNCT	O
 #Qatar	PROPN	B-noun.person
 #Jobs	NOUN	B-noun.person
-URL	NOUN	B-noun.communication
+URL	X	O
 
 We've	AUX	O
 been	AUX	O
@@ -729,7 +729,7 @@ Go	VERB	B-verb.motion
 Home	NOUN	B-noun.location
 |	PUNCT	O
 LinkedIn	PROPN	B-noun.person
-URL	NOUN	B-noun.communication
+URL	X	O
 #CEO	NOUN	B-noun.person
 #leadership	NOUN	B-noun.person
 #management	NOUN	B-noun.person
@@ -753,7 +753,7 @@ that	ADP	O
 Malaga	PROPN	B-noun.location
 showed	VERB	B-verb.perception
 ...	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 on	ADP	O
 @USER	PROPN	B-noun.person
 
@@ -766,7 +766,7 @@ embark	VERB	B-verb.motion
 on	ADP	O
 strategic	ADJ	O
 partnership	NOUN	B-noun.communication
-URL	NOUN	I-noun.communication
+URL	X	O
 via	ADP	O
 @USER	PROPN	B-noun.person
 
@@ -782,9 +782,9 @@ Appears	VERB	B-verb.perception
 Healthy	ADJ	O
 ,	PUNCT	O
 Vibrant	ADJ	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
-URL	NOUN	B-noun.communication
+URL	X	O
 Several	DET	O
 months	NOUN	B-noun.time
 in	ADP	O
@@ -814,7 +814,7 @@ Video	NOUN	I-noun.communication
 |	PUNCT	O
 trappedoutseries	NOUN	B-noun.person
 :	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Today	NOUN	B-noun.person
 stats	NOUN	I-noun.person
@@ -829,7 +829,7 @@ followed	VERB	B-verb.motion
 one	NUM	B-noun.Tops
 person	NOUN	I-noun.Tops
 via	ADP	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Man	NOUN	B-noun.person
 arrested	VERB	B-verb.contact
@@ -837,7 +837,7 @@ after	ADP	O
 farm	NOUN	B-noun.artifact
 road	NOUN	B-noun.artifact
 crash	NOUN	B-noun.event
-URL	NOUN	B-noun.communication
+URL	X	O
 
 I	PRON	O
 posted	VERB	B-verb.contact
@@ -846,7 +846,7 @@ new	ADJ	O
 photo	NOUN	B-noun.artifact
 to	ADP	O
 Facebook	PROPN	B-noun.person
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Today	NOUN	B-noun.person
 stats	NOUN	I-noun.person
@@ -861,7 +861,7 @@ followed	VERB	B-verb.motion
 2	NUM	B-noun.group
 people	NOUN	I-noun.group
 via	ADP	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 I	PRON	O
 liked	VERB	B-verb.emotion
@@ -886,7 +886,7 @@ DreamYard's	PROPN	B-noun.person
 Annual	ADJ	O
 Movie	NOUN	B-noun.communication
 Night	NOUN	B-noun.time
-URL	NOUN	B-noun.communication
+URL	X	O
 
 @USER	PROPN	B-noun.person
 Presents	VERB	B-verb.perception
@@ -899,7 +899,7 @@ Showcase	PROPN	I-noun.person
 |	PUNCT	O
 Details	NOUN	B-noun.communication
 @USER	PROPN	B-noun.person
-URL	NOUN	B-noun.communication
+URL	X	O
 
 @USER	PROPN	B-noun.person
 Barry	PROPN	I-noun.person
@@ -916,7 +916,7 @@ Wakeford	PROPN	I-noun.person
 and	CONJ	O
 Susan	PROPN	B-noun.person
 Comrie	PROPN	B-noun.person
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Note	NOUN	B-noun.communication
 to	ADP	O
@@ -930,7 +930,7 @@ Investigation	NOUN	I-noun.group
 Team	NOUN	I-noun.group
 in	ADP	O
 Damascus	PROPN	B-noun.location
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Safety	NOUN	B-noun.state
 Drives	VERB	B-verb.motion
@@ -945,7 +945,7 @@ According	VERB	B-verb.stative
 to	ADP	O
 TR	PROPN	B-noun.person
 Cutler	PROPN	B-noun.person
-URL	NOUN	B-noun.communication
+URL	X	O
 
 The	DET	O
 Western	ADJ	O
@@ -968,7 +968,7 @@ disease	NOUN	I-noun.state
 :	PUNCT	O
 What	DET	O
 ...	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Venice	PROPN	B-noun.time
 Festival	NOUN	I-noun.time
@@ -992,7 +992,7 @@ looks	VERB	B-verb.perception
 to	ADP	O
 the	DET	O
 ...	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 One	DET	O
 of	ADP	O
@@ -1019,7 +1019,7 @@ his	DET	O
 Pyramid	NOUN	B-noun.shape
 of	ADP	O
 ...	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 @USER	PROPN	B-noun.person
 :	PUNCT	O
@@ -1039,7 +1039,7 @@ delivered	VERB	B-verb.communication
 a	DET	O
 stillborn	NOUN	B-noun.person
 :	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 ABRSM	PROPN	B-noun.person
 Scale	VERB	B-verb.stative
@@ -1051,7 +1051,7 @@ Grades	NOUN	I-noun.attribute
 NUMBER	NUM	I-noun.attribute
 to	ADP	O
 4	NUM	B-noun.quantity
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Nissan	PROPN	B-noun.person
 Terrano	PROPN	I-noun.person
@@ -1062,7 +1062,7 @@ SUV	NOUN	B-noun.artifact
 not	ADV	O
 for	ADP	O
 Oz	PROPN	B-noun.person
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Today	ADV	O
 stats	NOUN	B-noun.person
@@ -1073,7 +1073,7 @@ followers	NOUN	I-noun.group
 NUMBER	NUM	B-noun.person
 unfollowers	NOUN	I-noun.person
 via	ADP	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Venice	PROPN	B-noun.time
 Festival	NOUN	I-noun.time
@@ -1097,7 +1097,7 @@ looks	VERB	B-verb.perception
 to	ADP	O
 the	DET	O
 ...	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 I	PRON	O
 posted	VERB	B-verb.contact
@@ -1106,7 +1106,7 @@ new	ADJ	O
 photo	NOUN	B-noun.artifact
 to	ADP	O
 Facebook	PROPN	B-noun.person
-URL	NOUN	B-noun.communication
+URL	X	O
 
 The	DET	O
 night	NOUN	B-noun.time
@@ -1122,7 +1122,7 @@ by	ADP	O
 Cosmo	PROPN	B-noun.person
 Baker	PROPN	I-noun.person
 :	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 @USER	PROPN	B-noun.person
 :	PUNCT	O
@@ -1136,7 +1136,7 @@ stop	VERB	B-verb.motion
 payments	NOUN	I-noun.possession
 to	ADP	O
 #Brazil	PROPN	B-noun.communication
-URL	NOUN	I-noun.communication
+URL	X	O
 via	ADP	O
 @USER	PROPN	B-noun.person
 #trade	NOUN	B-noun.person
@@ -1151,8 +1151,8 @@ Leisure	NOUN	B-noun.person
 Read	VERB	B-verb.cognition
 more	ADJ	O
 :	PUNCT	O
-URL	NOUN	B-noun.communication
-URL	NOUN	B-noun.communication
+URL	X	O
+URL	X	O
 
 Remembering	VERB	B-verb.cognition
 :	PUNCT	O
@@ -1176,7 +1176,7 @@ issue	NOUN	I-noun.cognition
 #Karlie	PROPN	B-noun.person
 #Kloss	PROPN	I-noun.person
 ...	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 #Syria's	PROPN	B-noun.person
 #Assad	PROPN	I-noun.person
@@ -1190,7 +1190,7 @@ weapons	NOUN	B-noun.artifact
 Los	PROPN	B-noun.person
 Angeles	PROPN	B-noun.person
 Times	PROPN	B-noun.time
-URL	NOUN	B-noun.communication
+URL	X	O
 
 
 
@@ -1210,7 +1210,7 @@ Service	NOUN	B-noun.act
 ,	PUNCT	O
 anyway	ADV	O
 ?	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 #IBM	PROPN	B-noun.person
 #IBMCloud	PROPN	B-noun.person
 #SaaS	PROPN	B-noun.person
@@ -1233,7 +1233,7 @@ save	VERB	B-verb.social
 your	DET	O
 life	NOUN	B-noun.state
 .	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 #HNIC	PROPN	B-noun.person
 #HNIC	PROPN	I-noun.person
@@ -1252,7 +1252,7 @@ has	AUX	O
 scored	VERB	B-verb.competition
 winning	ADV	O
 ...	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 on	ADP	O
 @USER	PROPN	B-noun.person
 
@@ -1276,7 +1276,7 @@ Good	ADJ	O
 luck	NOUN	B-noun.person
 #Hokies	PROPN	I-noun.person
 :	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 #Bama	PROPN	B-noun.person
 
 TEEN	PROPN	B-noun.location
@@ -1293,7 +1293,7 @@ KCON	PROPN	I-noun.attribute
 NUMBER	NUM	I-noun.attribute
 in	ADP	O
 L.A	PROPN	B-noun.person
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Is	VERB	B-verb.stative
 the	DET	O
@@ -1316,7 +1316,7 @@ I	PRON	O
 guess	VERB	B-verb.cognition
 it	PRON	O
 is	VERB	B-verb.stative
-URL	NOUN	B-noun.communication
+URL	X	O
 
 European	ADJ	O
 Study	NOUN	B-noun.act
@@ -1336,7 +1336,7 @@ the	DET	O
 Munich	PROPN	B-noun.location
 Sc	X	O
 ...	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Good	ADJ	O
 Monday	NOUN	B-noun.time
@@ -1353,7 +1353,7 @@ photos	NOUN	I-noun.artifact
 just	ADV	O
 for	ADP	O
 you	PRON	O
-URL	NOUN	B-noun.communication
+URL	X	O
 @USER	PROPN	B-noun.person
 
 [	PUNCT	O
@@ -1368,7 +1368,7 @@ s	NOUN	B-noun.communication
 Album	NOUN	I-noun.communication
 Via	ADP	O
 Instagram	PROPN	B-noun.person
-URL	NOUN	B-noun.communication
+URL	X	O
 
 I	PRON	O
 DON	AUX	O
@@ -1393,7 +1393,7 @@ AND	CONJ	O
 STUPIDEST	ADJ	O
 OUTFITS	NOUN	B-noun.group
 ...	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Venice	PROPN	B-noun.time
 Festival	NOUN	I-noun.time
@@ -1417,7 +1417,7 @@ looks	VERB	B-verb.perception
 to	ADP	O
 the	DET	O
 ...	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 On	ADP	O
 this	DET	O
@@ -1438,7 +1438,7 @@ title	NOUN	B-noun.communication
 at	ADP	O
 SummerSlam	PROPN	B-noun.person
 NUMBER	NUM	B-noun.attribute
-URL	NOUN	B-noun.communication
+URL	X	O
 
 URGENT	ADJ	O
 :	PUNCT	O
@@ -1458,7 +1458,7 @@ Palace	NOUN	B-noun.artifact
 are	VERB	B-verb.stative
 reportedly	ADV	O
 ...	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 @USER	PROPN	B-noun.person
 :	PUNCT	O
@@ -1480,7 +1480,7 @@ tonight	NOUN	B-noun.time
 !	PUNCT	O
 ?	PUNCT	O
 lol	X	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Inspire	VERB	B-verb.emotion
 people	NOUN	B-noun.group
@@ -1501,7 +1501,7 @@ NUMBER	NUM	B-noun.attribute
 !	PUNCT	O
 #EcoMusic	NOUN	B-noun.person
 Challenge	NOUN	B-noun.state
-URL	NOUN	B-noun.communication
+URL	X	O
 
 @USER	PROPN	B-noun.person
 :	PUNCT	O
@@ -1515,7 +1515,7 @@ action	NOUN	B-noun.act
 -	PUNCT	O
 latest	ADJ	O
 news	NOUN	B-noun.communication
-URL	NOUN	I-noun.communication
+URL	X	O
 via	ADP	O
 @USER	PROPN	B-noun.person
 #ASSAD	PROPN	B-noun.person
@@ -1529,7 +1529,7 @@ Promoting	VERB	B-verb.social
 all	DET	O
 NEW	ADJ	O
 followers	NOUN	B-noun.group
-URL	NOUN	B-noun.communication
+URL	X	O
 
 @USER	PROPN	B-noun.person
 :	PUNCT	O
@@ -1545,7 +1545,7 @@ Fire	NOUN	I-noun.event
 |	PUNCT	O
 Your	DET	O
 EDM	X	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Hire	VERB	B-verb.social
 Or	CONJ	O
@@ -1556,7 +1556,7 @@ From	ADP	O
 NUMBER	NUM	B-noun.attribute
 To	ADP	O
 NUMBER	NUM	B-noun.attribute
-URL	NOUN	B-noun.communication
+URL	X	O
 
 @USER	PROPN	B-noun.person
 :	PUNCT	O
@@ -1572,7 +1572,7 @@ Dec	NOUN	B-noun.attribute
 NUMBER	NUM	I-noun.attribute
 at	ADP	O
 Mascotte	PROPN	B-noun.person
-URL	NOUN	B-noun.communication
+URL	X	O
 
 @USER	PROPN	B-noun.person
 :	PUNCT	O
@@ -1587,13 +1587,13 @@ under	ADP	O
 fire	NOUN	B-noun.event
 in	ADP	O
 Syria	PROPN	B-noun.location
-URL	NOUN	B-noun.communication
+URL	X	O
 
 I'm	VERB	O
 A	DET	O
 Real	ADJ	O
 Girl	NOUN	B-noun.person
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Valon	PROPN	B-noun.person
 Behrami	PROPN	I-noun.person
@@ -1613,7 +1613,7 @@ Date	NOUN	I-noun.time
 Wednesday	NOUN	B-noun.person
 Sep-25-2013	NOUN	I-noun.person
 ...	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 @USER	PROPN	B-noun.person
 :	PUNCT	O
@@ -1635,7 +1635,7 @@ to	ADP	O
 Defund	VERB	O
 Obamacare	PROPN	B-noun.person
 .	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 Pls	PART	O
 RT	VERB	O
 
@@ -1652,7 +1652,7 @@ a	DET	O
 LifeLock	PROPN	B-noun.act
 Survey	NOUN	I-noun.act
 Finds	VERB	B-verb.possession
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Honda	PROPN	B-noun.attribute
 Civic	PROPN	I-noun.attribute
@@ -1674,7 +1674,7 @@ Date	NOUN	I-noun.time
 :	PUNCT	O
 Thursday	NOUN	B-noun.time
 ...	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 New	ADJ	O
 to	ADP	O
@@ -1700,7 +1700,7 @@ are	VERB	B-verb.stative
 even	ADV	O
 open	ADJ	O
 ...	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 @USER	PROPN	B-noun.person
 :	PUNCT	O
@@ -1712,7 +1712,7 @@ Will	AUX	O
 Allow	VERB	B-verb.social
 Inspectors	NOUN	B-noun.person
 :	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 I'm	VERB	O
 at	ADP	O
@@ -1728,7 +1728,7 @@ Oakland	PROPN	B-noun.location
 ,	PUNCT	O
 CA	PROPN	B-noun.substance
 )	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Photo	NOUN	B-noun.artifact
 :	PUNCT	O
@@ -1738,20 +1738,20 @@ Kamaile	PROPN	I-noun.person
 inspiring	ADJ	O
 picture	NOUN	B-noun.artifact
 on	ADP	O
-URL	NOUN	B-noun.communication
+URL	X	O
 en	X	O
 We	PRON	O
 Heart	VERB	O
 It	PRON	O
 ....	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Baffled	ADJ	O
 Di	PROPN	B-noun.person
 Resta	PROPN	I-noun.person
 rues	VERB	B-verb.emotion
 collision	NOUN	B-noun.event
-URL	NOUN	B-noun.communication
+URL	X	O
 
 "	PUNCT	O
 Dictionaries	NOUN	B-noun.communication
@@ -1772,7 +1772,7 @@ do	AUX	O
 you	PRON	O
 think	VERB	B-verb.cognition
 ?	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Photo	NOUN	B-noun.artifact
 ?	PUNCT	O
@@ -1787,7 +1787,7 @@ by	ADP	O
 wim	PROPN	B-noun.person
 denijs	PROPN	B-noun.person
 #500px	NOUN	B-noun.person
-URL	NOUN	B-noun.communication
+URL	X	O
 
 If	ADP	O
 you	PRON	O
@@ -1809,7 +1809,7 @@ Mini	PROPN	B-noun.artifact
 Cooper	PROPN	B-noun.person
 Convertible	NOUN	B-noun.artifact
 one	NUM	B-noun.quantity
-URL	NOUN	B-noun.communication
+URL	X	O
 
 @USER	PROPN	B-noun.person
 :	PUNCT	O
@@ -1824,7 +1824,7 @@ How	ADV	O
 We	PRON	O
 Think	VERB	B-verb.cognition
 ?	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 via	ADP	O
 @USER	PROPN	B-noun.person
 
@@ -1841,7 +1841,7 @@ followed	VERB	B-verb.motion
 NUMBER	NUM	B-noun.group
 people	NOUN	I-noun.group
 via	ADP	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 @USER	PROPN	B-noun.person
 :	PUNCT	O
@@ -1881,7 +1881,7 @@ followed	VERB	B-verb.motion
 NUMBER	NUM	B-noun.group
 people	NOUN	I-noun.group
 via	ADP	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Today	NOUN	B-noun.person
 stats	NOUN	I-noun.person
@@ -1892,7 +1892,7 @@ followers	NOUN	I-noun.group
 No	DET	O
 unfollowers	NOUN	B-noun.person
 via	ADP	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 @USER	PROPN	B-noun.person
 :	PUNCT	O
@@ -1914,7 +1914,7 @@ tomorrow	NOUN	I-noun.time
 More	DET	O
 info	NOUN	B-noun.communication
 -	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 There	PRON	O
 are	VERB	B-verb.stative
@@ -1937,14 +1937,14 @@ posting	VERB	B-verb.contact
 your	DET	O
 bid	NOUN	B-noun.communication
 .	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Radio	PROPN	B-noun.person
 NUMBER	NUM	I-noun.person
 Darkside	PROPN	I-noun.person
 Teaser	NOUN	I-noun.person
 :	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 via	ADP	O
 @USER	PROPN	B-noun.time
 NUMBER	NUM	I-noun.time
@@ -1963,7 +1963,7 @@ follower	NOUN	I-noun.person
 No	DET	O
 unfollowers	NOUN	B-noun.person
 via	ADP	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 "	PUNCT	O
 Weird	ADJ	O
@@ -1972,7 +1972,7 @@ accessories	NOUN	B-noun.artifact
 -	PUNCT	O
 Telegraph	PROPN	B-noun.artifact
 "	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Music	NOUN	B-noun.artifact
 Think	NOUN	I-noun.artifact
@@ -1990,7 +1990,7 @@ Industry	NOUN	I-noun.group
 4	NUM	B-noun.quantity
 Key	NOUN	B-noun.artifact
 Factors	NOUN	B-noun.event
-URL	NOUN	B-noun.communication
+URL	X	O
 
 NSA	PROPN	B-noun.object
 agents	NOUN	I-noun.object
@@ -2006,7 +2006,7 @@ called	VERB	B-verb.communication
 "	PUNCT	O
 LOVEINT	PROPN	B-noun.person
 "	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 NUMBER	NUM	B-noun.attribute
 top	ADJ	O
@@ -2014,7 +2014,7 @@ theme	NOUN	B-noun.person
 parks	NOUN	I-noun.person
 opening	VERB	B-verb.contact
 soon	ADV	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 @USER	PROPN	B-noun.person
 :	PUNCT	O
@@ -2034,7 +2034,7 @@ gotta	AUX	O
 love	VERB	B-verb.emotion
 her	PRON	O
 .	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 ?	PUNCT	O
 
 NUMBER	NUM	B-noun.person
@@ -2053,7 +2053,7 @@ obo	PROPN	I-noun.person
 yopungstown	PROPN	B-noun.person
 )	PUNCT	O
 NUMBER	NUM	B-noun.attribute
-URL	NOUN	B-noun.communication
+URL	X	O
 
 I	PRON	O
 posted	VERB	B-verb.contact
@@ -2062,7 +2062,7 @@ new	ADJ	O
 photo	NOUN	B-noun.artifact
 to	ADP	O
 Facebook	PROPN	B-noun.person
-URL	NOUN	B-noun.communication
+URL	X	O
 
 NUMBER	NUM	B-noun.attribute
 Girly	ADJ	O
@@ -2075,7 +2075,7 @@ You	PRON	O
 Maybe	ADV	O
 Still	ADV	O
 Want	VERB	B-verb.emotion
-URL	NOUN	B-noun.communication
+URL	X	O
 
 @USER	PROPN	B-noun.person
 :	PUNCT	O
@@ -2088,7 +2088,7 @@ Some	DET	O
 Kids	NOUN	B-noun.person
 with	ADP	O
 ADHD	PROPN	B-noun.state
-URL	NOUN	B-noun.communication
+URL	X	O
 
 When	ADV	O
 I	PRON	O
@@ -2099,7 +2099,7 @@ I	PRON	O
 want	VERB	B-verb.emotion
 to	ADP	O
 ...	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 from	ADP	O
 Seth	PROPN	B-noun.person
 Godin	PROPN	I-noun.person
@@ -2132,7 +2132,7 @@ homage	NOUN	B-noun.act
 to	ADP	O
 George	PROPN	B-noun.person
 .	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 I	PRON	O
 posted	VERB	B-verb.contact
@@ -2141,7 +2141,7 @@ new	ADJ	O
 photo	NOUN	B-noun.artifact
 to	ADP	O
 Facebook	PROPN	B-noun.person
-URL	NOUN	B-noun.communication
+URL	X	O
 
 NUMBER	NUM	B-noun.person
 Technology	PROPN	I-noun.person
@@ -2155,7 +2155,7 @@ NUMBER	NUM	I-noun.attribute
 Advanced	PROPN	B-noun.person
 Imaging	PROPN	B-noun.cognition
 Society	PROPN	B-noun.group
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Does	AUX	O
 Evil	PROPN	B-noun.act
@@ -2172,7 +2172,7 @@ wait	VERB	B-verb.stative
 #kiramorgana	PROPN	B-noun.person
 #TTATE	PROPN	I-noun.person
 -	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 NEW	ADJ	O
 POST	NOUN	B-noun.location
@@ -2185,7 +2185,7 @@ ads	NOUN	I-noun.communication
 at	ADP	O
 your	DET	O
 fingertips	NOUN	B-noun.body
-URL	NOUN	B-noun.communication
+URL	X	O
 #vintage	NOUN	B-noun.person
 
 I	PRON	O
@@ -2195,7 +2195,7 @@ new	ADJ	O
 photo	NOUN	B-noun.artifact
 to	ADP	O
 Facebook	PROPN	B-noun.person
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Japan	PROPN	B-noun.group
 school	NOUN	I-noun.group
@@ -2209,7 +2209,7 @@ curbs	NOUN	B-noun.artifact
 on	ADP	O
 anti-war	ADJ	O
 comic	NOUN	B-noun.person
-URL	NOUN	B-noun.communication
+URL	X	O
 #health	NOUN	B-noun.person
 #living	NOUN	B-noun.person
 
@@ -2232,7 +2232,7 @@ to	ADP	O
 win	VERB	B-verb.competition
 it	PRON	O
 :	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Antique	ADJ	O
 ROYAL	PROPN	B-noun.cognition
@@ -2247,7 +2247,7 @@ Mending	VERB	B-verb.change
 /	PUNCT	O
 Wednesday	NOUN	B-noun.time
 NUMBER	NUM	B-noun.attribute
-URL	NOUN	B-noun.communication
+URL	X	O
 #plates	NOUN	B-noun.person
 
 Don't	AUX	O
@@ -2260,8 +2260,8 @@ Beagle	PROPN	I-noun.artifact
 Rescue	PROPN	I-noun.artifact
 gear	NOUN	I-noun.artifact
 !	PUNCT	O
-URL	NOUN	B-noun.communication
-URL	NOUN	B-noun.communication
+URL	X	O
+URL	X	O
 
 Don	AUX	O
 ?	PUNCT	O
@@ -2284,7 +2284,7 @@ better	ADV	O
 here	ADV	O
 at	ADP	O
 #ExpertsEnterprise	PROPN	B-noun.person
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Guzan	PROPN	B-noun.person
 :	PUNCT	O
@@ -2293,7 +2293,7 @@ massively	ADV	O
 different	ADJ	O
 this	DET	O
 season	NOUN	B-noun.time
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Soccer	NOUN	B-noun.communication
 news	NOUN	I-noun.communication
@@ -2306,7 +2306,7 @@ LUCKY	ADJ	O
 TO	ADP	O
 HAVE	VERB	B-verb.possession
 STURRIDGE	PROPN	B-noun.person
-URL	NOUN	B-noun.communication
+URL	X	O
 #SoccerNews	NOUN	B-noun.person
 #soccer	NOUN	B-noun.person
 #fifa	PROPN	B-noun.person
@@ -2317,7 +2317,7 @@ URL	NOUN	B-noun.communication
 Favstar/top-50-funny	ADJ	O
 '	PUNCT	O
 news	NOUN	B-noun.communication
-URL	NOUN	I-noun.communication
+URL	X	O
 -	PUNCT	O
 top	ADJ	O
 stories	NOUN	B-noun.communication
@@ -2344,7 +2344,7 @@ it	PRON	O
 trip	NOUN	B-noun.act
 to	ADP	O
 michigan	PROPN	B-noun.location
-URL	NOUN	B-noun.communication
+URL	X	O
 
 #NowPlaying	NOUN	B-noun.person
 Do	VERB	B-verb.social
@@ -2365,7 +2365,7 @@ well	X	O
 me	PRON	O
 too	ADV	O
 ?	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 ***	PUNCT	O
 #CCC	NOUN	B-noun.animal
@@ -2394,7 +2394,7 @@ so	X	O
 get	VERB	B-verb.possession
 on	ADP	O
 ...	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Post	ADJ	O
 match	NOUN	B-noun.communication
@@ -2402,7 +2402,7 @@ interview	NOUN	I-noun.communication
 with	ADP	O
 Kraigg	PROPN	B-noun.person
 Brathwaite	PROPN	B-noun.person
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Have	AUX	O
 you	PRON	O
@@ -2427,7 +2427,7 @@ with	ADP	O
 ponzu	NOUN	B-noun.food
 sauce	NOUN	I-noun.food
 ...	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 lack	NOUN	B-noun.state
 of	ADP	O
@@ -2447,7 +2447,7 @@ adapt	VERB	B-verb.change
 to	ADP	O
 changing	ADJ	O
 climate	NOUN	B-noun.state
-URL	NOUN	B-noun.communication
+URL	X	O
 
 @USER	PROPN	B-noun.person
 :	PUNCT	O
@@ -2460,7 +2460,7 @@ NUMBER	NUM	I-noun.attribute
 is	VERB	B-verb.stative
 out	ADV	O
 !	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 ?	PUNCT	O
 ?	PUNCT	O
 Top	ADJ	O
@@ -2476,7 +2476,7 @@ To	ADP	O
 A	DET	O
 Perfect	ADJ	O
 Sandwich	NOUN	B-noun.food
-URL	NOUN	B-noun.communication
+URL	X	O
 
 I	PRON	O
 posted	VERB	B-verb.contact
@@ -2485,7 +2485,7 @@ new	ADJ	O
 photo	NOUN	B-noun.artifact
 to	ADP	O
 Facebook	PROPN	B-noun.person
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Bendtner	PROPN	B-noun.person
 could	AUX	O
@@ -2511,7 +2511,7 @@ FFS	NOUN	I-noun.person
 .	PUNCT	O
 #WBAFC	PROPN	B-noun.person
 #Baggiee	PROPN	B-noun.person
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Build	VERB	B-verb.creation
 a	DET	O
@@ -2536,7 +2536,7 @@ The	DET	O
 post	NOUN	B-noun.person
 Bui	PROPN	I-noun.person
 ?	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 European	ADJ	O
 Study	NOUN	B-noun.act
@@ -2556,13 +2556,13 @@ the	DET	O
 Munich	PROPN	B-noun.substance
 Sc	NOUN	I-noun.substance
 ...	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Interview	NOUN	B-noun.communication
 :	PUNCT	O
 Brodus	PROPN	B-noun.communication
 Clay	PROPN	I-noun.communication
-URL	NOUN	I-noun.communication
+URL	X	O
 No	DET	O
 One	NOUN	B-noun.quantity
 Lives	VERB	B-verb.stative
@@ -2595,13 +2595,13 @@ to	ADP	O
 URL	NOUN	B-noun.person
 ipad	NOUN	I-noun.person
 ...	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 WELSH	ADJ	O
 DRAGON	NOUN	B-noun.person
 FOUND	VERB	B-verb.social
 :	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 via	ADP	O
 @USER	PROPN	B-noun.person
 
@@ -2616,14 +2616,14 @@ Music	NOUN	I-noun.group
 Awards	NOUN	I-noun.group
 Reunion	NOUN	I-noun.group
 ?	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Date	NOUN	B-noun.time
 agreed	VERB	B-verb.communication
 for	ADP	O
 referendum	NOUN	B-noun.act
 purdah	NOUN	B-noun.state
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Global	ADJ	O
 Analysis	NOUN	B-noun.act
@@ -2633,7 +2633,7 @@ Automotive	NOUN	B-noun.person
 Refinish	NOUN	B-noun.person
 Coatings	NOUN	B-noun.artifact
 Market	NOUN	B-noun.act
-URL	NOUN	B-noun.communication
+URL	X	O
 
 I'm	AUX	O
 sharing	VERB	B-verb.stative
@@ -2644,8 +2644,8 @@ muffin	NOUN	I-noun.time
 recipe	NOUN	I-noun.time
 today	NOUN	I-noun.time
 .	PUNCT	O
-URL	NOUN	B-noun.communication
-URL	NOUN	B-noun.communication
+URL	X	O
+URL	X	O
 
 GMC/Chevy/Hummer/Buick/Saturn/	PROPN	B-noun.person
 Flyaudio	PROPN	I-noun.person
@@ -2661,7 +2661,7 @@ End	NOUN	B-noun.time
 Date	NOUN	I-noun.time
 :	PUNCT	O
 ...	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaahhhhh	X	O
 !!!!!!!!!!	PUNCT	O
@@ -2671,7 +2671,7 @@ to	ADP	O
 Say	VERB	B-verb.communication
 ?	PUNCT	O
 Angra	PROPN	B-noun.person
-URL	NOUN	B-noun.communication
+URL	X	O
 #NowPlaying	NOUN	B-noun.person
 
 [	PUNCT	O
@@ -2694,7 +2694,7 @@ TODAY	NOUN	B-noun.time
 |	PUNCT	O
 Details	NOUN	B-noun.communication
 @USER	PROPN	B-noun.person
-URL	NOUN	B-noun.communication
+URL	X	O
 
 National	NOUN	B-noun.group
 Dance	NOUN	I-noun.group
@@ -2710,7 +2710,7 @@ Slow	ADJ	O
 *	PUNCT	O
 ...	PUNCT	O
 :	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 via	ADP	O
 @USER	PROPN	B-noun.person
 
@@ -2726,7 +2726,7 @@ Pantyhose	NOUN	B-noun.artifact
 #nsfw	NOUN	B-noun.person
 #shemales	NOUN	B-noun.person
 #pantyhose	NOUN	B-noun.person
-URL	NOUN	B-noun.communication
+URL	X	O
 
 #Redgage	PROPN	B-noun.person
 Save	VERB	B-verb.social
@@ -2736,7 +2736,7 @@ while	ADP	O
 your	DET	O
 #vehicles	NOUN	B-noun.person
 #Photo	NOUN	B-noun.person
-URL	NOUN	B-noun.communication
+URL	X	O
 
 One	NOUN	B-noun.time
 Dress	NOUN	I-noun.time
@@ -2746,11 +2746,11 @@ Exclusive	ADJ	O
 :	PUNCT	O
 Liverpool	PROPN	B-noun.location
 Dress	NOUN	B-noun.artifact
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Welcome	VERB	B-verb.possession
 Home	NOUN	B-noun.communication
-URL	NOUN	I-noun.communication
+URL	X	O
 via	ADP	O
 @USER	PROPN	B-noun.substance
 Liz	PROPN	I-noun.substance
@@ -2771,7 +2771,7 @@ Flat	PART	O
 |	PUNCT	O
 Resume	NOUN	B-noun.person
 Companion	NOUN	I-noun.person
-URL	NOUN	B-noun.communication
+URL	X	O
 
 yu	PRON	O
 a	DET	O
@@ -2794,7 +2794,7 @@ me	PRON	O
 like	ADP	O
 that	DET	O
 !!!!	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 I	PRON	O
 posted	VERB	B-verb.contact
@@ -2803,7 +2803,7 @@ new	ADJ	O
 photo	NOUN	B-noun.artifact
 to	ADP	O
 Facebook	PROPN	B-noun.person
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Leicester	PROPN	B-noun.location
 City	PROPN	I-noun.location
@@ -2826,7 +2826,7 @@ PDT	PROPN	I-noun.person
 Buy	VERB	B-verb.possession
 It	PRON	O
 ...	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 I	PRON	O
 liked	VERB	B-verb.emotion
@@ -2851,7 +2851,7 @@ COOL	ADJ	O
 SOCCER	NOUN	B-noun.act
 FANS	NOUN	B-noun.artifact
 IMAGES	NOUN	B-noun.cognition
-URL	NOUN	B-noun.communication
+URL	X	O
 #SoccerFans	NOUN	B-noun.person
 #soccer	NOUN	B-noun.person
 #fifa	PROPN	B-noun.person
@@ -2869,7 +2869,7 @@ Thirty	NUM	B-noun.time
 Seconds	NOUN	I-noun.time
 To	ADP	O
 Mars	PROPN	B-noun.object
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Joey	PROPN	B-noun.person
 Bada$$	PROPN	I-noun.person
@@ -2883,14 +2883,14 @@ Lamar	PROPN	I-noun.phenomenon
 Response	NOUN	I-noun.phenomenon
 "	PUNCT	O
 :	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Kiessling	PROPN	B-noun.person
 unconcerned	VERB	O
 by	ADP	O
 international	ADJ	O
 snub	NOUN	B-noun.communication
-URL	NOUN	B-noun.communication
+URL	X	O
 
 September	NOUN	B-noun.group
 Couponing	NOUN	I-noun.group
@@ -2907,7 +2907,7 @@ learn	VERB	B-verb.cognition
 tips	NOUN	B-noun.location
 and	CONJ	O
 tricks	NOUN	B-noun.act
-URL	NOUN	B-noun.communication
+URL	X	O
 
 I	PRON	O
 posted	VERB	B-verb.contact
@@ -2916,7 +2916,7 @@ new	ADJ	O
 photo	NOUN	B-noun.artifact
 to	ADP	O
 Facebook	PROPN	B-noun.person
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Google	PROPN	B-noun.communication
 ?	PUNCT	O
@@ -2942,7 +2942,7 @@ Rose	PROPN	I-noun.plant
 Video	NOUN	B-noun.communication
 )	PUNCT	O
 ...	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 [	PUNCT	O
 MUSIC	NOUN	B-noun.communication
@@ -2959,7 +2959,7 @@ D'TUNES	PROPN	B-noun.person
 (	PUNCT	O
 @USER	PROPN	B-noun.person
 )	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Loudoun	PROPN	B-noun.person
 County	PROPN	I-noun.person
@@ -2971,7 +2971,7 @@ association	NOUN	I-noun.group
 ,	PUNCT	O
 files	VERB	B-verb.communication
 bankruptcy	NOUN	B-noun.state
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Even	ADV	O
 the	DET	O
@@ -3000,7 +3000,7 @@ These	DET	O
 Japanese	ADJ	O
 deer	NOUN	B-noun.animal
 ...	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Win	VERB	B-verb.competition
 a	DET	O
@@ -3013,7 +3013,7 @@ from	ADP	O
 and	CONJ	O
 @USER	PROPN	B-noun.person
 #giveaway	NOUN	B-noun.person
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Apple's	PROPN	B-noun.person
 '	PUNCT	O
@@ -3037,7 +3037,7 @@ report	VERB	B-verb.communication
 -	PUNCT	O
 Apple	PROPN	B-noun.food
 Insider	NOUN	B-noun.person
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Hearts	PROPN	B-noun.artifact
 fan	NOUN	I-noun.artifact
@@ -3045,7 +3045,7 @@ offers	VERB	B-verb.possession
 cash	NOUN	B-noun.possession
 for	ADP	O
 appeal	NOUN	B-noun.communication
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Online	ADJ	O
 CRM	NOUN	B-noun.artifact
@@ -3054,8 +3054,8 @@ and	CONJ	O
 your	DET	O
 business	NOUN	B-noun.group
 -	PUNCT	O
-URL	NOUN	B-noun.communication
-URL	NOUN	B-noun.communication
+URL	X	O
+URL	X	O
 
 How	ADV	O
 late	ADJ	O
@@ -3075,7 +3075,7 @@ cuz	ADP	O
 fell	VERB	B-verb.contact
 asleep	ADJ	O
 .	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Lenny	PROPN	B-noun.person
 Bonsignore	PROPN	I-noun.person
@@ -3087,7 +3087,7 @@ Phone	NOUN	B-noun.artifact
 NUMBER	NUM	B-noun.attribute
 Start	NOUN	B-noun.event
 Screen	NOUN	B-noun.artifact
-URL	NOUN	B-noun.communication
+URL	X	O
 
 @USER	PROPN	B-noun.person
 :	PUNCT	O
@@ -3098,14 +3098,14 @@ Muslim	ADJ	O
 Brotherhood's	PROPN	B-noun.person
 Christian	NOUN	B-noun.person
 Scapegoating	NOUN	B-noun.person
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Ballina	PROPN	B-noun.group
 Expo	PROPN	I-noun.group
 for	ADP	O
 unemployed	NOUN	B-noun.group
 .	PUNCT	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Accountant	NOUN	B-noun.person
 with	ADP	O
@@ -3116,7 +3116,7 @@ experience	NOUN	I-noun.cognition
 -	PUNCT	O
 #Qatar	PROPN	B-noun.person
 #Jobs	NOUN	B-noun.person
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Temazo	PROPN	B-noun.person
 !	PUNCT	O
@@ -3129,7 +3129,7 @@ Radio	NOUN	B-noun.person
 Edit	NOUN	I-noun.person
 ?	PUNCT	O
 Avicii	PROPN	B-noun.person
-URL	NOUN	B-noun.communication
+URL	X	O
 #NowPlaying	NOUN	B-noun.person
 
 #Beachparty	NOUN	B-noun.person
@@ -3145,8 +3145,8 @@ and	CONJ	O
 go	VERB	B-verb.motion
 wild	ADV	O
 !	PUNCT	O
-URL	NOUN	B-noun.communication
-URL	NOUN	B-noun.communication
+URL	X	O
+URL	X	O
 
 Why	ADV	O
 Touch	NOUN	B-noun.artifact
@@ -3158,7 +3158,7 @@ Over	PART	O
 :	PUNCT	O
 Scientific	ADJ	O
 American	PROPN	B-noun.communication
-URL	NOUN	I-noun.communication
+URL	X	O
 via	ADP	O
 @USER	PROPN	B-noun.person
 
@@ -3177,7 +3177,7 @@ MT	NOUN	B-noun.attribute
 NUMBER	NUM	I-noun.attribute
 )	PUNCT	O
 NUMBER	NUM	B-noun.attribute
-URL	NOUN	B-noun.communication
+URL	X	O
 
 NUMBER	NUM	B-noun.attribute
 Indian	ADJ	O
@@ -3191,7 +3191,7 @@ coast	NOUN	I-noun.object
 -	PUNCT	O
 Business	NOUN	B-noun.group
 Standard	NOUN	B-noun.communication
-URL	NOUN	B-noun.communication
+URL	X	O
 
 "	PUNCT	O
 Neither	DET	O
@@ -3210,7 +3210,7 @@ Diggles	PROPN	I-noun.person
 of	ADP	O
 @USER	PROPN	B-noun.person
 #Millennials	NOUN	B-noun.person
-URL	NOUN	B-noun.communication
+URL	X	O
 
 Check	VERB	B-verb.cognition
 out	PART	O
@@ -3244,7 +3244,7 @@ stahp	VERB	O
 it	PRON	O
 ,	PUNCT	O
 you	PRON	O
-URL	NOUN	B-noun.communication
+URL	X	O
 
 LIVE	VERB	B-verb.stative
 :	PUNCT	O
@@ -3258,7 +3258,7 @@ snipers	NOUN	B-noun.person
 -	X	O
 latest	ADJ	O
 news	NOUN	B-noun.communication
-URL	NOUN	B-noun.communication
+URL	X	O
 via	ADP	O
 @USER	PROPN	B-noun.person
 
