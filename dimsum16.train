@@ -1192,8 +1192,6 @@
 12	Times	times	PROPN	O	0		n.time	lowlands-73
 13	URL	URL	X	O	0			lowlands-73
 
-
-
 1	On	on	ADP	O	0			lowlands-76
 2	more	more	ADJ	O	0			lowlands-76
 3	time	time	NOUN	O	0		n.event	lowlands-76
@@ -19233,12 +19231,6 @@
 16	may	may	AUX	O	0			ritter-787
 17	help	help	VERB	O	0		v.social	ritter-787
 18	#mobile	#mobile	X	O	0			ritter-787
-
-
-
-
-
-
 
 1	Hello	hello	INTJ	O	0			ewtb.r.007403.2
 2	my	my	PRON	O	0			ewtb.r.007403.2
@@ -78630,4 +78622,3 @@
 3	recommend	recommend	VERB	O	0		v.communication	ewtb.r.397066.5
 4	her	her	PRON	O	0			ewtb.r.397066.5
 5	.	.	PUNCT	O	0			ewtb.r.397066.5
-
