@@ -26,6 +26,7 @@ def add_mwe(sent):
 		token = sent[i]
 		token['mwe_strength'] = ''
 		token['mwe'] = 'O'
+        token['mwe_offset'] = 0
 		
 		if token['bio'] == 'B':
 			next_none_o_tags = [sent[j]['bio'] for j in range(i + 1, len(sent)) 
