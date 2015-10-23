@@ -1192,8 +1192,6 @@ Angeles	PROPN	B-noun.person
 Times	PROPN	B-noun.time
 URL	X	O
 
-
-
 On	ADP	O
 more	ADJ	O
 time	NOUN	B-noun.event
@@ -3261,4 +3259,3 @@ news	NOUN	B-noun.communication
 URL	X	O
 via	ADP	O
 @USER	PROPN	B-noun.person
-

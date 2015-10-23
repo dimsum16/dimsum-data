@@ -1192,649 +1192,687 @@
 12	Times	times	PROPN	O	0		n.time	lowlands-73
 13	URL	URL	X	O	0			lowlands-73
 
+1	On	on	ADP	O	0			lowlands-74
+2	more	more	ADJ	O	0			lowlands-74
+3	time	time	NOUN	O	0		n.event	lowlands-74
+4	.	.	PUNCT	O	0			lowlands-74
+5	Why	why	ADV	O	0			lowlands-74
+6	should	should	AUX	O	0			lowlands-74
+7	I	i	PRON	O	0			lowlands-74
+8	switch	switch	VERB	O	0		v.change	lowlands-74
+9	to	to	ADP	O	0			lowlands-74
+10	Software	software	NOUN	O	0		n.communication	lowlands-74
+11	as	as	ADP	O	0			lowlands-74
+12	a	a	DET	O	0			lowlands-74
+13	Service	service	NOUN	O	0		n.act	lowlands-74
+14	,	,	PUNCT	O	0			lowlands-74
+15	anyway	anyway	ADV	O	0			lowlands-74
+16	?	?	PUNCT	O	0			lowlands-74
+17	URL	URL	X	O	0			lowlands-74
+18	#IBM	#ibm	PROPN	O	0		n.person	lowlands-74
+19	#IBMCloud	#ibmcloud	PROPN	O	0		n.person	lowlands-74
+20	#SaaS	#saas	PROPN	O	0		n.person	lowlands-74
+21	#Cloud	#cloud	NOUN	O	0		n.person	lowlands-74
 
+1	Signs	sign	NOUN	O	0		n.communication	lowlands-75
+2	that	that	DET	O	0			lowlands-75
+3	you	you	PRON	O	0			lowlands-75
+4	have	have	VERB	O	0		v.possession	lowlands-75
+5	cancer	cancer	NOUN	O	0		n.state	lowlands-75
+6	:	:	PUNCT	O	0			lowlands-75
+7	early	early	ADJ	O	0			lowlands-75
+8	detection	detection	NOUN	O	0		n.cognition	lowlands-75
+9	is	be	VERB	O	0		v.stative	lowlands-75
+10	key	key	NOUN	O	0		n.artifact	lowlands-75
+11	,	,	PUNCT	O	0			lowlands-75
+12	this	this	PRON	O	0			lowlands-75
+13	could	could	AUX	O	0			lowlands-75
+14	save	save	VERB	O	0		v.social	lowlands-75
+15	your	your	DET	O	0			lowlands-75
+16	life	life	NOUN	O	0		n.state	lowlands-75
+17	.	.	PUNCT	O	0			lowlands-75
+18	URL	URL	X	O	0			lowlands-75
 
-1	On	on	ADP	O	0			lowlands-76
-2	more	more	ADJ	O	0			lowlands-76
-3	time	time	NOUN	O	0		n.event	lowlands-76
-4	.	.	PUNCT	O	0			lowlands-76
-5	Why	why	ADV	O	0			lowlands-76
-6	should	should	AUX	O	0			lowlands-76
-7	I	i	PRON	O	0			lowlands-76
-8	switch	switch	VERB	O	0		v.change	lowlands-76
-9	to	to	ADP	O	0			lowlands-76
-10	Software	software	NOUN	O	0		n.communication	lowlands-76
-11	as	as	ADP	O	0			lowlands-76
-12	a	a	DET	O	0			lowlands-76
-13	Service	service	NOUN	O	0		n.act	lowlands-76
-14	,	,	PUNCT	O	0			lowlands-76
-15	anyway	anyway	ADV	O	0			lowlands-76
-16	?	?	PUNCT	O	0			lowlands-76
-17	URL	URL	X	O	0			lowlands-76
-18	#IBM	#ibm	PROPN	O	0		n.person	lowlands-76
-19	#IBMCloud	#ibmcloud	PROPN	O	0		n.person	lowlands-76
-20	#SaaS	#saas	PROPN	O	0		n.person	lowlands-76
-21	#Cloud	#cloud	NOUN	O	0		n.person	lowlands-76
+1	#HNIC	#hnic	PROPN	B	0		n.person	lowlands-76
+2	#HNIC	#hnic	PROPN	I	1			lowlands-76
+3	Rodgers	rodgers	PROPN	I	2			lowlands-76
+4	:	:	PUNCT	O	0			lowlands-76
+5	England	england	PROPN	O	0		n.location	lowlands-76
+6	are	be	VERB	O	0		v.stative	lowlands-76
+7	lucky	lucky	ADJ	O	0			lowlands-76
+8	to	to	ADP	O	0			lowlands-76
+9	have	have	VERB	O	0		v.possession	lowlands-76
+10	Sturridge	sturridge	PROPN	O	0		n.person	lowlands-76
+11	:	:	PUNCT	O	0			lowlands-76
+12	The	the	DET	O	0			lowlands-76
+13	NUMBER	NUMBER	NUM	O	0		n.attribute	lowlands-76
+14	has	have	AUX	O	0			lowlands-76
+15	scored	score	VERB	O	0		v.competition	lowlands-76
+16	winning	winning	ADV	O	0			lowlands-76
+17	...	...	PUNCT	O	0			lowlands-76
+18	URL	URL	X	O	0			lowlands-76
+19	on	on	ADP	O	0			lowlands-76
+20	@USER	@USER	PROPN	O	0		n.person	lowlands-76
 
-1	Signs	sign	NOUN	O	0		n.communication	lowlands-77
-2	that	that	DET	O	0			lowlands-77
-3	you	you	PRON	O	0			lowlands-77
-4	have	have	VERB	O	0		v.possession	lowlands-77
-5	cancer	cancer	NOUN	O	0		n.state	lowlands-77
-6	:	:	PUNCT	O	0			lowlands-77
-7	early	early	ADJ	O	0			lowlands-77
-8	detection	detection	NOUN	O	0		n.cognition	lowlands-77
-9	is	be	VERB	O	0		v.stative	lowlands-77
-10	key	key	NOUN	O	0		n.artifact	lowlands-77
-11	,	,	PUNCT	O	0			lowlands-77
-12	this	this	PRON	O	0			lowlands-77
-13	could	could	AUX	O	0			lowlands-77
-14	save	save	VERB	O	0		v.social	lowlands-77
-15	your	your	DET	O	0			lowlands-77
-16	life	life	NOUN	O	0		n.state	lowlands-77
-17	.	.	PUNCT	O	0			lowlands-77
-18	URL	URL	X	O	0			lowlands-77
+1	@USER	@USER	PROPN	O	0		n.person	lowlands-77
+2	:	:	PUNCT	O	0			lowlands-77
+3	VT	vt	PROPN	O	0		n.location	lowlands-77
+4	is	be	AUX	O	0			lowlands-77
+5	starting	start	VERB	O	0		v.change	lowlands-77
+6	a	a	DET	O	0			lowlands-77
+7	true	true	ADJ	O	0			lowlands-77
+8	FR	fr	PROPN	B	0		n.person	lowlands-77
+9	Jonathan	jonathan	PROPN	I	8			lowlands-77
+10	McLaughlin	mclaughlin	PROPN	I	9			lowlands-77
+11	at	at	ADP	O	0			lowlands-77
+12	LT	lt	PROPN	O	0		n.person	lowlands-77
+13	against	against	ADP	O	0			lowlands-77
+14	Saban's	saban's	PROPN	B	0		n.substance	lowlands-77
+15	D	d	NOUN	I	14			lowlands-77
+16	.	.	PUNCT	O	0			lowlands-77
+17	Good	good	ADJ	O	0			lowlands-77
+18	luck	luck	NOUN	B	0		n.person	lowlands-77
+19	#Hokies	#hokies	PROPN	I	18			lowlands-77
+20	:	:	PUNCT	O	0			lowlands-77
+21	URL	URL	X	O	0			lowlands-77
+22	#Bama	#bama	PROPN	O	0		n.person	lowlands-77
 
-1	#HNIC	#hnic	PROPN	B	0		n.person	lowlands-78
-2	#HNIC	#hnic	PROPN	I	1			lowlands-78
-3	Rodgers	rodgers	PROPN	I	2			lowlands-78
-4	:	:	PUNCT	O	0			lowlands-78
-5	England	england	PROPN	O	0		n.location	lowlands-78
-6	are	be	VERB	O	0		v.stative	lowlands-78
-7	lucky	lucky	ADJ	O	0			lowlands-78
-8	to	to	ADP	O	0			lowlands-78
-9	have	have	VERB	O	0		v.possession	lowlands-78
-10	Sturridge	sturridge	PROPN	O	0		n.person	lowlands-78
-11	:	:	PUNCT	O	0			lowlands-78
-12	The	the	DET	O	0			lowlands-78
-13	NUMBER	NUMBER	NUM	O	0		n.attribute	lowlands-78
-14	has	have	AUX	O	0			lowlands-78
-15	scored	score	VERB	O	0		v.competition	lowlands-78
-16	winning	winning	ADV	O	0			lowlands-78
-17	...	...	PUNCT	O	0			lowlands-78
-18	URL	URL	X	O	0			lowlands-78
-19	on	on	ADP	O	0			lowlands-78
-20	@USER	@USER	PROPN	O	0		n.person	lowlands-78
+1	TEEN	teen	PROPN	B	0		n.location	lowlands-78
+2	TOP	top	PROPN	I	1			lowlands-78
+3	make	make	VERB	O	0		v.social	lowlands-78
+4	a	a	DET	O	0			lowlands-78
+5	performances	performance	NOUN	O	0		n.communication	lowlands-78
+6	"	"	PUNCT	O	0			lowlands-78
+7	ROCKING	rock	VERB	O	0		v.motion	lowlands-78
+8	"	"	PUNCT	O	0			lowlands-78
+9	at	at	ADP	O	0			lowlands-78
+10	Concert	concert	NOUN	B	0		n.attribute	lowlands-78
+11	KCON	kcon	PROPN	I	10			lowlands-78
+12	NUMBER	NUMBER	NUM	I	11			lowlands-78
+13	in	in	ADP	O	0			lowlands-78
+14	L.A	l.a	PROPN	O	0		n.person	lowlands-78
+15	URL	URL	X	O	0			lowlands-78
 
-1	@USER	@USER	PROPN	O	0		n.person	lowlands-79
-2	:	:	PUNCT	O	0			lowlands-79
-3	VT	vt	PROPN	O	0		n.location	lowlands-79
-4	is	be	AUX	O	0			lowlands-79
-5	starting	start	VERB	O	0		v.change	lowlands-79
-6	a	a	DET	O	0			lowlands-79
-7	true	true	ADJ	O	0			lowlands-79
-8	FR	fr	PROPN	B	0		n.person	lowlands-79
-9	Jonathan	jonathan	PROPN	I	8			lowlands-79
-10	McLaughlin	mclaughlin	PROPN	I	9			lowlands-79
-11	at	at	ADP	O	0			lowlands-79
-12	LT	lt	PROPN	O	0		n.person	lowlands-79
-13	against	against	ADP	O	0			lowlands-79
-14	Saban's	saban's	PROPN	B	0		n.substance	lowlands-79
-15	D	d	NOUN	I	14			lowlands-79
-16	.	.	PUNCT	O	0			lowlands-79
-17	Good	good	ADJ	O	0			lowlands-79
-18	luck	luck	NOUN	B	0		n.person	lowlands-79
-19	#Hokies	#hokies	PROPN	I	18			lowlands-79
-20	:	:	PUNCT	O	0			lowlands-79
-21	URL	URL	X	O	0			lowlands-79
-22	#Bama	#bama	PROPN	O	0		n.person	lowlands-79
+1	Is	be	VERB	O	0		v.stative	lowlands-79
+2	the	the	DET	O	0			lowlands-79
+3	rumor	rumor	NOUN	O	0		n.communication	lowlands-79
+4	regarding	regarding	ADP	O	0			lowlands-79
+5	TTS	tts	PROPN	O	0		n.time	lowlands-79
+6	english	english	ADJ	O	0			lowlands-79
+7	album	album	NOUN	O	0		n.communication	lowlands-79
+8	leggit	leggit	ADJ	O	0			lowlands-79
+9	?	?	PUNCT	O	0			lowlands-79
+10	?	?	PUNCT	O	0			lowlands-79
+11	Since	since	ADP	O	0			lowlands-79
+12	the	the	DET	O	0			lowlands-79
+13	info	info	NOUN	O	0		n.communication	lowlands-79
+14	are	be	VERB	O	0		v.stative	lowlands-79
+15	from	from	ADP	O	0			lowlands-79
+16	SSF	ssf	PROPN	O	0		n.person	lowlands-79
+17	,	,	PUNCT	O	0			lowlands-79
+18	I	i	PRON	O	0			lowlands-79
+19	guess	guess	VERB	O	0		v.cognition	lowlands-79
+20	it	it	PRON	O	0			lowlands-79
+21	is	be	VERB	O	0		v.stative	lowlands-79
+22	URL	URL	X	O	0			lowlands-79
 
-1	TEEN	teen	PROPN	B	0		n.location	lowlands-80
-2	TOP	top	PROPN	I	1			lowlands-80
-3	make	make	VERB	O	0		v.social	lowlands-80
-4	a	a	DET	O	0			lowlands-80
-5	performances	performance	NOUN	O	0		n.communication	lowlands-80
-6	"	"	PUNCT	O	0			lowlands-80
-7	ROCKING	rock	VERB	O	0		v.motion	lowlands-80
-8	"	"	PUNCT	O	0			lowlands-80
-9	at	at	ADP	O	0			lowlands-80
-10	Concert	concert	NOUN	B	0		n.attribute	lowlands-80
-11	KCON	kcon	PROPN	I	10			lowlands-80
-12	NUMBER	NUMBER	NUM	I	11			lowlands-80
-13	in	in	ADP	O	0			lowlands-80
-14	L.A	l.a	PROPN	O	0		n.person	lowlands-80
-15	URL	URL	X	O	0			lowlands-80
+1	European	european	ADJ	O	0			lowlands-80
+2	Study	study	NOUN	O	0		n.act	lowlands-80
+3	Finds	find	VERB	O	0		v.possession	lowlands-80
+4	Megaupload	megaupload	PROPN	B	0		n.act	lowlands-80
+5	Closure	closure	NOUN	I	4			lowlands-80
+6	Helped	help	VERB	O	0		v.social	lowlands-80
+7	Blockbusters	blockbusters	PROPN	O	0		n.artifact	lowlands-80
+8	,	,	PUNCT	O	0			lowlands-80
+9	Hurt	hurt	VERB	O	0		v.perception	lowlands-80
+10	Smaller	smaller	ADJ	O	0			lowlands-80
+11	Pics	pic	NOUN	O	0		n.communication	lowlands-80
+12	:	:	PUNCT	O	0			lowlands-80
+13	Researchers	researcher	NOUN	O	0		n.person	lowlands-80
+14	from	from	ADP	O	0			lowlands-80
+15	the	the	DET	O	0			lowlands-80
+16	Munich	munich	PROPN	O	0		n.location	lowlands-80
+17	Sc	sc	X	O	0			lowlands-80
+18	...	...	PUNCT	O	0			lowlands-80
+19	URL	URL	X	O	0			lowlands-80
 
-1	Is	be	VERB	O	0		v.stative	lowlands-81
-2	the	the	DET	O	0			lowlands-81
-3	rumor	rumor	NOUN	O	0		n.communication	lowlands-81
-4	regarding	regarding	ADP	O	0			lowlands-81
-5	TTS	tts	PROPN	O	0		n.time	lowlands-81
-6	english	english	ADJ	O	0			lowlands-81
-7	album	album	NOUN	O	0		n.communication	lowlands-81
-8	leggit	leggit	ADJ	O	0			lowlands-81
-9	?	?	PUNCT	O	0			lowlands-81
-10	?	?	PUNCT	O	0			lowlands-81
-11	Since	since	ADP	O	0			lowlands-81
-12	the	the	DET	O	0			lowlands-81
-13	info	info	NOUN	O	0		n.communication	lowlands-81
-14	are	be	VERB	O	0		v.stative	lowlands-81
-15	from	from	ADP	O	0			lowlands-81
-16	SSF	ssf	PROPN	O	0		n.person	lowlands-81
-17	,	,	PUNCT	O	0			lowlands-81
-18	I	i	PRON	O	0			lowlands-81
-19	guess	guess	VERB	O	0		v.cognition	lowlands-81
-20	it	it	PRON	O	0			lowlands-81
-21	is	be	VERB	O	0		v.stative	lowlands-81
-22	URL	URL	X	O	0			lowlands-81
+1	Good	good	ADJ	O	0			lowlands-81
+2	Monday	monday	NOUN	B	0		n.time	lowlands-81
+3	morning	morning	NOUN	I	2			lowlands-81
+4	:)	:)	X	O	0			lowlands-81
+5	Here	here	ADV	O	0			lowlands-81
+6	are	be	VERB	O	0		v.stative	lowlands-81
+7	a	a	DET	O	0			lowlands-81
+8	million	million	NUM	O	0		n.quantity	lowlands-81
+9	beautiful	beautiful	ADJ	O	0			lowlands-81
+10	WWI	wwi	PROPN	B	0		n.artifact	lowlands-81
+11	photos	photo	NOUN	I	10			lowlands-81
+12	,	,	PUNCT	O	0			lowlands-81
+13	just	just	ADV	O	0			lowlands-81
+14	for	for	ADP	O	0			lowlands-81
+15	you	you	PRON	O	0			lowlands-81
+16	URL	URL	X	O	0			lowlands-81
+17	@USER	@USER	PROPN	O	0		n.person	lowlands-81
 
-1	European	european	ADJ	O	0			lowlands-82
-2	Study	study	NOUN	O	0		n.act	lowlands-82
-3	Finds	find	VERB	O	0		v.possession	lowlands-82
-4	Megaupload	megaupload	PROPN	B	0		n.act	lowlands-82
-5	Closure	closure	NOUN	I	4			lowlands-82
-6	Helped	help	VERB	O	0		v.social	lowlands-82
-7	Blockbusters	blockbusters	PROPN	O	0		n.artifact	lowlands-82
-8	,	,	PUNCT	O	0			lowlands-82
-9	Hurt	hurt	VERB	O	0		v.perception	lowlands-82
-10	Smaller	smaller	ADJ	O	0			lowlands-82
-11	Pics	pic	NOUN	O	0		n.communication	lowlands-82
-12	:	:	PUNCT	O	0			lowlands-82
-13	Researchers	researcher	NOUN	O	0		n.person	lowlands-82
-14	from	from	ADP	O	0			lowlands-82
-15	the	the	DET	O	0			lowlands-82
-16	Munich	munich	PROPN	O	0		n.location	lowlands-82
-17	Sc	sc	X	O	0			lowlands-82
-18	...	...	PUNCT	O	0			lowlands-82
-19	URL	URL	X	O	0			lowlands-82
+1	[	[	PUNCT	O	0			lowlands-82
+2	PHOTOS	photo	NOUN	O	0		n.artifact	lowlands-82
+3	]	]	PUNCT	O	0			lowlands-82
+4	SwizzBeatz	swizzbeatz	PROPN	O	0		n.person	lowlands-82
+5	Praises	praise	VERB	O	0		v.communication	lowlands-82
+6	Femi	femi	PROPN	B	0		n.person	lowlands-82
+7	Kuti	kuti	PROPN	I	6			lowlands-82
+8	?	?	PUNCT	O	0			lowlands-82
+9	s	s	NOUN	B	0		n.communication	lowlands-82
+10	Album	album	NOUN	I	9			lowlands-82
+11	Via	via	ADP	O	0			lowlands-82
+12	Instagram	instagram	PROPN	O	0		n.person	lowlands-82
+13	URL	URL	X	O	0			lowlands-82
 
-1	Good	good	ADJ	O	0			lowlands-83
-2	Monday	monday	NOUN	B	0		n.time	lowlands-83
-3	morning	morning	NOUN	I	2			lowlands-83
-4	:)	:)	X	O	0			lowlands-83
-5	Here	here	ADV	O	0			lowlands-83
-6	are	be	VERB	O	0		v.stative	lowlands-83
-7	a	a	DET	O	0			lowlands-83
-8	million	million	NUM	O	0		n.quantity	lowlands-83
-9	beautiful	beautiful	ADJ	O	0			lowlands-83
-10	WWI	wwi	PROPN	B	0		n.artifact	lowlands-83
-11	photos	photo	NOUN	I	10			lowlands-83
-12	,	,	PUNCT	O	0			lowlands-83
-13	just	just	ADV	O	0			lowlands-83
-14	for	for	ADP	O	0			lowlands-83
-15	you	you	PRON	O	0			lowlands-83
-16	URL	URL	X	O	0			lowlands-83
-17	@USER	@USER	PROPN	O	0		n.person	lowlands-83
+1	I	i	PRON	O	0			lowlands-83
+2	DON	don	AUX	O	0			lowlands-83
+3	?	?	PUNCT	O	0			lowlands-83
+4	T	t	AUX	O	0			lowlands-83
+5	GET	get	VERB	O	0		v.possession	lowlands-83
+6	CELEBRITITES	celebritites	NOUN	O	0		n.person	lowlands-83
+7	,	,	PUNCT	O	0			lowlands-83
+8	THEY	they	PRON	O	0			lowlands-83
+9	HAVE	have	VERB	O	0		v.possession	lowlands-83
+10	SO	so	ADV	O	0			lowlands-83
+11	MUCH	much	ADJ	O	0			lowlands-83
+12	MONEY	money	NOUN	O	0		n.possession	lowlands-83
+13	AND	and	CONJ	O	0			lowlands-83
+14	YET	yet	ADV	O	0			lowlands-83
+15	THEY	they	PRON	O	0			lowlands-83
+16	WEAR	wear	VERB	O	0		v.body	lowlands-83
+17	LIKE	like	X	O	0			lowlands-83
+18	THE	the	DET	O	0			lowlands-83
+19	UGLIEST	ugly	ADJ	O	0			lowlands-83
+20	AND	and	CONJ	O	0			lowlands-83
+21	STUPIDEST	stupid	ADJ	O	0			lowlands-83
+22	OUTFITS	outfit	NOUN	O	0		n.group	lowlands-83
+23	...	...	PUNCT	O	0			lowlands-83
+24	URL	URL	X	O	0			lowlands-83
 
-1	[	[	PUNCT	O	0			lowlands-84
-2	PHOTOS	photo	NOUN	O	0		n.artifact	lowlands-84
-3	]	]	PUNCT	O	0			lowlands-84
-4	SwizzBeatz	swizzbeatz	PROPN	O	0		n.person	lowlands-84
-5	Praises	praise	VERB	O	0		v.communication	lowlands-84
-6	Femi	femi	PROPN	B	0		n.person	lowlands-84
-7	Kuti	kuti	PROPN	I	6			lowlands-84
-8	?	?	PUNCT	O	0			lowlands-84
-9	s	s	NOUN	B	0		n.communication	lowlands-84
-10	Album	album	NOUN	I	9			lowlands-84
-11	Via	via	ADP	O	0			lowlands-84
-12	Instagram	instagram	PROPN	O	0		n.person	lowlands-84
-13	URL	URL	X	O	0			lowlands-84
+1	Venice	venice	PROPN	B	0		n.time	lowlands-84
+2	Festival	festival	NOUN	I	1			lowlands-84
+3	Offers	offer	VERB	O	0		v.possession	lowlands-84
+4	Bold	bold	ADJ	O	0			lowlands-84
+5	Mix	mix	NOUN	O	0		n.food	lowlands-84
+6	:	:	PUNCT	O	0			lowlands-84
+7	As	as	ADV	O	0			lowlands-84
+8	the	the	DET	O	0			lowlands-84
+9	Venice	venice	PROPN	B	0		n.time	lowlands-84
+10	Film	film	NOUN	I	9			lowlands-84
+11	Festival	festival	NOUN	I	10			lowlands-84
+12	celebrates	celebrate	VERB	O	0		v.social	lowlands-84
+13	its	its	DET	O	0			lowlands-84
+14	NUMBER	NUMBER	NUM	B	0		n.time	lowlands-84
+15	year	year	NOUN	I	14			lowlands-84
+16	,	,	PUNCT	O	0			lowlands-84
+17	its	its	DET	O	0			lowlands-84
+18	lineup	lineup	NOUN	O	0		n.communication	lowlands-84
+19	looks	look	VERB	O	0		v.perception	lowlands-84
+20	to	to	ADP	O	0			lowlands-84
+21	the	the	DET	O	0			lowlands-84
+22	...	...	PUNCT	O	0			lowlands-84
+23	URL	URL	X	O	0			lowlands-84
 
-1	I	i	PRON	O	0			lowlands-85
-2	DON	don	AUX	O	0			lowlands-85
-3	?	?	PUNCT	O	0			lowlands-85
-4	T	t	AUX	O	0			lowlands-85
-5	GET	get	VERB	O	0		v.possession	lowlands-85
-6	CELEBRITITES	celebritites	NOUN	O	0		n.person	lowlands-85
-7	,	,	PUNCT	O	0			lowlands-85
-8	THEY	they	PRON	O	0			lowlands-85
-9	HAVE	have	VERB	O	0		v.possession	lowlands-85
-10	SO	so	ADV	O	0			lowlands-85
-11	MUCH	much	ADJ	O	0			lowlands-85
-12	MONEY	money	NOUN	O	0		n.possession	lowlands-85
-13	AND	and	CONJ	O	0			lowlands-85
-14	YET	yet	ADV	O	0			lowlands-85
-15	THEY	they	PRON	O	0			lowlands-85
-16	WEAR	wear	VERB	O	0		v.body	lowlands-85
-17	LIKE	like	X	O	0			lowlands-85
-18	THE	the	DET	O	0			lowlands-85
-19	UGLIEST	ugly	ADJ	O	0			lowlands-85
-20	AND	and	CONJ	O	0			lowlands-85
-21	STUPIDEST	stupid	ADJ	O	0			lowlands-85
-22	OUTFITS	outfit	NOUN	O	0		n.group	lowlands-85
-23	...	...	PUNCT	O	0			lowlands-85
-24	URL	URL	X	O	0			lowlands-85
+1	On	on	ADP	O	0			lowlands-85
+2	this	this	DET	O	0			lowlands-85
+3	date	date	NOUN	O	0		n.time	lowlands-85
+4	in	in	ADP	O	0			lowlands-85
+5	WWF	wwf	X	O	0			lowlands-85
+6	history	history	NOUN	O	0		n.time	lowlands-85
+7	:	:	PUNCT	O	0			lowlands-85
+8	Bret	bret	PROPN	B	0		n.person	lowlands-85
+9	Hart	hart	PROPN	I	8			lowlands-85
+10	vs	vs	X	O	0			lowlands-85
+11	Mr.	mr.	PROPN	B	0		n.relation	lowlands-85
+12	Perfect	perfect	PROPN	I	11			lowlands-85
+13	for	for	ADP	O	0			lowlands-85
+14	the	the	DET	O	0			lowlands-85
+15	Intercontinental	intercontinental	ADJ	O	0			lowlands-85
+16	title	title	NOUN	O	0		n.communication	lowlands-85
+17	at	at	ADP	O	0			lowlands-85
+18	SummerSlam	summerslam	PROPN	O	0		n.person	lowlands-85
+19	NUMBER	NUMBER	NUM	O	0		n.attribute	lowlands-85
+20	URL	URL	X	O	0			lowlands-85
 
-1	Venice	venice	PROPN	B	0		n.time	lowlands-86
-2	Festival	festival	NOUN	I	1			lowlands-86
-3	Offers	offer	VERB	O	0		v.possession	lowlands-86
-4	Bold	bold	ADJ	O	0			lowlands-86
-5	Mix	mix	NOUN	O	0		n.food	lowlands-86
+1	URGENT	urgent	ADJ	O	0			lowlands-86
+2	:	:	PUNCT	O	0			lowlands-86
+3	#Damascus	#damascus	PROPN	O	0		n.person	lowlands-86
+4	,	,	PUNCT	O	0			lowlands-86
+5	NUMBER	NUMBER	NUM	O	0		n.attribute	lowlands-86
 6	:	:	PUNCT	O	0			lowlands-86
-7	As	as	ADV	O	0			lowlands-86
-8	the	the	DET	O	0			lowlands-86
-9	Venice	venice	PROPN	B	0		n.time	lowlands-86
-10	Film	film	NOUN	I	9			lowlands-86
-11	Festival	festival	NOUN	I	10			lowlands-86
-12	celebrates	celebrate	VERB	O	0		v.social	lowlands-86
-13	its	its	DET	O	0			lowlands-86
-14	NUMBER	NUMBER	NUM	B	0		n.time	lowlands-86
-15	year	year	NOUN	I	14			lowlands-86
-16	,	,	PUNCT	O	0			lowlands-86
-17	its	its	DET	O	0			lowlands-86
-18	lineup	lineup	NOUN	O	0		n.communication	lowlands-86
-19	looks	look	VERB	O	0		v.perception	lowlands-86
-20	to	to	ADP	O	0			lowlands-86
-21	the	the	DET	O	0			lowlands-86
-22	...	...	PUNCT	O	0			lowlands-86
-23	URL	URL	X	O	0			lowlands-86
+7	All	all	DET	O	0			lowlands-86
+8	important	important	ADJ	O	0			lowlands-86
+9	and	and	CONJ	O	0			lowlands-86
+10	sensitive	sensitive	ADJ	O	0			lowlands-86
+11	documents	document	NOUN	O	0		n.communication	lowlands-86
+12	in	in	ADP	O	0			lowlands-86
+13	the	the	DET	O	0			lowlands-86
+14	Presidential	presidential	ADJ	O	0			lowlands-86
+15	Palace	palace	NOUN	O	0		n.artifact	lowlands-86
+16	are	be	VERB	O	0		v.stative	lowlands-86
+17	reportedly	reportedly	ADV	O	0			lowlands-86
+18	...	...	PUNCT	O	0			lowlands-86
+19	URL	URL	X	O	0			lowlands-86
 
-1	On	on	ADP	O	0			lowlands-87
-2	this	this	DET	O	0			lowlands-87
-3	date	date	NOUN	O	0		n.time	lowlands-87
-4	in	in	ADP	O	0			lowlands-87
-5	WWF	wwf	X	O	0			lowlands-87
-6	history	history	NOUN	O	0		n.time	lowlands-87
-7	:	:	PUNCT	O	0			lowlands-87
-8	Bret	bret	PROPN	B	0		n.person	lowlands-87
-9	Hart	hart	PROPN	I	8			lowlands-87
-10	vs	vs	X	O	0			lowlands-87
-11	Mr.	mr.	PROPN	B	0		n.relation	lowlands-87
-12	Perfect	perfect	PROPN	I	11			lowlands-87
-13	for	for	ADP	O	0			lowlands-87
-14	the	the	DET	O	0			lowlands-87
-15	Intercontinental	intercontinental	ADJ	O	0			lowlands-87
-16	title	title	NOUN	O	0		n.communication	lowlands-87
-17	at	at	ADP	O	0			lowlands-87
-18	SummerSlam	summerslam	PROPN	O	0		n.person	lowlands-87
-19	NUMBER	NUMBER	NUM	O	0		n.attribute	lowlands-87
-20	URL	URL	X	O	0			lowlands-87
+1	@USER	@USER	PROPN	O	0		n.person	lowlands-87
+2	:	:	PUNCT	O	0			lowlands-87
+3	Just	just	ADV	O	0			lowlands-87
+4	got	get	VERB	O	0		v.possession	lowlands-87
+5	a	a	DET	O	0			lowlands-87
+6	shot	shot	NOUN	O	0		n.act	lowlands-87
+7	in	in	ADP	O	0			lowlands-87
+8	my	my	DET	O	0			lowlands-87
+9	butt	butt	NOUN	O	0		n.artifact	lowlands-87
+10	...	...	PUNCT	O	0			lowlands-87
+11	gotta	gotta	AUX	O	0			lowlands-87
+12	be	be	VERB	O	0		v.stative	lowlands-87
+13	in	in	ADP	O	0			lowlands-87
+14	top	top	ADJ	O	0			lowlands-87
+15	shape	shape	NOUN	O	0		n.attribute	lowlands-87
+16	for	for	ADP	O	0			lowlands-87
+17	tonight	tonight	NOUN	O	0		n.time	lowlands-87
+18	!	!	PUNCT	O	0			lowlands-87
+19	?	?	PUNCT	O	0			lowlands-87
+20	lol	lol	X	O	0			lowlands-87
+21	URL	URL	X	O	0			lowlands-87
 
-1	URGENT	urgent	ADJ	O	0			lowlands-88
-2	:	:	PUNCT	O	0			lowlands-88
-3	#Damascus	#damascus	PROPN	O	0		n.person	lowlands-88
-4	,	,	PUNCT	O	0			lowlands-88
-5	NUMBER	NUMBER	NUM	O	0		n.attribute	lowlands-88
-6	:	:	PUNCT	O	0			lowlands-88
-7	All	all	DET	O	0			lowlands-88
-8	important	important	ADJ	O	0			lowlands-88
-9	and	and	CONJ	O	0			lowlands-88
-10	sensitive	sensitive	ADJ	O	0			lowlands-88
-11	documents	document	NOUN	O	0		n.communication	lowlands-88
-12	in	in	ADP	O	0			lowlands-88
-13	the	the	DET	O	0			lowlands-88
-14	Presidential	presidential	ADJ	O	0			lowlands-88
-15	Palace	palace	NOUN	O	0		n.artifact	lowlands-88
-16	are	be	VERB	O	0		v.stative	lowlands-88
-17	reportedly	reportedly	ADV	O	0			lowlands-88
-18	...	...	PUNCT	O	0			lowlands-88
-19	URL	URL	X	O	0			lowlands-88
+1	Inspire	inspire	VERB	O	0		v.emotion	lowlands-88
+2	people	people	NOUN	O	0		n.group	lowlands-88
+3	through	through	ADP	O	0			lowlands-88
+4	your	your	DET	O	0			lowlands-88
+5	song	song	NOUN	O	0		n.communication	lowlands-88
+6	towards	towards	ADP	O	0			lowlands-88
+7	a	a	DET	O	0			lowlands-88
+8	cleaner	clean	ADJ	O	0			lowlands-88
+9	,	,	PUNCT	O	0			lowlands-88
+10	greener	green	ADJ	O	0			lowlands-88
+11	Singapore	singapore	PROPN	O	0		n.location	lowlands-88
+12	and	and	CONJ	O	0			lowlands-88
+13	win	win	VERB	O	0		v.competition	lowlands-88
+14	up	up	ADP	O	0			lowlands-88
+15	to	to	ADP	O	0			lowlands-88
+16	NUMBER	NUMBER	NUM	O	0		n.attribute	lowlands-88
+17	!	!	PUNCT	O	0			lowlands-88
+18	#EcoMusic	#ecomusic	NOUN	O	0		n.person	lowlands-88
+19	Challenge	challenge	NOUN	O	0		n.state	lowlands-88
+20	URL	URL	X	O	0			lowlands-88
 
 1	@USER	@USER	PROPN	O	0		n.person	lowlands-89
 2	:	:	PUNCT	O	0			lowlands-89
-3	Just	just	ADV	O	0			lowlands-89
-4	got	get	VERB	O	0		v.possession	lowlands-89
-5	a	a	DET	O	0			lowlands-89
-6	shot	shot	NOUN	O	0		n.act	lowlands-89
-7	in	in	ADP	O	0			lowlands-89
-8	my	my	DET	O	0			lowlands-89
-9	butt	butt	NOUN	O	0		n.artifact	lowlands-89
-10	...	...	PUNCT	O	0			lowlands-89
-11	gotta	gotta	AUX	O	0			lowlands-89
-12	be	be	VERB	O	0		v.stative	lowlands-89
-13	in	in	ADP	O	0			lowlands-89
-14	top	top	ADJ	O	0			lowlands-89
-15	shape	shape	NOUN	O	0		n.attribute	lowlands-89
-16	for	for	ADP	O	0			lowlands-89
-17	tonight	tonight	NOUN	O	0		n.time	lowlands-89
-18	!	!	PUNCT	O	0			lowlands-89
-19	?	?	PUNCT	O	0			lowlands-89
-20	lol	lol	X	O	0			lowlands-89
-21	URL	URL	X	O	0			lowlands-89
+3	#Syria	#syria	PROPN	O	0		n.person	lowlands-89
+4	:	:	PUNCT	O	0			lowlands-89
+5	Hague	hague	PROPN	O	0		n.person	lowlands-89
+6	hints	hint	VERB	O	0		v.communication	lowlands-89
+7	at	at	ADP	O	0			lowlands-89
+8	military	military	ADJ	O	0			lowlands-89
+9	action	action	NOUN	O	0		n.act	lowlands-89
+10	-	-	PUNCT	O	0			lowlands-89
+11	latest	latest	ADJ	O	0			lowlands-89
+12	news	news	NOUN	O	0		n.communication	lowlands-89
+13	URL	URL	X	O	0			lowlands-89
+14	via	via	ADP	O	0			lowlands-89
+15	@USER	@USER	PROPN	O	0		n.person	lowlands-89
+16	#ASSAD	#assad	PROPN	O	0		n.person	lowlands-89
+17	#chemicalweapons	#chemicalweapons	NOUN	O	0		n.person	lowlands-89
 
-1	Inspire	inspire	VERB	O	0		v.emotion	lowlands-90
-2	people	people	NOUN	O	0		n.group	lowlands-90
-3	through	through	ADP	O	0			lowlands-90
-4	your	your	DET	O	0			lowlands-90
-5	song	song	NOUN	O	0		n.communication	lowlands-90
-6	towards	towards	ADP	O	0			lowlands-90
-7	a	a	DET	O	0			lowlands-90
-8	cleaner	clean	ADJ	O	0			lowlands-90
-9	,	,	PUNCT	O	0			lowlands-90
-10	greener	green	ADJ	O	0			lowlands-90
-11	Singapore	singapore	PROPN	O	0		n.location	lowlands-90
-12	and	and	CONJ	O	0			lowlands-90
-13	win	win	VERB	O	0		v.competition	lowlands-90
-14	up	up	ADP	O	0			lowlands-90
-15	to	to	ADP	O	0			lowlands-90
-16	NUMBER	NUMBER	NUM	O	0		n.attribute	lowlands-90
-17	!	!	PUNCT	O	0			lowlands-90
-18	#EcoMusic	#ecomusic	NOUN	O	0		n.person	lowlands-90
-19	Challenge	challenge	NOUN	O	0		n.state	lowlands-90
-20	URL	URL	X	O	0			lowlands-90
+1	Photo	photo	NOUN	O	0		n.artifact	lowlands-90
+2	:	:	PUNCT	O	0			lowlands-90
+3	elucidatings	elucidatings	NOUN	O	0		n.person	lowlands-90
+4	:	:	PUNCT	O	0			lowlands-90
+5	Promoting	promote	VERB	O	0		v.social	lowlands-90
+6	all	all	DET	O	0			lowlands-90
+7	NEW	new	ADJ	O	0			lowlands-90
+8	followers	followers	NOUN	O	0		n.group	lowlands-90
+9	URL	URL	X	O	0			lowlands-90
 
 1	@USER	@USER	PROPN	O	0		n.person	lowlands-91
 2	:	:	PUNCT	O	0			lowlands-91
-3	#Syria	#syria	PROPN	O	0		n.person	lowlands-91
-4	:	:	PUNCT	O	0			lowlands-91
-5	Hague	hague	PROPN	O	0		n.person	lowlands-91
-6	hints	hint	VERB	O	0		v.communication	lowlands-91
-7	at	at	ADP	O	0			lowlands-91
-8	military	military	ADJ	O	0			lowlands-91
-9	action	action	NOUN	O	0		n.act	lowlands-91
-10	-	-	PUNCT	O	0			lowlands-91
-11	latest	latest	ADJ	O	0			lowlands-91
-12	news	news	NOUN	O	0		n.communication	lowlands-91
-13	URL	URL	X	O	0			lowlands-91
-14	via	via	ADP	O	0			lowlands-91
-15	@USER	@USER	PROPN	O	0		n.person	lowlands-91
-16	#ASSAD	#assad	PROPN	O	0		n.person	lowlands-91
-17	#chemicalweapons	#chemicalweapons	NOUN	O	0		n.person	lowlands-91
+3	David	david	PROPN	B	0		n.person	lowlands-91
+4	Guetta	guetta	PROPN	I	3			lowlands-91
+5	Rescheduled	reschedule	VERB	O	0		v.communication	lowlands-91
+6	at	at	ADP	O	0			lowlands-91
+7	Creamfields	creamfields	PROPN	O	0		n.person	lowlands-91
+8	Due	due	CONJ	O	0			lowlands-91
+9	to	to	ADP	O	0			lowlands-91
+10	Airplane	airplane	NOUN	B	0		n.event	lowlands-91
+11	Fire	fire	NOUN	I	10			lowlands-91
+12	|	|	PUNCT	O	0			lowlands-91
+13	Your	your	DET	O	0			lowlands-91
+14	EDM	edm	X	O	0			lowlands-91
+15	URL	URL	X	O	0			lowlands-91
 
-1	Photo	photo	NOUN	O	0		n.artifact	lowlands-92
-2	:	:	PUNCT	O	0			lowlands-92
-3	elucidatings	elucidatings	NOUN	O	0		n.person	lowlands-92
-4	:	:	PUNCT	O	0			lowlands-92
-5	Promoting	promote	VERB	O	0		v.social	lowlands-92
-6	all	all	DET	O	0			lowlands-92
-7	NEW	new	ADJ	O	0			lowlands-92
-8	followers	followers	NOUN	O	0		n.group	lowlands-92
-9	URL	URL	X	O	0			lowlands-92
+1	Hire	hire	VERB	O	0		v.social	lowlands-92
+2	Or	or	CONJ	O	0			lowlands-92
+3	Provide	provide	VERB	O	0		v.possession	lowlands-92
+4	Professional	professional	ADJ	O	0			lowlands-92
+5	Services	services	NOUN	O	0		n.act	lowlands-92
+6	From	from	ADP	O	0			lowlands-92
+7	NUMBER	NUMBER	NUM	O	0		n.attribute	lowlands-92
+8	To	to	ADP	O	0			lowlands-92
+9	NUMBER	NUMBER	NUM	O	0		n.attribute	lowlands-92
+10	URL	URL	X	O	0			lowlands-92
 
 1	@USER	@USER	PROPN	O	0		n.person	lowlands-93
 2	:	:	PUNCT	O	0			lowlands-93
-3	David	david	PROPN	B	0		n.person	lowlands-93
-4	Guetta	guetta	PROPN	I	3			lowlands-93
-5	Rescheduled	reschedule	VERB	O	0		v.communication	lowlands-93
-6	at	at	ADP	O	0			lowlands-93
-7	Creamfields	creamfields	PROPN	O	0		n.person	lowlands-93
-8	Due	due	CONJ	O	0			lowlands-93
-9	to	to	ADP	O	0			lowlands-93
-10	Airplane	airplane	NOUN	B	0		n.event	lowlands-93
-11	Fire	fire	NOUN	I	10			lowlands-93
-12	|	|	PUNCT	O	0			lowlands-93
-13	Your	your	DET	O	0			lowlands-93
-14	EDM	edm	X	O	0			lowlands-93
+3	?	?	PUNCT	O	0			lowlands-93
+4	Just	just	ADV	O	0			lowlands-93
+5	Announced	announce	VERB	O	0		v.communication	lowlands-93
+6	:	:	PUNCT	O	0			lowlands-93
+7	Zurich	zurich	PROPN	O	0		n.location	lowlands-93
+8	,	,	PUNCT	O	0			lowlands-93
+9	Switzerland	switzerland	PROPN	O	0		n.location	lowlands-93
+10	-	-	PUNCT	O	0			lowlands-93
+11	Dec	dec	NOUN	B	0		n.attribute	lowlands-93
+12	NUMBER	NUMBER	NUM	I	11			lowlands-93
+13	at	at	ADP	O	0			lowlands-93
+14	Mascotte	mascotte	PROPN	O	0		n.person	lowlands-93
 15	URL	URL	X	O	0			lowlands-93
 
-1	Hire	hire	VERB	O	0		v.social	lowlands-94
-2	Or	or	CONJ	O	0			lowlands-94
-3	Provide	provide	VERB	O	0		v.possession	lowlands-94
-4	Professional	professional	ADJ	O	0			lowlands-94
-5	Services	services	NOUN	O	0		n.act	lowlands-94
-6	From	from	ADP	O	0			lowlands-94
-7	NUMBER	NUMBER	NUM	O	0		n.attribute	lowlands-94
-8	To	to	ADP	O	0			lowlands-94
-9	NUMBER	NUMBER	NUM	O	0		n.attribute	lowlands-94
-10	URL	URL	X	O	0			lowlands-94
+1	@USER	@USER	PROPN	O	0		n.person	lowlands-94
+2	:	:	PUNCT	O	0			lowlands-94
+3	Breaking	breaking	ADJ	O	0			lowlands-94
+4	News	news	NOUN	O	0		n.communication	lowlands-94
+5	:	:	PUNCT	O	0			lowlands-94
+6	U.N.	u.n.	PROPN	O	0		n.person	lowlands-94
+7	chemical	chemical	ADJ	O	0			lowlands-94
+8	weapons	weapon	NOUN	B	0		n.group	lowlands-94
+9	team	team	NOUN	I	8			lowlands-94
+10	under	under	ADP	O	0			lowlands-94
+11	fire	fire	NOUN	O	0		n.event	lowlands-94
+12	in	in	ADP	O	0			lowlands-94
+13	Syria	syria	PROPN	O	0		n.location	lowlands-94
+14	URL	URL	X	O	0			lowlands-94
 
-1	@USER	@USER	PROPN	O	0		n.person	lowlands-95
-2	:	:	PUNCT	O	0			lowlands-95
-3	?	?	PUNCT	O	0			lowlands-95
-4	Just	just	ADV	O	0			lowlands-95
-5	Announced	announce	VERB	O	0		v.communication	lowlands-95
-6	:	:	PUNCT	O	0			lowlands-95
-7	Zurich	zurich	PROPN	O	0		n.location	lowlands-95
-8	,	,	PUNCT	O	0			lowlands-95
-9	Switzerland	switzerland	PROPN	O	0		n.location	lowlands-95
-10	-	-	PUNCT	O	0			lowlands-95
-11	Dec	dec	NOUN	B	0		n.attribute	lowlands-95
-12	NUMBER	NUMBER	NUM	I	11			lowlands-95
-13	at	at	ADP	O	0			lowlands-95
-14	Mascotte	mascotte	PROPN	O	0		n.person	lowlands-95
-15	URL	URL	X	O	0			lowlands-95
+1	I'm	i'm	VERB	O	0			lowlands-95
+2	A	a	DET	O	0			lowlands-95
+3	Real	real	ADJ	O	0			lowlands-95
+4	Girl	girl	NOUN	O	0		n.person	lowlands-95
+5	URL	URL	X	O	0			lowlands-95
 
-1	@USER	@USER	PROPN	O	0		n.person	lowlands-96
-2	:	:	PUNCT	O	0			lowlands-96
-3	Breaking	breaking	ADJ	O	0			lowlands-96
-4	News	news	NOUN	O	0		n.communication	lowlands-96
-5	:	:	PUNCT	O	0			lowlands-96
-6	U.N.	u.n.	PROPN	O	0		n.person	lowlands-96
-7	chemical	chemical	ADJ	O	0			lowlands-96
-8	weapons	weapon	NOUN	B	0		n.group	lowlands-96
-9	team	team	NOUN	I	8			lowlands-96
-10	under	under	ADP	O	0			lowlands-96
-11	fire	fire	NOUN	O	0		n.event	lowlands-96
-12	in	in	ADP	O	0			lowlands-96
-13	Syria	syria	PROPN	O	0		n.location	lowlands-96
-14	URL	URL	X	O	0			lowlands-96
+1	Valon	valon	PROPN	B	0		n.person	lowlands-96
+2	Behrami	behrami	PROPN	I	1			lowlands-96
+3	West	west	PROPN	I	2			lowlands-96
+4	Ham	ham	PROPN	I	3			lowlands-96
+5	Napoli	napoli	PROPN	I	4			lowlands-96
+6	Lazio	lazio	PROPN	I	5			lowlands-96
+7	Fiorentina	fiorentina	PROPN	I	6			lowlands-96
+8	Signed	signed	ADJ	O	0			lowlands-96
+9	autograph	autograph	NOUN	B	0		n.artifact	lowlands-96
+10	Card	card	NOUN	I	9			lowlands-96
+11	:	:	PUNCT	O	0			lowlands-96
+12	NUMBER	NUMBER	NUM	B	0		n.time	lowlands-96
+13	End	end	NOUN	I	12			lowlands-96
+14	Date	date	NOUN	I	13			lowlands-96
+15	:	:	PUNCT	O	0			lowlands-96
+16	Wednesday	wednesday	NOUN	B	0		n.person	lowlands-96
+17	Sep-25-2013	sep-25-2013	NOUN	I	16			lowlands-96
+18	...	...	PUNCT	O	0			lowlands-96
+19	URL	URL	X	O	0			lowlands-96
 
-1	I'm	i'm	VERB	O	0			lowlands-97
-2	A	a	DET	O	0			lowlands-97
-3	Real	real	ADJ	O	0			lowlands-97
-4	Girl	girl	NOUN	O	0		n.person	lowlands-97
-5	URL	URL	X	O	0			lowlands-97
+1	@USER	@USER	PROPN	O	0		n.person	lowlands-97
+2	:	:	PUNCT	O	0			lowlands-97
+3	COUNT	count	VERB	O	0		v.communication	lowlands-97
+4	ME	me	PRON	O	0			lowlands-97
+5	IN	in	PART	O	0			lowlands-97
+6	!	!	PUNCT	O	0			lowlands-97
+7	Ted	ted	PROPN	B	0		n.person	lowlands-97
+8	Cruz	cruz	PROPN	I	7			lowlands-97
+9	says	say	VERB	O	0		v.communication	lowlands-97
+10	a	a	DET	O	0			lowlands-97
+11	'	'	PUNCT	O	0			lowlands-97
+12	Grassroots	grassroots	NOUN	B	0		n.event	lowlands-97
+13	Tsunami	tsunami	NOUN	I	12			lowlands-97
+14	'	'	PUNCT	O	0			lowlands-97
+15	is	be	AUX	O	0			lowlands-97
+16	Needed	need	VERB	O	0		v.stative	lowlands-97
+17	to	to	ADP	O	0			lowlands-97
+18	Defund	defund	VERB	O	0			lowlands-97
+19	Obamacare	obamacare	PROPN	O	0		n.person	lowlands-97
+20	.	.	PUNCT	O	0			lowlands-97
+21	URL	URL	X	O	0			lowlands-97
+22	Pls	pls	PART	O	0			lowlands-97
+23	RT	rt	VERB	O	0			lowlands-97
 
-1	Valon	valon	PROPN	B	0		n.person	lowlands-98
-2	Behrami	behrami	PROPN	I	1			lowlands-98
-3	West	west	PROPN	I	2			lowlands-98
-4	Ham	ham	PROPN	I	3			lowlands-98
-5	Napoli	napoli	PROPN	I	4			lowlands-98
-6	Lazio	lazio	PROPN	I	5			lowlands-98
-7	Fiorentina	fiorentina	PROPN	I	6			lowlands-98
-8	Signed	signed	ADJ	O	0			lowlands-98
-9	autograph	autograph	NOUN	B	0		n.artifact	lowlands-98
-10	Card	card	NOUN	I	9			lowlands-98
-11	:	:	PUNCT	O	0			lowlands-98
-12	NUMBER	NUMBER	NUM	B	0		n.time	lowlands-98
-13	End	end	NOUN	I	12			lowlands-98
-14	Date	date	NOUN	I	13			lowlands-98
-15	:	:	PUNCT	O	0			lowlands-98
-16	Wednesday	wednesday	NOUN	B	0		n.person	lowlands-98
-17	Sep-25-2013	sep-25-2013	NOUN	I	16			lowlands-98
-18	...	...	PUNCT	O	0			lowlands-98
-19	URL	URL	X	O	0			lowlands-98
+1	NUMBER	NUMBER	NUM	O	0		n.attribute	lowlands-98
+2	of	of	ADP	O	0			lowlands-98
+3	Teens	teens	NOUN	O	0		n.time	lowlands-98
+4	Share	share	VERB	O	0		v.stative	lowlands-98
+5	Too	too	ADV	O	0			lowlands-98
+6	Much	much	ADJ	O	0			lowlands-98
+7	Personal	personal	ADJ	O	0			lowlands-98
+8	Data	data	NOUN	O	0		n.group	lowlands-98
+9	,	,	PUNCT	O	0			lowlands-98
+10	a	a	DET	O	0			lowlands-98
+11	LifeLock	lifelock	PROPN	B	0		n.act	lowlands-98
+12	Survey	survey	NOUN	I	11			lowlands-98
+13	Finds	find	VERB	O	0		v.possession	lowlands-98
+14	URL	URL	X	O	0			lowlands-98
 
-1	@USER	@USER	PROPN	O	0		n.person	lowlands-99
-2	:	:	PUNCT	O	0			lowlands-99
-3	COUNT	count	VERB	O	0		v.communication	lowlands-99
-4	ME	me	PRON	O	0			lowlands-99
-5	IN	in	PART	O	0			lowlands-99
-6	!	!	PUNCT	O	0			lowlands-99
-7	Ted	ted	PROPN	B	0		n.person	lowlands-99
-8	Cruz	cruz	PROPN	I	7			lowlands-99
-9	says	say	VERB	O	0		v.communication	lowlands-99
-10	a	a	DET	O	0			lowlands-99
-11	'	'	PUNCT	O	0			lowlands-99
-12	Grassroots	grassroots	NOUN	B	0		n.event	lowlands-99
-13	Tsunami	tsunami	NOUN	I	12			lowlands-99
-14	'	'	PUNCT	O	0			lowlands-99
-15	is	be	AUX	O	0			lowlands-99
-16	Needed	need	VERB	O	0		v.stative	lowlands-99
-17	to	to	ADP	O	0			lowlands-99
-18	Defund	defund	VERB	O	0			lowlands-99
-19	Obamacare	obamacare	PROPN	O	0		n.person	lowlands-99
-20	.	.	PUNCT	O	0			lowlands-99
+1	Honda	honda	PROPN	B	0		n.attribute	lowlands-99
+2	Civic	civic	PROPN	I	1			lowlands-99
+3	NUMBER	NUMBER	NUM	I	2			lowlands-99
+4	FLYAUDIO	flyaudio	PROPN	I	3			lowlands-99
+5	NUMBER	NUMBER	NUM	I	4			lowlands-99
+6	Gen	gen	NOUN	I	5			lowlands-99
+7	NUMBER	NUMBER	NUM	I	6			lowlands-99
+8	"	"	PUNCT	O	0			lowlands-99
+9	screen/GPS/DVD/IPOD/BT/MP3/USB/RD	screen/gps/dvd/ipod/bt/mp3/usb/rd	NOUN	O	0		n.person	lowlands-99
+10	:	:	PUNCT	O	0			lowlands-99
+11	NUMBER	NUMBER	NUM	O	0		n.attribute	lowlands-99
+12	(	(	PUNCT	O	0			lowlands-99
+13	NUMBER	NUMBER	NUM	B	0		n.communication	lowlands-99
+14	Bids	bid	NOUN	I	13			lowlands-99
+15	)	)	PUNCT	O	0			lowlands-99
+16	End	end	NOUN	B	0		n.time	lowlands-99
+17	Date	date	NOUN	I	16			lowlands-99
+18	:	:	PUNCT	O	0			lowlands-99
+19	Thursday	thursday	NOUN	O	0		n.time	lowlands-99
+20	...	...	PUNCT	O	0			lowlands-99
 21	URL	URL	X	O	0			lowlands-99
-22	Pls	pls	PART	O	0			lowlands-99
-23	RT	rt	VERB	O	0			lowlands-99
 
-1	NUMBER	NUMBER	NUM	O	0		n.attribute	lowlands-100
-2	of	of	ADP	O	0			lowlands-100
-3	Teens	teens	NOUN	O	0		n.time	lowlands-100
-4	Share	share	VERB	O	0		v.stative	lowlands-100
-5	Too	too	ADV	O	0			lowlands-100
-6	Much	much	ADJ	O	0			lowlands-100
-7	Personal	personal	ADJ	O	0			lowlands-100
-8	Data	data	NOUN	O	0		n.group	lowlands-100
-9	,	,	PUNCT	O	0			lowlands-100
-10	a	a	DET	O	0			lowlands-100
-11	LifeLock	lifelock	PROPN	B	0		n.act	lowlands-100
-12	Survey	survey	NOUN	I	11			lowlands-100
-13	Finds	find	VERB	O	0		v.possession	lowlands-100
-14	URL	URL	X	O	0			lowlands-100
+1	New	new	ADJ	O	0			lowlands-100
+2	to	to	ADP	O	0			lowlands-100
+3	the	the	DET	O	0			lowlands-100
+4	Pancake	pancake	PROPN	B	0		n.artifact	lowlands-100
+5	Pantry	pantry	PROPN	I	4			lowlands-100
+6	?	?	PUNCT	O	0			lowlands-100
+7	We're	we're	VERB	O	0			lowlands-100
+8	open	open	ADJ	O	0			lowlands-100
+9	ALL	all	DET	O	0			lowlands-100
+10	year	year	NOUN	O	0		n.time	lowlands-100
+11	round	round	ADP	O	0			lowlands-100
+12	(	(	PUNCT	O	0			lowlands-100
+13	except	except	ADP	O	0			lowlands-100
+14	Thanksgiving	thanksgiving	PROPN	O	0		n.time	lowlands-100
+15	and	and	CONJ	O	0			lowlands-100
+16	Christmas	christmas	PROPN	B	0		n.time	lowlands-100
+17	Day	day	PROPN	I	16			lowlands-100
+18	)	)	PUNCT	O	0			lowlands-100
+19	.	.	PUNCT	O	0			lowlands-100
+20	We	we	PRON	O	0			lowlands-100
+21	are	be	VERB	O	0		v.stative	lowlands-100
+22	even	even	ADV	O	0			lowlands-100
+23	open	open	ADJ	O	0			lowlands-100
+24	...	...	PUNCT	O	0			lowlands-100
+25	URL	URL	X	O	0			lowlands-100
 
-1	Honda	honda	PROPN	B	0		n.attribute	lowlands-101
-2	Civic	civic	PROPN	I	1			lowlands-101
-3	NUMBER	NUMBER	NUM	I	2			lowlands-101
-4	FLYAUDIO	flyaudio	PROPN	I	3			lowlands-101
-5	NUMBER	NUMBER	NUM	I	4			lowlands-101
-6	Gen	gen	NOUN	I	5			lowlands-101
-7	NUMBER	NUMBER	NUM	I	6			lowlands-101
-8	"	"	PUNCT	O	0			lowlands-101
-9	screen/GPS/DVD/IPOD/BT/MP3/USB/RD	screen/gps/dvd/ipod/bt/mp3/usb/rd	NOUN	O	0		n.person	lowlands-101
+1	@USER	@USER	PROPN	O	0		n.person	lowlands-101
+2	:	:	PUNCT	O	0			lowlands-101
+3	Syria	syria	PROPN	O	0		n.location	lowlands-101
+4	Changes	change	VERB	O	0		v.change	lowlands-101
+5	Course	course	NOUN	O	0		n.act	lowlands-101
+6	,	,	PUNCT	O	0			lowlands-101
+7	Will	will	AUX	O	0			lowlands-101
+8	Allow	allow	VERB	O	0		v.social	lowlands-101
+9	Inspectors	inspector	NOUN	O	0		n.person	lowlands-101
 10	:	:	PUNCT	O	0			lowlands-101
-11	NUMBER	NUMBER	NUM	O	0		n.attribute	lowlands-101
-12	(	(	PUNCT	O	0			lowlands-101
-13	NUMBER	NUMBER	NUM	B	0		n.communication	lowlands-101
-14	Bids	bid	NOUN	I	13			lowlands-101
-15	)	)	PUNCT	O	0			lowlands-101
-16	End	end	NOUN	B	0		n.time	lowlands-101
-17	Date	date	NOUN	I	16			lowlands-101
-18	:	:	PUNCT	O	0			lowlands-101
-19	Thursday	thursday	NOUN	O	0		n.time	lowlands-101
-20	...	...	PUNCT	O	0			lowlands-101
-21	URL	URL	X	O	0			lowlands-101
+11	URL	URL	X	O	0			lowlands-101
 
-1	New	new	ADJ	O	0			lowlands-102
-2	to	to	ADP	O	0			lowlands-102
-3	the	the	DET	O	0			lowlands-102
-4	Pancake	pancake	PROPN	B	0		n.artifact	lowlands-102
-5	Pantry	pantry	PROPN	I	4			lowlands-102
-6	?	?	PUNCT	O	0			lowlands-102
-7	We're	we're	VERB	O	0			lowlands-102
-8	open	open	ADJ	O	0			lowlands-102
-9	ALL	all	DET	O	0			lowlands-102
-10	year	year	NOUN	O	0		n.time	lowlands-102
-11	round	round	ADP	O	0			lowlands-102
-12	(	(	PUNCT	O	0			lowlands-102
-13	except	except	ADP	O	0			lowlands-102
-14	Thanksgiving	thanksgiving	PROPN	O	0		n.time	lowlands-102
-15	and	and	CONJ	O	0			lowlands-102
-16	Christmas	christmas	PROPN	B	0		n.time	lowlands-102
-17	Day	day	PROPN	I	16			lowlands-102
-18	)	)	PUNCT	O	0			lowlands-102
-19	.	.	PUNCT	O	0			lowlands-102
-20	We	we	PRON	O	0			lowlands-102
-21	are	be	VERB	O	0		v.stative	lowlands-102
-22	even	even	ADV	O	0			lowlands-102
-23	open	open	ADJ	O	0			lowlands-102
-24	...	...	PUNCT	O	0			lowlands-102
-25	URL	URL	X	O	0			lowlands-102
+1	I'm	i'm	VERB	O	0			lowlands-102
+2	at	at	ADP	O	0			lowlands-102
+3	Pacific	pacific	PROPN	B	0		n.artifact	lowlands-102
+4	Transload	transload	PROPN	I	3			lowlands-102
+5	Systems	systems	PROPN	I	4			lowlands-102
+6	-	-	PUNCT	O	0			lowlands-102
+7	Port	port	PROPN	O	0		n.location	lowlands-102
+8	Of	of	ADP	O	0			lowlands-102
+9	Oakland	oakland	PROPN	O	0		n.location	lowlands-102
+10	(	(	PUNCT	O	0			lowlands-102
+11	Oakland	oakland	PROPN	O	0		n.location	lowlands-102
+12	,	,	PUNCT	O	0			lowlands-102
+13	CA	ca	PROPN	O	0		n.substance	lowlands-102
+14	)	)	PUNCT	O	0			lowlands-102
+15	URL	URL	X	O	0			lowlands-102
 
-1	@USER	@USER	PROPN	O	0		n.person	lowlands-103
+1	Photo	photo	NOUN	O	0		n.artifact	lowlands-103
 2	:	:	PUNCT	O	0			lowlands-103
-3	Syria	syria	PROPN	O	0		n.location	lowlands-103
-4	Changes	change	VERB	O	0		v.change	lowlands-103
-5	Course	course	NOUN	O	0		n.act	lowlands-103
-6	,	,	PUNCT	O	0			lowlands-103
-7	Will	will	AUX	O	0			lowlands-103
-8	Allow	allow	VERB	O	0		v.social	lowlands-103
-9	Inspectors	inspector	NOUN	O	0		n.person	lowlands-103
-10	:	:	PUNCT	O	0			lowlands-103
-11	URL	URL	X	O	0			lowlands-103
+3	Alessandra	alessandra	PROPN	B	0		n.person	lowlands-103
+4	Kamaile	kamaile	PROPN	I	3			lowlands-103
+5	-	-	PUNCT	O	0			lowlands-103
+6	inspiring	inspiring	ADJ	O	0			lowlands-103
+7	picture	picture	NOUN	O	0		n.artifact	lowlands-103
+8	on	on	ADP	O	0			lowlands-103
+9	URL	URL	X	O	0			lowlands-103
+10	en	en	X	O	0			lowlands-103
+11	We	we	PRON	O	0			lowlands-103
+12	Heart	heart	VERB	O	0			lowlands-103
+13	It	it	PRON	O	0			lowlands-103
+14	....	....	PUNCT	O	0			lowlands-103
+15	URL	URL	X	O	0			lowlands-103
 
-1	I'm	i'm	VERB	O	0			lowlands-104
-2	at	at	ADP	O	0			lowlands-104
-3	Pacific	pacific	PROPN	B	0		n.artifact	lowlands-104
-4	Transload	transload	PROPN	I	3			lowlands-104
-5	Systems	systems	PROPN	I	4			lowlands-104
-6	-	-	PUNCT	O	0			lowlands-104
-7	Port	port	PROPN	O	0		n.location	lowlands-104
-8	Of	of	ADP	O	0			lowlands-104
-9	Oakland	oakland	PROPN	O	0		n.location	lowlands-104
-10	(	(	PUNCT	O	0			lowlands-104
-11	Oakland	oakland	PROPN	O	0		n.location	lowlands-104
-12	,	,	PUNCT	O	0			lowlands-104
-13	CA	ca	PROPN	O	0		n.substance	lowlands-104
-14	)	)	PUNCT	O	0			lowlands-104
-15	URL	URL	X	O	0			lowlands-104
+1	Baffled	baffled	ADJ	O	0			lowlands-104
+2	Di	di	PROPN	B	0		n.person	lowlands-104
+3	Resta	resta	PROPN	I	2			lowlands-104
+4	rues	rue	VERB	O	0		v.emotion	lowlands-104
+5	collision	collision	NOUN	O	0		n.event	lowlands-104
+6	URL	URL	X	O	0			lowlands-104
 
-1	Photo	photo	NOUN	O	0		n.artifact	lowlands-105
-2	:	:	PUNCT	O	0			lowlands-105
-3	Alessandra	alessandra	PROPN	B	0		n.person	lowlands-105
-4	Kamaile	kamaile	PROPN	I	3			lowlands-105
-5	-	-	PUNCT	O	0			lowlands-105
-6	inspiring	inspiring	ADJ	O	0			lowlands-105
-7	picture	picture	NOUN	O	0		n.artifact	lowlands-105
-8	on	on	ADP	O	0			lowlands-105
-9	URL	URL	X	O	0			lowlands-105
-10	en	en	X	O	0			lowlands-105
-11	We	we	PRON	O	0			lowlands-105
-12	Heart	heart	VERB	O	0			lowlands-105
-13	It	it	PRON	O	0			lowlands-105
-14	....	....	PUNCT	O	0			lowlands-105
-15	URL	URL	X	O	0			lowlands-105
+1	"	"	PUNCT	O	0			lowlands-105
+2	Dictionaries	dictionary	NOUN	O	0		n.communication	lowlands-105
+3	Redefine	redefine	VERB	O	0		v.stative	lowlands-105
+4	'	'	PUNCT	O	0			lowlands-105
+5	Marriage	marriage	NOUN	O	0		n.state	lowlands-105
+6	'	'	PUNCT	O	0			lowlands-105
+7	in	in	ADP	O	0			lowlands-105
+8	Wake	wake	NOUN	O	0		n.phenomenon	lowlands-105
+9	of	of	ADP	O	0			lowlands-105
+10	British	british	ADJ	O	0			lowlands-105
+11	Gay	gay	NOUN	B	0		n.communication	lowlands-105
+12	Marriage	marriage	NOUN	I	11			lowlands-105
+13	Legislation	legislation	NOUN	I	12			lowlands-105
+14	"	"	PUNCT	O	0			lowlands-105
+15	What	what	PRON	O	0			lowlands-105
+16	do	do	AUX	O	0			lowlands-105
+17	you	you	PRON	O	0			lowlands-105
+18	think	think	VERB	O	0		v.cognition	lowlands-105
+19	?	?	PUNCT	O	0			lowlands-105
+20	URL	URL	X	O	0			lowlands-105
 
-1	Baffled	baffled	ADJ	O	0			lowlands-106
-2	Di	di	PROPN	B	0		n.person	lowlands-106
-3	Resta	resta	PROPN	I	2			lowlands-106
-4	rues	rue	VERB	O	0		v.emotion	lowlands-106
-5	collision	collision	NOUN	O	0		n.event	lowlands-106
-6	URL	URL	X	O	0			lowlands-106
+1	Photo	photo	NOUN	O	0		n.artifact	lowlands-106
+2	?	?	PUNCT	O	0			lowlands-106
+3	At	at	ADP	O	0			lowlands-106
+4	The	the	DET	O	0			lowlands-106
+5	End	end	NOUN	O	0		n.location	lowlands-106
+6	of	of	ADP	O	0			lowlands-106
+7	the	the	DET	O	0			lowlands-106
+8	World	world	NOUN	O	0		n.natural_object	lowlands-106
+9	?	?	PUNCT	O	0			lowlands-106
+10	by	by	ADP	O	0			lowlands-106
+11	wim	wim	PROPN	O	0		n.person	lowlands-106
+12	denijs	denijs	PROPN	O	0		n.person	lowlands-106
+13	#500px	#500px	NOUN	O	0		n.person	lowlands-106
+14	URL	URL	X	O	0			lowlands-106
 
-1	"	"	PUNCT	O	0			lowlands-107
-2	Dictionaries	dictionary	NOUN	O	0		n.communication	lowlands-107
-3	Redefine	redefine	VERB	O	0		v.stative	lowlands-107
-4	'	'	PUNCT	O	0			lowlands-107
-5	Marriage	marriage	NOUN	O	0		n.state	lowlands-107
-6	'	'	PUNCT	O	0			lowlands-107
-7	in	in	ADP	O	0			lowlands-107
-8	Wake	wake	NOUN	O	0		n.phenomenon	lowlands-107
+1	If	if	ADP	O	0			lowlands-107
+2	you	you	PRON	O	0			lowlands-107
+3	were	be	VERB	O	0		v.stative	lowlands-107
+4	a	a	DET	O	0			lowlands-107
+5	car	car	NOUN	O	0		n.artifact	lowlands-107
+6	,	,	PUNCT	O	0			lowlands-107
+7	what	what	PRON	O	0			lowlands-107
+8	kind	kind	NOUN	O	0		n.cognition	lowlands-107
 9	of	of	ADP	O	0			lowlands-107
-10	British	british	ADJ	O	0			lowlands-107
-11	Gay	gay	NOUN	B	0		n.communication	lowlands-107
-12	Marriage	marriage	NOUN	I	11			lowlands-107
-13	Legislation	legislation	NOUN	I	12			lowlands-107
-14	"	"	PUNCT	O	0			lowlands-107
-15	What	what	PRON	O	0			lowlands-107
-16	do	do	AUX	O	0			lowlands-107
-17	you	you	PRON	O	0			lowlands-107
-18	think	think	VERB	O	0		v.cognition	lowlands-107
-19	?	?	PUNCT	O	0			lowlands-107
-20	URL	URL	X	O	0			lowlands-107
+10	car	car	NOUN	O	0		n.artifact	lowlands-107
+11	would	would	AUX	O	0			lowlands-107
+12	you	you	PRON	O	0			lowlands-107
+13	be	be	VERB	O	0		v.stative	lowlands-107
+14	?	?	PUNCT	O	0			lowlands-107
+15	?	?	PUNCT	O	0			lowlands-107
+16	the	the	DET	O	0			lowlands-107
+17	Mini	mini	PROPN	O	0		n.artifact	lowlands-107
+18	Cooper	cooper	PROPN	O	0		n.person	lowlands-107
+19	Convertible	convertible	NOUN	O	0		n.artifact	lowlands-107
+20	one	one	NUM	O	0		n.quantity	lowlands-107
+21	URL	URL	X	O	0			lowlands-107
 
-1	Photo	photo	NOUN	O	0		n.artifact	lowlands-108
-2	?	?	PUNCT	O	0			lowlands-108
-3	At	at	ADP	O	0			lowlands-108
-4	The	the	DET	O	0			lowlands-108
-5	End	end	NOUN	O	0		n.location	lowlands-108
-6	of	of	ADP	O	0			lowlands-108
-7	the	the	DET	O	0			lowlands-108
-8	World	world	NOUN	O	0		n.natural_object	lowlands-108
-9	?	?	PUNCT	O	0			lowlands-108
-10	by	by	ADP	O	0			lowlands-108
-11	wim	wim	PROPN	O	0		n.person	lowlands-108
-12	denijs	denijs	PROPN	O	0		n.person	lowlands-108
-13	#500px	#500px	NOUN	O	0		n.person	lowlands-108
+1	@USER	@USER	PROPN	O	0		n.person	lowlands-108
+2	:	:	PUNCT	O	0			lowlands-108
+3	?	?	PUNCT	O	0			lowlands-108
+4	NUMBER	NUMBER	NUM	B	0		n.cognition	lowlands-108
+5	Cognitive	cognitive	NOUN	I	4			lowlands-108
+6	Biases	bias	NOUN	I	5			lowlands-108
+7	That	that	PRON	O	0			lowlands-108
+8	Screw	screw	VERB	O	0		v.contact	lowlands-108
+9	Up	up	PART	O	0			lowlands-108
+10	How	how	ADV	O	0			lowlands-108
+11	We	we	PRON	O	0			lowlands-108
+12	Think	think	VERB	O	0		v.cognition	lowlands-108
+13	?	?	PUNCT	O	0			lowlands-108
 14	URL	URL	X	O	0			lowlands-108
+15	via	via	ADP	O	0			lowlands-108
+16	@USER	@USER	PROPN	O	0		n.person	lowlands-108
 
-1	If	if	ADP	O	0			lowlands-109
-2	you	you	PRON	O	0			lowlands-109
-3	were	be	VERB	O	0		v.stative	lowlands-109
-4	a	a	DET	O	0			lowlands-109
-5	car	car	NOUN	O	0		n.artifact	lowlands-109
+1	Today	today	NOUN	B	0		n.person	lowlands-109
+2	stats	stats	NOUN	I	1			lowlands-109
+3	:	:	PUNCT	O	0			lowlands-109
+4	NUMBER	NUMBER	NUM	B	0		n.group	lowlands-109
+5	followers	followers	NOUN	I	4			lowlands-109
 6	,	,	PUNCT	O	0			lowlands-109
-7	what	what	PRON	O	0			lowlands-109
-8	kind	kind	NOUN	O	0		n.cognition	lowlands-109
-9	of	of	ADP	O	0			lowlands-109
-10	car	car	NOUN	O	0		n.artifact	lowlands-109
-11	would	would	AUX	O	0			lowlands-109
-12	you	you	PRON	O	0			lowlands-109
-13	be	be	VERB	O	0		v.stative	lowlands-109
-14	?	?	PUNCT	O	0			lowlands-109
-15	?	?	PUNCT	O	0			lowlands-109
-16	the	the	DET	O	0			lowlands-109
-17	Mini	mini	PROPN	O	0		n.artifact	lowlands-109
-18	Cooper	cooper	PROPN	O	0		n.person	lowlands-109
-19	Convertible	convertible	NOUN	O	0		n.artifact	lowlands-109
-20	one	one	NUM	O	0		n.quantity	lowlands-109
-21	URL	URL	X	O	0			lowlands-109
+7	NUMBER	NUMBER	NUM	B	0		n.person	lowlands-109
+8	unfollowers	unfollowers	NOUN	I	7			lowlands-109
+9	and	and	CONJ	O	0			lowlands-109
+10	followed	follow	VERB	O	0		v.motion	lowlands-109
+11	NUMBER	NUMBER	NUM	B	0		n.group	lowlands-109
+12	people	people	NOUN	I	11			lowlands-109
+13	via	via	ADP	O	0			lowlands-109
+14	URL	URL	X	O	0			lowlands-109
 
 1	@USER	@USER	PROPN	O	0		n.person	lowlands-110
 2	:	:	PUNCT	O	0			lowlands-110
-3	?	?	PUNCT	O	0			lowlands-110
-4	NUMBER	NUMBER	NUM	B	0		n.cognition	lowlands-110
-5	Cognitive	cognitive	NOUN	I	4			lowlands-110
-6	Biases	bias	NOUN	I	5			lowlands-110
-7	That	that	PRON	O	0			lowlands-110
-8	Screw	screw	VERB	O	0		v.contact	lowlands-110
-9	Up	up	PART	O	0			lowlands-110
-10	How	how	ADV	O	0			lowlands-110
-11	We	we	PRON	O	0			lowlands-110
-12	Think	think	VERB	O	0		v.cognition	lowlands-110
-13	?	?	PUNCT	O	0			lowlands-110
-14	URL	URL	X	O	0			lowlands-110
-15	via	via	ADP	O	0			lowlands-110
-16	@USER	@USER	PROPN	O	0		n.person	lowlands-110
+3	Evolving	evolving	ADJ	O	0			lowlands-110
+4	world	world	NOUN	O	0		n.natural_object	lowlands-110
+5	of	of	ADP	O	0			lowlands-110
+6	BPM	bpm	PROPN	O	0		n.time	lowlands-110
+7	|	|	PUNCT	O	0			lowlands-110
+8	IBM	ibm	PROPN	B	0		n.location	lowlands-110
+9	Software	software	PROPN	I	8			lowlands-110
+10	India	india	PROPN	I	9			lowlands-110
+11	:	:	PUNCT	O	0			lowlands-110
+12	business	business	NOUN	B	0		n.attribute	lowlands-110
+13	agility	agility	NOUN	I	12			lowlands-110
+14	,	,	PUNCT	O	0			lowlands-110
+15	BPM	bpm	PROPN	O	0		n.time	lowlands-110
+16	,	,	PUNCT	O	0			lowlands-110
+17	business	business	NOUN	B	0		n.act	lowlands-110
+18	process	process	NOUN	I	17			lowlands-110
+19	management	management	NOUN	I	18			lowlands-110
+20	,	,	PUNCT	O	0			lowlands-110
+21	...	...	PUNCT	O	0			lowlands-110
+22	URL	URL	PROPN	B	0		n.person	lowlands-110
+23	#	#	NOUN	I	22			lowlands-110
+24	?	?	PUNCT	O	0			lowlands-110
 
 1	Today	today	NOUN	B	0		n.person	lowlands-111
 2	stats	stats	NOUN	I	1			lowlands-111
 3	:	:	PUNCT	O	0			lowlands-111
-4	NUMBER	NUMBER	NUM	B	0		n.group	lowlands-111
+4	2	2	NUM	B	0		n.group	lowlands-111
 5	followers	followers	NOUN	I	4			lowlands-111
 6	,	,	PUNCT	O	0			lowlands-111
-7	NUMBER	NUMBER	NUM	B	0		n.person	lowlands-111
+7	2	2	NUM	B	0		n.person	lowlands-111
 8	unfollowers	unfollowers	NOUN	I	7			lowlands-111
 9	and	and	CONJ	O	0			lowlands-111
 10	followed	follow	VERB	O	0		v.motion	lowlands-111
@@ -1843,1424 +1881,1384 @@
 13	via	via	ADP	O	0			lowlands-111
 14	URL	URL	X	O	0			lowlands-111
 
-1	@USER	@USER	PROPN	O	0		n.person	lowlands-112
-2	:	:	PUNCT	O	0			lowlands-112
-3	Evolving	evolving	ADJ	O	0			lowlands-112
-4	world	world	NOUN	O	0		n.natural_object	lowlands-112
-5	of	of	ADP	O	0			lowlands-112
-6	BPM	bpm	PROPN	O	0		n.time	lowlands-112
-7	|	|	PUNCT	O	0			lowlands-112
-8	IBM	ibm	PROPN	B	0		n.location	lowlands-112
-9	Software	software	PROPN	I	8			lowlands-112
-10	India	india	PROPN	I	9			lowlands-112
-11	:	:	PUNCT	O	0			lowlands-112
-12	business	business	NOUN	B	0		n.attribute	lowlands-112
-13	agility	agility	NOUN	I	12			lowlands-112
-14	,	,	PUNCT	O	0			lowlands-112
-15	BPM	bpm	PROPN	O	0		n.time	lowlands-112
-16	,	,	PUNCT	O	0			lowlands-112
-17	business	business	NOUN	B	0		n.act	lowlands-112
-18	process	process	NOUN	I	17			lowlands-112
-19	management	management	NOUN	I	18			lowlands-112
-20	,	,	PUNCT	O	0			lowlands-112
-21	...	...	PUNCT	O	0			lowlands-112
-22	URL	URL	PROPN	B	0		n.person	lowlands-112
-23	#	#	NOUN	I	22			lowlands-112
-24	?	?	PUNCT	O	0			lowlands-112
+1	Today	today	NOUN	B	0		n.person	lowlands-112
+2	stats	stats	NOUN	I	1			lowlands-112
+3	:	:	PUNCT	O	0			lowlands-112
+4	NUMBER	NUMBER	NUM	B	0		n.group	lowlands-112
+5	followers	followers	NOUN	I	4			lowlands-112
+6	,	,	PUNCT	O	0			lowlands-112
+7	No	no	DET	O	0			lowlands-112
+8	unfollowers	unfollowers	NOUN	O	0		n.person	lowlands-112
+9	via	via	ADP	O	0			lowlands-112
+10	URL	URL	X	O	0			lowlands-112
 
-1	Today	today	NOUN	B	0		n.person	lowlands-113
-2	stats	stats	NOUN	I	1			lowlands-113
-3	:	:	PUNCT	O	0			lowlands-113
-4	2	2	NUM	B	0		n.group	lowlands-113
-5	followers	followers	NOUN	I	4			lowlands-113
-6	,	,	PUNCT	O	0			lowlands-113
-7	2	2	NUM	B	0		n.person	lowlands-113
-8	unfollowers	unfollowers	NOUN	I	7			lowlands-113
-9	and	and	CONJ	O	0			lowlands-113
-10	followed	follow	VERB	O	0		v.motion	lowlands-113
-11	NUMBER	NUMBER	NUM	B	0		n.group	lowlands-113
-12	people	people	NOUN	I	11			lowlands-113
-13	via	via	ADP	O	0			lowlands-113
-14	URL	URL	X	O	0			lowlands-113
+1	@USER	@USER	PROPN	O	0		n.person	lowlands-113
+2	:	:	PUNCT	O	0			lowlands-113
+3	for	for	ADP	O	0			lowlands-113
+4	a	a	DET	O	0			lowlands-113
+5	chance	chance	NOUN	O	0		n.state	lowlands-113
+6	to	to	ADP	O	0			lowlands-113
+7	win	win	VERB	O	0		v.competition	lowlands-113
+8	2	2	NUM	B	0		n.communication	lowlands-113
+9	tickets	ticket	NOUN	I	8			lowlands-113
+10	to	to	ADP	O	0			lowlands-113
+11	the	the	DET	O	0			lowlands-113
+12	@USER	@USER	PROPN	B	0		n.time	lowlands-113
+13	Art	art	PROPN	I	12			lowlands-113
+14	Launch	launch	PROPN	I	13			lowlands-113
+15	Party	party	PROPN	I	14			lowlands-113
+16	tomorrow	tomorrow	NOUN	I	15			lowlands-113
+17	!	!	PUNCT	O	0			lowlands-113
+18	More	more	DET	O	0			lowlands-113
+19	info	info	NOUN	O	0		n.communication	lowlands-113
+20	-	-	PUNCT	O	0			lowlands-113
+21	URL	URL	X	O	0			lowlands-113
 
-1	Today	today	NOUN	B	0		n.person	lowlands-114
-2	stats	stats	NOUN	I	1			lowlands-114
-3	:	:	PUNCT	O	0			lowlands-114
-4	NUMBER	NUMBER	NUM	B	0		n.group	lowlands-114
-5	followers	followers	NOUN	I	4			lowlands-114
-6	,	,	PUNCT	O	0			lowlands-114
-7	No	no	DET	O	0			lowlands-114
-8	unfollowers	unfollowers	NOUN	O	0		n.person	lowlands-114
-9	via	via	ADP	O	0			lowlands-114
-10	URL	URL	X	O	0			lowlands-114
+1	There	there	PRON	O	0			lowlands-114
+2	are	be	VERB	O	0		v.stative	lowlands-114
+3	some	some	DET	O	0			lowlands-114
+4	constraints	constraint	NOUN	O	0		n.state	lowlands-114
+5	as	as	ADP	O	0			lowlands-114
+6	to	to	ADP	O	0			lowlands-114
+7	how	how	ADV	O	0			lowlands-114
+8	high	high	ADJ	O	0			lowlands-114
+9	or	or	CONJ	O	0			lowlands-114
+10	how	how	ADV	O	0			lowlands-114
+11	low	low	ADJ	O	0			lowlands-114
+12	you	you	PRON	O	0			lowlands-114
+13	can	can	AUX	O	0			lowlands-114
+14	set	set	VERB	O	0		v.contact	lowlands-114
+15	your	your	DET	O	0			lowlands-114
+16	price	price	NOUN	O	0		n.attribute	lowlands-114
+17	when	when	ADV	O	0			lowlands-114
+18	posting	post	VERB	O	0		v.contact	lowlands-114
+19	your	your	DET	O	0			lowlands-114
+20	bid	bid	NOUN	O	0		n.communication	lowlands-114
+21	.	.	PUNCT	O	0			lowlands-114
+22	URL	URL	X	O	0			lowlands-114
 
-1	@USER	@USER	PROPN	O	0		n.person	lowlands-115
-2	:	:	PUNCT	O	0			lowlands-115
-3	for	for	ADP	O	0			lowlands-115
-4	a	a	DET	O	0			lowlands-115
-5	chance	chance	NOUN	O	0		n.state	lowlands-115
-6	to	to	ADP	O	0			lowlands-115
-7	win	win	VERB	O	0		v.competition	lowlands-115
-8	2	2	NUM	B	0		n.communication	lowlands-115
-9	tickets	ticket	NOUN	I	8			lowlands-115
-10	to	to	ADP	O	0			lowlands-115
-11	the	the	DET	O	0			lowlands-115
-12	@USER	@USER	PROPN	B	0		n.time	lowlands-115
-13	Art	art	PROPN	I	12			lowlands-115
-14	Launch	launch	PROPN	I	13			lowlands-115
-15	Party	party	PROPN	I	14			lowlands-115
-16	tomorrow	tomorrow	NOUN	I	15			lowlands-115
-17	!	!	PUNCT	O	0			lowlands-115
-18	More	more	DET	O	0			lowlands-115
-19	info	info	NOUN	O	0		n.communication	lowlands-115
-20	-	-	PUNCT	O	0			lowlands-115
-21	URL	URL	X	O	0			lowlands-115
+1	Radio	radio	PROPN	B	0		n.person	lowlands-115
+2	NUMBER	NUMBER	NUM	I	1			lowlands-115
+3	Darkside	darkside	PROPN	I	2			lowlands-115
+4	Teaser	teaser	NOUN	I	3			lowlands-115
+5	:	:	PUNCT	O	0			lowlands-115
+6	URL	URL	X	O	0			lowlands-115
+7	via	via	ADP	O	0			lowlands-115
+8	@USER	@USER	PROPN	B	0		n.time	lowlands-115
+9	NUMBER	NUMBER	NUM	I	8			lowlands-115
+10	years	years	NOUN	I	9			lowlands-115
+11	ago	ago	ADV	O	0			lowlands-115
+12	!	!	PUNCT	O	0			lowlands-115
+13	Timeless	timeless	ADJ	O	0			lowlands-115
+14	.	.	PUNCT	O	0			lowlands-115
 
-1	There	there	PRON	O	0			lowlands-116
-2	are	be	VERB	O	0		v.stative	lowlands-116
-3	some	some	DET	O	0			lowlands-116
-4	constraints	constraint	NOUN	O	0		n.state	lowlands-116
-5	as	as	ADP	O	0			lowlands-116
-6	to	to	ADP	O	0			lowlands-116
-7	how	how	ADV	O	0			lowlands-116
-8	high	high	ADJ	O	0			lowlands-116
-9	or	or	CONJ	O	0			lowlands-116
-10	how	how	ADV	O	0			lowlands-116
-11	low	low	ADJ	O	0			lowlands-116
-12	you	you	PRON	O	0			lowlands-116
-13	can	can	AUX	O	0			lowlands-116
-14	set	set	VERB	O	0		v.contact	lowlands-116
-15	your	your	DET	O	0			lowlands-116
-16	price	price	NOUN	O	0		n.attribute	lowlands-116
-17	when	when	ADV	O	0			lowlands-116
-18	posting	post	VERB	O	0		v.contact	lowlands-116
-19	your	your	DET	O	0			lowlands-116
-20	bid	bid	NOUN	O	0		n.communication	lowlands-116
-21	.	.	PUNCT	O	0			lowlands-116
-22	URL	URL	X	O	0			lowlands-116
+1	Today	today	NOUN	B	0		n.person	lowlands-116
+2	stats	stats	NOUN	I	1			lowlands-116
+3	:	:	PUNCT	O	0			lowlands-116
+4	One	one	NUM	B	0		n.person	lowlands-116
+5	follower	follower	NOUN	I	4			lowlands-116
+6	,	,	PUNCT	O	0			lowlands-116
+7	No	no	DET	O	0			lowlands-116
+8	unfollowers	unfollowers	NOUN	O	0		n.person	lowlands-116
+9	via	via	ADP	O	0			lowlands-116
+10	URL	URL	X	O	0			lowlands-116
 
-1	Radio	radio	PROPN	B	0		n.person	lowlands-117
-2	NUMBER	NUMBER	NUM	I	1			lowlands-117
-3	Darkside	darkside	PROPN	I	2			lowlands-117
-4	Teaser	teaser	NOUN	I	3			lowlands-117
-5	:	:	PUNCT	O	0			lowlands-117
-6	URL	URL	X	O	0			lowlands-117
-7	via	via	ADP	O	0			lowlands-117
-8	@USER	@USER	PROPN	B	0		n.time	lowlands-117
-9	NUMBER	NUMBER	NUM	I	8			lowlands-117
-10	years	years	NOUN	I	9			lowlands-117
-11	ago	ago	ADV	O	0			lowlands-117
-12	!	!	PUNCT	O	0			lowlands-117
-13	Timeless	timeless	ADJ	O	0			lowlands-117
-14	.	.	PUNCT	O	0			lowlands-117
+1	"	"	PUNCT	O	0			lowlands-117
+2	Weird	weird	ADJ	O	0			lowlands-117
+3	seaside	seaside	ADJ	O	0			lowlands-117
+4	accessories	accessory	NOUN	O	0		n.artifact	lowlands-117
+5	-	-	PUNCT	O	0			lowlands-117
+6	Telegraph	telegraph	PROPN	O	0		n.artifact	lowlands-117
+7	"	"	PUNCT	O	0			lowlands-117
+8	URL	URL	X	O	0			lowlands-117
 
-1	Today	today	NOUN	B	0		n.person	lowlands-118
-2	stats	stats	NOUN	I	1			lowlands-118
-3	:	:	PUNCT	O	0			lowlands-118
-4	One	one	NUM	B	0		n.person	lowlands-118
-5	follower	follower	NOUN	I	4			lowlands-118
-6	,	,	PUNCT	O	0			lowlands-118
-7	No	no	DET	O	0			lowlands-118
-8	unfollowers	unfollowers	NOUN	O	0		n.person	lowlands-118
-9	via	via	ADP	O	0			lowlands-118
-10	URL	URL	X	O	0			lowlands-118
+1	Music	music	NOUN	B	0		n.artifact	lowlands-118
+2	Think	think	NOUN	I	1			lowlands-118
+3	Tank	tank	NOUN	I	2			lowlands-118
+4	-	-	PUNCT	O	0			lowlands-118
+5	How	how	ADV	O	0			lowlands-118
+6	To	to	ADP	O	0			lowlands-118
+7	Make	make	VERB	O	0		v.social	lowlands-118
+8	It	it	PRON	O	0			lowlands-118
+9	In	in	ADP	O	0			lowlands-118
+10	The	the	DET	O	0			lowlands-118
+11	Music	music	NOUN	B	0		n.group	lowlands-118
+12	Industry	industry	NOUN	I	11			lowlands-118
+13	-	-	PUNCT	O	0			lowlands-118
+14	4	4	NUM	O	0		n.quantity	lowlands-118
+15	Key	key	NOUN	O	0		n.artifact	lowlands-118
+16	Factors	factor	NOUN	O	0		n.event	lowlands-118
+17	URL	URL	X	O	0			lowlands-118
 
-1	"	"	PUNCT	O	0			lowlands-119
-2	Weird	weird	ADJ	O	0			lowlands-119
-3	seaside	seaside	ADJ	O	0			lowlands-119
-4	accessories	accessory	NOUN	O	0		n.artifact	lowlands-119
-5	-	-	PUNCT	O	0			lowlands-119
-6	Telegraph	telegraph	PROPN	O	0		n.artifact	lowlands-119
-7	"	"	PUNCT	O	0			lowlands-119
-8	URL	URL	X	O	0			lowlands-119
+1	NSA	nsa	PROPN	B	0		n.natural_object	lowlands-119
+2	agents	agent	NOUN	I	1			lowlands-119
+3	spied	spy	VERB	O	0		v.perception	lowlands-119
+4	on	on	ADP	O	0			lowlands-119
+5	their	their	DET	O	0			lowlands-119
+6	love	love	NOUN	B	0		n.cognition	lowlands-119
+7	interests	interest	NOUN	I	6			lowlands-119
+8	under	under	ADP	O	0			lowlands-119
+9	a	a	DET	O	0			lowlands-119
+10	program	program	NOUN	O	0		n.cognition	lowlands-119
+11	called	call	VERB	O	0		v.communication	lowlands-119
+12	"	"	PUNCT	O	0			lowlands-119
+13	LOVEINT	loveint	PROPN	O	0		n.person	lowlands-119
+14	"	"	PUNCT	O	0			lowlands-119
+15	URL	URL	X	O	0			lowlands-119
 
-1	Music	music	NOUN	B	0		n.artifact	lowlands-120
-2	Think	think	NOUN	I	1			lowlands-120
-3	Tank	tank	NOUN	I	2			lowlands-120
-4	-	-	PUNCT	O	0			lowlands-120
-5	How	how	ADV	O	0			lowlands-120
-6	To	to	ADP	O	0			lowlands-120
-7	Make	make	VERB	O	0		v.social	lowlands-120
-8	It	it	PRON	O	0			lowlands-120
-9	In	in	ADP	O	0			lowlands-120
-10	The	the	DET	O	0			lowlands-120
-11	Music	music	NOUN	B	0		n.group	lowlands-120
-12	Industry	industry	NOUN	I	11			lowlands-120
-13	-	-	PUNCT	O	0			lowlands-120
-14	4	4	NUM	O	0		n.quantity	lowlands-120
-15	Key	key	NOUN	O	0		n.artifact	lowlands-120
-16	Factors	factor	NOUN	O	0		n.event	lowlands-120
-17	URL	URL	X	O	0			lowlands-120
+1	NUMBER	NUMBER	NUM	O	0		n.attribute	lowlands-120
+2	top	top	ADJ	O	0			lowlands-120
+3	theme	theme	NOUN	B	0		n.person	lowlands-120
+4	parks	parks	NOUN	I	3			lowlands-120
+5	opening	open	VERB	O	0		v.contact	lowlands-120
+6	soon	soon	ADV	O	0			lowlands-120
+7	URL	URL	X	O	0			lowlands-120
 
-1	NSA	nsa	PROPN	B	0		n.natural_object	lowlands-121
-2	agents	agent	NOUN	I	1			lowlands-121
-3	spied	spy	VERB	O	0		v.perception	lowlands-121
-4	on	on	ADP	O	0			lowlands-121
-5	their	their	DET	O	0			lowlands-121
-6	love	love	NOUN	B	0		n.cognition	lowlands-121
-7	interests	interest	NOUN	I	6			lowlands-121
-8	under	under	ADP	O	0			lowlands-121
-9	a	a	DET	O	0			lowlands-121
-10	program	program	NOUN	O	0		n.cognition	lowlands-121
-11	called	call	VERB	O	0		v.communication	lowlands-121
-12	"	"	PUNCT	O	0			lowlands-121
-13	LOVEINT	loveint	PROPN	O	0		n.person	lowlands-121
-14	"	"	PUNCT	O	0			lowlands-121
-15	URL	URL	X	O	0			lowlands-121
+1	@USER	@USER	PROPN	O	0		n.person	lowlands-121
+2	:	:	PUNCT	O	0			lowlands-121
+3	Lady	lady	PROPN	B	0		n.person	lowlands-121
+4	Gaga	gaga	PROPN	I	3			lowlands-121
+5	talking	talk	VERB	O	0		v.communication	lowlands-121
+6	to	to	ADP	O	0			lowlands-121
+7	the	the	DET	O	0			lowlands-121
+8	boys	boy	NOUN	O	0		n.person	lowlands-121
+9	after	after	ADP	O	0			lowlands-121
+10	they	they	PRON	O	0			lowlands-121
+11	won	win	VERB	O	0		v.competition	lowlands-121
+12	the	the	DET	O	0			lowlands-121
+13	award	award	NOUN	O	0		n.act	lowlands-121
+14	,	,	PUNCT	O	0			lowlands-121
+15	gotta	gotta	AUX	O	0			lowlands-121
+16	love	love	VERB	O	0		v.emotion	lowlands-121
+17	her	her	PRON	O	0			lowlands-121
+18	.	.	PUNCT	O	0			lowlands-121
+19	URL	URL	X	O	0			lowlands-121
+20	?	?	PUNCT	O	0			lowlands-121
 
-1	NUMBER	NUMBER	NUM	O	0		n.attribute	lowlands-122
-2	top	top	ADJ	O	0			lowlands-122
-3	theme	theme	NOUN	B	0		n.person	lowlands-122
-4	parks	parks	NOUN	I	3			lowlands-122
-5	opening	open	VERB	O	0		v.contact	lowlands-122
-6	soon	soon	ADV	O	0			lowlands-122
-7	URL	URL	X	O	0			lowlands-122
+1	NUMBER	NUMBER	NUM	B	0		n.person	lowlands-122
+2	Chevy	chevy	PROPN	I	1			lowlands-122
+3	Lumina-	lumina-	PROPN	I	2			lowlands-122
+4	Rare	rare	ADJ	O	0			lowlands-122
+5	NUMBER	NUMBER	NUM	B	0		n.person	lowlands-122
+6	Package-	package-	NOUN	I	5			lowlands-122
+7	Recaro	recaro	PROPN	I	6			lowlands-122
+8	Seats-	seats-	NOUN	I	7			lowlands-122
+9	NUMBER	NUMBER	NUM	I	8			lowlands-122
+10	v6-	v6-	NOUN	I	9			lowlands-122
+11	NUMBER	NUMBER	NUM	I	10			lowlands-122
+12	obo	obo	PROPN	I	11			lowlands-122
+13	(	(	PUNCT	O	0			lowlands-122
+14	yopungstown	yopungstown	PROPN	O	0		n.person	lowlands-122
+15	)	)	PUNCT	O	0			lowlands-122
+16	NUMBER	NUMBER	NUM	O	0		n.attribute	lowlands-122
+17	URL	URL	X	O	0			lowlands-122
 
-1	@USER	@USER	PROPN	O	0		n.person	lowlands-123
-2	:	:	PUNCT	O	0			lowlands-123
-3	Lady	lady	PROPN	B	0		n.person	lowlands-123
-4	Gaga	gaga	PROPN	I	3			lowlands-123
-5	talking	talk	VERB	O	0		v.communication	lowlands-123
+1	I	i	PRON	O	0			lowlands-123
+2	posted	post	VERB	O	0		v.contact	lowlands-123
+3	a	a	DET	O	0			lowlands-123
+4	new	new	ADJ	O	0			lowlands-123
+5	photo	photo	NOUN	O	0		n.artifact	lowlands-123
 6	to	to	ADP	O	0			lowlands-123
-7	the	the	DET	O	0			lowlands-123
-8	boys	boy	NOUN	O	0		n.person	lowlands-123
-9	after	after	ADP	O	0			lowlands-123
-10	they	they	PRON	O	0			lowlands-123
-11	won	win	VERB	O	0		v.competition	lowlands-123
-12	the	the	DET	O	0			lowlands-123
-13	award	award	NOUN	O	0		n.act	lowlands-123
-14	,	,	PUNCT	O	0			lowlands-123
-15	gotta	gotta	AUX	O	0			lowlands-123
-16	love	love	VERB	O	0		v.emotion	lowlands-123
-17	her	her	PRON	O	0			lowlands-123
-18	.	.	PUNCT	O	0			lowlands-123
-19	URL	URL	X	O	0			lowlands-123
-20	?	?	PUNCT	O	0			lowlands-123
+7	Facebook	facebook	PROPN	O	0		n.person	lowlands-123
+8	URL	URL	X	O	0			lowlands-123
 
-1	NUMBER	NUMBER	NUM	B	0		n.person	lowlands-124
-2	Chevy	chevy	PROPN	I	1			lowlands-124
-3	Lumina-	lumina-	PROPN	I	2			lowlands-124
-4	Rare	rare	ADJ	O	0			lowlands-124
-5	NUMBER	NUMBER	NUM	B	0		n.person	lowlands-124
-6	Package-	package-	NOUN	I	5			lowlands-124
-7	Recaro	recaro	PROPN	I	6			lowlands-124
-8	Seats-	seats-	NOUN	I	7			lowlands-124
-9	NUMBER	NUMBER	NUM	I	8			lowlands-124
-10	v6-	v6-	NOUN	I	9			lowlands-124
-11	NUMBER	NUMBER	NUM	I	10			lowlands-124
-12	obo	obo	PROPN	I	11			lowlands-124
-13	(	(	PUNCT	O	0			lowlands-124
-14	yopungstown	yopungstown	PROPN	O	0		n.person	lowlands-124
-15	)	)	PUNCT	O	0			lowlands-124
-16	NUMBER	NUMBER	NUM	O	0		n.attribute	lowlands-124
-17	URL	URL	X	O	0			lowlands-124
+1	NUMBER	NUMBER	NUM	O	0		n.attribute	lowlands-124
+2	Girly	girly	ADJ	O	0			lowlands-124
+3	School	school	NOUN	B	0		n.quantity	lowlands-124
+4	Supplies	supply	NOUN	I	3			lowlands-124
+5	From	from	ADP	O	0			lowlands-124
+6	Your	your	DET	O	0			lowlands-124
+7	Childhood	childhood	NOUN	O	0		n.time	lowlands-124
+8	You	you	PRON	O	0			lowlands-124
+9	Maybe	maybe	ADV	O	0			lowlands-124
+10	Still	still	ADV	O	0			lowlands-124
+11	Want	want	VERB	O	0		v.emotion	lowlands-124
+12	URL	URL	X	O	0			lowlands-124
 
-1	I	i	PRON	O	0			lowlands-125
-2	posted	post	VERB	O	0		v.contact	lowlands-125
-3	a	a	DET	O	0			lowlands-125
-4	new	new	ADJ	O	0			lowlands-125
-5	photo	photo	NOUN	O	0		n.artifact	lowlands-125
-6	to	to	ADP	O	0			lowlands-125
-7	Facebook	facebook	PROPN	O	0		n.person	lowlands-125
-8	URL	URL	X	O	0			lowlands-125
+1	@USER	@USER	PROPN	O	0		n.person	lowlands-125
+2	:	:	PUNCT	O	0			lowlands-125
+3	Traits	trait	NOUN	O	0		n.attribute	lowlands-125
+4	of	of	ADP	O	0			lowlands-125
+5	Autism	autism	NOUN	O	0		n.cognition	lowlands-125
+6	Seen	see	VERB	O	0		v.perception	lowlands-125
+7	in	in	ADP	O	0			lowlands-125
+8	Some	some	DET	O	0			lowlands-125
+9	Kids	kid	NOUN	O	0		n.person	lowlands-125
+10	with	with	ADP	O	0			lowlands-125
+11	ADHD	adhd	PROPN	O	0		n.state	lowlands-125
+12	URL	URL	X	O	0			lowlands-125
 
-1	NUMBER	NUMBER	NUM	O	0		n.attribute	lowlands-126
-2	Girly	girly	ADJ	O	0			lowlands-126
-3	School	school	NOUN	B	0		n.quantity	lowlands-126
-4	Supplies	supply	NOUN	I	3			lowlands-126
-5	From	from	ADP	O	0			lowlands-126
-6	Your	your	DET	O	0			lowlands-126
-7	Childhood	childhood	NOUN	O	0		n.time	lowlands-126
-8	You	you	PRON	O	0			lowlands-126
-9	Maybe	maybe	ADV	O	0			lowlands-126
-10	Still	still	ADV	O	0			lowlands-126
-11	Want	want	VERB	O	0		v.emotion	lowlands-126
-12	URL	URL	X	O	0			lowlands-126
+1	When	when	ADV	O	0			lowlands-126
+2	I	i	PRON	O	0			lowlands-126
+3	grow	grow	VERB	O	0		v.change	lowlands-126
+4	up	up	PART	O	0			lowlands-126
+5	,	,	PUNCT	O	0			lowlands-126
+6	I	i	PRON	O	0			lowlands-126
+7	want	want	VERB	O	0		v.emotion	lowlands-126
+8	to	to	ADP	O	0			lowlands-126
+9	...	...	PUNCT	O	0			lowlands-126
+10	URL	URL	X	O	0			lowlands-126
+11	from	from	ADP	O	0			lowlands-126
+12	Seth	seth	PROPN	B	0		n.person	lowlands-126
+13	Godin	godin	PROPN	I	12			lowlands-126
+14	.	.	PUNCT	O	0			lowlands-126
+15	You	you	PRON	O	0			lowlands-126
+16	don't	don't	AUX	O	0			lowlands-126
+17	need	need	AUX	O	0			lowlands-126
+18	to	to	ADP	O	0			lowlands-126
+19	boil	boil	VERB	O	0		v.change	lowlands-126
+20	the	the	DET	O	0			lowlands-126
+21	ocean	ocean	NOUN	O	0		n.natural_object	lowlands-126
+22	to	to	ADP	O	0			lowlands-126
+23	change	change	VERB	O	0		v.change	lowlands-126
+24	the	the	DET	O	0			lowlands-126
+25	world	world	NOUN	O	0		n.natural_object	lowlands-126
+26	for	for	ADP	O	0			lowlands-126
+27	the	the	DET	O	0			lowlands-126
+28	better	better	ADJ	O	0			lowlands-126
+29	.	.	PUNCT	O	0			lowlands-126
 
-1	@USER	@USER	PROPN	O	0		n.person	lowlands-127
-2	:	:	PUNCT	O	0			lowlands-127
-3	Traits	trait	NOUN	O	0		n.attribute	lowlands-127
-4	of	of	ADP	O	0			lowlands-127
-5	Autism	autism	NOUN	O	0		n.cognition	lowlands-127
-6	Seen	see	VERB	O	0		v.perception	lowlands-127
-7	in	in	ADP	O	0			lowlands-127
-8	Some	some	DET	O	0			lowlands-127
-9	Kids	kid	NOUN	O	0		n.person	lowlands-127
-10	with	with	ADP	O	0			lowlands-127
-11	ADHD	adhd	PROPN	O	0		n.state	lowlands-127
-12	URL	URL	X	O	0			lowlands-127
+1	Nube	nube	PROPN	B	0		n.person	lowlands-127
+2	NUMBER	NUMBER	NUM	I	1			lowlands-127
+3	@USER	@USER	PROPN	I	2			lowlands-127
+4	the	the	DET	O	0			lowlands-127
+5	Philarmonic	philarmonic	PROPN	O	0		n.person	lowlands-127
+6	of	of	ADP	O	0			lowlands-127
+7	Liverpool	liverpool	PROPN	O	0		n.location	lowlands-127
+8	-	-	PUNCT	O	0			lowlands-127
+9	homage	homage	NOUN	O	0		n.act	lowlands-127
+10	to	to	ADP	O	0			lowlands-127
+11	George	george	PROPN	O	0		n.person	lowlands-127
+12	.	.	PUNCT	O	0			lowlands-127
+13	URL	URL	X	O	0			lowlands-127
 
-1	When	when	ADV	O	0			lowlands-128
-2	I	i	PRON	O	0			lowlands-128
-3	grow	grow	VERB	O	0		v.change	lowlands-128
-4	up	up	PART	O	0			lowlands-128
-5	,	,	PUNCT	O	0			lowlands-128
-6	I	i	PRON	O	0			lowlands-128
-7	want	want	VERB	O	0		v.emotion	lowlands-128
-8	to	to	ADP	O	0			lowlands-128
-9	...	...	PUNCT	O	0			lowlands-128
-10	URL	URL	X	O	0			lowlands-128
-11	from	from	ADP	O	0			lowlands-128
-12	Seth	seth	PROPN	B	0		n.person	lowlands-128
-13	Godin	godin	PROPN	I	12			lowlands-128
-14	.	.	PUNCT	O	0			lowlands-128
-15	You	you	PRON	O	0			lowlands-128
-16	don't	don't	AUX	O	0			lowlands-128
-17	need	need	AUX	O	0			lowlands-128
-18	to	to	ADP	O	0			lowlands-128
-19	boil	boil	VERB	O	0		v.change	lowlands-128
-20	the	the	DET	O	0			lowlands-128
-21	ocean	ocean	NOUN	O	0		n.natural_object	lowlands-128
-22	to	to	ADP	O	0			lowlands-128
-23	change	change	VERB	O	0		v.change	lowlands-128
-24	the	the	DET	O	0			lowlands-128
-25	world	world	NOUN	O	0		n.natural_object	lowlands-128
-26	for	for	ADP	O	0			lowlands-128
-27	the	the	DET	O	0			lowlands-128
-28	better	better	ADJ	O	0			lowlands-128
-29	.	.	PUNCT	O	0			lowlands-128
+1	I	i	PRON	O	0			lowlands-128
+2	posted	post	VERB	O	0		v.contact	lowlands-128
+3	a	a	DET	O	0			lowlands-128
+4	new	new	ADJ	O	0			lowlands-128
+5	photo	photo	NOUN	O	0		n.artifact	lowlands-128
+6	to	to	ADP	O	0			lowlands-128
+7	Facebook	facebook	PROPN	O	0		n.person	lowlands-128
+8	URL	URL	X	O	0			lowlands-128
 
-1	Nube	nube	PROPN	B	0		n.person	lowlands-129
-2	NUMBER	NUMBER	NUM	I	1			lowlands-129
-3	@USER	@USER	PROPN	I	2			lowlands-129
-4	the	the	DET	O	0			lowlands-129
-5	Philarmonic	philarmonic	PROPN	O	0		n.person	lowlands-129
-6	of	of	ADP	O	0			lowlands-129
-7	Liverpool	liverpool	PROPN	O	0		n.location	lowlands-129
-8	-	-	PUNCT	O	0			lowlands-129
-9	homage	homage	NOUN	O	0		n.act	lowlands-129
-10	to	to	ADP	O	0			lowlands-129
-11	George	george	PROPN	O	0		n.person	lowlands-129
-12	.	.	PUNCT	O	0			lowlands-129
+1	NUMBER	NUMBER	NUM	B	0		n.person	lowlands-129
+2	Technology	technology	PROPN	I	1			lowlands-129
+3	Award	award	PROPN	I	2			lowlands-129
+4	Winners	winner	NOUN	I	3			lowlands-129
+5	Announced	announce	VERB	O	0		v.communication	lowlands-129
+6	by	by	ADP	O	0			lowlands-129
+7	International	international	PROPN	B	0		n.attribute	lowlands-129
+8	NUMBER	NUMBER	NUM	I	7			lowlands-129
+9	&	&	CONJ	O	0			lowlands-129
+10	Advanced	advanced	PROPN	O	0		n.person	lowlands-129
+11	Imaging	imaging	PROPN	O	0		n.cognition	lowlands-129
+12	Society	society	PROPN	O	0		n.group	lowlands-129
 13	URL	URL	X	O	0			lowlands-129
 
-1	I	i	PRON	O	0			lowlands-130
-2	posted	post	VERB	O	0		v.contact	lowlands-130
-3	a	a	DET	O	0			lowlands-130
-4	new	new	ADJ	O	0			lowlands-130
-5	photo	photo	NOUN	O	0		n.artifact	lowlands-130
-6	to	to	ADP	O	0			lowlands-130
-7	Facebook	facebook	PROPN	O	0		n.person	lowlands-130
-8	URL	URL	X	O	0			lowlands-130
+1	Does	do	AUX	O	0			lowlands-130
+2	Evil	evil	PROPN	O	0		n.act	lowlands-130
+3	ever	ever	ADV	O	0			lowlands-130
+4	really	really	ADV	O	0			lowlands-130
+5	sleep	sleep	VERB	O	0		v.body	lowlands-130
+6	?	?	PUNCT	O	0			lowlands-130
+7	Or	or	CONJ	O	0			lowlands-130
+8	does	do	AUX	O	0			lowlands-130
+9	it	it	PRON	O	0			lowlands-130
+10	just	just	ADV	O	0			lowlands-130
+11	wait	wait	VERB	O	0		v.stative	lowlands-130
+12	?	?	PUNCT	O	0			lowlands-130
+13	#kiramorgana	#kiramorgana	PROPN	B	0		n.person	lowlands-130
+14	#TTATE	#ttate	PROPN	I	13			lowlands-130
+15	-	-	PUNCT	O	0			lowlands-130
+16	URL	URL	X	O	0			lowlands-130
 
-1	NUMBER	NUMBER	NUM	B	0		n.person	lowlands-131
-2	Technology	technology	PROPN	I	1			lowlands-131
-3	Award	award	PROPN	I	2			lowlands-131
-4	Winners	winner	NOUN	I	3			lowlands-131
-5	Announced	announce	VERB	O	0		v.communication	lowlands-131
-6	by	by	ADP	O	0			lowlands-131
-7	International	international	PROPN	B	0		n.attribute	lowlands-131
-8	NUMBER	NUMBER	NUM	I	7			lowlands-131
-9	&	&	CONJ	O	0			lowlands-131
-10	Advanced	advanced	PROPN	O	0		n.person	lowlands-131
-11	Imaging	imaging	PROPN	O	0		n.cognition	lowlands-131
-12	Society	society	PROPN	O	0		n.group	lowlands-131
-13	URL	URL	X	O	0			lowlands-131
+1	NEW	new	ADJ	O	0			lowlands-131
+2	POST	post	NOUN	O	0		n.location	lowlands-131
+3	:	:	PUNCT	O	0			lowlands-131
+4	More	more	ADJ	O	0			lowlands-131
+5	than	than	ADP	O	0			lowlands-131
+6	NUMBER	NUMBER	NUM	B	0		n.communication	lowlands-131
+7	vintage	vintage	NOUN	I	6			lowlands-131
+8	ads	ad	NOUN	I	7			lowlands-131
+9	at	at	ADP	O	0			lowlands-131
+10	your	your	DET	O	0			lowlands-131
+11	fingertips	fingertip	NOUN	O	0		n.body	lowlands-131
+12	URL	URL	X	O	0			lowlands-131
+13	#vintage	#vintage	NOUN	O	0		n.person	lowlands-131
 
-1	Does	do	AUX	O	0			lowlands-132
-2	Evil	evil	PROPN	O	0		n.act	lowlands-132
-3	ever	ever	ADV	O	0			lowlands-132
-4	really	really	ADV	O	0			lowlands-132
-5	sleep	sleep	VERB	O	0		v.body	lowlands-132
-6	?	?	PUNCT	O	0			lowlands-132
-7	Or	or	CONJ	O	0			lowlands-132
-8	does	do	AUX	O	0			lowlands-132
-9	it	it	PRON	O	0			lowlands-132
-10	just	just	ADV	O	0			lowlands-132
-11	wait	wait	VERB	O	0		v.stative	lowlands-132
-12	?	?	PUNCT	O	0			lowlands-132
-13	#kiramorgana	#kiramorgana	PROPN	B	0		n.person	lowlands-132
-14	#TTATE	#ttate	PROPN	I	13			lowlands-132
-15	-	-	PUNCT	O	0			lowlands-132
-16	URL	URL	X	O	0			lowlands-132
+1	I	i	PRON	O	0			lowlands-132
+2	posted	post	VERB	O	0		v.contact	lowlands-132
+3	a	a	DET	O	0			lowlands-132
+4	new	new	ADJ	O	0			lowlands-132
+5	photo	photo	NOUN	O	0		n.artifact	lowlands-132
+6	to	to	ADP	O	0			lowlands-132
+7	Facebook	facebook	PROPN	O	0		n.person	lowlands-132
+8	URL	URL	X	O	0			lowlands-132
 
-1	NEW	new	ADJ	O	0			lowlands-133
-2	POST	post	NOUN	O	0		n.location	lowlands-133
-3	:	:	PUNCT	O	0			lowlands-133
-4	More	more	ADJ	O	0			lowlands-133
-5	than	than	ADP	O	0			lowlands-133
-6	NUMBER	NUMBER	NUM	B	0		n.communication	lowlands-133
-7	vintage	vintage	NOUN	I	6			lowlands-133
-8	ads	ad	NOUN	I	7			lowlands-133
-9	at	at	ADP	O	0			lowlands-133
-10	your	your	DET	O	0			lowlands-133
-11	fingertips	fingertip	NOUN	O	0		n.body	lowlands-133
-12	URL	URL	X	O	0			lowlands-133
-13	#vintage	#vintage	NOUN	O	0		n.person	lowlands-133
+1	Japan	japan	PROPN	B	0		n.group	lowlands-133
+2	school	school	NOUN	I	1			lowlands-133
+3	board	board	NOUN	I	2			lowlands-133
+4	bows	bow	VERB	O	0		v.communication	lowlands-133
+5	to	to	ADP	O	0			lowlands-133
+6	outcry	outcry	NOUN	O	0		n.communication	lowlands-133
+7	,	,	PUNCT	O	0			lowlands-133
+8	drops	drop	VERB	O	0		v.motion	lowlands-133
+9	curbs	curb	NOUN	O	0		n.artifact	lowlands-133
+10	on	on	ADP	O	0			lowlands-133
+11	anti-war	anti-war	ADJ	O	0			lowlands-133
+12	comic	comic	NOUN	O	0		n.person	lowlands-133
+13	URL	URL	X	O	0			lowlands-133
+14	#health	#health	NOUN	O	0		n.person	lowlands-133
+15	#living	#living	NOUN	O	0		n.person	lowlands-133
 
-1	I	i	PRON	O	0			lowlands-134
-2	posted	post	VERB	O	0		v.contact	lowlands-134
-3	a	a	DET	O	0			lowlands-134
-4	new	new	ADJ	O	0			lowlands-134
-5	photo	photo	NOUN	O	0		n.artifact	lowlands-134
-6	to	to	ADP	O	0			lowlands-134
-7	Facebook	facebook	PROPN	O	0		n.person	lowlands-134
-8	URL	URL	X	O	0			lowlands-134
+1	NUMBER	NUMBER	NUM	B	0		n.quantity	lowlands-134
+2	MILLION	million	NOUN	I	1			lowlands-134
+3	Mega	mega	ADJ	O	0			lowlands-134
+4	Millions	millions	PROPN	B	0		n.possession	lowlands-134
+5	Jackpot	jackpot	PROPN	I	4			lowlands-134
+6	this	this	DET	O	0			lowlands-134
+7	Tuesday	tuesday	NOUN	O	0		n.time	lowlands-134
+8	,	,	PUNCT	O	0			lowlands-134
+9	NUMBER	NUMBER	NUM	B	0		n.attribute	lowlands-134
+10	Aug	aug	NOUN	I	9			lowlands-134
+11	NUMBER	NUMBER	NUM	I	10			lowlands-134
+12	!	!	PUNCT	O	0			lowlands-134
+13	Find	find	VERB	O	0		v.possession	lowlands-134
+14	out	out	PART	O	0			lowlands-134
+15	how	how	ADV	O	0			lowlands-134
+16	to	to	ADP	O	0			lowlands-134
+17	win	win	VERB	O	0		v.competition	lowlands-134
+18	it	it	PRON	O	0			lowlands-134
+19	:	:	PUNCT	O	0			lowlands-134
+20	URL	URL	X	O	0			lowlands-134
 
-1	Japan	japan	PROPN	B	0		n.group	lowlands-135
-2	school	school	NOUN	I	1			lowlands-135
-3	board	board	NOUN	I	2			lowlands-135
-4	bows	bow	VERB	O	0		v.communication	lowlands-135
-5	to	to	ADP	O	0			lowlands-135
-6	outcry	outcry	NOUN	O	0		n.communication	lowlands-135
-7	,	,	PUNCT	O	0			lowlands-135
-8	drops	drop	VERB	O	0		v.motion	lowlands-135
-9	curbs	curb	NOUN	O	0		n.artifact	lowlands-135
-10	on	on	ADP	O	0			lowlands-135
-11	anti-war	anti-war	ADJ	O	0			lowlands-135
-12	comic	comic	NOUN	O	0		n.person	lowlands-135
-13	URL	URL	X	O	0			lowlands-135
-14	#health	#health	NOUN	O	0		n.person	lowlands-135
-15	#living	#living	NOUN	O	0		n.person	lowlands-135
+1	Antique	antique	ADJ	O	0			lowlands-135
+2	ROYAL	royal	PROPN	B	0		n.cognition	lowlands-135
+3	BAYREUTH	bayreuth	PROPN	I	2			lowlands-135
+4	Sun-Bonnet	sun-bonnet	NOUN	I	3			lowlands-135
+5	Babies	baby	NOUN	I	4			lowlands-135
+6	Blue	blue	NOUN	I	5			lowlands-135
+7	Mark	mark	NOUN	I	6			lowlands-135
+8	sewing	sew	VERB	O	0		v.contact	lowlands-135
+9	/	/	PUNCT	O	0			lowlands-135
+10	Mending	mend	VERB	O	0		v.change	lowlands-135
+11	/	/	PUNCT	O	0			lowlands-135
+12	Wednesday	wednesday	NOUN	O	0		n.time	lowlands-135
+13	NUMBER	NUMBER	NUM	O	0		n.attribute	lowlands-135
+14	URL	URL	X	O	0			lowlands-135
+15	#plates	#plates	NOUN	O	0		n.person	lowlands-135
 
-1	NUMBER	NUMBER	NUM	B	0		n.quantity	lowlands-136
-2	MILLION	million	NOUN	I	1			lowlands-136
-3	Mega	mega	ADJ	O	0			lowlands-136
-4	Millions	millions	PROPN	B	0		n.possession	lowlands-136
-5	Jackpot	jackpot	PROPN	I	4			lowlands-136
-6	this	this	DET	O	0			lowlands-136
-7	Tuesday	tuesday	NOUN	O	0		n.time	lowlands-136
-8	,	,	PUNCT	O	0			lowlands-136
-9	NUMBER	NUMBER	NUM	B	0		n.attribute	lowlands-136
-10	Aug	aug	NOUN	I	9			lowlands-136
-11	NUMBER	NUMBER	NUM	I	10			lowlands-136
-12	!	!	PUNCT	O	0			lowlands-136
-13	Find	find	VERB	O	0		v.possession	lowlands-136
-14	out	out	PART	O	0			lowlands-136
-15	how	how	ADV	O	0			lowlands-136
-16	to	to	ADP	O	0			lowlands-136
-17	win	win	VERB	O	0		v.competition	lowlands-136
-18	it	it	PRON	O	0			lowlands-136
-19	:	:	PUNCT	O	0			lowlands-136
-20	URL	URL	X	O	0			lowlands-136
+1	Don't	don't	AUX	O	0			lowlands-136
+2	forget	forget	VERB	O	0		v.cognition	lowlands-136
+3	to	to	ADP	O	0			lowlands-136
+4	get	get	VERB	O	0		v.possession	lowlands-136
+5	your	your	DET	O	0			lowlands-136
+6	Atlanta	atlanta	PROPN	B	0		n.artifact	lowlands-136
+7	Beagle	beagle	PROPN	I	6			lowlands-136
+8	Rescue	rescue	PROPN	I	7			lowlands-136
+9	gear	gear	NOUN	I	8			lowlands-136
+10	!	!	PUNCT	O	0			lowlands-136
+11	URL	URL	X	O	0			lowlands-136
+12	URL	URL	X	O	0			lowlands-136
 
-1	Antique	antique	ADJ	O	0			lowlands-137
-2	ROYAL	royal	PROPN	B	0		n.cognition	lowlands-137
-3	BAYREUTH	bayreuth	PROPN	I	2			lowlands-137
-4	Sun-Bonnet	sun-bonnet	NOUN	I	3			lowlands-137
-5	Babies	baby	NOUN	I	4			lowlands-137
-6	Blue	blue	NOUN	I	5			lowlands-137
-7	Mark	mark	NOUN	I	6			lowlands-137
-8	sewing	sew	VERB	O	0		v.contact	lowlands-137
-9	/	/	PUNCT	O	0			lowlands-137
-10	Mending	mend	VERB	O	0		v.change	lowlands-137
-11	/	/	PUNCT	O	0			lowlands-137
-12	Wednesday	wednesday	NOUN	O	0		n.time	lowlands-137
-13	NUMBER	NUMBER	NUM	O	0		n.attribute	lowlands-137
-14	URL	URL	X	O	0			lowlands-137
-15	#plates	#plates	NOUN	O	0		n.person	lowlands-137
+1	Don	don	AUX	O	0			lowlands-137
+2	?	?	PUNCT	O	0			lowlands-137
+3	t	t	AUX	O	0			lowlands-137
+4	get	get	VERB	O	0		v.possession	lowlands-137
+5	lost	lost	ADJ	O	0			lowlands-137
+6	in	in	ADP	O	0			lowlands-137
+7	a	a	DET	O	0			lowlands-137
+8	business	business	NOUN	B	0		n.communication	lowlands-137
+9	book	book	NOUN	I	8			lowlands-137
+10	.	.	PUNCT	O	0			lowlands-137
+11	Learn	learn	VERB	O	0		v.cognition	lowlands-137
+12	how	how	ADV	O	0			lowlands-137
+13	to	to	ADP	O	0			lowlands-137
+14	work	work	VERB	O	0		v.social	lowlands-137
+15	smarter	smarter	ADV	O	0			lowlands-137
+16	and	and	CONJ	O	0			lowlands-137
+17	live	live	VERB	O	0		v.stative	lowlands-137
+18	better	better	ADV	O	0			lowlands-137
+19	here	here	ADV	O	0			lowlands-137
+20	at	at	ADP	O	0			lowlands-137
+21	#ExpertsEnterprise	#expertsenterprise	PROPN	O	0		n.person	lowlands-137
+22	URL	URL	X	O	0			lowlands-137
 
-1	Don't	don't	AUX	O	0			lowlands-138
-2	forget	forget	VERB	O	0		v.cognition	lowlands-138
-3	to	to	ADP	O	0			lowlands-138
-4	get	get	VERB	O	0		v.possession	lowlands-138
-5	your	your	DET	O	0			lowlands-138
-6	Atlanta	atlanta	PROPN	B	0		n.artifact	lowlands-138
-7	Beagle	beagle	PROPN	I	6			lowlands-138
-8	Rescue	rescue	PROPN	I	7			lowlands-138
-9	gear	gear	NOUN	I	8			lowlands-138
-10	!	!	PUNCT	O	0			lowlands-138
-11	URL	URL	X	O	0			lowlands-138
-12	URL	URL	X	O	0			lowlands-138
+1	Guzan	guzan	PROPN	O	0		n.person	lowlands-138
+2	:	:	PUNCT	O	0			lowlands-138
+3	Villa	villa	PROPN	O	0		n.person	lowlands-138
+4	massively	massively	ADV	O	0			lowlands-138
+5	different	different	ADJ	O	0			lowlands-138
+6	this	this	DET	O	0			lowlands-138
+7	season	season	NOUN	O	0		n.time	lowlands-138
+8	URL	URL	X	O	0			lowlands-138
 
-1	Don	don	AUX	O	0			lowlands-139
-2	?	?	PUNCT	O	0			lowlands-139
-3	t	t	AUX	O	0			lowlands-139
-4	get	get	VERB	O	0		v.possession	lowlands-139
-5	lost	lost	ADJ	O	0			lowlands-139
-6	in	in	ADP	O	0			lowlands-139
-7	a	a	DET	O	0			lowlands-139
-8	business	business	NOUN	B	0		n.communication	lowlands-139
-9	book	book	NOUN	I	8			lowlands-139
-10	.	.	PUNCT	O	0			lowlands-139
-11	Learn	learn	VERB	O	0		v.cognition	lowlands-139
-12	how	how	ADV	O	0			lowlands-139
-13	to	to	ADP	O	0			lowlands-139
-14	work	work	VERB	O	0		v.social	lowlands-139
-15	smarter	smarter	ADV	O	0			lowlands-139
-16	and	and	CONJ	O	0			lowlands-139
-17	live	live	VERB	O	0		v.stative	lowlands-139
-18	better	better	ADV	O	0			lowlands-139
-19	here	here	ADV	O	0			lowlands-139
-20	at	at	ADP	O	0			lowlands-139
-21	#ExpertsEnterprise	#expertsenterprise	PROPN	O	0		n.person	lowlands-139
-22	URL	URL	X	O	0			lowlands-139
+1	Soccer	soccer	NOUN	B	0		n.communication	lowlands-139
+2	news	news	NOUN	I	1			lowlands-139
+3	:	:	PUNCT	O	0			lowlands-139
+4	RODGERS	rodgers	PROPN	O	0		n.person	lowlands-139
+5	:	:	PUNCT	O	0			lowlands-139
+6	ENGLAND	england	PROPN	O	0		n.location	lowlands-139
+7	ARE	be	VERB	O	0		v.stative	lowlands-139
+8	LUCKY	lucky	ADJ	O	0			lowlands-139
+9	TO	to	ADP	O	0			lowlands-139
+10	HAVE	have	VERB	O	0		v.possession	lowlands-139
+11	STURRIDGE	sturridge	PROPN	O	0		n.person	lowlands-139
+12	URL	URL	X	O	0			lowlands-139
+13	#SoccerNews	#soccernews	NOUN	O	0		n.person	lowlands-139
+14	#soccer	#soccer	NOUN	O	0		n.person	lowlands-139
+15	#fifa	#fifa	PROPN	O	0		n.person	lowlands-139
+16	#soccer	#soccer	NOUN	O	0		n.person	lowlands-139
+17	#football	#football	NOUN	O	0		n.person	lowlands-139
 
-1	Guzan	guzan	PROPN	O	0		n.person	lowlands-140
-2	:	:	PUNCT	O	0			lowlands-140
-3	Villa	villa	PROPN	O	0		n.person	lowlands-140
-4	massively	massively	ADV	O	0			lowlands-140
-5	different	different	ADJ	O	0			lowlands-140
-6	this	this	DET	O	0			lowlands-140
-7	season	season	NOUN	O	0		n.time	lowlands-140
-8	URL	URL	X	O	0			lowlands-140
+1	'	'	PUNCT	O	0			lowlands-140
+2	Favstar/top-50-funny	favstar/top-50-funny	ADJ	O	0			lowlands-140
+3	'	'	PUNCT	O	0			lowlands-140
+4	news	news	NOUN	O	0		n.communication	lowlands-140
+5	URL	URL	X	O	0			lowlands-140
+6	-	-	PUNCT	O	0			lowlands-140
+7	top	top	ADJ	O	0			lowlands-140
+8	stories	story	NOUN	O	0		n.communication	lowlands-140
+9	by	by	ADP	O	0			lowlands-140
+10	BestofTheWorsti	bestoftheworsti	PROPN	O	0		n.person	lowlands-140
+11	,	,	PUNCT	O	0			lowlands-140
+12	ItsGuiRodrigues	itsguirodrigues	PROPN	O	0		n.person	lowlands-140
+13	,	,	PUNCT	O	0			lowlands-140
+14	AlberttoLicona	alberttolicona	PROPN	O	0		n.person	lowlands-140
 
-1	Soccer	soccer	NOUN	B	0		n.communication	lowlands-141
-2	news	news	NOUN	I	1			lowlands-141
-3	:	:	PUNCT	O	0			lowlands-141
-4	RODGERS	rodgers	PROPN	O	0		n.person	lowlands-141
-5	:	:	PUNCT	O	0			lowlands-141
-6	ENGLAND	england	PROPN	O	0		n.location	lowlands-141
-7	ARE	be	VERB	O	0		v.stative	lowlands-141
-8	LUCKY	lucky	ADJ	O	0			lowlands-141
-9	TO	to	ADP	O	0			lowlands-141
-10	HAVE	have	VERB	O	0		v.possession	lowlands-141
-11	STURRIDGE	sturridge	PROPN	O	0		n.person	lowlands-141
-12	URL	URL	X	O	0			lowlands-141
-13	#SoccerNews	#soccernews	NOUN	O	0		n.person	lowlands-141
-14	#soccer	#soccer	NOUN	O	0		n.person	lowlands-141
-15	#fifa	#fifa	PROPN	O	0		n.person	lowlands-141
-16	#soccer	#soccer	NOUN	O	0		n.person	lowlands-141
-17	#football	#football	NOUN	O	0		n.person	lowlands-141
+1	You	you	PRON	O	0			lowlands-141
+2	and	and	CONJ	O	0			lowlands-141
+3	jack	jack	PROPN	O	0		n.quantity	lowlands-141
+4	should	should	AUX	O	0			lowlands-141
+5	get	get	AUX	O	0			lowlands-141
+6	married	marry	VERB	O	0		v.social	lowlands-141
+7	already	already	ADV	O	0			lowlands-141
+8	.	.	PUNCT	O	0			lowlands-141
+9	I'll	i'll	AUX	O	0			lowlands-141
+10	plan	plan	VERB	O	0		v.cognition	lowlands-141
+11	it	it	PRON	O	0			lowlands-141
+12	.	.	PUNCT	O	0			lowlands-141
+13	?	?	PUNCT	O	0			lowlands-141
+14	trip	trip	NOUN	O	0		n.act	lowlands-141
+15	to	to	ADP	O	0			lowlands-141
+16	michigan	michigan	PROPN	O	0		n.location	lowlands-141
+17	URL	URL	X	O	0			lowlands-141
 
-1	'	'	PUNCT	O	0			lowlands-142
-2	Favstar/top-50-funny	favstar/top-50-funny	ADJ	O	0			lowlands-142
-3	'	'	PUNCT	O	0			lowlands-142
-4	news	news	NOUN	O	0		n.communication	lowlands-142
-5	URL	URL	X	O	0			lowlands-142
-6	-	-	PUNCT	O	0			lowlands-142
-7	top	top	ADJ	O	0			lowlands-142
-8	stories	story	NOUN	O	0		n.communication	lowlands-142
-9	by	by	ADP	O	0			lowlands-142
-10	BestofTheWorsti	bestoftheworsti	PROPN	O	0		n.person	lowlands-142
-11	,	,	PUNCT	O	0			lowlands-142
-12	ItsGuiRodrigues	itsguirodrigues	PROPN	O	0		n.person	lowlands-142
-13	,	,	PUNCT	O	0			lowlands-142
-14	AlberttoLicona	alberttolicona	PROPN	O	0		n.person	lowlands-142
+1	#NowPlaying	#nowplaying	NOUN	O	0		n.person	lowlands-142
+2	Do	do	VERB	O	0		v.social	lowlands-142
+3	You	you	PRON	O	0			lowlands-142
+4	...	...	PUNCT	O	0			lowlands-142
+5	by	by	ADP	O	0			lowlands-142
+6	Miguel	miguel	PROPN	O	0		n.person	lowlands-142
+7	on	on	ADP	O	0			lowlands-142
+8	#Spotify	#spotify	PROPN	O	0		n.person	lowlands-142
+9	Do	do	AUX	O	0			lowlands-142
+10	you	you	PRON	O	0			lowlands-142
+11	like	like	VERB	O	0		v.emotion	lowlands-142
+12	drugs	drug	NOUN	O	0		n.artifact	lowlands-142
+13	?	?	PUNCT	O	0			lowlands-142
+14	Yeah	yeah	X	O	0			lowlands-142
+15	?	?	PUNCT	O	0			lowlands-142
+16	well	well	X	O	0			lowlands-142
+17	me	me	PRON	O	0			lowlands-142
+18	too	too	ADV	O	0			lowlands-142
+19	?	?	PUNCT	O	0			lowlands-142
+20	URL	URL	X	O	0			lowlands-142
 
-1	You	you	PRON	O	0			lowlands-143
-2	and	and	CONJ	O	0			lowlands-143
-3	jack	jack	PROPN	O	0		n.quantity	lowlands-143
-4	should	should	AUX	O	0			lowlands-143
-5	get	get	AUX	O	0			lowlands-143
-6	married	marry	VERB	O	0		v.social	lowlands-143
-7	already	already	ADV	O	0			lowlands-143
-8	.	.	PUNCT	O	0			lowlands-143
-9	I'll	i'll	AUX	O	0			lowlands-143
-10	plan	plan	VERB	O	0		v.cognition	lowlands-143
-11	it	it	PRON	O	0			lowlands-143
-12	.	.	PUNCT	O	0			lowlands-143
-13	?	?	PUNCT	O	0			lowlands-143
-14	trip	trip	NOUN	O	0		n.act	lowlands-143
-15	to	to	ADP	O	0			lowlands-143
-16	michigan	michigan	PROPN	O	0		n.location	lowlands-143
-17	URL	URL	X	O	0			lowlands-143
+1	***	***	PUNCT	O	0			lowlands-143
+2	#CCC	#ccc	NOUN	B	0		n.animal	lowlands-143
+3	Butterfly	butterfly	NOUN	I	2			lowlands-143
+4	?????	?????	PUNCT	O	0			lowlands-143
+5	Asks	ask	VERB	O	0		v.communication	lowlands-143
+6	........	........	PUNCT	O	0			lowlands-143
+7	WHAT	what	PRON	O	0			lowlands-143
+8	AM	be	VERB	O	0		v.stative	lowlands-143
+9	I	i	PRON	O	0			lowlands-143
+10	????	????	PUNCT	O	0			lowlands-143
+11	***	***	PUNCT	O	0			lowlands-143
+12	Riddle	riddle	VERB	O	0		v.contact	lowlands-143
+13	me	me	PRON	O	0			lowlands-143
+14	this	this	PRON	O	0			lowlands-143
+15	,	,	PUNCT	O	0			lowlands-143
+16	Riddle	riddle	VERB	O	0		v.contact	lowlands-143
+17	me	me	PRON	O	0			lowlands-143
+18	that	that	PRON	O	0			lowlands-143
+19	A	a	DET	O	0			lowlands-143
+20	Quiz	quiz	NOUN	O	0		n.communication	lowlands-143
+21	for	for	ADP	O	0			lowlands-143
+22	you	you	PRON	O	0			lowlands-143
+23	,	,	PUNCT	O	0			lowlands-143
+24	so	so	X	O	0			lowlands-143
+25	get	get	VERB	O	0		v.possession	lowlands-143
+26	on	on	ADP	O	0			lowlands-143
+27	...	...	PUNCT	O	0			lowlands-143
+28	URL	URL	X	O	0			lowlands-143
 
-1	#NowPlaying	#nowplaying	NOUN	O	0		n.person	lowlands-144
-2	Do	do	VERB	O	0		v.social	lowlands-144
-3	You	you	PRON	O	0			lowlands-144
-4	...	...	PUNCT	O	0			lowlands-144
-5	by	by	ADP	O	0			lowlands-144
-6	Miguel	miguel	PROPN	O	0		n.person	lowlands-144
-7	on	on	ADP	O	0			lowlands-144
-8	#Spotify	#spotify	PROPN	O	0		n.person	lowlands-144
-9	Do	do	AUX	O	0			lowlands-144
-10	you	you	PRON	O	0			lowlands-144
-11	like	like	VERB	O	0		v.emotion	lowlands-144
-12	drugs	drug	NOUN	O	0		n.artifact	lowlands-144
-13	?	?	PUNCT	O	0			lowlands-144
-14	Yeah	yeah	X	O	0			lowlands-144
-15	?	?	PUNCT	O	0			lowlands-144
-16	well	well	X	O	0			lowlands-144
-17	me	me	PRON	O	0			lowlands-144
-18	too	too	ADV	O	0			lowlands-144
-19	?	?	PUNCT	O	0			lowlands-144
-20	URL	URL	X	O	0			lowlands-144
+1	Post	post	ADJ	O	0			lowlands-144
+2	match	match	NOUN	B	0		n.communication	lowlands-144
+3	interview	interview	NOUN	I	2			lowlands-144
+4	with	with	ADP	O	0			lowlands-144
+5	Kraigg	kraigg	PROPN	O	0		n.person	lowlands-144
+6	Brathwaite	brathwaite	PROPN	O	0		n.person	lowlands-144
+7	URL	URL	X	O	0			lowlands-144
 
-1	***	***	PUNCT	O	0			lowlands-145
-2	#CCC	#ccc	NOUN	B	0		n.animal	lowlands-145
-3	Butterfly	butterfly	NOUN	I	2			lowlands-145
-4	?????	?????	PUNCT	O	0			lowlands-145
-5	Asks	ask	VERB	O	0		v.communication	lowlands-145
-6	........	........	PUNCT	O	0			lowlands-145
-7	WHAT	what	PRON	O	0			lowlands-145
-8	AM	be	VERB	O	0		v.stative	lowlands-145
-9	I	i	PRON	O	0			lowlands-145
-10	????	????	PUNCT	O	0			lowlands-145
-11	***	***	PUNCT	O	0			lowlands-145
-12	Riddle	riddle	VERB	O	0		v.contact	lowlands-145
-13	me	me	PRON	O	0			lowlands-145
-14	this	this	PRON	O	0			lowlands-145
-15	,	,	PUNCT	O	0			lowlands-145
-16	Riddle	riddle	VERB	O	0		v.contact	lowlands-145
-17	me	me	PRON	O	0			lowlands-145
-18	that	that	PRON	O	0			lowlands-145
-19	A	a	DET	O	0			lowlands-145
-20	Quiz	quiz	NOUN	O	0		n.communication	lowlands-145
-21	for	for	ADP	O	0			lowlands-145
-22	you	you	PRON	O	0			lowlands-145
-23	,	,	PUNCT	O	0			lowlands-145
-24	so	so	X	O	0			lowlands-145
-25	get	get	VERB	O	0		v.possession	lowlands-145
-26	on	on	ADP	O	0			lowlands-145
-27	...	...	PUNCT	O	0			lowlands-145
-28	URL	URL	X	O	0			lowlands-145
+1	Have	have	AUX	O	0			lowlands-145
+2	you	you	PRON	O	0			lowlands-145
+3	tried	try	VERB	O	0		v.social	lowlands-145
+4	our	our	DET	O	0			lowlands-145
+5	Spicy	spicy	ADJ	O	0			lowlands-145
+6	Tako	tako	NOUN	B	0		n.food	lowlands-145
+7	Salad	salad	NOUN	I	6			lowlands-145
+8	?	?	PUNCT	O	0			lowlands-145
+9	It's	it's	VERB	O	0			lowlands-145
+10	marinated	marinated	ADJ	O	0			lowlands-145
+11	octopus	octopus	NOUN	O	0		n.food	lowlands-145
+12	over	over	ADP	O	0			lowlands-145
+13	a	a	DET	O	0			lowlands-145
+14	bed	bed	NOUN	O	0		n.artifact	lowlands-145
+15	of	of	ADP	O	0			lowlands-145
+16	cucumber	cucumber	NOUN	B	0		n.food	lowlands-145
+17	salad	salad	NOUN	I	16			lowlands-145
+18	.	.	PUNCT	O	0			lowlands-145
+19	Served	serve	VERB	O	0		v.stative	lowlands-145
+20	with	with	ADP	O	0			lowlands-145
+21	ponzu	ponzu	NOUN	B	0		n.food	lowlands-145
+22	sauce	sauce	NOUN	I	21			lowlands-145
+23	...	...	PUNCT	O	0			lowlands-145
+24	URL	URL	X	O	0			lowlands-145
 
-1	Post	post	ADJ	O	0			lowlands-146
-2	match	match	NOUN	B	0		n.communication	lowlands-146
-3	interview	interview	NOUN	I	2			lowlands-146
-4	with	with	ADP	O	0			lowlands-146
-5	Kraigg	kraigg	PROPN	O	0		n.person	lowlands-146
-6	Brathwaite	brathwaite	PROPN	O	0		n.person	lowlands-146
-7	URL	URL	X	O	0			lowlands-146
+1	lack	lack	NOUN	O	0		n.state	lowlands-146
+2	of	of	ADP	O	0			lowlands-146
+3	accurate	accurate	ADJ	O	0			lowlands-146
+4	climate	climate	NOUN	B	0		n.cognition	lowlands-146
+5	models	model	NOUN	I	4			lowlands-146
+6	should	should	AUX	O	0			lowlands-146
+7	not	not	ADV	O	0			lowlands-146
+8	dissuade	dissuade	VERB	O	0		v.communication	lowlands-146
+9	countries	country	NOUN	O	0		n.group	lowlands-146
+10	from	from	ADP	O	0			lowlands-146
+11	choosing	choose	VERB	O	0		v.cognition	lowlands-146
+12	best	best	ADJ	O	0			lowlands-146
+13	ways	ways	NOUN	O	0		n.artifact	lowlands-146
+14	to	to	ADP	O	0			lowlands-146
+15	adapt	adapt	VERB	O	0		v.change	lowlands-146
+16	to	to	ADP	O	0			lowlands-146
+17	changing	changing	ADJ	O	0			lowlands-146
+18	climate	climate	NOUN	O	0		n.state	lowlands-146
+19	URL	URL	X	O	0			lowlands-146
 
-1	Have	have	AUX	O	0			lowlands-147
-2	you	you	PRON	O	0			lowlands-147
-3	tried	try	VERB	O	0		v.social	lowlands-147
-4	our	our	DET	O	0			lowlands-147
-5	Spicy	spicy	ADJ	O	0			lowlands-147
-6	Tako	tako	NOUN	B	0		n.food	lowlands-147
-7	Salad	salad	NOUN	I	6			lowlands-147
-8	?	?	PUNCT	O	0			lowlands-147
-9	It's	it's	VERB	O	0			lowlands-147
-10	marinated	marinated	ADJ	O	0			lowlands-147
-11	octopus	octopus	NOUN	O	0		n.food	lowlands-147
-12	over	over	ADP	O	0			lowlands-147
-13	a	a	DET	O	0			lowlands-147
-14	bed	bed	NOUN	O	0		n.artifact	lowlands-147
-15	of	of	ADP	O	0			lowlands-147
-16	cucumber	cucumber	NOUN	B	0		n.food	lowlands-147
-17	salad	salad	NOUN	I	16			lowlands-147
-18	.	.	PUNCT	O	0			lowlands-147
-19	Served	serve	VERB	O	0		v.stative	lowlands-147
-20	with	with	ADP	O	0			lowlands-147
-21	ponzu	ponzu	NOUN	B	0		n.food	lowlands-147
-22	sauce	sauce	NOUN	I	21			lowlands-147
-23	...	...	PUNCT	O	0			lowlands-147
-24	URL	URL	X	O	0			lowlands-147
+1	@USER	@USER	PROPN	O	0		n.person	lowlands-147
+2	:	:	PUNCT	O	0			lowlands-147
+3	Breaking	breaking	ADJ	O	0			lowlands-147
+4	News	news	NOUN	O	0		n.communication	lowlands-147
+5	:	:	PUNCT	O	0			lowlands-147
+6	Social	social	PROPN	B	0		n.attribute	lowlands-147
+7	Media	media	PROPN	I	6			lowlands-147
+8	NUMBER	NUMBER	NUM	I	7			lowlands-147
+9	is	be	VERB	O	0		v.stative	lowlands-147
+10	out	out	ADV	O	0			lowlands-147
+11	!	!	PUNCT	O	0			lowlands-147
+12	URL	URL	X	O	0			lowlands-147
+13	?	?	PUNCT	O	0			lowlands-147
+14	?	?	PUNCT	O	0			lowlands-147
+15	Top	top	ADJ	O	0			lowlands-147
+16	stories	story	NOUN	O	0		n.communication	lowlands-147
+17	today	today	ADV	O	0			lowlands-147
+18	via	via	ADP	O	0			lowlands-147
+19	@USER	@USER	PROPN	O	0		n.person	lowlands-147
+20	@USER	@USER	PROPN	O	0		n.person	lowlands-147
 
-1	lack	lack	NOUN	O	0		n.state	lowlands-148
-2	of	of	ADP	O	0			lowlands-148
-3	accurate	accurate	ADJ	O	0			lowlands-148
-4	climate	climate	NOUN	B	0		n.cognition	lowlands-148
-5	models	model	NOUN	I	4			lowlands-148
-6	should	should	AUX	O	0			lowlands-148
-7	not	not	ADV	O	0			lowlands-148
-8	dissuade	dissuade	VERB	O	0		v.communication	lowlands-148
-9	countries	country	NOUN	O	0		n.group	lowlands-148
-10	from	from	ADP	O	0			lowlands-148
-11	choosing	choose	VERB	O	0		v.cognition	lowlands-148
-12	best	best	ADJ	O	0			lowlands-148
-13	ways	ways	NOUN	O	0		n.artifact	lowlands-148
-14	to	to	ADP	O	0			lowlands-148
-15	adapt	adapt	VERB	O	0		v.change	lowlands-148
-16	to	to	ADP	O	0			lowlands-148
-17	changing	changing	ADJ	O	0			lowlands-148
-18	climate	climate	NOUN	O	0		n.state	lowlands-148
-19	URL	URL	X	O	0			lowlands-148
+1	The	the	DET	O	0			lowlands-148
+2	Secret	secret	NOUN	O	0		n.communication	lowlands-148
+3	To	to	ADP	O	0			lowlands-148
+4	A	a	DET	O	0			lowlands-148
+5	Perfect	perfect	ADJ	O	0			lowlands-148
+6	Sandwich	sandwich	NOUN	O	0		n.food	lowlands-148
+7	URL	URL	X	O	0			lowlands-148
 
-1	@USER	@USER	PROPN	O	0		n.person	lowlands-149
-2	:	:	PUNCT	O	0			lowlands-149
-3	Breaking	breaking	ADJ	O	0			lowlands-149
-4	News	news	NOUN	O	0		n.communication	lowlands-149
-5	:	:	PUNCT	O	0			lowlands-149
-6	Social	social	PROPN	B	0		n.attribute	lowlands-149
-7	Media	media	PROPN	I	6			lowlands-149
-8	NUMBER	NUMBER	NUM	I	7			lowlands-149
-9	is	be	VERB	O	0		v.stative	lowlands-149
-10	out	out	ADV	O	0			lowlands-149
-11	!	!	PUNCT	O	0			lowlands-149
-12	URL	URL	X	O	0			lowlands-149
-13	?	?	PUNCT	O	0			lowlands-149
-14	?	?	PUNCT	O	0			lowlands-149
-15	Top	top	ADJ	O	0			lowlands-149
-16	stories	story	NOUN	O	0		n.communication	lowlands-149
-17	today	today	ADV	O	0			lowlands-149
-18	via	via	ADP	O	0			lowlands-149
-19	@USER	@USER	PROPN	O	0		n.person	lowlands-149
-20	@USER	@USER	PROPN	O	0		n.person	lowlands-149
+1	I	i	PRON	O	0			lowlands-149
+2	posted	post	VERB	O	0		v.contact	lowlands-149
+3	a	a	DET	O	0			lowlands-149
+4	new	new	ADJ	O	0			lowlands-149
+5	photo	photo	NOUN	O	0		n.artifact	lowlands-149
+6	to	to	ADP	O	0			lowlands-149
+7	Facebook	facebook	PROPN	O	0		n.person	lowlands-149
+8	URL	URL	X	O	0			lowlands-149
 
-1	The	the	DET	O	0			lowlands-150
-2	Secret	secret	NOUN	O	0		n.communication	lowlands-150
-3	To	to	ADP	O	0			lowlands-150
-4	A	a	DET	O	0			lowlands-150
-5	Perfect	perfect	ADJ	O	0			lowlands-150
-6	Sandwich	sandwich	NOUN	O	0		n.food	lowlands-150
-7	URL	URL	X	O	0			lowlands-150
+1	Bendtner	bendtner	PROPN	O	0		n.person	lowlands-150
+2	could	could	AUX	O	0			lowlands-150
+3	not	not	ADV	O	0			lowlands-150
+4	hit	hit	VERB	O	0		v.contact	lowlands-150
+5	a	a	DET	O	0			lowlands-150
+6	Cows	cows	NOUN	B	0		n.body	lowlands-150
+7	Arse	arse	NOUN	I	6			lowlands-150
+8	with	with	ADP	O	0			lowlands-150
+9	a	a	DET	O	0			lowlands-150
+10	cricket	cricket	NOUN	B	0		n.animal	lowlands-150
+11	bat	bat	NOUN	I	10			lowlands-150
+12	!!	!!	PUNCT	O	0			lowlands-150
+13	No	no	PART	O	0			lowlands-150
+14	Albion	albion	PROPN	O	0		n.location	lowlands-150
+15	No	no	PART	O	0			lowlands-150
+16	,	,	PUNCT	O	0			lowlands-150
+17	Im	im	VERB	O	0			lowlands-150
+18	available	available	ADJ	O	0			lowlands-150
+19	at	at	ADP	O	0			lowlands-150
+20	NUMBER	NUMBER	NUM	B	0		n.person	lowlands-150
+21	FFS	ffs	NOUN	I	20			lowlands-150
+22	.	.	PUNCT	O	0			lowlands-150
+23	#WBAFC	#wbafc	PROPN	O	0		n.person	lowlands-150
+24	#Baggiee	#baggiee	PROPN	O	0		n.person	lowlands-150
+25	URL	URL	X	O	0			lowlands-150
 
-1	I	i	PRON	O	0			lowlands-151
-2	posted	post	VERB	O	0		v.contact	lowlands-151
-3	a	a	DET	O	0			lowlands-151
-4	new	new	ADJ	O	0			lowlands-151
-5	photo	photo	NOUN	O	0		n.artifact	lowlands-151
-6	to	to	ADP	O	0			lowlands-151
-7	Facebook	facebook	PROPN	O	0		n.person	lowlands-151
-8	URL	URL	X	O	0			lowlands-151
+1	Build	build	VERB	O	0		v.creation	lowlands-151
+2	a	a	DET	O	0			lowlands-151
+3	bear	bear	NOUN	B	0		n.artifact	lowlands-151
+4	workshop	workshop	NOUN	I	3			lowlands-151
+5	,	,	PUNCT	O	0			lowlands-151
+6	Avenues	avenues	PROPN	O	0		n.act	lowlands-151
+7	:	:	PUNCT	O	0			lowlands-151
+8	Loving	love	VERB	O	0		v.emotion	lowlands-151
+9	the	the	DET	O	0			lowlands-151
+10	build	build	VERB	O	0		v.creation	lowlands-151
+11	a	a	DET	O	0			lowlands-151
+12	bear	bear	NOUN	B	0		n.artifact	lowlands-151
+13	workshop	workshop	NOUN	I	12			lowlands-151
+14	!	!	PUNCT	O	0			lowlands-151
+15	What	what	PRON	O	0			lowlands-151
+16	a	a	DET	O	0			lowlands-151
+17	fabulous	fabulous	ADJ	O	0			lowlands-151
+18	idea	idea	NOUN	O	0		n.cognition	lowlands-151
+19	.	.	PUNCT	O	0			lowlands-151
+20	The	the	DET	O	0			lowlands-151
+21	post	post	NOUN	B	0		n.person	lowlands-151
+22	Bui	bui	PROPN	I	21			lowlands-151
+23	?	?	PUNCT	O	0			lowlands-151
+24	URL	URL	X	O	0			lowlands-151
 
-1	Bendtner	bendtner	PROPN	O	0		n.person	lowlands-152
-2	could	could	AUX	O	0			lowlands-152
-3	not	not	ADV	O	0			lowlands-152
-4	hit	hit	VERB	O	0		v.contact	lowlands-152
-5	a	a	DET	O	0			lowlands-152
-6	Cows	cows	NOUN	B	0		n.body	lowlands-152
-7	Arse	arse	NOUN	I	6			lowlands-152
-8	with	with	ADP	O	0			lowlands-152
-9	a	a	DET	O	0			lowlands-152
-10	cricket	cricket	NOUN	B	0		n.animal	lowlands-152
-11	bat	bat	NOUN	I	10			lowlands-152
-12	!!	!!	PUNCT	O	0			lowlands-152
-13	No	no	PART	O	0			lowlands-152
-14	Albion	albion	PROPN	O	0		n.location	lowlands-152
-15	No	no	PART	O	0			lowlands-152
-16	,	,	PUNCT	O	0			lowlands-152
-17	Im	im	VERB	O	0			lowlands-152
-18	available	available	ADJ	O	0			lowlands-152
-19	at	at	ADP	O	0			lowlands-152
-20	NUMBER	NUMBER	NUM	B	0		n.person	lowlands-152
-21	FFS	ffs	NOUN	I	20			lowlands-152
-22	.	.	PUNCT	O	0			lowlands-152
-23	#WBAFC	#wbafc	PROPN	O	0		n.person	lowlands-152
-24	#Baggiee	#baggiee	PROPN	O	0		n.person	lowlands-152
-25	URL	URL	X	O	0			lowlands-152
+1	European	european	ADJ	O	0			lowlands-152
+2	Study	study	NOUN	O	0		n.act	lowlands-152
+3	Finds	find	VERB	O	0		v.possession	lowlands-152
+4	Megaupload	megaupload	PROPN	B	0		n.act	lowlands-152
+5	Closure	closure	NOUN	I	4			lowlands-152
+6	Helped	help	VERB	O	0		v.social	lowlands-152
+7	Blockbusters	blockbusters	PROPN	O	0		n.artifact	lowlands-152
+8	,	,	PUNCT	O	0			lowlands-152
+9	Hurt	hurt	VERB	O	0		v.perception	lowlands-152
+10	Smaller	smaller	ADJ	O	0			lowlands-152
+11	Pics	pic	NOUN	O	0		n.communication	lowlands-152
+12	:	:	PUNCT	O	0			lowlands-152
+13	Researchers	researcher	NOUN	O	0		n.person	lowlands-152
+14	from	from	ADP	O	0			lowlands-152
+15	the	the	DET	O	0			lowlands-152
+16	Munich	munich	PROPN	B	0		n.substance	lowlands-152
+17	Sc	sc	NOUN	I	16			lowlands-152
+18	...	...	PUNCT	O	0			lowlands-152
+19	URL	URL	X	O	0			lowlands-152
 
-1	Build	build	VERB	O	0		v.creation	lowlands-153
-2	a	a	DET	O	0			lowlands-153
-3	bear	bear	NOUN	B	0		n.artifact	lowlands-153
-4	workshop	workshop	NOUN	I	3			lowlands-153
-5	,	,	PUNCT	O	0			lowlands-153
-6	Avenues	avenues	PROPN	O	0		n.act	lowlands-153
-7	:	:	PUNCT	O	0			lowlands-153
-8	Loving	love	VERB	O	0		v.emotion	lowlands-153
-9	the	the	DET	O	0			lowlands-153
-10	build	build	VERB	O	0		v.creation	lowlands-153
-11	a	a	DET	O	0			lowlands-153
-12	bear	bear	NOUN	B	0		n.artifact	lowlands-153
-13	workshop	workshop	NOUN	I	12			lowlands-153
-14	!	!	PUNCT	O	0			lowlands-153
-15	What	what	PRON	O	0			lowlands-153
-16	a	a	DET	O	0			lowlands-153
-17	fabulous	fabulous	ADJ	O	0			lowlands-153
-18	idea	idea	NOUN	O	0		n.cognition	lowlands-153
-19	.	.	PUNCT	O	0			lowlands-153
-20	The	the	DET	O	0			lowlands-153
-21	post	post	NOUN	B	0		n.person	lowlands-153
-22	Bui	bui	PROPN	I	21			lowlands-153
-23	?	?	PUNCT	O	0			lowlands-153
-24	URL	URL	X	O	0			lowlands-153
+1	Interview	interview	NOUN	O	0		n.communication	lowlands-153
+2	:	:	PUNCT	O	0			lowlands-153
+3	Brodus	brodus	PROPN	B	0		n.communication	lowlands-153
+4	Clay	clay	PROPN	I	3			lowlands-153
+5	URL	URL	X	O	0			lowlands-153
+6	No	no	DET	O	0			lowlands-153
+7	One	one	NOUN	O	0		n.quantity	lowlands-153
+8	Lives	live	VERB	O	0		v.stative	lowlands-153
+9	actor/WWE	actor/wwe	NOUN	B	0		n.person	lowlands-153
+10	Superstar	superstar	NOUN	I	9			lowlands-153
+11	chats	chat	VERB	O	0		v.communication	lowlands-153
+12	about	about	ADP	O	0			lowlands-153
+13	differences	difference	NOUN	O	0		n.attribute	lowlands-153
+14	between	between	ADP	O	0			lowlands-153
+15	horror/wresting	horror/wresting	NOUN	B	0		n.group	lowlands-153
+16	crowds	crowd	NOUN	I	15			lowlands-153
+17	&	&	CONJ	O	0			lowlands-153
+18	more	more	NOUN	O	0		n.person	lowlands-153
 
-1	European	european	ADJ	O	0			lowlands-154
-2	Study	study	NOUN	O	0		n.act	lowlands-154
-3	Finds	find	VERB	O	0		v.possession	lowlands-154
-4	Megaupload	megaupload	PROPN	B	0		n.act	lowlands-154
-5	Closure	closure	NOUN	I	4			lowlands-154
-6	Helped	help	VERB	O	0		v.social	lowlands-154
-7	Blockbusters	blockbusters	PROPN	O	0		n.artifact	lowlands-154
-8	,	,	PUNCT	O	0			lowlands-154
-9	Hurt	hurt	VERB	O	0		v.perception	lowlands-154
-10	Smaller	smaller	ADJ	O	0			lowlands-154
-11	Pics	pic	NOUN	O	0		n.communication	lowlands-154
-12	:	:	PUNCT	O	0			lowlands-154
-13	Researchers	researcher	NOUN	O	0		n.person	lowlands-154
-14	from	from	ADP	O	0			lowlands-154
-15	the	the	DET	O	0			lowlands-154
-16	Munich	munich	PROPN	B	0		n.substance	lowlands-154
-17	Sc	sc	NOUN	I	16			lowlands-154
+1	#Gambling	#gambling	NOUN	B	0		n.person	lowlands-154
+2	#APP	#app	NOUN	I	1			lowlands-154
+3	simply	simply	ADV	O	0			lowlands-154
+4	the	the	DET	O	0			lowlands-154
+5	best	best	ADJ	O	0			lowlands-154
+6	FREE	free	ADJ	O	0			lowlands-154
+7	app	app	NOUN	O	0		n.person	lowlands-154
+8	covering	cover	VERB	O	0		v.contact	lowlands-154
+9	all	all	DET	O	0			lowlands-154
+10	top	top	ADJ	O	0			lowlands-154
+11	bookies	bookie	NOUN	O	0		n.person	lowlands-154
+12	.	.	PUNCT	O	0			lowlands-154
+13	iphone	iphone	NOUN	O	0		n.person	lowlands-154
+14	go	go	VERB	O	0		v.motion	lowlands-154
+15	to	to	ADP	O	0			lowlands-154
+16	URL	URL	NOUN	B	0		n.person	lowlands-154
+17	ipad	ipad	NOUN	I	16			lowlands-154
 18	...	...	PUNCT	O	0			lowlands-154
 19	URL	URL	X	O	0			lowlands-154
 
-1	Interview	interview	NOUN	O	0		n.communication	lowlands-155
-2	:	:	PUNCT	O	0			lowlands-155
-3	Brodus	brodus	PROPN	B	0		n.communication	lowlands-155
-4	Clay	clay	PROPN	I	3			lowlands-155
+1	WELSH	welsh	ADJ	O	0			lowlands-155
+2	DRAGON	dragon	NOUN	O	0		n.person	lowlands-155
+3	FOUND	found	VERB	O	0		v.social	lowlands-155
+4	:	:	PUNCT	O	0			lowlands-155
 5	URL	URL	X	O	0			lowlands-155
-6	No	no	DET	O	0			lowlands-155
-7	One	one	NOUN	O	0		n.quantity	lowlands-155
-8	Lives	live	VERB	O	0		v.stative	lowlands-155
-9	actor/WWE	actor/wwe	NOUN	B	0		n.person	lowlands-155
-10	Superstar	superstar	NOUN	I	9			lowlands-155
-11	chats	chat	VERB	O	0		v.communication	lowlands-155
-12	about	about	ADP	O	0			lowlands-155
-13	differences	difference	NOUN	O	0		n.attribute	lowlands-155
-14	between	between	ADP	O	0			lowlands-155
-15	horror/wresting	horror/wresting	NOUN	B	0		n.group	lowlands-155
-16	crowds	crowd	NOUN	I	15			lowlands-155
-17	&	&	CONJ	O	0			lowlands-155
-18	more	more	NOUN	O	0		n.person	lowlands-155
+6	via	via	ADP	O	0			lowlands-155
+7	@USER	@USER	PROPN	O	0		n.person	lowlands-155
 
-1	#Gambling	#gambling	NOUN	B	0		n.person	lowlands-156
-2	#APP	#app	NOUN	I	1			lowlands-156
-3	simply	simply	ADV	O	0			lowlands-156
-4	the	the	DET	O	0			lowlands-156
-5	best	best	ADJ	O	0			lowlands-156
-6	FREE	free	ADJ	O	0			lowlands-156
-7	app	app	NOUN	O	0		n.person	lowlands-156
-8	covering	cover	VERB	O	0		v.contact	lowlands-156
-9	all	all	DET	O	0			lowlands-156
-10	top	top	ADJ	O	0			lowlands-156
-11	bookies	bookie	NOUN	O	0		n.person	lowlands-156
-12	.	.	PUNCT	O	0			lowlands-156
-13	iphone	iphone	NOUN	O	0		n.person	lowlands-156
-14	go	go	VERB	O	0		v.motion	lowlands-156
-15	to	to	ADP	O	0			lowlands-156
-16	URL	URL	NOUN	B	0		n.person	lowlands-156
-17	ipad	ipad	NOUN	I	16			lowlands-156
-18	...	...	PUNCT	O	0			lowlands-156
-19	URL	URL	X	O	0			lowlands-156
+1	Who	who	PRON	O	0			lowlands-156
+2	Is	be	AUX	O	0			lowlands-156
+3	Missing	miss	VERB	O	0		v.perception	lowlands-156
+4	From	from	ADP	O	0			lowlands-156
+5	Danity	danity	PROPN	B	0		n.group	lowlands-156
+6	Kane's	kane's	PROPN	I	5			lowlands-156
+7	Video	video	NOUN	I	6			lowlands-156
+8	Music	music	NOUN	I	7			lowlands-156
+9	Awards	award	NOUN	I	8			lowlands-156
+10	Reunion	reunion	NOUN	I	9			lowlands-156
+11	?	?	PUNCT	O	0			lowlands-156
+12	URL	URL	X	O	0			lowlands-156
 
-1	WELSH	welsh	ADJ	O	0			lowlands-157
-2	DRAGON	dragon	NOUN	O	0		n.person	lowlands-157
-3	FOUND	found	VERB	O	0		v.social	lowlands-157
-4	:	:	PUNCT	O	0			lowlands-157
-5	URL	URL	X	O	0			lowlands-157
-6	via	via	ADP	O	0			lowlands-157
-7	@USER	@USER	PROPN	O	0		n.person	lowlands-157
+1	Date	date	NOUN	O	0		n.time	lowlands-157
+2	agreed	agree	VERB	O	0		v.communication	lowlands-157
+3	for	for	ADP	O	0			lowlands-157
+4	referendum	referendum	NOUN	O	0		n.act	lowlands-157
+5	purdah	purdah	NOUN	O	0		n.state	lowlands-157
+6	URL	URL	X	O	0			lowlands-157
 
-1	Who	who	PRON	O	0			lowlands-158
-2	Is	be	AUX	O	0			lowlands-158
-3	Missing	miss	VERB	O	0		v.perception	lowlands-158
-4	From	from	ADP	O	0			lowlands-158
-5	Danity	danity	PROPN	B	0		n.group	lowlands-158
-6	Kane's	kane's	PROPN	I	5			lowlands-158
-7	Video	video	NOUN	I	6			lowlands-158
-8	Music	music	NOUN	I	7			lowlands-158
-9	Awards	award	NOUN	I	8			lowlands-158
-10	Reunion	reunion	NOUN	I	9			lowlands-158
-11	?	?	PUNCT	O	0			lowlands-158
-12	URL	URL	X	O	0			lowlands-158
+1	Global	global	ADJ	O	0			lowlands-158
+2	Analysis	analysis	NOUN	O	0		n.act	lowlands-158
+3	of	of	ADP	O	0			lowlands-158
+4	the	the	DET	O	0			lowlands-158
+5	Automotive	automotive	NOUN	O	0		n.person	lowlands-158
+6	Refinish	refinish	NOUN	O	0		n.person	lowlands-158
+7	Coatings	coating	NOUN	O	0		n.artifact	lowlands-158
+8	Market	market	NOUN	O	0		n.act	lowlands-158
+9	URL	URL	X	O	0			lowlands-158
 
-1	Date	date	NOUN	O	0		n.time	lowlands-159
-2	agreed	agree	VERB	O	0		v.communication	lowlands-159
-3	for	for	ADP	O	0			lowlands-159
-4	referendum	referendum	NOUN	O	0		n.act	lowlands-159
-5	purdah	purdah	NOUN	O	0		n.state	lowlands-159
-6	URL	URL	X	O	0			lowlands-159
+1	I'm	i'm	AUX	O	0			lowlands-159
+2	sharing	share	VERB	O	0		v.stative	lowlands-159
+3	my	my	DET	O	0			lowlands-159
+4	favorite	favorite	ADJ	O	0			lowlands-159
+5	blueberry	blueberry	NOUN	B	0		n.time	lowlands-159
+6	muffin	muffin	NOUN	I	5			lowlands-159
+7	recipe	recipe	NOUN	I	6			lowlands-159
+8	today	today	NOUN	I	7			lowlands-159
+9	.	.	PUNCT	O	0			lowlands-159
+10	URL	URL	X	O	0			lowlands-159
+11	URL	URL	X	O	0			lowlands-159
 
-1	Global	global	ADJ	O	0			lowlands-160
-2	Analysis	analysis	NOUN	O	0		n.act	lowlands-160
-3	of	of	ADP	O	0			lowlands-160
-4	the	the	DET	O	0			lowlands-160
-5	Automotive	automotive	NOUN	O	0		n.person	lowlands-160
-6	Refinish	refinish	NOUN	O	0		n.person	lowlands-160
-7	Coatings	coating	NOUN	O	0		n.artifact	lowlands-160
-8	Market	market	NOUN	O	0		n.act	lowlands-160
-9	URL	URL	X	O	0			lowlands-160
+1	GMC/Chevy/Hummer/Buick/Saturn/	gmc/chevy/hummer/buick/saturn/	PROPN	B	0		n.person	lowlands-160
+2	Flyaudio	flyaudio	PROPN	I	1			lowlands-160
+3	GPS/DVD/IPOD/BT/USB/RADIO/AV	gps/dvd/ipod/bt/usb/radio/av	NOUN	I	2			lowlands-160
+4	/Navigation	/navigation	NOUN	I	3			lowlands-160
+5	:	:	PUNCT	O	0			lowlands-160
+6	NUMBER	NUMBER	NUM	O	0		n.attribute	lowlands-160
+7	(	(	PUNCT	O	0			lowlands-160
+8	NUMBER	NUMBER	NUM	B	0		n.communication	lowlands-160
+9	Bids	bid	NOUN	I	8			lowlands-160
+10	)	)	PUNCT	O	0			lowlands-160
+11	End	end	NOUN	B	0		n.time	lowlands-160
+12	Date	date	NOUN	I	11			lowlands-160
+13	:	:	PUNCT	O	0			lowlands-160
+14	...	...	PUNCT	O	0			lowlands-160
+15	URL	URL	X	O	0			lowlands-160
 
-1	I'm	i'm	AUX	O	0			lowlands-161
-2	sharing	share	VERB	O	0		v.stative	lowlands-161
-3	my	my	DET	O	0			lowlands-161
-4	favorite	favorite	ADJ	O	0			lowlands-161
-5	blueberry	blueberry	NOUN	B	0		n.time	lowlands-161
-6	muffin	muffin	NOUN	I	5			lowlands-161
-7	recipe	recipe	NOUN	I	6			lowlands-161
-8	today	today	NOUN	I	7			lowlands-161
-9	.	.	PUNCT	O	0			lowlands-161
-10	URL	URL	X	O	0			lowlands-161
-11	URL	URL	X	O	0			lowlands-161
+1	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaahhhhh	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaahhhhh	X	O	0			lowlands-161
+2	!!!!!!!!!!	!!!!!!!!!!	PUNCT	O	0			lowlands-161
+3	?	?	PUNCT	O	0			lowlands-161
+4	Nothing	nothing	NOUN	O	0		n.quantity	lowlands-161
+5	to	to	ADP	O	0			lowlands-161
+6	Say	say	VERB	O	0		v.communication	lowlands-161
+7	?	?	PUNCT	O	0			lowlands-161
+8	Angra	angra	PROPN	O	0		n.person	lowlands-161
+9	URL	URL	X	O	0			lowlands-161
+10	#NowPlaying	#nowplaying	NOUN	O	0		n.person	lowlands-161
 
-1	GMC/Chevy/Hummer/Buick/Saturn/	gmc/chevy/hummer/buick/saturn/	PROPN	B	0		n.person	lowlands-162
-2	Flyaudio	flyaudio	PROPN	I	1			lowlands-162
-3	GPS/DVD/IPOD/BT/USB/RADIO/AV	gps/dvd/ipod/bt/usb/radio/av	NOUN	I	2			lowlands-162
-4	/Navigation	/navigation	NOUN	I	3			lowlands-162
-5	:	:	PUNCT	O	0			lowlands-162
-6	NUMBER	NUMBER	NUM	O	0		n.attribute	lowlands-162
-7	(	(	PUNCT	O	0			lowlands-162
-8	NUMBER	NUMBER	NUM	B	0		n.communication	lowlands-162
-9	Bids	bid	NOUN	I	8			lowlands-162
-10	)	)	PUNCT	O	0			lowlands-162
-11	End	end	NOUN	B	0		n.time	lowlands-162
-12	Date	date	NOUN	I	11			lowlands-162
-13	:	:	PUNCT	O	0			lowlands-162
-14	...	...	PUNCT	O	0			lowlands-162
-15	URL	URL	X	O	0			lowlands-162
+1	[	[	PUNCT	O	0			lowlands-162
+2	SEP	sep	PROPN	B	0		n.quantity	lowlands-162
+3	2	2	NUM	I	2			lowlands-162
+4	]	]	PUNCT	O	0			lowlands-162
+5	@USER	@USER	PROPN	O	0		n.person	lowlands-162
+6	presents	present	VERB	O	0		v.perception	lowlands-162
+7	exclusive	exclusive	ADJ	O	0			lowlands-162
+8	Listening	listening	NOUN	B	0		n.communication	lowlands-162
+9	Session	session	NOUN	I	8			lowlands-162
+10	w/	w/	ADP	O	0			lowlands-162
+11	@USER	@USER	PROPN	O	0		n.person	lowlands-162
+12	4	4	ADP	O	0			lowlands-162
+13	Music	music	PROPN	B	0		n.time	lowlands-162
+14	Monday	monday	PROPN	I	13			lowlands-162
+15	.	.	PUNCT	O	0			lowlands-162
+16	RSVP	rsvp	VERB	O	0			lowlands-162
+17	TODAY	today	NOUN	O	0		n.time	lowlands-162
+18	|	|	PUNCT	O	0			lowlands-162
+19	Details	details	NOUN	O	0		n.communication	lowlands-162
+20	@USER	@USER	PROPN	O	0		n.person	lowlands-162
+21	URL	URL	X	O	0			lowlands-162
 
-1	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaahhhhh	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaahhhhh	X	O	0			lowlands-163
-2	!!!!!!!!!!	!!!!!!!!!!	PUNCT	O	0			lowlands-163
-3	?	?	PUNCT	O	0			lowlands-163
-4	Nothing	nothing	NOUN	O	0		n.quantity	lowlands-163
-5	to	to	ADP	O	0			lowlands-163
-6	Say	say	VERB	O	0		v.communication	lowlands-163
-7	?	?	PUNCT	O	0			lowlands-163
-8	Angra	angra	PROPN	O	0		n.person	lowlands-163
-9	URL	URL	X	O	0			lowlands-163
-10	#NowPlaying	#nowplaying	NOUN	O	0		n.person	lowlands-163
+1	National	national	NOUN	B	0		n.group	lowlands-163
+2	Dance	dance	NOUN	I	1			lowlands-163
+3	Day	day	NOUN	I	2			lowlands-163
+4	NUMBER	NUMBER	NUM	I	3			lowlands-163
+5	Instructional	instructional	NOUN	I	4			lowlands-163
+6	Master	master	NOUN	I	5			lowlands-163
+7	Class	class	NOUN	I	6			lowlands-163
+8	-	-	PUNCT	O	0			lowlands-163
+9	Mirrored	mirrored	ADJ	O	0			lowlands-163
+10	and	and	CONJ	O	0			lowlands-163
+11	Slow	slow	ADJ	O	0			lowlands-163
+12	*	*	PUNCT	O	0			lowlands-163
+13	...	...	PUNCT	O	0			lowlands-163
+14	:	:	PUNCT	O	0			lowlands-163
+15	URL	URL	X	O	0			lowlands-163
+16	via	via	ADP	O	0			lowlands-163
+17	@USER	@USER	PROPN	O	0		n.person	lowlands-163
 
-1	[	[	PUNCT	O	0			lowlands-164
-2	SEP	sep	PROPN	B	0		n.quantity	lowlands-164
-3	2	2	NUM	I	2			lowlands-164
-4	]	]	PUNCT	O	0			lowlands-164
-5	@USER	@USER	PROPN	O	0		n.person	lowlands-164
-6	presents	present	VERB	O	0		v.perception	lowlands-164
-7	exclusive	exclusive	ADJ	O	0			lowlands-164
-8	Listening	listening	NOUN	B	0		n.communication	lowlands-164
-9	Session	session	NOUN	I	8			lowlands-164
-10	w/	w/	ADP	O	0			lowlands-164
-11	@USER	@USER	PROPN	O	0		n.person	lowlands-164
-12	4	4	ADP	O	0			lowlands-164
-13	Music	music	PROPN	B	0		n.time	lowlands-164
-14	Monday	monday	PROPN	I	13			lowlands-164
-15	.	.	PUNCT	O	0			lowlands-164
-16	RSVP	rsvp	VERB	O	0			lowlands-164
-17	TODAY	today	NOUN	O	0		n.time	lowlands-164
-18	|	|	PUNCT	O	0			lowlands-164
-19	Details	details	NOUN	O	0		n.communication	lowlands-164
-20	@USER	@USER	PROPN	O	0		n.person	lowlands-164
-21	URL	URL	X	O	0			lowlands-164
+1	Fake	fake	ADJ	O	0			lowlands-164
+2	Shemales	shemales	NOUN	O	0		n.person	lowlands-164
+3	in	in	ADP	O	0			lowlands-164
+4	Pantyhose	pantyhose	NOUN	O	0		n.artifact	lowlands-164
+5	#porn	#porn	NOUN	O	0		n.person	lowlands-164
+6	#sexy	#sexy	NOUN	O	0		n.person	lowlands-164
+7	#xxx	#xxx	NOUN	O	0		n.person	lowlands-164
+8	#adult	#adult	NOUN	O	0		n.person	lowlands-164
+9	#amateur	#amateur	NOUN	O	0		n.person	lowlands-164
+10	#nsfw	#nsfw	NOUN	O	0		n.person	lowlands-164
+11	#shemales	#shemales	NOUN	O	0		n.person	lowlands-164
+12	#pantyhose	#pantyhose	NOUN	O	0		n.person	lowlands-164
+13	URL	URL	X	O	0			lowlands-164
 
-1	National	national	NOUN	B	0		n.group	lowlands-165
-2	Dance	dance	NOUN	I	1			lowlands-165
-3	Day	day	NOUN	I	2			lowlands-165
-4	NUMBER	NUMBER	NUM	I	3			lowlands-165
-5	Instructional	instructional	NOUN	I	4			lowlands-165
-6	Master	master	NOUN	I	5			lowlands-165
-7	Class	class	NOUN	I	6			lowlands-165
-8	-	-	PUNCT	O	0			lowlands-165
-9	Mirrored	mirrored	ADJ	O	0			lowlands-165
-10	and	and	CONJ	O	0			lowlands-165
-11	Slow	slow	ADJ	O	0			lowlands-165
-12	*	*	PUNCT	O	0			lowlands-165
-13	...	...	PUNCT	O	0			lowlands-165
-14	:	:	PUNCT	O	0			lowlands-165
-15	URL	URL	X	O	0			lowlands-165
-16	via	via	ADP	O	0			lowlands-165
-17	@USER	@USER	PROPN	O	0		n.person	lowlands-165
+1	#Redgage	#redgage	PROPN	O	0		n.person	lowlands-165
+2	Save	save	VERB	O	0		v.social	lowlands-165
+3	#water	#water	NOUN	O	0		n.person	lowlands-165
+4	while	while	ADP	O	0			lowlands-165
+5	#washing	#washing	NOUN	O	0		n.person	lowlands-165
+6	your	your	DET	O	0			lowlands-165
+7	#vehicles	#vehicles	NOUN	O	0		n.person	lowlands-165
+8	#Photo	#photo	NOUN	O	0		n.person	lowlands-165
+9	URL	URL	X	O	0			lowlands-165
 
-1	Fake	fake	ADJ	O	0			lowlands-166
-2	Shemales	shemales	NOUN	O	0		n.person	lowlands-166
-3	in	in	ADP	O	0			lowlands-166
-4	Pantyhose	pantyhose	NOUN	O	0		n.artifact	lowlands-166
-5	#porn	#porn	NOUN	O	0		n.person	lowlands-166
-6	#sexy	#sexy	NOUN	O	0		n.person	lowlands-166
-7	#xxx	#xxx	NOUN	O	0		n.person	lowlands-166
-8	#adult	#adult	NOUN	O	0		n.person	lowlands-166
-9	#amateur	#amateur	NOUN	O	0		n.person	lowlands-166
-10	#nsfw	#nsfw	NOUN	O	0		n.person	lowlands-166
-11	#shemales	#shemales	NOUN	O	0		n.person	lowlands-166
-12	#pantyhose	#pantyhose	NOUN	O	0		n.person	lowlands-166
-13	URL	URL	X	O	0			lowlands-166
+1	One	one	NOUN	B	0		n.time	lowlands-166
+2	Dress	dress	NOUN	I	1			lowlands-166
+3	a	a	NOUN	I	2			lowlands-166
+4	Day	day	NOUN	I	3			lowlands-166
+5	Exclusive	exclusive	ADJ	O	0			lowlands-166
+6	:	:	PUNCT	O	0			lowlands-166
+7	Liverpool	liverpool	PROPN	O	0		n.location	lowlands-166
+8	Dress	dress	NOUN	O	0		n.artifact	lowlands-166
+9	URL	URL	X	O	0			lowlands-166
 
-1	#Redgage	#redgage	PROPN	O	0		n.person	lowlands-167
-2	Save	save	VERB	O	0		v.social	lowlands-167
-3	#water	#water	NOUN	O	0		n.person	lowlands-167
-4	while	while	ADP	O	0			lowlands-167
-5	#washing	#washing	NOUN	O	0		n.person	lowlands-167
-6	your	your	DET	O	0			lowlands-167
-7	#vehicles	#vehicles	NOUN	O	0		n.person	lowlands-167
-8	#Photo	#photo	NOUN	O	0		n.person	lowlands-167
-9	URL	URL	X	O	0			lowlands-167
+1	Welcome	welcome	VERB	O	0		v.possession	lowlands-167
+2	Home	home	NOUN	O	0		n.communication	lowlands-167
+3	URL	URL	X	O	0			lowlands-167
+4	via	via	ADP	O	0			lowlands-167
+5	@USER	@USER	PROPN	B	0		n.substance	lowlands-167
+6	Liz	liz	PROPN	I	5			lowlands-167
+7	W	w	PROPN	I	6			lowlands-167
+8	is	be	VERB	O	0		v.stative	lowlands-167
+9	back	back	ADV	O	0			lowlands-167
+10	@USER	@USER	PROPN	O	0		n.person	lowlands-167
+11	Davidson	davidson	PROPN	O	0		n.person	lowlands-167
 
-1	One	one	NOUN	B	0		n.time	lowlands-168
-2	Dress	dress	NOUN	I	1			lowlands-168
-3	a	a	NOUN	I	2			lowlands-168
-4	Day	day	NOUN	I	3			lowlands-168
-5	Exclusive	exclusive	ADJ	O	0			lowlands-168
-6	:	:	PUNCT	O	0			lowlands-168
-7	Liverpool	liverpool	PROPN	O	0		n.location	lowlands-168
-8	Dress	dress	NOUN	O	0		n.artifact	lowlands-168
-9	URL	URL	X	O	0			lowlands-168
+1	NUMBER	NUMBER	NUM	B	0		n.motive	lowlands-168
+2	Reasons	reason	NOUN	I	1			lowlands-168
+3	Your	your	DET	O	0			lowlands-168
+4	Job	job	NOUN	B	0		n.act	lowlands-168
+5	Search	search	NOUN	I	4			lowlands-168
+6	is	be	AUX	O	0			lowlands-168
+7	Falling	fall	VERB	O	0		v.motion	lowlands-168
+8	Flat	flat	PART	O	0			lowlands-168
+9	|	|	PUNCT	O	0			lowlands-168
+10	Resume	resume	NOUN	B	0		n.person	lowlands-168
+11	Companion	companion	NOUN	I	10			lowlands-168
+12	URL	URL	X	O	0			lowlands-168
 
-1	Welcome	welcome	VERB	O	0		v.possession	lowlands-169
-2	Home	home	NOUN	O	0		n.communication	lowlands-169
-3	URL	URL	X	O	0			lowlands-169
-4	via	via	ADP	O	0			lowlands-169
-5	@USER	@USER	PROPN	B	0		n.substance	lowlands-169
-6	Liz	liz	PROPN	I	5			lowlands-169
-7	W	w	PROPN	I	6			lowlands-169
-8	is	be	VERB	O	0		v.stative	lowlands-169
-9	back	back	ADV	O	0			lowlands-169
-10	@USER	@USER	PROPN	O	0		n.person	lowlands-169
-11	Davidson	davidson	PROPN	O	0		n.person	lowlands-169
+1	yu	yu	PRON	O	0			lowlands-169
+2	a	a	DET	O	0			lowlands-169
+3	bitch	bitch	NOUN	O	0		n.state	lowlands-169
+4	2	2	ADV	O	0			lowlands-169
+5	?	?	PUNCT	O	0			lowlands-169
+6	gladly	gladly	ADJ	O	0			lowlands-169
+7	to	to	ADP	O	0			lowlands-169
+8	kno	kno	VERB	O	0			lowlands-169
+9	that	that	ADP	O	0			lowlands-169
+10	im	im	VERB	O	0			lowlands-169
+11	on	on	ADP	O	0			lowlands-169
+12	your	your	PRON	O	0			lowlands-169
+13	mind	mind	NOUN	O	0		n.cognition	lowlands-169
+14	&	&	CONJ	O	0			lowlands-169
+15	you	you	PRON	O	0			lowlands-169
+16	think	think	VERB	O	0		v.cognition	lowlands-169
+17	of	of	ADP	O	0			lowlands-169
+18	me	me	PRON	O	0			lowlands-169
+19	like	like	ADP	O	0			lowlands-169
+20	that	that	DET	O	0			lowlands-169
+21	!!!!	!!!!	PUNCT	O	0			lowlands-169
+22	URL	URL	X	O	0			lowlands-169
 
-1	NUMBER	NUMBER	NUM	B	0		n.motive	lowlands-170
-2	Reasons	reason	NOUN	I	1			lowlands-170
-3	Your	your	DET	O	0			lowlands-170
-4	Job	job	NOUN	B	0		n.act	lowlands-170
-5	Search	search	NOUN	I	4			lowlands-170
-6	is	be	AUX	O	0			lowlands-170
-7	Falling	fall	VERB	O	0		v.motion	lowlands-170
-8	Flat	flat	PART	O	0			lowlands-170
-9	|	|	PUNCT	O	0			lowlands-170
-10	Resume	resume	NOUN	B	0		n.person	lowlands-170
-11	Companion	companion	NOUN	I	10			lowlands-170
-12	URL	URL	X	O	0			lowlands-170
+1	I	i	PRON	O	0			lowlands-170
+2	posted	post	VERB	O	0		v.contact	lowlands-170
+3	a	a	DET	O	0			lowlands-170
+4	new	new	ADJ	O	0			lowlands-170
+5	photo	photo	NOUN	O	0		n.artifact	lowlands-170
+6	to	to	ADP	O	0			lowlands-170
+7	Facebook	facebook	PROPN	O	0		n.person	lowlands-170
+8	URL	URL	X	O	0			lowlands-170
 
-1	yu	yu	PRON	O	0			lowlands-171
-2	a	a	DET	O	0			lowlands-171
-3	bitch	bitch	NOUN	O	0		n.state	lowlands-171
-4	2	2	ADV	O	0			lowlands-171
-5	?	?	PUNCT	O	0			lowlands-171
-6	gladly	gladly	ADJ	O	0			lowlands-171
-7	to	to	ADP	O	0			lowlands-171
-8	kno	kno	VERB	O	0			lowlands-171
-9	that	that	ADP	O	0			lowlands-171
-10	im	im	VERB	O	0			lowlands-171
-11	on	on	ADP	O	0			lowlands-171
-12	your	your	PRON	O	0			lowlands-171
-13	mind	mind	NOUN	O	0		n.cognition	lowlands-171
-14	&	&	CONJ	O	0			lowlands-171
-15	you	you	PRON	O	0			lowlands-171
-16	think	think	VERB	O	0		v.cognition	lowlands-171
-17	of	of	ADP	O	0			lowlands-171
-18	me	me	PRON	O	0			lowlands-171
-19	like	like	ADP	O	0			lowlands-171
-20	that	that	DET	O	0			lowlands-171
-21	!!!!	!!!!	PUNCT	O	0			lowlands-171
+1	Leicester	leicester	PROPN	B	0		n.location	lowlands-171
+2	City	city	PROPN	I	1			lowlands-171
+3	v	v	ADP	O	0			lowlands-171
+4	Liverpool	liverpool	PROPN	O	0		n.location	lowlands-171
+5	~	~	PUNCT	O	0			lowlands-171
+6	Premier	premier	PROPN	B	0		n.group	lowlands-171
+7	League	league	PROPN	I	6			lowlands-171
+8	~	~	PUNCT	O	0			lowlands-171
+9	NUMBER	NUMBER	NUM	O	0		n.attribute	lowlands-171
+10	:	:	PUNCT	O	0			lowlands-171
+11	NUMBER	NUMBER	NUM	B	0		n.time	lowlands-171
+12	End	end	NOUN	I	11			lowlands-171
+13	Date	date	NOUN	I	12			lowlands-171
+14	:	:	PUNCT	O	0			lowlands-171
+15	Wednesday	wednesday	NOUN	B	0		n.person	lowlands-171
+16	Sep-25-2013	sep-25-2013	NOUN	I	15			lowlands-171
+17	NUMBER	NUMBER	NUM	I	16			lowlands-171
+18	PDT	pdt	PROPN	I	17			lowlands-171
+19	Buy	buy	VERB	O	0		v.possession	lowlands-171
+20	It	it	PRON	O	0			lowlands-171
+21	...	...	PUNCT	O	0			lowlands-171
 22	URL	URL	X	O	0			lowlands-171
 
 1	I	i	PRON	O	0			lowlands-172
-2	posted	post	VERB	O	0		v.contact	lowlands-172
+2	liked	like	VERB	O	0		v.emotion	lowlands-172
 3	a	a	DET	O	0			lowlands-172
-4	new	new	ADJ	O	0			lowlands-172
-5	photo	photo	NOUN	O	0		n.artifact	lowlands-172
-6	to	to	ADP	O	0			lowlands-172
-7	Facebook	facebook	PROPN	O	0		n.person	lowlands-172
-8	URL	URL	X	O	0			lowlands-172
+4	@USER	@USER	PROPN	B	0		n.communication	lowlands-172
+5	video	video	NOUN	I	4			lowlands-172
+6	from	from	ADP	O	0			lowlands-172
+7	@USER	@USER	PROPN	B	0		n.location	lowlands-172
+8	URL	URL	NOUN	I	7			lowlands-172
+9	Cedar	cedar	PROPN	I	8			lowlands-172
+10	Park	park	PROPN	I	9			lowlands-172
+11	Receives	receive	VERB	O	0		v.possession	lowlands-172
+12	the	the	DET	O	0			lowlands-172
+13	Lone	lone	PROPN	O	0		n.person	lowlands-172
+14	Star	star	PROPN	O	0		n.natural_object	lowlands-172
+15	Cup	cup	NOUN	O	0		n.artifact	lowlands-172
 
-1	Leicester	leicester	PROPN	B	0		n.location	lowlands-173
-2	City	city	PROPN	I	1			lowlands-173
-3	v	v	ADP	O	0			lowlands-173
-4	Liverpool	liverpool	PROPN	O	0		n.location	lowlands-173
-5	~	~	PUNCT	O	0			lowlands-173
-6	Premier	premier	PROPN	B	0		n.group	lowlands-173
-7	League	league	PROPN	I	6			lowlands-173
-8	~	~	PUNCT	O	0			lowlands-173
-9	NUMBER	NUMBER	NUM	O	0		n.attribute	lowlands-173
-10	:	:	PUNCT	O	0			lowlands-173
-11	NUMBER	NUMBER	NUM	B	0		n.time	lowlands-173
-12	End	end	NOUN	I	11			lowlands-173
-13	Date	date	NOUN	I	12			lowlands-173
-14	:	:	PUNCT	O	0			lowlands-173
-15	Wednesday	wednesday	NOUN	B	0		n.person	lowlands-173
-16	Sep-25-2013	sep-25-2013	NOUN	I	15			lowlands-173
-17	NUMBER	NUMBER	NUM	I	16			lowlands-173
-18	PDT	pdt	PROPN	I	17			lowlands-173
-19	Buy	buy	VERB	O	0		v.possession	lowlands-173
-20	It	it	PRON	O	0			lowlands-173
-21	...	...	PUNCT	O	0			lowlands-173
-22	URL	URL	X	O	0			lowlands-173
+1	Soccer	soccer	NOUN	B	0		n.communication	lowlands-173
+2	news	news	NOUN	I	1			lowlands-173
+3	:	:	PUNCT	O	0			lowlands-173
+4	COOL	cool	ADJ	O	0			lowlands-173
+5	SOCCER	soccer	NOUN	O	0		n.act	lowlands-173
+6	FANS	fan	NOUN	O	0		n.artifact	lowlands-173
+7	IMAGES	image	NOUN	O	0		n.cognition	lowlands-173
+8	URL	URL	X	O	0			lowlands-173
+9	#SoccerFans	#soccerfans	NOUN	O	0		n.person	lowlands-173
+10	#soccer	#soccer	NOUN	O	0		n.person	lowlands-173
+11	#fifa	#fifa	PROPN	O	0		n.person	lowlands-173
+12	#soccer	#soccer	NOUN	O	0		n.person	lowlands-173
+13	#football	#football	NOUN	O	0		n.person	lowlands-173
 
-1	I	i	PRON	O	0			lowlands-174
-2	liked	like	VERB	O	0		v.emotion	lowlands-174
-3	a	a	DET	O	0			lowlands-174
-4	@USER	@USER	PROPN	B	0		n.communication	lowlands-174
-5	video	video	NOUN	I	4			lowlands-174
-6	from	from	ADP	O	0			lowlands-174
-7	@USER	@USER	PROPN	B	0		n.location	lowlands-174
-8	URL	URL	NOUN	I	7			lowlands-174
-9	Cedar	cedar	PROPN	I	8			lowlands-174
-10	Park	park	PROPN	I	9			lowlands-174
-11	Receives	receive	VERB	O	0		v.possession	lowlands-174
-12	the	the	DET	O	0			lowlands-174
-13	Lone	lone	PROPN	O	0		n.person	lowlands-174
-14	Star	star	PROPN	O	0		n.natural_object	lowlands-174
-15	Cup	cup	NOUN	O	0		n.artifact	lowlands-174
+1	@USER	@USER	PROPN	O	0		n.person	lowlands-174
+2	:	:	PUNCT	O	0			lowlands-174
+3	VMA's	vma's	PROPN	O	0		n.person	lowlands-174
+4	Red	red	ADJ	O	0			lowlands-174
+5	Carpet	carpet	NOUN	B	0		n.communication	lowlands-174
+6	Report	report	NOUN	I	5			lowlands-174
+7	:	:	PUNCT	O	0			lowlands-174
+8	Thirty	thirty	NUM	B	0		n.time	lowlands-174
+9	Seconds	second	NOUN	I	8			lowlands-174
+10	To	to	ADP	O	0			lowlands-174
+11	Mars	mars	PROPN	O	0		n.natural_object	lowlands-174
+12	URL	URL	X	O	0			lowlands-174
 
-1	Soccer	soccer	NOUN	B	0		n.communication	lowlands-175
-2	news	news	NOUN	I	1			lowlands-175
-3	:	:	PUNCT	O	0			lowlands-175
-4	COOL	cool	ADJ	O	0			lowlands-175
-5	SOCCER	soccer	NOUN	O	0		n.act	lowlands-175
-6	FANS	fan	NOUN	O	0		n.artifact	lowlands-175
-7	IMAGES	image	NOUN	O	0		n.cognition	lowlands-175
-8	URL	URL	X	O	0			lowlands-175
-9	#SoccerFans	#soccerfans	NOUN	O	0		n.person	lowlands-175
-10	#soccer	#soccer	NOUN	O	0		n.person	lowlands-175
-11	#fifa	#fifa	PROPN	O	0		n.person	lowlands-175
-12	#soccer	#soccer	NOUN	O	0		n.person	lowlands-175
-13	#football	#football	NOUN	O	0		n.person	lowlands-175
+1	Joey	joey	PROPN	B	0		n.person	lowlands-175
+2	Bada$$	bada$$	PROPN	I	1			lowlands-175
+3	-	-	PUNCT	O	0			lowlands-175
+4	Killuminati	killuminati	PROPN	B	0		n.quantity	lowlands-175
+5	Pt	pt	NOUN	I	4			lowlands-175
+6	2	2	NUM	I	5			lowlands-175
+7	"	"	PUNCT	O	0			lowlands-175
+8	Kendrick	kendrick	PROPN	B	0		n.phenomenon	lowlands-175
+9	Lamar	lamar	PROPN	I	8			lowlands-175
+10	Response	response	NOUN	I	9			lowlands-175
+11	"	"	PUNCT	O	0			lowlands-175
+12	:	:	PUNCT	O	0			lowlands-175
+13	URL	URL	X	O	0			lowlands-175
 
-1	@USER	@USER	PROPN	O	0		n.person	lowlands-176
-2	:	:	PUNCT	O	0			lowlands-176
-3	VMA's	vma's	PROPN	O	0		n.person	lowlands-176
-4	Red	red	ADJ	O	0			lowlands-176
-5	Carpet	carpet	NOUN	B	0		n.communication	lowlands-176
-6	Report	report	NOUN	I	5			lowlands-176
-7	:	:	PUNCT	O	0			lowlands-176
-8	Thirty	thirty	NUM	B	0		n.time	lowlands-176
-9	Seconds	second	NOUN	I	8			lowlands-176
-10	To	to	ADP	O	0			lowlands-176
-11	Mars	mars	PROPN	O	0		n.natural_object	lowlands-176
-12	URL	URL	X	O	0			lowlands-176
+1	Kiessling	kiessling	PROPN	O	0		n.person	lowlands-176
+2	unconcerned	unconcerned	VERB	O	0			lowlands-176
+3	by	by	ADP	O	0			lowlands-176
+4	international	international	ADJ	O	0			lowlands-176
+5	snub	snub	NOUN	O	0		n.communication	lowlands-176
+6	URL	URL	X	O	0			lowlands-176
 
-1	Joey	joey	PROPN	B	0		n.person	lowlands-177
-2	Bada$$	bada$$	PROPN	I	1			lowlands-177
-3	-	-	PUNCT	O	0			lowlands-177
-4	Killuminati	killuminati	PROPN	B	0		n.quantity	lowlands-177
-5	Pt	pt	NOUN	I	4			lowlands-177
-6	2	2	NUM	I	5			lowlands-177
-7	"	"	PUNCT	O	0			lowlands-177
-8	Kendrick	kendrick	PROPN	B	0		n.phenomenon	lowlands-177
-9	Lamar	lamar	PROPN	I	8			lowlands-177
-10	Response	response	NOUN	I	9			lowlands-177
-11	"	"	PUNCT	O	0			lowlands-177
-12	:	:	PUNCT	O	0			lowlands-177
-13	URL	URL	X	O	0			lowlands-177
+1	September	september	NOUN	B	0		n.group	lowlands-177
+2	Couponing	couponing	NOUN	I	1			lowlands-177
+3	Class	class	NOUN	I	2			lowlands-177
+4	,	,	PUNCT	O	0			lowlands-177
+5	it's	it's	VERB	O	0			lowlands-177
+6	an	an	DET	O	0			lowlands-177
+7	awesome	awesome	ADJ	O	0			lowlands-177
+8	NUMBER	NUMBER	NUM	B	0		n.group	lowlands-177
+9	week	week	NOUN	I	8			lowlands-177
+10	class	class	NOUN	I	9			lowlands-177
+11	to	to	ADP	O	0			lowlands-177
+12	learn	learn	VERB	O	0		v.cognition	lowlands-177
+13	tips	tip	NOUN	O	0		n.location	lowlands-177
+14	and	and	CONJ	O	0			lowlands-177
+15	tricks	trick	NOUN	O	0		n.act	lowlands-177
+16	URL	URL	X	O	0			lowlands-177
 
-1	Kiessling	kiessling	PROPN	O	0		n.person	lowlands-178
-2	unconcerned	unconcerned	VERB	O	0			lowlands-178
-3	by	by	ADP	O	0			lowlands-178
-4	international	international	ADJ	O	0			lowlands-178
-5	snub	snub	NOUN	O	0		n.communication	lowlands-178
-6	URL	URL	X	O	0			lowlands-178
+1	I	i	PRON	O	0			lowlands-178
+2	posted	post	VERB	O	0		v.contact	lowlands-178
+3	a	a	DET	O	0			lowlands-178
+4	new	new	ADJ	O	0			lowlands-178
+5	photo	photo	NOUN	O	0		n.artifact	lowlands-178
+6	to	to	ADP	O	0			lowlands-178
+7	Facebook	facebook	PROPN	O	0		n.person	lowlands-178
+8	URL	URL	X	O	0			lowlands-178
 
-1	September	september	NOUN	B	0		n.group	lowlands-179
-2	Couponing	couponing	NOUN	I	1			lowlands-179
-3	Class	class	NOUN	I	2			lowlands-179
-4	,	,	PUNCT	O	0			lowlands-179
-5	it's	it's	VERB	O	0			lowlands-179
-6	an	an	DET	O	0			lowlands-179
-7	awesome	awesome	ADJ	O	0			lowlands-179
-8	NUMBER	NUMBER	NUM	B	0		n.group	lowlands-179
-9	week	week	NOUN	I	8			lowlands-179
-10	class	class	NOUN	I	9			lowlands-179
-11	to	to	ADP	O	0			lowlands-179
-12	learn	learn	VERB	O	0		v.cognition	lowlands-179
-13	tips	tip	NOUN	O	0		n.location	lowlands-179
-14	and	and	CONJ	O	0			lowlands-179
-15	tricks	trick	NOUN	O	0		n.act	lowlands-179
-16	URL	URL	X	O	0			lowlands-179
+1	Google	google	PROPN	O	0		n.communication	lowlands-179
+2	?	?	PUNCT	O	0			lowlands-179
+3	s	s	NOUN	O	0		n.time	lowlands-179
+4	local	local	ADJ	O	0			lowlands-179
+5	business	business	NOUN	O	0		n.group	lowlands-179
+6	is	be	AUX	O	0			lowlands-179
+7	?	?	PUNCT	O	0			lowlands-179
+8	really	really	ADV	O	0			lowlands-179
+9	struggling	struggle	VERB	O	0		v.social	lowlands-179
+10	,?	,?	PUNCT	O	0			lowlands-179
+11	in	in	ADP	O	0			lowlands-179
+12	?	?	PUNCT	O	0			lowlands-179
+13	constant	constant	ADJ	O	0			lowlands-179
+14	chaos	chaos	NOUN	O	0		n.state	lowlands-179
+15	,?	,?	PUNCT	O	0			lowlands-179
+16	Yelp	yelp	PROPN	B	0		n.person	lowlands-179
+17	CEO	ceo	NOUN	I	16			lowlands-179
+18	tells	tell	VERB	O	0		v.communication	lowlands-179
+19	Charlie	charlie	PROPN	B	0		n.plant	lowlands-179
+20	Rose	rose	PROPN	I	19			lowlands-179
+21	(	(	X	O	0			lowlands-179
+22	Video	video	NOUN	O	0		n.communication	lowlands-179
+23	)	)	PUNCT	O	0			lowlands-179
+24	...	...	PUNCT	O	0			lowlands-179
+25	URL	URL	X	O	0			lowlands-179
 
-1	I	i	PRON	O	0			lowlands-180
-2	posted	post	VERB	O	0		v.contact	lowlands-180
-3	a	a	DET	O	0			lowlands-180
-4	new	new	ADJ	O	0			lowlands-180
-5	photo	photo	NOUN	O	0		n.artifact	lowlands-180
-6	to	to	ADP	O	0			lowlands-180
-7	Facebook	facebook	PROPN	O	0		n.person	lowlands-180
-8	URL	URL	X	O	0			lowlands-180
+1	[	[	PUNCT	O	0			lowlands-180
+2	MUSIC	music	NOUN	O	0		n.communication	lowlands-180
+3	]	]	PUNCT	O	0			lowlands-180
+4	EFA	efa	PROPN	O	0		n.person	lowlands-180
+5	(	(	PUNCT	O	0			lowlands-180
+6	@USER	@USER	PROPN	O	0		n.person	lowlands-180
+7	)	)	PUNCT	O	0			lowlands-180
+8	-	-	PUNCT	O	0			lowlands-180
+9	SUNMOBI	sunmobi	PROPN	B	0		n.communication	lowlands-180
+10	PROD	prod	NOUN	I	9			lowlands-180
+11	BY	by	ADP	O	0			lowlands-180
+12	D'TUNES	d'tunes	PROPN	O	0		n.person	lowlands-180
+13	(	(	PUNCT	O	0			lowlands-180
+14	@USER	@USER	PROPN	O	0		n.person	lowlands-180
+15	)	)	PUNCT	O	0			lowlands-180
+16	URL	URL	X	O	0			lowlands-180
 
-1	Google	google	PROPN	O	0		n.communication	lowlands-181
-2	?	?	PUNCT	O	0			lowlands-181
-3	s	s	NOUN	O	0		n.time	lowlands-181
-4	local	local	ADJ	O	0			lowlands-181
-5	business	business	NOUN	O	0		n.group	lowlands-181
-6	is	be	AUX	O	0			lowlands-181
-7	?	?	PUNCT	O	0			lowlands-181
-8	really	really	ADV	O	0			lowlands-181
-9	struggling	struggle	VERB	O	0		v.social	lowlands-181
-10	,?	,?	PUNCT	O	0			lowlands-181
-11	in	in	ADP	O	0			lowlands-181
-12	?	?	PUNCT	O	0			lowlands-181
-13	constant	constant	ADJ	O	0			lowlands-181
-14	chaos	chaos	NOUN	O	0		n.state	lowlands-181
-15	,?	,?	PUNCT	O	0			lowlands-181
-16	Yelp	yelp	PROPN	B	0		n.person	lowlands-181
-17	CEO	ceo	NOUN	I	16			lowlands-181
-18	tells	tell	VERB	O	0		v.communication	lowlands-181
-19	Charlie	charlie	PROPN	B	0		n.plant	lowlands-181
-20	Rose	rose	PROPN	I	19			lowlands-181
-21	(	(	X	O	0			lowlands-181
-22	Video	video	NOUN	O	0		n.communication	lowlands-181
-23	)	)	PUNCT	O	0			lowlands-181
-24	...	...	PUNCT	O	0			lowlands-181
-25	URL	URL	X	O	0			lowlands-181
+1	Loudoun	loudoun	PROPN	B	0		n.person	lowlands-181
+2	County	county	PROPN	I	1			lowlands-181
+3	winemaker	winemaker	NOUN	I	2			lowlands-181
+4	still	still	ADV	O	0			lowlands-181
+5	battling	battle	VERB	O	0		v.competition	lowlands-181
+6	homeowner	homeowner	NOUN	B	0		n.group	lowlands-181
+7	association	association	NOUN	I	6			lowlands-181
+8	,	,	PUNCT	O	0			lowlands-181
+9	files	file	VERB	O	0		v.communication	lowlands-181
+10	bankruptcy	bankruptcy	NOUN	O	0		n.state	lowlands-181
+11	URL	URL	X	O	0			lowlands-181
 
-1	[	[	PUNCT	O	0			lowlands-182
-2	MUSIC	music	NOUN	O	0		n.communication	lowlands-182
-3	]	]	PUNCT	O	0			lowlands-182
-4	EFA	efa	PROPN	O	0		n.person	lowlands-182
-5	(	(	PUNCT	O	0			lowlands-182
-6	@USER	@USER	PROPN	O	0		n.person	lowlands-182
-7	)	)	PUNCT	O	0			lowlands-182
-8	-	-	PUNCT	O	0			lowlands-182
-9	SUNMOBI	sunmobi	PROPN	B	0		n.communication	lowlands-182
-10	PROD	prod	NOUN	I	9			lowlands-182
-11	BY	by	ADP	O	0			lowlands-182
-12	D'TUNES	d'tunes	PROPN	O	0		n.person	lowlands-182
-13	(	(	PUNCT	O	0			lowlands-182
-14	@USER	@USER	PROPN	O	0		n.person	lowlands-182
+1	Even	even	ADV	O	0			lowlands-182
+2	the	the	DET	O	0			lowlands-182
+3	Deer	deer	NOUN	O	0		n.animal	lowlands-182
+4	Are	be	VERB	O	0		v.stative	lowlands-182
+5	Polite	polite	ADJ	O	0			lowlands-182
+6	in	in	ADP	O	0			lowlands-182
+7	Japan	japan	PROPN	O	0		n.location	lowlands-182
+8	.	.	PUNCT	O	0			lowlands-182
+9	(	(	PUNCT	O	0			lowlands-182
+10	You're	you're	AUX	O	0			lowlands-182
+11	Kidding	kid	VERB	O	0		v.communication	lowlands-182
+12	,	,	PUNCT	O	0			lowlands-182
+13	Right	right	X	O	0			lowlands-182
+14	?	?	PUNCT	O	0			lowlands-182
 15	)	)	PUNCT	O	0			lowlands-182
-16	URL	URL	X	O	0			lowlands-182
+16	:	:	PUNCT	O	0			lowlands-182
+17	Just	just	ADV	O	0			lowlands-182
+18	look	look	VERB	O	0		v.perception	lowlands-182
+19	how	how	ADV	O	0			lowlands-182
+20	this	this	DET	O	0			lowlands-182
+21	deer	deer	NOUN	O	0		n.animal	lowlands-182
+22	bows	bow	VERB	O	0		v.communication	lowlands-182
+23	.	.	PUNCT	O	0			lowlands-182
+24	These	these	DET	O	0			lowlands-182
+25	Japanese	japanese	ADJ	O	0			lowlands-182
+26	deer	deer	NOUN	O	0		n.animal	lowlands-182
+27	...	...	PUNCT	O	0			lowlands-182
+28	URL	URL	X	O	0			lowlands-182
 
-1	Loudoun	loudoun	PROPN	B	0		n.person	lowlands-183
-2	County	county	PROPN	I	1			lowlands-183
-3	winemaker	winemaker	NOUN	I	2			lowlands-183
-4	still	still	ADV	O	0			lowlands-183
-5	battling	battle	VERB	O	0		v.competition	lowlands-183
-6	homeowner	homeowner	NOUN	B	0		n.group	lowlands-183
-7	association	association	NOUN	I	6			lowlands-183
-8	,	,	PUNCT	O	0			lowlands-183
-9	files	file	VERB	O	0		v.communication	lowlands-183
-10	bankruptcy	bankruptcy	NOUN	O	0		n.state	lowlands-183
-11	URL	URL	X	O	0			lowlands-183
+1	Win	win	VERB	O	0		v.competition	lowlands-183
+2	a	a	DET	O	0			lowlands-183
+3	NUMBER	NUMBER	NUM	B	0		n.artifact	lowlands-183
+4	Visa	visa	PROPN	I	3			lowlands-183
+5	Gift	gift	NOUN	I	4			lowlands-183
+6	Card	card	NOUN	I	5			lowlands-183
+7	from	from	ADP	O	0			lowlands-183
+8	@USER	@USER	PROPN	O	0		n.person	lowlands-183
+9	and	and	CONJ	O	0			lowlands-183
+10	@USER	@USER	PROPN	O	0		n.person	lowlands-183
+11	#giveaway	#giveaway	NOUN	O	0		n.person	lowlands-183
+12	URL	URL	X	O	0			lowlands-183
 
-1	Even	even	ADV	O	0			lowlands-184
-2	the	the	DET	O	0			lowlands-184
-3	Deer	deer	NOUN	O	0		n.animal	lowlands-184
-4	Are	be	VERB	O	0		v.stative	lowlands-184
-5	Polite	polite	ADJ	O	0			lowlands-184
-6	in	in	ADP	O	0			lowlands-184
-7	Japan	japan	PROPN	O	0		n.location	lowlands-184
-8	.	.	PUNCT	O	0			lowlands-184
-9	(	(	PUNCT	O	0			lowlands-184
-10	You're	you're	AUX	O	0			lowlands-184
-11	Kidding	kid	VERB	O	0		v.communication	lowlands-184
-12	,	,	PUNCT	O	0			lowlands-184
-13	Right	right	X	O	0			lowlands-184
-14	?	?	PUNCT	O	0			lowlands-184
-15	)	)	PUNCT	O	0			lowlands-184
-16	:	:	PUNCT	O	0			lowlands-184
-17	Just	just	ADV	O	0			lowlands-184
-18	look	look	VERB	O	0		v.perception	lowlands-184
-19	how	how	ADV	O	0			lowlands-184
-20	this	this	DET	O	0			lowlands-184
-21	deer	deer	NOUN	O	0		n.animal	lowlands-184
-22	bows	bow	VERB	O	0		v.communication	lowlands-184
-23	.	.	PUNCT	O	0			lowlands-184
-24	These	these	DET	O	0			lowlands-184
-25	Japanese	japanese	ADJ	O	0			lowlands-184
-26	deer	deer	NOUN	O	0		n.animal	lowlands-184
-27	...	...	PUNCT	O	0			lowlands-184
-28	URL	URL	X	O	0			lowlands-184
+1	Apple's	apple's	PROPN	O	0		n.person	lowlands-184
+2	'	'	PUNCT	O	0			lowlands-184
+3	iPhone	iphone	PROPN	B	0		n.attribute	lowlands-184
+4	NUMBER	NUMBER	NUM	I	3			lowlands-184
+5	'	'	PUNCT	O	0			lowlands-184
+6	to	to	ADP	O	0			lowlands-184
+7	use	use	VERB	O	0		v.consumption	lowlands-184
+8	NUMBER	NUMBER	NUM	O	0		n.attribute	lowlands-184
+9	faster	faster	ADV	O	0			lowlands-184
+10	'	'	PUNCT	O	0			lowlands-184
+11	A7	a7	PROPN	O	0		n.person	lowlands-184
+12	'	'	PUNCT	O	0			lowlands-184
+13	chip	chip	NOUN	O	0		n.natural_object	lowlands-184
+14	,	,	PUNCT	O	0			lowlands-184
+15	feature	feature	NOUN	B	0		n.act	lowlands-184
+16	motion	motion	NOUN	I	15			lowlands-184
+17	tracking	tracking	NOUN	I	16			lowlands-184
+18	-	-	PUNCT	O	0			lowlands-184
+19	report	report	VERB	O	0		v.communication	lowlands-184
+20	-	-	PUNCT	O	0			lowlands-184
+21	Apple	apple	PROPN	O	0		n.food	lowlands-184
+22	Insider	insider	NOUN	O	0		n.person	lowlands-184
+23	URL	URL	X	O	0			lowlands-184
 
-1	Win	win	VERB	O	0		v.competition	lowlands-185
-2	a	a	DET	O	0			lowlands-185
-3	NUMBER	NUMBER	NUM	B	0		n.artifact	lowlands-185
-4	Visa	visa	PROPN	I	3			lowlands-185
-5	Gift	gift	NOUN	I	4			lowlands-185
-6	Card	card	NOUN	I	5			lowlands-185
-7	from	from	ADP	O	0			lowlands-185
-8	@USER	@USER	PROPN	O	0		n.person	lowlands-185
-9	and	and	CONJ	O	0			lowlands-185
-10	@USER	@USER	PROPN	O	0		n.person	lowlands-185
-11	#giveaway	#giveaway	NOUN	O	0		n.person	lowlands-185
-12	URL	URL	X	O	0			lowlands-185
+1	Hearts	hearts	PROPN	B	0		n.artifact	lowlands-185
+2	fan	fan	NOUN	I	1			lowlands-185
+3	offers	offer	VERB	O	0		v.possession	lowlands-185
+4	cash	cash	NOUN	O	0		n.possession	lowlands-185
+5	for	for	ADP	O	0			lowlands-185
+6	appeal	appeal	NOUN	O	0		n.communication	lowlands-185
+7	URL	URL	X	O	0			lowlands-185
 
-1	Apple's	apple's	PROPN	O	0		n.person	lowlands-186
-2	'	'	PUNCT	O	0			lowlands-186
-3	iPhone	iphone	PROPN	B	0		n.attribute	lowlands-186
-4	NUMBER	NUMBER	NUM	I	3			lowlands-186
-5	'	'	PUNCT	O	0			lowlands-186
-6	to	to	ADP	O	0			lowlands-186
-7	use	use	VERB	O	0		v.consumption	lowlands-186
-8	NUMBER	NUMBER	NUM	O	0		n.attribute	lowlands-186
-9	faster	faster	ADV	O	0			lowlands-186
-10	'	'	PUNCT	O	0			lowlands-186
-11	A7	a7	PROPN	O	0		n.person	lowlands-186
-12	'	'	PUNCT	O	0			lowlands-186
-13	chip	chip	NOUN	O	0		n.natural_object	lowlands-186
-14	,	,	PUNCT	O	0			lowlands-186
-15	feature	feature	NOUN	B	0		n.act	lowlands-186
-16	motion	motion	NOUN	I	15			lowlands-186
-17	tracking	tracking	NOUN	I	16			lowlands-186
-18	-	-	PUNCT	O	0			lowlands-186
-19	report	report	VERB	O	0		v.communication	lowlands-186
-20	-	-	PUNCT	O	0			lowlands-186
-21	Apple	apple	PROPN	O	0		n.food	lowlands-186
-22	Insider	insider	NOUN	O	0		n.person	lowlands-186
-23	URL	URL	X	O	0			lowlands-186
+1	Online	online	ADJ	O	0			lowlands-186
+2	CRM	crm	NOUN	B	0		n.artifact	lowlands-186
+3	system	system	NOUN	I	2			lowlands-186
+4	and	and	CONJ	O	0			lowlands-186
+5	your	your	DET	O	0			lowlands-186
+6	business	business	NOUN	O	0		n.group	lowlands-186
+7	-	-	PUNCT	O	0			lowlands-186
+8	URL	URL	X	O	0			lowlands-186
+9	URL	URL	X	O	0			lowlands-186
 
-1	Hearts	hearts	PROPN	B	0		n.artifact	lowlands-187
-2	fan	fan	NOUN	I	1			lowlands-187
-3	offers	offer	VERB	O	0		v.possession	lowlands-187
-4	cash	cash	NOUN	O	0		n.possession	lowlands-187
-5	for	for	ADP	O	0			lowlands-187
-6	appeal	appeal	NOUN	O	0		n.communication	lowlands-187
-7	URL	URL	X	O	0			lowlands-187
+1	How	how	ADV	O	0			lowlands-187
+2	late	late	ADJ	O	0			lowlands-187
+3	did	do	AUX	O	0			lowlands-187
+4	you	you	PRON	O	0			lowlands-187
+5	stay	stay	VERB	O	0		v.change	lowlands-187
+6	up	up	PART	O	0			lowlands-187
+7	last	last	ADJ	O	0			lowlands-187
+8	night	night	NOUN	O	0		n.time	lowlands-187
+9	and	and	CONJ	O	0			lowlands-187
+10	why	why	ADV	O	0			lowlands-187
+11	?	?	PUNCT	O	0			lowlands-187
+12	-	-	PUNCT	O	0			lowlands-187
+13	Idk	idk	VERB	O	0			lowlands-187
+14	and	and	CONJ	O	0			lowlands-187
+15	cuz	cuz	ADP	O	0			lowlands-187
+16	fell	fell	VERB	O	0		v.contact	lowlands-187
+17	asleep	asleep	ADJ	O	0			lowlands-187
+18	.	.	PUNCT	O	0			lowlands-187
+19	URL	URL	X	O	0			lowlands-187
 
-1	Online	online	ADJ	O	0			lowlands-188
-2	CRM	crm	NOUN	B	0		n.artifact	lowlands-188
-3	system	system	NOUN	I	2			lowlands-188
-4	and	and	CONJ	O	0			lowlands-188
-5	your	your	DET	O	0			lowlands-188
-6	business	business	NOUN	O	0		n.group	lowlands-188
-7	-	-	PUNCT	O	0			lowlands-188
-8	URL	URL	X	O	0			lowlands-188
-9	URL	URL	X	O	0			lowlands-188
+1	Lenny	lenny	PROPN	B	0		n.person	lowlands-188
+2	Bonsignore	bonsignore	PROPN	I	1			lowlands-188
+3	:	:	PUNCT	O	0			lowlands-188
+4	My	my	DET	O	0			lowlands-188
+5	Windows	windows	PROPN	O	0		n.communication	lowlands-188
+6	crap	crap	NOUN	O	0		n.substance	lowlands-188
+7	Phone	phone	NOUN	O	0		n.artifact	lowlands-188
+8	NUMBER	NUMBER	NUM	O	0		n.attribute	lowlands-188
+9	Start	start	NOUN	O	0		n.event	lowlands-188
+10	Screen	screen	NOUN	O	0		n.artifact	lowlands-188
+11	URL	URL	X	O	0			lowlands-188
 
-1	How	how	ADV	O	0			lowlands-189
-2	late	late	ADJ	O	0			lowlands-189
-3	did	do	AUX	O	0			lowlands-189
-4	you	you	PRON	O	0			lowlands-189
-5	stay	stay	VERB	O	0		v.change	lowlands-189
-6	up	up	PART	O	0			lowlands-189
-7	last	last	ADJ	O	0			lowlands-189
-8	night	night	NOUN	O	0		n.time	lowlands-189
-9	and	and	CONJ	O	0			lowlands-189
-10	why	why	ADV	O	0			lowlands-189
-11	?	?	PUNCT	O	0			lowlands-189
-12	-	-	PUNCT	O	0			lowlands-189
-13	Idk	idk	VERB	O	0			lowlands-189
-14	and	and	CONJ	O	0			lowlands-189
-15	cuz	cuz	ADP	O	0			lowlands-189
-16	fell	fell	VERB	O	0		v.contact	lowlands-189
-17	asleep	asleep	ADJ	O	0			lowlands-189
-18	.	.	PUNCT	O	0			lowlands-189
-19	URL	URL	X	O	0			lowlands-189
+1	@USER	@USER	PROPN	O	0		n.person	lowlands-189
+2	:	:	PUNCT	O	0			lowlands-189
+3	Egyptians	egyptians	PROPN	O	0		n.person	lowlands-189
+4	Not	not	ADV	O	0			lowlands-189
+5	Buying	buy	VERB	O	0		v.possession	lowlands-189
+6	Muslim	muslim	ADJ	O	0			lowlands-189
+7	Brotherhood's	brotherhood's	PROPN	O	0		n.person	lowlands-189
+8	Christian	christian	NOUN	O	0		n.person	lowlands-189
+9	Scapegoating	scapegoating	NOUN	O	0		n.person	lowlands-189
+10	URL	URL	X	O	0			lowlands-189
 
-1	Lenny	lenny	PROPN	B	0		n.person	lowlands-190
-2	Bonsignore	bonsignore	PROPN	I	1			lowlands-190
-3	:	:	PUNCT	O	0			lowlands-190
-4	My	my	DET	O	0			lowlands-190
-5	Windows	windows	PROPN	O	0		n.communication	lowlands-190
-6	crap	crap	NOUN	O	0		n.substance	lowlands-190
-7	Phone	phone	NOUN	O	0		n.artifact	lowlands-190
-8	NUMBER	NUMBER	NUM	O	0		n.attribute	lowlands-190
-9	Start	start	NOUN	O	0		n.event	lowlands-190
-10	Screen	screen	NOUN	O	0		n.artifact	lowlands-190
-11	URL	URL	X	O	0			lowlands-190
+1	Ballina	ballina	PROPN	B	0		n.group	lowlands-190
+2	Expo	expo	PROPN	I	1			lowlands-190
+3	for	for	ADP	O	0			lowlands-190
+4	unemployed	unemployed	NOUN	O	0		n.group	lowlands-190
+5	.	.	PUNCT	O	0			lowlands-190
+6	URL	URL	X	O	0			lowlands-190
 
-1	@USER	@USER	PROPN	O	0		n.person	lowlands-191
-2	:	:	PUNCT	O	0			lowlands-191
-3	Egyptians	egyptians	PROPN	O	0		n.person	lowlands-191
-4	Not	not	ADV	O	0			lowlands-191
-5	Buying	buy	VERB	O	0		v.possession	lowlands-191
-6	Muslim	muslim	ADJ	O	0			lowlands-191
-7	Brotherhood's	brotherhood's	PROPN	O	0		n.person	lowlands-191
-8	Christian	christian	NOUN	O	0		n.person	lowlands-191
-9	Scapegoating	scapegoating	NOUN	O	0		n.person	lowlands-191
+1	Accountant	accountant	NOUN	O	0		n.person	lowlands-191
+2	with	with	ADP	O	0			lowlands-191
+3	Tally	tally	PROPN	O	0		n.act	lowlands-191
+4	/	/	PUNCT	O	0			lowlands-191
+5	peachtree	peachtree	PROPN	B	0		n.cognition	lowlands-191
+6	experience	experience	NOUN	I	5			lowlands-191
+7	-	-	PUNCT	O	0			lowlands-191
+8	#Qatar	#qatar	PROPN	O	0		n.person	lowlands-191
+9	#Jobs	#jobs	NOUN	O	0		n.person	lowlands-191
 10	URL	URL	X	O	0			lowlands-191
 
-1	Ballina	ballina	PROPN	B	0		n.group	lowlands-192
-2	Expo	expo	PROPN	I	1			lowlands-192
-3	for	for	ADP	O	0			lowlands-192
-4	unemployed	unemployed	NOUN	O	0		n.group	lowlands-192
-5	.	.	PUNCT	O	0			lowlands-192
-6	URL	URL	X	O	0			lowlands-192
+1	Temazo	temazo	PROPN	O	0		n.person	lowlands-192
+2	!	!	PUNCT	O	0			lowlands-192
+3	?	?	PUNCT	O	0			lowlands-192
+4	Wake	wake	VERB	O	0		v.body	lowlands-192
+5	Me	me	PRON	O	0			lowlands-192
+6	Up	up	PART	O	0			lowlands-192
+7	-	-	PUNCT	O	0			lowlands-192
+8	Radio	radio	NOUN	B	0		n.person	lowlands-192
+9	Edit	edit	NOUN	I	8			lowlands-192
+10	?	?	PUNCT	O	0			lowlands-192
+11	Avicii	avicii	PROPN	O	0		n.person	lowlands-192
+12	URL	URL	X	O	0			lowlands-192
+13	#NowPlaying	#nowplaying	NOUN	O	0		n.person	lowlands-192
 
-1	Accountant	accountant	NOUN	O	0		n.person	lowlands-193
-2	with	with	ADP	O	0			lowlands-193
-3	Tally	tally	PROPN	O	0		n.act	lowlands-193
-4	/	/	PUNCT	O	0			lowlands-193
-5	peachtree	peachtree	PROPN	B	0		n.cognition	lowlands-193
-6	experience	experience	NOUN	I	5			lowlands-193
-7	-	-	PUNCT	O	0			lowlands-193
-8	#Qatar	#qatar	PROPN	O	0		n.person	lowlands-193
-9	#Jobs	#jobs	NOUN	O	0		n.person	lowlands-193
-10	URL	URL	X	O	0			lowlands-193
+1	#Beachparty	#beachparty	NOUN	O	0		n.person	lowlands-193
+2	tonight	tonight	ADV	O	0			lowlands-193
+3	Ladies	lady	NOUN	O	0		n.person	lowlands-193
+4	?	?	PUNCT	O	0			lowlands-193
+5	Put	put	VERB	O	0		v.contact	lowlands-193
+6	on	on	ADP	O	0			lowlands-193
+7	your	your	DET	O	0			lowlands-193
+8	Animagical	animagical	ADJ	O	0			lowlands-193
+9	#Fragrance	#fragrance	NOUN	O	0		n.person	lowlands-193
+10	and	and	CONJ	O	0			lowlands-193
+11	go	go	VERB	O	0		v.motion	lowlands-193
+12	wild	wild	ADV	O	0			lowlands-193
+13	!	!	PUNCT	O	0			lowlands-193
+14	URL	URL	X	O	0			lowlands-193
+15	URL	URL	X	O	0			lowlands-193
 
-1	Temazo	temazo	PROPN	O	0		n.person	lowlands-194
-2	!	!	PUNCT	O	0			lowlands-194
-3	?	?	PUNCT	O	0			lowlands-194
-4	Wake	wake	VERB	O	0		v.body	lowlands-194
-5	Me	me	PRON	O	0			lowlands-194
-6	Up	up	PART	O	0			lowlands-194
-7	-	-	PUNCT	O	0			lowlands-194
-8	Radio	radio	NOUN	B	0		n.person	lowlands-194
-9	Edit	edit	NOUN	I	8			lowlands-194
-10	?	?	PUNCT	O	0			lowlands-194
-11	Avicii	avicii	PROPN	O	0		n.person	lowlands-194
-12	URL	URL	X	O	0			lowlands-194
-13	#NowPlaying	#nowplaying	NOUN	O	0		n.person	lowlands-194
+1	Why	why	ADV	O	0			lowlands-194
+2	Touch	touch	NOUN	B	0		n.artifact	lowlands-194
+3	Screens	screen	NOUN	I	2			lowlands-194
+4	Will	will	AUX	O	0			lowlands-194
+5	Not	not	ADV	O	0			lowlands-194
+6	Take	take	VERB	O	0		v.social	lowlands-194
+7	Over	over	PART	O	0			lowlands-194
+8	:	:	PUNCT	O	0			lowlands-194
+9	Scientific	scientific	ADJ	O	0			lowlands-194
+10	American	american	PROPN	O	0		n.communication	lowlands-194
+11	URL	URL	X	O	0			lowlands-194
+12	via	via	ADP	O	0			lowlands-194
+13	@USER	@USER	PROPN	O	0		n.person	lowlands-194
 
-1	#Beachparty	#beachparty	NOUN	O	0		n.person	lowlands-195
-2	tonight	tonight	ADV	O	0			lowlands-195
-3	Ladies	lady	NOUN	O	0		n.person	lowlands-195
-4	?	?	PUNCT	O	0			lowlands-195
-5	Put	put	VERB	O	0		v.contact	lowlands-195
-6	on	on	ADP	O	0			lowlands-195
-7	your	your	DET	O	0			lowlands-195
-8	Animagical	animagical	ADJ	O	0			lowlands-195
-9	#Fragrance	#fragrance	NOUN	O	0		n.person	lowlands-195
-10	and	and	CONJ	O	0			lowlands-195
-11	go	go	VERB	O	0		v.motion	lowlands-195
-12	wild	wild	ADV	O	0			lowlands-195
-13	!	!	PUNCT	O	0			lowlands-195
-14	URL	URL	X	O	0			lowlands-195
-15	URL	URL	X	O	0			lowlands-195
+1	NUMBER	NUMBER	NUM	B	0		n.artifact	lowlands-195
+2	Hudson	hudson	PROPN	I	1			lowlands-195
+3	Sedan	sedan	NOUN	I	2			lowlands-195
+4	-	-	PUNCT	O	0			lowlands-195
+5	Original	original	ADJ	O	0			lowlands-195
+6	&	&	CONJ	O	0			lowlands-195
+7	Very	very	ADV	O	0			lowlands-195
+8	Rare	rare	ADJ	O	0			lowlands-195
+9	(	(	PUNCT	O	0			lowlands-195
+10	Billings	billings	NOUN	O	0		n.location	lowlands-195
+11	,	,	PUNCT	O	0			lowlands-195
+12	MT	mt	NOUN	B	0		n.attribute	lowlands-195
+13	NUMBER	NUMBER	NUM	I	12			lowlands-195
+14	)	)	PUNCT	O	0			lowlands-195
+15	NUMBER	NUMBER	NUM	O	0		n.attribute	lowlands-195
+16	URL	URL	X	O	0			lowlands-195
 
-1	Why	why	ADV	O	0			lowlands-196
-2	Touch	touch	NOUN	B	0		n.artifact	lowlands-196
-3	Screens	screen	NOUN	I	2			lowlands-196
-4	Will	will	AUX	O	0			lowlands-196
-5	Not	not	ADV	O	0			lowlands-196
-6	Take	take	VERB	O	0		v.social	lowlands-196
-7	Over	over	PART	O	0			lowlands-196
-8	:	:	PUNCT	O	0			lowlands-196
-9	Scientific	scientific	ADJ	O	0			lowlands-196
-10	American	american	PROPN	O	0		n.communication	lowlands-196
-11	URL	URL	X	O	0			lowlands-196
-12	via	via	ADP	O	0			lowlands-196
-13	@USER	@USER	PROPN	O	0		n.person	lowlands-196
+1	NUMBER	NUMBER	NUM	O	0		n.attribute	lowlands-196
+2	Indian	indian	ADJ	O	0			lowlands-196
+3	fishermen	fisherman	NOUN	O	0		n.person	lowlands-196
+4	arrested	arrest	VERB	O	0		v.contact	lowlands-196
+5	off	off	ADP	O	0			lowlands-196
+6	Sri	sri	PROPN	B	0		n.natural_object	lowlands-196
+7	Lanka's	lanka's	PROPN	I	6			lowlands-196
+8	west	west	NOUN	I	7			lowlands-196
+9	coast	coast	NOUN	I	8			lowlands-196
+10	-	-	PUNCT	O	0			lowlands-196
+11	Business	business	NOUN	O	0		n.group	lowlands-196
+12	Standard	standard	NOUN	O	0		n.communication	lowlands-196
+13	URL	URL	X	O	0			lowlands-196
 
-1	NUMBER	NUMBER	NUM	B	0		n.artifact	lowlands-197
-2	Hudson	hudson	PROPN	I	1			lowlands-197
-3	Sedan	sedan	NOUN	I	2			lowlands-197
-4	-	-	PUNCT	O	0			lowlands-197
-5	Original	original	ADJ	O	0			lowlands-197
-6	&	&	CONJ	O	0			lowlands-197
-7	Very	very	ADV	O	0			lowlands-197
-8	Rare	rare	ADJ	O	0			lowlands-197
-9	(	(	PUNCT	O	0			lowlands-197
-10	Billings	billings	NOUN	O	0		n.location	lowlands-197
-11	,	,	PUNCT	O	0			lowlands-197
-12	MT	mt	NOUN	B	0		n.attribute	lowlands-197
-13	NUMBER	NUMBER	NUM	I	12			lowlands-197
-14	)	)	PUNCT	O	0			lowlands-197
-15	NUMBER	NUMBER	NUM	O	0		n.attribute	lowlands-197
-16	URL	URL	X	O	0			lowlands-197
+1	"	"	PUNCT	O	0			lowlands-197
+2	Neither	neither	DET	O	0			lowlands-197
+3	party	party	NOUN	O	0		n.group	lowlands-197
+4	gets	get	VERB	O	0		v.possession	lowlands-197
+5	what's	what's	AUX	O	0			lowlands-197
+6	coming	come	VERB	O	0		v.motion	lowlands-197
+7	down	down	PART	O	0			lowlands-197
+8	the	the	DET	O	0			lowlands-197
+9	pike	pike	NOUN	O	0		n.artifact	lowlands-197
+10	"	"	PUNCT	O	0			lowlands-197
+11	--	--	PUNCT	O	0			lowlands-197
+12	Democrat	democrat	PROPN	B	0		n.person	lowlands-197
+13	Michelle	michelle	PROPN	I	12			lowlands-197
+14	Diggles	diggles	PROPN	I	13			lowlands-197
+15	of	of	ADP	O	0			lowlands-197
+16	@USER	@USER	PROPN	O	0		n.person	lowlands-197
+17	#Millennials	#millennials	NOUN	O	0		n.person	lowlands-197
+18	URL	URL	X	O	0			lowlands-197
 
-1	NUMBER	NUMBER	NUM	O	0		n.attribute	lowlands-198
-2	Indian	indian	ADJ	O	0			lowlands-198
-3	fishermen	fisherman	NOUN	O	0		n.person	lowlands-198
-4	arrested	arrest	VERB	O	0		v.contact	lowlands-198
-5	off	off	ADP	O	0			lowlands-198
-6	Sri	sri	PROPN	B	0		n.natural_object	lowlands-198
-7	Lanka's	lanka's	PROPN	I	6			lowlands-198
-8	west	west	NOUN	I	7			lowlands-198
-9	coast	coast	NOUN	I	8			lowlands-198
-10	-	-	PUNCT	O	0			lowlands-198
-11	Business	business	NOUN	O	0		n.group	lowlands-198
-12	Standard	standard	NOUN	O	0		n.communication	lowlands-198
-13	URL	URL	X	O	0			lowlands-198
+1	Check	check	VERB	O	0		v.cognition	lowlands-198
+2	out	out	PART	O	0			lowlands-198
+3	our	our	DET	O	0			lowlands-198
+4	new	new	ADJ	O	0			lowlands-198
+5	,	,	PUNCT	O	0			lowlands-198
+6	easy	easy	ADJ	O	0			lowlands-198
+7	to	to	ADP	O	0			lowlands-198
+8	use	use	VERB	O	0		v.consumption	lowlands-198
+9	,	,	PUNCT	O	0			lowlands-198
+10	video	video	NOUN	B	0		n.location	lowlands-198
+11	submission	submission	NOUN	I	10			lowlands-198
+12	area	area	NOUN	I	11			lowlands-198
+13	!	!	PUNCT	O	0			lowlands-198
+14	URL	URL	PROPN	B	0		n.person	lowlands-198
+15	#MaxIt	#maxit	NOUN	I	14			lowlands-198
+16	#indie	#indie	NOUN	I	15			lowlands-198
+17	We	we	PRON	O	0			lowlands-198
+18	love	love	VERB	O	0		v.emotion	lowlands-198
+19	getting	get	VERB	O	0		v.possession	lowlands-198
+20	to	to	ADP	O	0			lowlands-198
+21	word	word	VERB	O	0		v.communication	lowlands-198
+22	out	out	PART	O	0			lowlands-198
+23	about	about	ADP	O	0			lowlands-198
+24	ur	ur	DET	O	0			lowlands-198
+25	#indies	#indies	NOUN	O	0		n.person	lowlands-198
+26	!	!	PUNCT	O	0			lowlands-198
 
-1	"	"	PUNCT	O	0			lowlands-199
-2	Neither	neither	DET	O	0			lowlands-199
-3	party	party	NOUN	O	0		n.group	lowlands-199
-4	gets	get	VERB	O	0		v.possession	lowlands-199
-5	what's	what's	AUX	O	0			lowlands-199
-6	coming	come	VERB	O	0		v.motion	lowlands-199
-7	down	down	PART	O	0			lowlands-199
-8	the	the	DET	O	0			lowlands-199
-9	pike	pike	NOUN	O	0		n.artifact	lowlands-199
-10	"	"	PUNCT	O	0			lowlands-199
-11	--	--	PUNCT	O	0			lowlands-199
-12	Democrat	democrat	PROPN	B	0		n.person	lowlands-199
-13	Michelle	michelle	PROPN	I	12			lowlands-199
-14	Diggles	diggles	PROPN	I	13			lowlands-199
-15	of	of	ADP	O	0			lowlands-199
-16	@USER	@USER	PROPN	O	0		n.person	lowlands-199
-17	#Millennials	#millennials	NOUN	O	0		n.person	lowlands-199
-18	URL	URL	X	O	0			lowlands-199
+1	Oh	oh	X	O	0			lowlands-199
+2	stahp	stahp	VERB	O	0			lowlands-199
+3	it	it	PRON	O	0			lowlands-199
+4	,	,	PUNCT	O	0			lowlands-199
+5	you	you	PRON	O	0			lowlands-199
+6	URL	URL	X	O	0			lowlands-199
 
-1	Check	check	VERB	O	0		v.cognition	lowlands-200
-2	out	out	PART	O	0			lowlands-200
-3	our	our	DET	O	0			lowlands-200
-4	new	new	ADJ	O	0			lowlands-200
-5	,	,	PUNCT	O	0			lowlands-200
-6	easy	easy	ADJ	O	0			lowlands-200
-7	to	to	ADP	O	0			lowlands-200
-8	use	use	VERB	O	0		v.consumption	lowlands-200
-9	,	,	PUNCT	O	0			lowlands-200
-10	video	video	NOUN	B	0		n.location	lowlands-200
-11	submission	submission	NOUN	I	10			lowlands-200
-12	area	area	NOUN	I	11			lowlands-200
-13	!	!	PUNCT	O	0			lowlands-200
-14	URL	URL	PROPN	B	0		n.person	lowlands-200
-15	#MaxIt	#maxit	NOUN	I	14			lowlands-200
-16	#indie	#indie	NOUN	I	15			lowlands-200
-17	We	we	PRON	O	0			lowlands-200
-18	love	love	VERB	O	0		v.emotion	lowlands-200
-19	getting	get	VERB	O	0		v.possession	lowlands-200
-20	to	to	ADP	O	0			lowlands-200
-21	word	word	VERB	O	0		v.communication	lowlands-200
-22	out	out	PART	O	0			lowlands-200
-23	about	about	ADP	O	0			lowlands-200
-24	ur	ur	DET	O	0			lowlands-200
-25	#indies	#indies	NOUN	O	0		n.person	lowlands-200
-26	!	!	PUNCT	O	0			lowlands-200
-
-1	Oh	oh	X	O	0			lowlands-201
-2	stahp	stahp	VERB	O	0			lowlands-201
-3	it	it	PRON	O	0			lowlands-201
-4	,	,	PUNCT	O	0			lowlands-201
-5	you	you	PRON	O	0			lowlands-201
-6	URL	URL	X	O	0			lowlands-201
-
-1	LIVE	live	VERB	O	0		v.stative	lowlands-202
-2	:	:	PUNCT	O	0			lowlands-202
-3	Syria	syria	PROPN	O	0		n.location	lowlands-202
-4	:	:	PUNCT	O	0			lowlands-202
-5	UN	un	PROPN	O	0		n.group	lowlands-202
-6	inspectors	inspector	NOUN	O	0		n.person	lowlands-202
-7	attacked	attack	VERB	O	0		v.competition	lowlands-202
-8	by	by	ADP	O	0			lowlands-202
-9	snipers	sniper	NOUN	O	0		n.person	lowlands-202
-10	-	-	X	O	0			lowlands-202
-11	latest	latest	ADJ	O	0			lowlands-202
-12	news	news	NOUN	O	0		n.communication	lowlands-202
-13	URL	URL	X	O	0			lowlands-202
-14	via	via	ADP	O	0			lowlands-202
-15	@USER	@USER	PROPN	O	0		n.person	lowlands-202
+1	LIVE	live	VERB	O	0		v.stative	lowlands-200
+2	:	:	PUNCT	O	0			lowlands-200
+3	Syria	syria	PROPN	O	0		n.location	lowlands-200
+4	:	:	PUNCT	O	0			lowlands-200
+5	UN	un	PROPN	O	0		n.group	lowlands-200
+6	inspectors	inspector	NOUN	O	0		n.person	lowlands-200
+7	attacked	attack	VERB	O	0		v.competition	lowlands-200
+8	by	by	ADP	O	0			lowlands-200
+9	snipers	sniper	NOUN	O	0		n.person	lowlands-200
+10	-	-	X	O	0			lowlands-200
+11	latest	latest	ADJ	O	0			lowlands-200
+12	news	news	NOUN	O	0		n.communication	lowlands-200
+13	URL	URL	X	O	0			lowlands-200
+14	via	via	ADP	O	0			lowlands-200
+15	@USER	@USER	PROPN	O	0		n.person	lowlands-200
 
 1	@PERSONGUY6661	@personguy6661	PROPN	O	0			ritter-1
 2	I	i	PRON	O	0			ritter-1
