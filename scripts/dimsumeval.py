@@ -319,8 +319,8 @@ if __name__=='__main__':
     print()
     print('   P   |   R   |   F   |   EP  |   ER  |   EF  |  Acc  |   O   | non-O | ingap | B vs I')
     parts = [(' {:.2%}'.format(float(stats[x])), 
-              '{:>7}'.format('' if isinstance(stats[x],(float,int)) else stats[x].numeratorS), 
-              '{:>7}'.format('' if isinstance(stats[x],(float,int)) else stats[x].denominatorS)) for x in ('P', 'R', 'F', 'EP', 'ER', 'EF', 'Acc', 
+              '{:>7}'.format('' if x.endswith('F') or isinstance(stats[x],(float,int)) else stats[x].numeratorS), 
+              '{:>7}'.format('' if x.endswith('F') or isinstance(stats[x],(float,int)) else stats[x].denominatorS)) for x in ('P', 'R', 'F', 'EP', 'ER', 'EF', 'Acc', 
               'Tag_R_Oo', 'Tag_R_non-Oo', 
               'Tag_Acc_non-Oo_in-gap', 'Tag_Acc_non-Oo_B-v-I')]
     for pp in zip(*parts):
@@ -357,6 +357,6 @@ if __name__=='__main__':
     print()
     print('SUMMARY SCORES')
     print('==============')
-    print(re.sub(r'=([^=]+)$', '='+Colors.YELLOW+r'\1'+Colors.ENDC, 'MWEs: P={stats[P]} R={stats[R]} F={stats[F]}'.format(stats=stats)))
-    print(re.sub(r'=([^=]+)$', '='+Colors.PINK+r'\1'+Colors.ENDC, 'Supersenses: P={stats[P]} R={stats[R]} F={stats[F]}'.format(stats=sststats[None])))
-    print(re.sub(r'=([^=]+)$', '='+Colors.GREEN+r'\1'+Colors.ENDC, 'Combined: Acc={stats[Acc]} P={stats[P]} R={stats[R]} F={stats[F]}'.format(stats=cstats)))
+    print(re.sub(r'=([^=]+)$', '='+Colors.YELLOW+r'\1'+Colors.ENDC, 'MWEs: P={stats[P]} R={stats[R]} F={f:.2%}'.format(stats=stats, f=float(stats['F']))))
+    print(re.sub(r'=([^=]+)$', '='+Colors.PINK+r'\1'+Colors.ENDC, 'Supersenses: P={stats[P]} R={stats[R]} F={f:.2%}'.format(stats=sststats[None], f=float(sststats[None]['F']))))
+    print(re.sub(r'=([^=]+)$', '='+Colors.GREEN+r'\1'+Colors.ENDC, 'Combined: Acc={stats[Acc]} P={stats[P]} R={stats[R]} F={f:.2%}'.format(stats=cstats, f=float(cstats['F']))))
