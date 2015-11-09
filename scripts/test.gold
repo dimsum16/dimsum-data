@@ -26,7 +26,7 @@
 1	Would	-	MD	O	0			sent2
 2	you	-	PRP	O	0			sent2
 3	care	-	VB	B	0		v.emotion	sent2
-4	for	-	IN	I	3			ent2
+4	for	-	IN	I	3			sent2
 5	a	-	DT	O	0			sent2
 6	lemon	-	NN	B	0		n.food	sent2
 7	drop	-	NN	I	6			sent2
