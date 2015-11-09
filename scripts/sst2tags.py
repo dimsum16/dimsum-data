@@ -15,10 +15,6 @@ Output is in the tab-separated format:
 
 offset   word   [lemma]   POS   tag   parent   (blank)   label   sentId
 
-Options:
-  -l: performs lemmatization. Otherwise, the lemma column will be left empty.
-
-
 @author: Nathan Schneider (nschneid@cs.cmu.edu)
 @since: 2015-10-11
 '''
@@ -80,7 +76,4 @@ def convert(inF, outF=sys.stdout):
         print()
 
 if __name__=='__main__':
-    if len(sys.argv)>1 and sys.argv[1]=='-l':
-        from morph import stem
-        del sys.argv[1]
     convert(fileinput.input())
