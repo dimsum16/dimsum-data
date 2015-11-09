@@ -14,7 +14,9 @@ from __future__ import print_function, division
 import json, os, sys, fileinput, codecs, re
 from collections import defaultdict, Counter, namedtuple
 
-from tags2sst import readsents
+from tags2sst import readsents, render
+
+
 
 class Ratio(object):
     '''
@@ -67,10 +69,30 @@ def require_valid_mwe_tagging(tagging, kind='tagging'):
     
     # check regex
     assert RE_TAGGING.match(''.join(tagging).decode('utf-8')),kind+': '+''.join(tagging)
-    
+
+
+def form_groups(links):
+    """
+    >>> form_groups([(1, 2), (3, 4), (2, 5), (6, 8), (4, 7)])==[{1,2,5},{3,4,7},{6,8}]
+    True
+    """
+    groups = []
+    groupMap = {} # offset -> group containing that offset
+    for a,b in links:
+        assert a is not None and b is not None,links
+        assert b not in groups,'Links not sorted left-to-right: '+repr((a,b))
+        if a not in groupMap: # start a new group
+            groups.append({a})
+            groupMap[a] = groups[-1]
+        assert b not in groupMap[a],'Redunant link?: '+repr((a,b))
+        groupMap[a].add(b)
+        groupMap[b] = groupMap[a]
+    return groups
+
+
 goldmwetypes, predmwetypes = Counter(), Counter()
 
-def mweval_sent(sent, stats, indata=None):
+def mweval_sent(sent, ggroups, pgroups, stats, indata=None):
     
     # verify the taggings are valid
     for k,kind in [(1,'gold'),(2,'pred')]:
@@ -134,22 +156,13 @@ def mweval_sent(sent, stats, indata=None):
             p_last_bi = i
         elif predTag=='b':
             p_last_bi = i
-        
-    def form_groups(links):
-        groups = []
-        for a,b in links:
-            assert a is not None and b is not None,links
-            if not groups or a not in groups[-1]:
-                groups.append({a,b})
-            else:
-                groups[-1].add(b)
-        return groups
     
-    # for strengthened or weakened scores
     glinks1 = [(a,b) for a,b in glinks]
     plinks1 = [(a,b) for a,b in plinks]
-    ggroups1 = form_groups(glinks1)
-    pgroups1 = form_groups(plinks1)
+    ggroups1 = [[k-1 for k in g] for g in ggroups]
+    assert ggroups1==map(sorted, form_groups(glinks1)),('Possible mismatch between gold MWE tags and parent offsets',ggroups1,glinks1)
+    pgroups1 = [[k-1 for k in g] for g in pgroups]
+    assert pgroups1==map(sorted, form_groups(plinks1)),('Possible mismatch between predicted MWE tags and parent offsets',pgroups1,plinks1)
     
     # soft matching (in terms of links)
     stats['PNumer'] += sum(1 for a,b in plinks1 if any(a in grp and b in grp for grp in ggroups1))
@@ -169,23 +182,110 @@ def mweval_sent(sent, stats, indata=None):
     for grp in pgroups1:
         gappiness = 'ng' if max(grp)-min(grp)+1==len(grp) else 'g'
         stats['Pred_'+gappiness] += 1
+
+sststats = defaultdict(Counter)
+conf = Counter()    # confusion matrix
+
+def ssteval_sent(sent, glbls, plbls):
     
+    def lbl2pos(lbl): return lbl.split('.')[0].lower()  # should be "n" or "v"
+    
+    sstpositions = set(glbls.keys()+plbls.keys())
+
+    sststats['Exact Tag']['nGold'] += len(sent)
+    sststats['Exact Tag']['tp'] += len(sent) - len(sstpositions)
+    
+    for k in sstpositions:
+        g = glbls.get(k)
+        p = plbls.get(k)
+        conf[g,p] += 1
+        
+        if g:
+            sststats[None]['nGold'] += 1
+            sststats[lbl2pos(g)]['nGold'] += 1
+        if p:
+            sststats[None]['nPred'] += 1
+            sststats[lbl2pos(p)]['nPred'] += 1
+            if g==p:
+                sststats['Exact Tag']['tp'] += 1
+                sststats[None]['tp'] += 1
+                sststats[lbl2pos(g)]['tp'] += 1
+    
+    sststats['Exact Tag']['Acc'] = Ratio(sststats['Exact Tag']['tp'], sststats['Exact Tag']['nGold'])
+    for x in sststats:
+        if x!='Exact Tag':
+            sststats[x]['P'] = Ratio(sststats[x]['tp'], sststats[x]['nPred'])
+            sststats[x]['R'] = Ratio(sststats[x]['tp'], sststats[x]['nGold'])
+            sststats[x]['F'] = f1(sststats[x]['P'], sststats[x]['R'])
+    
+class Colors(object):
+    RED = '\033[91m'
+    GREEN = '\033[92m'
+    ORANGE = '\033[93m'
+    YELLOW = '\033[33m'
+    BLUE = '\033[94m'
+    PINK = '\033[95m'
+    ENDC = '\033[0m'    # end color
+
+def color_render(*args, **kwargs):
+    # terminal colors
+    WORDS = Colors.YELLOW
+    VERBS = Colors.RED
+    NOUNS = Colors.BLUE
+    MWE = Colors.ENDC
+    
+    s = render(*args, **kwargs)
+    c = WORDS+s.replace('_',MWE+'_'+WORDS)+Colors.ENDC
+    c = re.sub(r'(\|v.\w+)', VERBS+r'\1'+WORDS, c)   # verb supersenses
+    c = re.sub(r'(\|n.\w+)', NOUNS+r'\1'+WORDS, c)   # noun supersenses
+    
+    return c
     
 if __name__=='__main__':
     args = sys.argv[1:]
+    printSents = False
+    while args and args[0].startswith('-'):
+        if args[0]=='-p':   # print sentences to stderr
+            printSents = True
+        elif args[0]=='-C': # turn off colors
+            for c in dir(Colors):
+                if not c.startswith('_'):
+                    setattr(Colors, c, '')
+        else:
+            assert False,'Unexpected option: '+args[0]
+        args = args[1:]
     stats = Counter()
+    
+    nToks = nFullTagCorrect = 0
     
     sent = []
     goldFP, predFP = args
     predF = readsents(fileinput.input(predFP))
     for gdata in readsents(fileinput.input(goldFP)):
-        gtags = [t.encode('utf-8') for t in gdata["tags"]]
-        gtags_mwe = [t[0] for t in gtags]   # remove class labels, if any
+        gtags_mwe = [t.encode('utf-8') for t in gdata["tags"]]
+        assert all(len(t)<=1 for t in gtags_mwe)
+        glbls = {k-1: v[1].encode('utf-8') for k,v in gdata["labels"].items()}
         pdata = next(predF)
-        ptags = [t.encode('utf-8') for t in pdata["tags"]]  
-        ptags_mwe = [t[0] for t in ptags]   # remove class labels, if any
+        ptags_mwe = [t.encode('utf-8') for t in pdata["tags"]]
+        plbls = {k-1: v[1].encode('utf-8') for k,v in pdata["labels"].items()}
+        assert all(len(t)<=1 for t in ptags_mwe)
         words, poses = zip(*gdata["words"])
-        mweval_sent(zip(words,gtags_mwe,ptags_mwe), stats, indata=(gdata,pdata))
+        assert len(words)==len(gtags_mwe)==len(ptags_mwe)
+        nToks += len(words)
+        nFullTagCorrect += sum(1 for k in range(len(words)) if gtags_mwe[k]==ptags_mwe[k] and glbls.get(k)==plbls.get(k))
+        if printSents:
+            print(color_render(words, gdata["_"], [], {k+1: v for k,v in glbls.items()}), file=sys.stderr)
+            print(color_render(words, pdata["_"], [], {k+1: v for k,v in plbls.items()}), file=sys.stderr)
+        try:
+            mweval_sent(zip(words,gtags_mwe,ptags_mwe), gdata["_"], pdata["_"], stats, indata=(gdata,pdata))
+            
+            ssteval_sent(words, glbls, plbls)
+        except AssertionError as ex:
+            print(render(words, gdata["_"], []))
+            print(render(words, pdata["_"], []))
+            raise ex
+    
+    fullAcc = Ratio(nFullTagCorrect, nToks)
     
     nTags = stats['correct']+stats['incorrect']
     stats['Acc'] = Ratio(stats['correct'], nTags)
@@ -211,15 +311,52 @@ if __name__=='__main__':
     assert stats['Pred_#Groups']==sum(predmwetypes.values())
     stats['Pred_#Types'] = len(predmwetypes)
     
-    print(stats)
+    print('mwestats = ', dict(stats), ';', sep='')
     print()
-    print('   P   |   R   |   F   |   EP  |   ER  |   EF  |  Acc  |   O   | non-O | ingap | B vs I | strength')
+    print('sststats = ', dict(sststats), ';', sep='')
+    print()
+    print('conf = ', dict(conf), ';', sep='')
+    print()
+    print('   P   |   R   |   F   |   EP  |   ER  |   EF  |  Acc  |   O   | non-O | ingap | B vs I')
     parts = [(' {:.2%}'.format(float(stats[x])), 
               '{:>7}'.format('' if isinstance(stats[x],(float,int)) else stats[x].numeratorS), 
               '{:>7}'.format('' if isinstance(stats[x],(float,int)) else stats[x].denominatorS)) for x in ('P', 'R', 'F', 'EP', 'ER', 'EF', 'Acc', 
               'Tag_R_Oo', 'Tag_R_non-Oo', 
-              'Tag_Acc_non-Oo_in-gap', 'Tag_Acc_non-Oo_B-v-I', 'Tag_Acc_I_strength')]
+              'Tag_Acc_non-Oo_in-gap', 'Tag_Acc_non-Oo_B-v-I')]
     for pp in zip(*parts):
         print(' '.join(pp))
         
     #print(predmwetypes)
+    
+    # supersenses
+    print('  Acc  |   P   |   R   |   F   || R: NSST | VSST ')
+    parts = [(' {:.2%}'.format(float(sststats['Exact Tag']['Acc'])),
+              '{:>7}'.format(sststats['Exact Tag']['Acc'].numeratorS),
+              '{:>7}'.format(sststats['Exact Tag']['Acc'].denominatorS))]
+    parts += [(' {:.2%}'.format(float(sststats[None][x])),
+               '{:>7}'.format(sststats[None][x].numeratorS),
+               '{:>7}'.format(sststats[None][x].denominatorS)) for x in ('P', 'R')]
+    parts += [(' {:.2%}  '.format(float(sststats[None]['F'])),
+               '         ',
+               '         ')]
+    parts += [(' {:.2%}'.format(float(sststats[y]['R'])),
+               '{:>7}'.format(sststats[y]['R'].numeratorS),
+               '{:>7}'.format(sststats[y]['R'].denominatorS)) for y in ('n', 'v')]
+    for pp in zip(*parts):
+        print(' '.join(pp))
+    
+    # combined acc, P, R, F
+    cstats = Counter()
+    cstats['Acc'] = fullAcc
+    cstats['P'] = Ratio(stats['P'].numerator + sststats[None]['P'].numerator, 
+                        stats['P'].denominator + sststats[None]['P'].denominator)
+    cstats['R'] = Ratio(stats['R'].numerator + sststats[None]['R'].numerator, 
+                        stats['R'].denominator + sststats[None]['R'].denominator)
+    cstats['F'] = f1(cstats['P'], cstats['R'])
+    
+    print()
+    print('SUMMARY SCORES')
+    print('==============')
+    print(re.sub(r'=([^=]+)$', '='+Colors.YELLOW+r'\1'+Colors.ENDC, 'MWEs: P={stats[P]} R={stats[R]} F={stats[F]}'.format(stats=stats)))
+    print(re.sub(r'=([^=]+)$', '='+Colors.PINK+r'\1'+Colors.ENDC, 'Supersenses: P={stats[P]} R={stats[R]} F={stats[F]}'.format(stats=sststats[None])))
+    print(re.sub(r'=([^=]+)$', '='+Colors.GREEN+r'\1'+Colors.ENDC, 'Combined: Acc={stats[Acc]} P={stats[P]} R={stats[R]} F={stats[F]}'.format(stats=cstats)))
