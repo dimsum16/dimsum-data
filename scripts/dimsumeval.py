@@ -1,13 +1,47 @@
 #!/usr/bin/env python2.7
 #coding=utf-8
-'''
-Measures MWE and sueprsense labeling performance.
-Adapted from AMALGrAM's mweval.py and ssteval.py
-https://github.com/nschneid/pysupersensetagger/
+"""
+Measures MWE and noun/verb supersense labeling performance for the DiMSUM 2016 shared task
+<http://dimsum16.github.io/>. The MWE and supersense evaluation measures 
+follow Schneider et al., NAACL-HLT 2015 <http://aclweb.org/anthology/N/N15/N15-1177.pdf>:
+
+    P_MWE = #(valid MWE links)/#(predicted MWE links)
+    R_MWE = #(valid MWE links)/#(gold MWE links)
+    F_MWE = 2*P_MWE*R_MWE / (P_MWE + R_MWE)
+    Acc_MWE = #(correct MWE positional tag of {O, B, I, o, b, i})/#(tokens)
+    
+    P_supersense = #(correct supersenses)/#(predicted supersenses)
+    R_supersense = #(correct supersenses)/#(gold supersenses)
+    F_supersense = 2*P_supersense*R_supersense / (P_supersense + R_supersense)
+    Acc_supersense = #(correct label: supersense or no-supersense)/#(tokens)
+
+where supersenses are matched on the first token of each expression.
+In addition, a combined measure is computed by microaveraging the MWE and supersense 
+scores: i.e.,
+
+    P_combined = (#(valid MWE links)+#(correct supersenses))/(#(predicted MWE links)+#(predicted supersenses))
+    R_combined = (#(valid MWE links)+#(correct supersenses))/(#(gold MWE links)+#(gold supersenses))
+    F_combined = 2*P_combined*R_combined / (P_combined + R_combined)
+    Acc_combined = #(correct MWE positional tag and label)/#(tokens)
+
+In addition to these 12 scores, this script produces various other statistics, including 
+confusion matrices for the supersenses. The code was adapted from mweval.py and ssteval.py 
+in AMALGrAM <https://github.com/nschneid/pysupersensetagger/>.
+
+Usage: [-p] [-C] test.gold test.pred
+
+where "test.gold" and "test.pred" are names of files in the 9-column format. 
+Examples have been provided in the same directory as this script.
+
+Optional flags:
+
+  -p: Print human-readable gold and predicted analyzed sentences
+  
+  -C: Do not colorize the output
 
 @author: Nathan Schneider (nschneid@cs.cmu.edu)
 @since: 2015-11-07
-'''
+"""
 
 from __future__ import print_function, division
 
