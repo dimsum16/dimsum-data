@@ -4,7 +4,7 @@
 4	he	-	PRP	O	0		
 5	does	-	VBZ	O	0		
 6	n't	-	RB	O	0		
-7	care	-	VB	O	0		v.emotion
+7	care	-	VB	O	0		n.feeling
 8	what	-	WP	O	0		
 9	they	-	PRP	O	0		
 10	do	-	VBP	O	0		v.change
@@ -25,7 +25,7 @@
 
 1	Would	-	MD	O	0			sent2
 2	you	-	PRP	O	0			sent2
-3	care	-	VB	B	0		v.emotion	sent2
+3	care	-	VB	B	0		n.feeling	sent2
 4	for	-	IN	I	3			ent2
 5	a	-	DT	O	0			sent2
 6	lemon	-	NN	B	0		n.food	sent2
