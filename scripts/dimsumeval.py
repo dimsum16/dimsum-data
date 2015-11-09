@@ -226,6 +226,8 @@ class Colors(object):
     BLUE = '\033[94m'
     PINK = '\033[95m'
     ENDC = '\033[0m'    # end color
+    
+SPECTRUM = [Colors.BLUE,Colors.GREEN,Colors.YELLOW,Colors.ORANGE,Colors.RED,Colors.PINK]
 
 def color_render(*args, **kwargs):
     # terminal colors
@@ -251,12 +253,15 @@ if __name__=='__main__':
             for c in dir(Colors):
                 if not c.startswith('_'):
                     setattr(Colors, c, '')
+            SPECTRUM = ['']
         else:
             assert False,'Unexpected option: '+args[0]
         args = args[1:]
     stats = Counter()
     
     nToks = nFullTagCorrect = 0
+    
+    goldLblsC = Counter()
     
     sent = []
     goldFP, predFP = args
@@ -265,6 +270,7 @@ if __name__=='__main__':
         gtags_mwe = [t.encode('utf-8') for t in gdata["tags"]]
         assert all(len(t)<=1 for t in gtags_mwe)
         glbls = {k-1: v[1].encode('utf-8') for k,v in gdata["labels"].items()}
+        goldLblsC.update(glbls.values())
         pdata = next(predF)
         ptags_mwe = [t.encode('utf-8') for t in pdata["tags"]]
         plbls = {k-1: v[1].encode('utf-8') for k,v in pdata["labels"].items()}
@@ -325,10 +331,50 @@ if __name__=='__main__':
               'Tag_Acc_non-Oo_in-gap', 'Tag_Acc_non-Oo_B-v-I')]
     for pp in zip(*parts):
         print(' '.join(pp))
-        
+    print()
+    
     #print(predmwetypes)
     
-    # supersenses
+    # supersense confusion matrices
+    colrs = {'n.': Colors.RED, 'v.': Colors.BLUE}
+    fmts = {'n.': str.upper, 'v.': str.lower}
+    for d,d2 in (('n.','v.'),('v.','n.')):
+        matrix = [['{: >15}'.format('----')+' {:5}'.format(goldLblsC[None] or '')]]
+        header = ['           GOLD      ',' ----']
+        lbls = [None]
+        for lbl,n in goldLblsC.most_common():
+            if lbl.startswith(d):
+                lbls.append(lbl)
+                matrix.append([colrs[d]+'{: >15}'.format(lbl)+Colors.ENDC+' {:5}'.format(n)])
+                header.append(' '+colrs[d]+fmts[d](lbl[2:])[:4]+Colors.ENDC)
+        # cross-POS confusions
+        gconfsC = Counter([p for (g,p),n in conf.most_common() if g and p and g.startswith(d) and not p.startswith(d) for i in range(n)])
+        for lbl,n in gconfsC.most_common():
+            lbls.append(lbl)
+            #matrix.append([colrs[d2]+'{: >15}'.format(lbl)+Colors.ENDC+' {:5}'.format(n)])
+            header.append(' '+colrs[d2]+fmts[d2](lbl[2:])[:4]+Colors.ENDC)
+            # since this label is for the other part of speech, show as a column (predicted) but not a row (gold)
+            
+        header.append(' <-- PRED')
+        
+        # matrix content
+        nondiag_max = [n for (g,p),n in conf.most_common() if (g is None or g.startswith(d)) and g!=p][0]
+        
+        for i,g in enumerate(lbls):
+            if i>=len(matrix): continue
+            for j,p in enumerate(lbls):
+                while len(matrix[i])<=j+1:
+                    matrix[i].append('')
+                v = conf[g,p]
+                colr = SPECTRUM[int((v-1)/nondiag_max*len(SPECTRUM))] if v>0 and i!=j else Colors.ENDC
+                matrix[i][j+1] = colr+' {:4}'.format(conf[g,p] or '')+Colors.ENDC
+    
+        print(''.join(header))
+        for ln in matrix:
+            print(''.join(ln))
+        print()
+    
+    # supersense scores
     print('  Acc  |   P   |   R   |   F   || R: NSST | VSST ')
     parts = [(' {:.2%}'.format(float(sststats['Exact Tag']['Acc'])),
               '{:>7}'.format(sststats['Exact Tag']['Acc'].numeratorS),
