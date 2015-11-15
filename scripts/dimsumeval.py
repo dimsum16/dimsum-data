@@ -28,10 +28,14 @@ In addition to these 12 scores, this script produces various other statistics, i
 confusion matrices for the supersenses. The code was adapted from mweval.py and ssteval.py
 in AMALGrAM <https://github.com/nschneid/pysupersensetagger/>.
 
-Usage: [-p] [-C] test.gold test.pred
+Usage: ./dimsumeval.py [-p] [-C] test.gold test.pred [test.pred2 ...]
 
-where "test.gold" and "test.pred" are names of files in the 9-column format.
-Examples have been provided in the same directory as this script.
+Arguments are files in the 9-column format. Examples have been provided in
+the same directory as this script. 2 file arguments corresponds
+to evaluating a single system. With >2 file arguments, multiple systems
+are compared (color-coding indicates whether scores are higher or lower
+than the first system). Confusion matrices and other details are shown
+only for the 2-file scenario.
 
 Optional flags:
 
@@ -124,9 +128,8 @@ def form_groups(links):
     return groups
 
 
-goldmwetypes, predmwetypes = Counter(), Counter()
 
-def mweval_sent(sent, ggroups, pgroups, stats, indata=None):
+def mweval_sent(sent, ggroups, pgroups, gmwetypes, pmwetypes, stats, indata=None):
 
     # verify the taggings are valid
     for k,kind in [(1,'gold'),(2,'pred')]:
@@ -138,10 +141,12 @@ def mweval_sent(sent, ggroups, pgroups, stats, indata=None):
         stats['Gold_#Groups'] += len(gdata["_"])
         stats['Gold_#GappyGroups'] += sum(1 for grp in gdata["_"] if max(grp)-min(grp)+1!=len(grp))
         if "lemmas" in gdata:
-            for grp in gdata["_"]: goldmwetypes['_'.join(gdata["lemmas"][i-1] for i in grp)] += 1
+            for grp in gdata["_"]:
+                gmwetypes['_'.join(gdata["lemmas"][i-1] for i in grp)] += 1
         stats['Pred_#Groups'] += len(pdata["_"])
         stats['Pred_#GappyGroups'] += sum(1 for grp in pdata["_"] if max(grp)-min(grp)+1!=len(grp))
-        for grp in pdata["_"]: predmwetypes['_'.join(pdata["lemmas"][i-1] for i in grp)] += 1
+        for grp in pdata["_"]:
+            pmwetypes['_'.join(pdata["lemmas"][i-1] for i in grp)] += 1
 
     glinks, plinks = [], []
     g_last_BI, p_last_BI = None, None
@@ -217,10 +222,9 @@ def mweval_sent(sent, ggroups, pgroups, stats, indata=None):
         gappiness = 'ng' if max(grp)-min(grp)+1==len(grp) else 'g'
         stats['Pred_'+gappiness] += 1
 
-sststats = defaultdict(Counter)
-conf = Counter()    # confusion matrix
 
-def ssteval_sent(sent, glbls, plbls):
+
+def ssteval_sent(sent, glbls, plbls, sststats):
 
     def lbl2pos(lbl): return lbl.split('.')[0].lower()  # should be "n" or "v"
 
@@ -263,6 +267,16 @@ class Colors(object):
 
 SPECTRUM = [Colors.BLUE,Colors.GREEN,Colors.YELLOW,Colors.ORANGE,Colors.RED,Colors.PINK]
 
+def relativeColor(a, b):
+    """Compare a value (a) to a baseline/reference value (b), and choose
+    a color depending on which is greater."""
+    delta = float(a)-float(b)
+    if delta>0:
+        return Colors.GREEN
+    elif delta<0:
+        return Colors.ORANGE
+    return Colors.ENDC
+
 def color_render(*args, **kwargs):
     # terminal colors
     WORDS = Colors.YELLOW
@@ -291,155 +305,193 @@ if __name__=='__main__':
         else:
             assert False,'Unexpected option: '+args[0]
         args = args[1:]
-    stats = Counter()
 
-    nToks = nFullTagCorrect = 0
+
+
+    nToks = 0
 
     goldLblsC = Counter()
 
+
+
     sent = []
-    goldFP, predFP = args
-    predF = readsents(fileinput.input(predFP))
+    goldFP = args[0]
+    predFs = [readsents(fileinput.input(predFP)) for predFP in args[1:]]
+    statsCs = [Counter() for predFP in args[1:]]
+    sststatsCs = [defaultdict(Counter) for predF in args[1:]]
+    gmwetypesCs = [Counter() for predFP in args[1:]]    # these will all have the same contents
+    pmwetypesCs = [Counter() for predFP in args[1:]]
+    confCs = [Counter() for predFP in args[1:]]    # confusion matrix
+
     for sentId,gdata in readsents(fileinput.input(goldFP)):
         gtags_mwe = [t.encode('utf-8') for t in gdata["tags"]]
         assert all(len(t)<=1 for t in gtags_mwe)
         glbls = {k-1: v[1].encode('utf-8') for k,v in gdata["labels"].items()}
         goldLblsC.update(glbls.values())
-        sentId,pdata = next(predF)
-        ptags_mwe = [t.encode('utf-8') for t in pdata["tags"]]
-        plbls = {k-1: v[1].encode('utf-8') for k,v in pdata["labels"].items()}
-        assert all(len(t)<=1 for t in ptags_mwe)
-        words, poses = zip(*gdata["words"])
-        assert len(words)==len(gtags_mwe)==len(ptags_mwe)
-        nToks += len(words)
-        nFullTagCorrect += sum(1 for k in range(len(words)) if gtags_mwe[k]==ptags_mwe[k] and glbls.get(k)==plbls.get(k))
-        if printSents:
-            print(color_render(words, gdata["_"], [], {k+1: v for k,v in glbls.items()}), file=sys.stderr)
-            print(color_render(words, pdata["_"], [], {k+1: v for k,v in plbls.items()}), file=sys.stderr)
-        try:
-            mweval_sent(zip(words,gtags_mwe,ptags_mwe), gdata["_"], pdata["_"], stats, indata=(gdata,pdata))
+        for predF,stats,gmwetypes,pmwetypes,sststats,conf in zip(predFs,statsCs,gmwetypesCs,pmwetypesCs,sststatsCs,confCs):
+            sentId,pdata = next(predF)
+            ptags_mwe = [t.encode('utf-8') for t in pdata["tags"]]
+            plbls = {k-1: v[1].encode('utf-8') for k,v in pdata["labels"].items()}
+            assert all(len(t)<=1 for t in ptags_mwe)
+            words, poses = zip(*gdata["words"])
+            assert len(words)==len(gtags_mwe)==len(ptags_mwe)
+            nToks += len(words)
+            stats['nFullTagCorrect'] += sum(1 for k in range(len(words)) if gtags_mwe[k]==ptags_mwe[k] and glbls.get(k)==plbls.get(k))
+            if printSents:
+                if predFs[0] is predF:
+                    print(color_render(words, gdata["_"], [], {k+1: v for k,v in glbls.items()}), file=sys.stderr)
+                print(color_render(words, pdata["_"], [], {k+1: v for k,v in plbls.items()}), file=sys.stderr)
+            try:
+                mweval_sent(zip(words,gtags_mwe,ptags_mwe), gdata["_"], pdata["_"],
+                            gmwetypes, pmwetypes, stats, indata=(gdata,pdata))
 
-            ssteval_sent(words, glbls, plbls)
-        except AssertionError as ex:
-            print(render(words, gdata["_"], []))
-            print(render(words, pdata["_"], []))
-            raise ex
+                ssteval_sent(words, glbls, plbls, sststats)
+            except AssertionError as ex:
+                print(render(words, gdata["_"], []))
+                print(render(words, pdata["_"], []))
+                raise ex
 
-    fullAcc = Ratio(nFullTagCorrect, nToks)
+    # loaded all files and sentences.
+    gmwetypes = gmwetypesCs[0]
 
-    nTags = stats['correct']+stats['incorrect']
-    stats['Acc'] = Ratio(stats['correct'], nTags)
-    stats['Tag_R_Oo'] = Ratio(stats['gold_pred_Oo'], stats['gold_Oo'])
-    stats['Tag_R_non-Oo'] = Ratio(stats['gold_pred_non-Oo'], stats['gold_non-Oo'])
-    stats['Tag_Acc_non-Oo_in-gap'] = Ratio(stats['gold_pred_non-Oo_in-or-out-of-gap_match'], stats['gold_pred_non-Oo'])
-    stats['Tag_Acc_non-Oo_B-v-I'] = Ratio(stats['gold_pred_non-Oo_Bb-v-Ii_match'], stats['gold_pred_non-Oo'])
-    stats['Tag_Acc_I_strength'] = Ratio(stats['gold_pred_Ii_strength_match'], stats['gold_pred_Ii'])
+    sysprefixes = [('SYS{:0'+str(len(str(len(predFs))))+'}  ').format(i+1) if len(predFs)>1 else '' for i in range(len(predFs))]
+    syspad = ' '*len(sysprefixes[0])
+
+    # MWE stats
+    print(syspad+'   P   |   R   |   F   |   EP  |   ER  |   EF  |  Acc  |   O   | non-O | ingap | B vs I')
+    for stats,pmwetypes,sysprefix in zip(statsCs,pmwetypesCs,sysprefixes):
+        fullAcc = Ratio(stats['nFullTagCorrect'], nToks)
+
+        nTags = stats['correct']+stats['incorrect']
+        stats['Acc'] = Ratio(stats['correct'], nTags)
+        stats['Tag_R_Oo'] = Ratio(stats['gold_pred_Oo'], stats['gold_Oo'])
+        stats['Tag_R_non-Oo'] = Ratio(stats['gold_pred_non-Oo'], stats['gold_non-Oo'])
+        stats['Tag_Acc_non-Oo_in-gap'] = Ratio(stats['gold_pred_non-Oo_in-or-out-of-gap_match'], stats['gold_pred_non-Oo'])
+        stats['Tag_Acc_non-Oo_B-v-I'] = Ratio(stats['gold_pred_non-Oo_Bb-v-Ii_match'], stats['gold_pred_non-Oo'])
+        stats['Tag_Acc_I_strength'] = Ratio(stats['gold_pred_Ii_strength_match'], stats['gold_pred_Ii'])
 
 
-    stats['P'] = Ratio(stats['PNumer'], stats['PDenom'])
-    stats['R'] = Ratio(stats['RNumer'], stats['RDenom'])
-    stats['F'] = f1(stats['P'], stats['R'])
-    stats['CrossGapP'] = stats['CrossGapPNumer']/stats['CrossGapPDenom'] if stats['CrossGapPDenom']>0 else float('nan')
-    stats['CrossGapR'] = stats['CrossGapRNumer']/stats['CrossGapRDenom'] if stats['CrossGapRDenom']>0 else float('nan')
-    stats['EP'] = Ratio(stats['ENumer'], stats['EPDenom'])
-    stats['ER'] = Ratio(stats['ENumer'], stats['ERDenom'])
-    stats['EF'] = f1(stats['EP'], stats['ER'])
+        stats['P'] = Ratio(stats['PNumer'], stats['PDenom'])
+        stats['R'] = Ratio(stats['RNumer'], stats['RDenom'])
+        stats['F'] = f1(stats['P'], stats['R'])
+        stats['CrossGapP'] = stats['CrossGapPNumer']/stats['CrossGapPDenom'] if stats['CrossGapPDenom']>0 else float('nan')
+        stats['CrossGapR'] = stats['CrossGapRNumer']/stats['CrossGapRDenom'] if stats['CrossGapRDenom']>0 else float('nan')
+        stats['EP'] = Ratio(stats['ENumer'], stats['EPDenom'])
+        stats['ER'] = Ratio(stats['ENumer'], stats['ERDenom'])
+        stats['EF'] = f1(stats['EP'], stats['ER'])
 
-    if goldmwetypes:
-        assert stats['Gold_#Groups']==sum(goldmwetypes.values())
-        stats['Gold_#Types'] = len(goldmwetypes)
-    assert stats['Pred_#Groups']==sum(predmwetypes.values())
-    stats['Pred_#Types'] = len(predmwetypes)
+        if gmwetypes:
+            assert stats['Gold_#Groups']==sum(gmwetypes.values())
+            stats['Gold_#Types'] = len(gmwetypes)
+        assert stats['Pred_#Groups']==sum(pmwetypes.values())
+        stats['Pred_#Types'] = len(pmwetypes)
 
-    print('mwestats = ', dict(stats), ';', sep='')
+        if len(predFs)==1:
+            print('mwestats = ', dict(stats), ';', sep='')
+            print()
+            print('sststats = ', dict(sststats), ';', sep='')
+            print()
+            print('conf = ', dict(conf), ';', sep='')
+            print()
+
+        parts = [(' {1}{0:.2%}'.format(float(stats[x]), relativeColor(stats[x],statsCs[0][x]))+Colors.ENDC,
+                  '{:>7}'.format('' if x.endswith('F') or isinstance(stats[x],(float,int)) else stats[x].numeratorS),
+                  '{:>7}'.format('' if x.endswith('F') or isinstance(stats[x],(float,int)) else stats[x].denominatorS)) for x in ('P', 'R', 'F', 'EP', 'ER', 'EF', 'Acc',
+                  'Tag_R_Oo', 'Tag_R_non-Oo',
+                  'Tag_Acc_non-Oo_in-gap', 'Tag_Acc_non-Oo_B-v-I')]
+        for j,pp in enumerate(zip(*parts)):
+            print((sysprefix if j==0 else syspad)+' '.join(pp))
     print()
-    print('sststats = ', dict(sststats), ';', sep='')
-    print()
-    print('conf = ', dict(conf), ';', sep='')
-    print()
-    print('   P   |   R   |   F   |   EP  |   ER  |   EF  |  Acc  |   O   | non-O | ingap | B vs I')
-    parts = [(' {:.2%}'.format(float(stats[x])),
-              '{:>7}'.format('' if x.endswith('F') or isinstance(stats[x],(float,int)) else stats[x].numeratorS),
-              '{:>7}'.format('' if x.endswith('F') or isinstance(stats[x],(float,int)) else stats[x].denominatorS)) for x in ('P', 'R', 'F', 'EP', 'ER', 'EF', 'Acc',
-              'Tag_R_Oo', 'Tag_R_non-Oo',
-              'Tag_Acc_non-Oo_in-gap', 'Tag_Acc_non-Oo_B-v-I')]
-    for pp in zip(*parts):
-        print(' '.join(pp))
-    print()
 
-    #print(predmwetypes)
+    #print(pmwetypes)
 
-    # supersense confusion matrices
-    colrs = {'n.': Colors.RED, 'v.': Colors.BLUE}
-    fmts = {'n.': str.upper, 'v.': str.lower}
-    for d,d2 in (('n.','v.'),('v.','n.')):
-        matrix = [['{: >15}'.format('----')+' {:5}'.format(goldLblsC[None] or '')]]
-        header = ['           GOLD      ',' ----']
-        lbls = [None]
-        for lbl,n in goldLblsC.most_common():
-            if lbl.startswith(d):
-                lbls.append(lbl)
-                matrix.append([colrs[d]+'{: >15}'.format(lbl)+Colors.ENDC+' {:5}'.format(n)])
-                header.append(' '+colrs[d]+fmts[d](lbl[2:])[:4]+Colors.ENDC)
-        # cross-POS confusions
-        gconfsC = Counter([p for (g,p),n in conf.most_common() if g and p and g.startswith(d) for i in range(n)])
-        for lbl,n in sorted(gconfsC.most_common(), key=lambda (l,lN): not l.startswith(d)):
-            if lbl not in lbls:
-                lbls.append(lbl)
-                #matrix.append([colrs[d2]+'{: >15}'.format(lbl)+Colors.ENDC+' {:5}'.format(n)])
-                header.append(' '+colrs[lbl[:2]]+fmts[lbl[:2]](lbl[2:])[:4]+Colors.ENDC)
-                # since this label is for the other part of speech, show as a column (predicted) but not a row (gold)
+    # Supersense stats
+    if len(predFs)==1:
+        # supersense confusion matrices
+        colrs = {'n.': Colors.RED, 'v.': Colors.BLUE}
+        fmts = {'n.': str.upper, 'v.': str.lower}
+        for d,d2 in (('n.','v.'),('v.','n.')):
+            matrix = [['{: >15}'.format('----')+' {:5}'.format(goldLblsC[None] or '')]]
+            header = ['           GOLD      ',' ----']
+            lbls = [None]
+            for lbl,n in goldLblsC.most_common():
+                if lbl.startswith(d):
+                    lbls.append(lbl)
+                    matrix.append([colrs[d]+'{: >15}'.format(lbl)+Colors.ENDC+' {:5}'.format(n)])
+                    header.append(' '+colrs[d]+fmts[d](lbl[2:])[:4]+Colors.ENDC)
+            # cross-POS confusions
+            gconfsC = Counter([p for (g,p),n in conf.most_common() if g and p and g.startswith(d) for i in range(n)])
+            for lbl,n in sorted(gconfsC.most_common(), key=lambda (l,lN): not l.startswith(d)):
+                if lbl not in lbls:
+                    lbls.append(lbl)
+                    #matrix.append([colrs[d2]+'{: >15}'.format(lbl)+Colors.ENDC+' {:5}'.format(n)])
+                    header.append(' '+colrs[lbl[:2]]+fmts[lbl[:2]](lbl[2:])[:4]+Colors.ENDC)
+                    # since this label is for the other part of speech, show as a column (predicted) but not a row (gold)
 
-        header.append(' <-- PRED')
+            header.append(' <-- PRED')
 
-        # matrix content
-        nondiag_max = [n for (g,p),n in conf.most_common() if (g is None or g.startswith(d)) and g!=p][0]
+            # matrix content
+            nondiag_max = [n for (g,p),n in conf.most_common() if (g is None or g.startswith(d)) and g!=p][0]
 
-        for i,g in enumerate(lbls):
-            if i>=len(matrix): continue
-            for j,p in enumerate(lbls):
-                while len(matrix[i])<=j+1:
-                    matrix[i].append('')
-                v = conf[g,p]
-                #if v>0 or i==j:
-                #    print(v, g,p, int((v-1)/nondiag_max*len(SPECTRUM)), nondiag_max)
-                colr = SPECTRUM[int((v-1)/nondiag_max*len(SPECTRUM))] if v>0 and i!=j else Colors.ENDC
-                matrix[i][j+1] = colr+' {:4}'.format(conf[g,p] or '')+Colors.ENDC
+            for i,g in enumerate(lbls):
+                if i>=len(matrix): continue
+                for j,p in enumerate(lbls):
+                    while len(matrix[i])<=j+1:
+                        matrix[i].append('')
+                    v = conf[g,p]
+                    #if v>0 or i==j:
+                    #    print(v, g,p, int((v-1)/nondiag_max*len(SPECTRUM)), nondiag_max)
+                    colr = SPECTRUM[int((v-1)/nondiag_max*len(SPECTRUM))] if v>0 and i!=j else Colors.ENDC
+                    matrix[i][j+1] = colr+' {:4}'.format(conf[g,p] or '')+Colors.ENDC
 
-        print(''.join(header))
-        for ln in matrix:
-            print(''.join(ln))
-        print()
+            print(''.join(header))
+            for ln in matrix:
+                print(''.join(ln))
+            print()
 
     # supersense scores
-    print('  Acc  |   P   |   R   |   F   || R: NSST | VSST ')
-    parts = [(' {:.2%}'.format(float(sststats['Exact Tag']['Acc'])),
-              '{:>7}'.format(sststats['Exact Tag']['Acc'].numeratorS),
-              '{:>7}'.format(sststats['Exact Tag']['Acc'].denominatorS))]
-    parts += [(' {:.2%}'.format(float(sststats[None][x])),
-               '{:>7}'.format(sststats[None][x].numeratorS),
-               '{:>7}'.format(sststats[None][x].denominatorS)) for x in ('P', 'R')]
-    parts += [(' {:.2%}  '.format(float(sststats[None]['F'])),
-               '         ',
-               '         ')]
-    parts += [(' {:.2%}'.format(float(sststats[y]['R'])),
-               '{:>7}'.format(sststats[y]['R'].numeratorS),
-               '{:>7}'.format(sststats[y]['R'].denominatorS)) for y in ('n', 'v')]
-    for pp in zip(*parts):
-        print(' '.join(pp))
+    print(syspad+'  Acc  |   P   |   R   |   F   || R: NSST | VSST ')
+    for sststats,sysprefix in zip(sststatsCs,sysprefixes):
+        parts = [(' {1}{0:.2%}'.format(float(sststats['Exact Tag']['Acc']), relativeColor(sststats['Exact Tag']['Acc'],sststatsCs[0]['Exact Tag']['Acc']))+Colors.ENDC,
+                  '{:>7}'.format(sststats['Exact Tag']['Acc'].numeratorS),
+                  '{:>7}'.format(sststats['Exact Tag']['Acc'].denominatorS))]
+        parts += [(' {1}{0:.2%}'.format(float(sststats[None][x]), relativeColor(sststats[None][x],sststatsCs[0][None][x]))+Colors.ENDC,
+                   '{:>7}'.format(sststats[None][x].numeratorS),
+                   '{:>7}'.format(sststats[None][x].denominatorS)) for x in ('P', 'R')]
+        parts += [(' {1}{0:.2%}  '.format(float(sststats[None]['F']), relativeColor(sststats[None]['F'],sststatsCs[0][None]['F']))+Colors.ENDC,
+                   '         ',
+                   '         ')]
+        parts += [(' {1}{0:.2%}'.format(float(sststats[y]['R']), relativeColor(sststats[y]['R'],sststatsCs[0][y]['R']))+Colors.ENDC,
+                   '{:>7}'.format(sststats[y]['R'].numeratorS),
+                   '{:>7}'.format(sststats[y]['R'].denominatorS)) for y in ('n', 'v')]
+        for j,pp in enumerate(zip(*parts)):
+            print((sysprefix if j==0 else syspad)+' '.join(pp))
+    print()
 
     # combined acc, P, R, F
-    cstats = Counter()
-    cstats['Acc'] = fullAcc
-    cstats['P'] = Ratio(stats['P'].numerator + sststats[None]['P'].numerator,
-                        stats['P'].denominator + sststats[None]['P'].denominator)
-    cstats['R'] = Ratio(stats['R'].numerator + sststats[None]['R'].numerator,
-                        stats['R'].denominator + sststats[None]['R'].denominator)
-    cstats['F'] = f1(cstats['P'], cstats['R'])
+    print(syspad+'  Acc  |   P   |   R   |   F   ')
+    cstatsBL = None
+    for sststats,sysprefix in zip(sststatsCs,sysprefixes):
+        cstats = Counter()
+        cstats['Acc'] = fullAcc
+        cstats['P'] = Ratio(stats['P'].numerator + sststats[None]['P'].numerator,
+                            stats['P'].denominator + sststats[None]['P'].denominator)
+        cstats['R'] = Ratio(stats['R'].numerator + sststats[None]['R'].numerator,
+                            stats['R'].denominator + sststats[None]['R'].denominator)
+        cstats['F'] = f1(cstats['P'], cstats['R'])
+        if cstatsBL is None:
+            cstatsBL = cstats
 
-    print()
-    print('SUMMARY SCORES')
-    print('==============')
-    print(re.sub(r'=([^=]+)$', '='+Colors.YELLOW+r'\1'+Colors.ENDC, 'MWEs: P={stats[P]} R={stats[R]} F={f:.2%}'.format(stats=stats, f=float(stats['F']))))
-    print(re.sub(r'=([^=]+)$', '='+Colors.PINK+r'\1'+Colors.ENDC, 'Supersenses: P={stats[P]} R={stats[R]} F={f:.2%}'.format(stats=sststats[None], f=float(sststats[None]['F']))))
-    print(re.sub(r'=([^=]+)$', '='+Colors.GREEN+r'\1'+Colors.ENDC, 'Combined: Acc={stats[Acc]} P={stats[P]} R={stats[R]} F={f:.2%}'.format(stats=cstats, f=float(cstats['F']))))
+        parts = [(' {1}{0:.2%}'.format(float(cstats[x]), relativeColor(cstats[x],cstatsBL[x]))+Colors.ENDC,
+                  '{:>7}'.format('' if x.endswith('F') or isinstance(cstats[x],(float,int)) else cstats[x].numeratorS),
+                  '{:>7}'.format('' if x.endswith('F') or isinstance(cstats[x],(float,int)) else cstats[x].denominatorS)) for x in ('Acc', 'P', 'R', 'F')]
+        for j,pp in enumerate(zip(*parts)):
+            print((sysprefix if j==0 else syspad)+' '.join(pp))
+
+    if len(predFs)==1:
+        print()
+        print('SUMMARY SCORES')
+        print('==============')
+        print(re.sub(r'=([^=]+)$', '='+Colors.YELLOW+r'\1'+Colors.ENDC, 'MWEs: P={stats[P]} R={stats[R]} F={f:.2%}'.format(stats=stats, f=float(stats['F']))))
+        print(re.sub(r'=([^=]+)$', '='+Colors.PINK+r'\1'+Colors.ENDC, 'Supersenses: P={stats[P]} R={stats[R]} F={f:.2%}'.format(stats=sststats[None], f=float(sststats[None]['F']))))
+        print(re.sub(r'=([^=]+)$', '='+Colors.GREEN+r'\1'+Colors.ENDC, 'Combined: Acc={stats[Acc]} P={stats[P]} R={stats[R]} F={f:.2%}'.format(stats=cstats, f=float(cstats['F']))))
