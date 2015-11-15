@@ -2,21 +2,21 @@
 #coding=utf-8
 """
 Measures MWE and noun/verb supersense labeling performance for the DiMSUM 2016 shared task
-<http://dimsum16.github.io/>. The MWE and supersense evaluation measures 
+<http://dimsum16.github.io/>. The MWE and supersense evaluation measures
 follow Schneider et al., NAACL-HLT 2015 <http://aclweb.org/anthology/N/N15/N15-1177.pdf>:
 
     P_MWE = #(valid MWE links)/#(predicted MWE links)
     R_MWE = #(valid MWE links)/#(gold MWE links)
     F_MWE = 2*P_MWE*R_MWE / (P_MWE + R_MWE)
     Acc_MWE = #(correct MWE positional tag of {O, B, I, o, b, i})/#(tokens)
-    
+
     P_supersense = #(correct supersenses)/#(predicted supersenses)
     R_supersense = #(correct supersenses)/#(gold supersenses)
     F_supersense = 2*P_supersense*R_supersense / (P_supersense + R_supersense)
     Acc_supersense = #(correct label: supersense or no-supersense)/#(tokens)
 
 where supersenses are matched on the first token of each expression.
-In addition, a combined measure is computed by microaveraging the MWE and supersense 
+In addition, a combined measure is computed by microaveraging the MWE and supersense
 scores: i.e.,
 
     P_combined = (#(valid MWE links)+#(correct supersenses))/(#(predicted MWE links)+#(predicted supersenses))
@@ -24,19 +24,19 @@ scores: i.e.,
     F_combined = 2*P_combined*R_combined / (P_combined + R_combined)
     Acc_combined = #(correct MWE positional tag and label)/#(tokens)
 
-In addition to these 12 scores, this script produces various other statistics, including 
-confusion matrices for the supersenses. The code was adapted from mweval.py and ssteval.py 
+In addition to these 12 scores, this script produces various other statistics, including
+confusion matrices for the supersenses. The code was adapted from mweval.py and ssteval.py
 in AMALGrAM <https://github.com/nschneid/pysupersensetagger/>.
 
 Usage: [-p] [-C] test.gold test.pred
 
-where "test.gold" and "test.pred" are names of files in the 9-column format. 
+where "test.gold" and "test.pred" are names of files in the 9-column format.
 Examples have been provided in the same directory as this script.
 
 Optional flags:
 
   -p: Print human-readable gold and predicted analyzed sentences
-  
+
   -C: Do not colorize the output
 
 @author: Nathan Schneider (nschneid@cs.cmu.edu)
@@ -100,7 +100,7 @@ RE_TAGGING = re.compile(r'^(O|B(o|b[iīĩ]+|[IĪĨ])*[IĪĨ]+)+$'.decode('utf-8'
 
 def require_valid_mwe_tagging(tagging, kind='tagging'):
     """Verifies the chunking is valid."""
-    
+
     # check regex
     assert RE_TAGGING.match(''.join(tagging).decode('utf-8')),kind+': '+''.join(tagging)
 
@@ -127,12 +127,12 @@ def form_groups(links):
 goldmwetypes, predmwetypes = Counter(), Counter()
 
 def mweval_sent(sent, ggroups, pgroups, stats, indata=None):
-    
+
     # verify the taggings are valid
     for k,kind in [(1,'gold'),(2,'pred')]:
         tags = zip(*sent)[k]
         require_valid_mwe_tagging(tags, kind=kind)
-        
+
     if indata:
         gdata, pdata = indata
         stats['Gold_#Groups'] += len(gdata["_"])
@@ -147,12 +147,12 @@ def mweval_sent(sent, ggroups, pgroups, stats, indata=None):
     g_last_BI, p_last_BI = None, None
     g_last_bi, p_last_bi = None, None
     for i,(tkn,goldTag,predTag) in enumerate(sent):
-        
+
         if goldTag!=predTag:
             stats['incorrect'] += 1
         else:
             stats['correct'] += 1
-        
+
         if goldTag=='I':
             glinks.append((g_last_BI, i))
             g_last_BI = i
@@ -163,7 +163,7 @@ def mweval_sent(sent, ggroups, pgroups, stats, indata=None):
             g_last_bi = i
         elif goldTag=='b':
             g_last_bi = i
-        
+
         if goldTag in {'O','o'}:
             stats['gold_Oo'] += 1
             if predTag in {'O', 'o'}:
@@ -178,8 +178,8 @@ def mweval_sent(sent, ggroups, pgroups, stats, indata=None):
                     stats['gold_pred_non-Oo_Bb-v-Ii_match'] += 1
                 if goldTag in {'I','i'} and predTag in {'I','i'}:
                     stats['gold_pred_Ii'] += 1
-        
-        
+
+
         if predTag=='I':
             plinks.append((p_last_BI, i))
             p_last_BI = i
@@ -190,14 +190,14 @@ def mweval_sent(sent, ggroups, pgroups, stats, indata=None):
             p_last_bi = i
         elif predTag=='b':
             p_last_bi = i
-    
+
     glinks1 = [(a,b) for a,b in glinks]
     plinks1 = [(a,b) for a,b in plinks]
     ggroups1 = [[k-1 for k in g] for g in ggroups]
     assert ggroups1==map(sorted, form_groups(glinks1)),('Possible mismatch between gold MWE tags and parent offsets',ggroups1,glinks1)
     pgroups1 = [[k-1 for k in g] for g in pgroups]
     assert pgroups1==map(sorted, form_groups(plinks1)),('Possible mismatch between predicted MWE tags and parent offsets',pgroups1,plinks1)
-    
+
     # soft matching (in terms of links)
     stats['PNumer'] += sum(1 for a,b in plinks1 if any(a in grp and b in grp for grp in ggroups1))
     stats['PDenom'] += len(plinks1)
@@ -207,12 +207,12 @@ def mweval_sent(sent, ggroups, pgroups, stats, indata=None):
     stats['RDenom'] += len(glinks1)
     stats['CrossGapRNumer'] += sum((1 if b-a>1 else 0) for a,b in glinks1 if any(a in grp and b in grp for grp in pgroups1))
     stats['CrossGapRDenom'] += sum((1 if b-a>1 else 0) for a,b in glinks1)
-    
+
     # exact matching (in terms of full groups)
     stats['ENumer'] += sum(1 for grp in pgroups1 if grp in ggroups1)
     stats['EPDenom'] += len(pgroups1)
     stats['ERDenom'] += len(ggroups1)
-    
+
     for grp in pgroups1:
         gappiness = 'ng' if max(grp)-min(grp)+1==len(grp) else 'g'
         stats['Pred_'+gappiness] += 1
@@ -221,19 +221,19 @@ sststats = defaultdict(Counter)
 conf = Counter()    # confusion matrix
 
 def ssteval_sent(sent, glbls, plbls):
-    
+
     def lbl2pos(lbl): return lbl.split('.')[0].lower()  # should be "n" or "v"
-    
+
     sstpositions = set(glbls.keys()+plbls.keys())
 
     sststats['Exact Tag']['nGold'] += len(sent)
     sststats['Exact Tag']['tp'] += len(sent) - len(sstpositions)
-    
+
     for k in sstpositions:
         g = glbls.get(k)
         p = plbls.get(k)
         conf[g,p] += 1
-        
+
         if g:
             sststats[None]['nGold'] += 1
             sststats[lbl2pos(g)]['nGold'] += 1
@@ -244,14 +244,14 @@ def ssteval_sent(sent, glbls, plbls):
                 sststats['Exact Tag']['tp'] += 1
                 sststats[None]['tp'] += 1
                 sststats[lbl2pos(g)]['tp'] += 1
-    
+
     sststats['Exact Tag']['Acc'] = Ratio(sststats['Exact Tag']['tp'], sststats['Exact Tag']['nGold'])
     for x in sststats:
         if x!='Exact Tag':
             sststats[x]['P'] = Ratio(sststats[x]['tp'], sststats[x]['nPred'])
             sststats[x]['R'] = Ratio(sststats[x]['tp'], sststats[x]['nGold'])
             sststats[x]['F'] = f1(sststats[x]['P'], sststats[x]['R'])
-    
+
 class Colors(object):
     RED = '\033[91m'
     GREEN = '\033[92m'
@@ -260,7 +260,7 @@ class Colors(object):
     BLUE = '\033[94m'
     PINK = '\033[95m'
     ENDC = '\033[0m'    # end color
-    
+
 SPECTRUM = [Colors.BLUE,Colors.GREEN,Colors.YELLOW,Colors.ORANGE,Colors.RED,Colors.PINK]
 
 def color_render(*args, **kwargs):
@@ -269,14 +269,14 @@ def color_render(*args, **kwargs):
     VERBS = Colors.RED
     NOUNS = Colors.BLUE
     MWE = Colors.ENDC
-    
+
     s = render(*args, **kwargs)
     c = WORDS+s.replace('_',MWE+'_'+WORDS)+Colors.ENDC
     c = re.sub(r'(\|v.\w+)', VERBS+r'\1'+WORDS, c)   # verb supersenses
     c = re.sub(r'(\|n.\w+)', NOUNS+r'\1'+WORDS, c)   # noun supersenses
-    
+
     return c
-    
+
 if __name__=='__main__':
     args = sys.argv[1:]
     printSents = False
@@ -292,11 +292,11 @@ if __name__=='__main__':
             assert False,'Unexpected option: '+args[0]
         args = args[1:]
     stats = Counter()
-    
+
     nToks = nFullTagCorrect = 0
-    
+
     goldLblsC = Counter()
-    
+
     sent = []
     goldFP, predFP = args
     predF = readsents(fileinput.input(predFP))
@@ -318,15 +318,15 @@ if __name__=='__main__':
             print(color_render(words, pdata["_"], [], {k+1: v for k,v in plbls.items()}), file=sys.stderr)
         try:
             mweval_sent(zip(words,gtags_mwe,ptags_mwe), gdata["_"], pdata["_"], stats, indata=(gdata,pdata))
-            
+
             ssteval_sent(words, glbls, plbls)
         except AssertionError as ex:
             print(render(words, gdata["_"], []))
             print(render(words, pdata["_"], []))
             raise ex
-    
+
     fullAcc = Ratio(nFullTagCorrect, nToks)
-    
+
     nTags = stats['correct']+stats['incorrect']
     stats['Acc'] = Ratio(stats['correct'], nTags)
     stats['Tag_R_Oo'] = Ratio(stats['gold_pred_Oo'], stats['gold_Oo'])
@@ -334,8 +334,8 @@ if __name__=='__main__':
     stats['Tag_Acc_non-Oo_in-gap'] = Ratio(stats['gold_pred_non-Oo_in-or-out-of-gap_match'], stats['gold_pred_non-Oo'])
     stats['Tag_Acc_non-Oo_B-v-I'] = Ratio(stats['gold_pred_non-Oo_Bb-v-Ii_match'], stats['gold_pred_non-Oo'])
     stats['Tag_Acc_I_strength'] = Ratio(stats['gold_pred_Ii_strength_match'], stats['gold_pred_Ii'])
-    
-    
+
+
     stats['P'] = Ratio(stats['PNumer'], stats['PDenom'])
     stats['R'] = Ratio(stats['RNumer'], stats['RDenom'])
     stats['F'] = f1(stats['P'], stats['R'])
@@ -344,13 +344,13 @@ if __name__=='__main__':
     stats['EP'] = Ratio(stats['ENumer'], stats['EPDenom'])
     stats['ER'] = Ratio(stats['ENumer'], stats['ERDenom'])
     stats['EF'] = f1(stats['EP'], stats['ER'])
-    
+
     if goldmwetypes:
         assert stats['Gold_#Groups']==sum(goldmwetypes.values())
         stats['Gold_#Types'] = len(goldmwetypes)
     assert stats['Pred_#Groups']==sum(predmwetypes.values())
     stats['Pred_#Types'] = len(predmwetypes)
-    
+
     print('mwestats = ', dict(stats), ';', sep='')
     print()
     print('sststats = ', dict(sststats), ';', sep='')
@@ -358,17 +358,17 @@ if __name__=='__main__':
     print('conf = ', dict(conf), ';', sep='')
     print()
     print('   P   |   R   |   F   |   EP  |   ER  |   EF  |  Acc  |   O   | non-O | ingap | B vs I')
-    parts = [(' {:.2%}'.format(float(stats[x])), 
-              '{:>7}'.format('' if x.endswith('F') or isinstance(stats[x],(float,int)) else stats[x].numeratorS), 
-              '{:>7}'.format('' if x.endswith('F') or isinstance(stats[x],(float,int)) else stats[x].denominatorS)) for x in ('P', 'R', 'F', 'EP', 'ER', 'EF', 'Acc', 
-              'Tag_R_Oo', 'Tag_R_non-Oo', 
+    parts = [(' {:.2%}'.format(float(stats[x])),
+              '{:>7}'.format('' if x.endswith('F') or isinstance(stats[x],(float,int)) else stats[x].numeratorS),
+              '{:>7}'.format('' if x.endswith('F') or isinstance(stats[x],(float,int)) else stats[x].denominatorS)) for x in ('P', 'R', 'F', 'EP', 'ER', 'EF', 'Acc',
+              'Tag_R_Oo', 'Tag_R_non-Oo',
               'Tag_Acc_non-Oo_in-gap', 'Tag_Acc_non-Oo_B-v-I')]
     for pp in zip(*parts):
         print(' '.join(pp))
     print()
-    
+
     #print(predmwetypes)
-    
+
     # supersense confusion matrices
     colrs = {'n.': Colors.RED, 'v.': Colors.BLUE}
     fmts = {'n.': str.upper, 'v.': str.lower}
@@ -388,12 +388,12 @@ if __name__=='__main__':
             #matrix.append([colrs[d2]+'{: >15}'.format(lbl)+Colors.ENDC+' {:5}'.format(n)])
             header.append(' '+colrs[d2]+fmts[d2](lbl[2:])[:4]+Colors.ENDC)
             # since this label is for the other part of speech, show as a column (predicted) but not a row (gold)
-            
+
         header.append(' <-- PRED')
-        
+
         # matrix content
         nondiag_max = [n for (g,p),n in conf.most_common() if (g is None or g.startswith(d)) and g!=p][0]
-        
+
         for i,g in enumerate(lbls):
             if i>=len(matrix): continue
             for j,p in enumerate(lbls):
@@ -402,12 +402,12 @@ if __name__=='__main__':
                 v = conf[g,p]
                 colr = SPECTRUM[int((v-1)/nondiag_max*len(SPECTRUM))] if v>0 and i!=j else Colors.ENDC
                 matrix[i][j+1] = colr+' {:4}'.format(conf[g,p] or '')+Colors.ENDC
-    
+
         print(''.join(header))
         for ln in matrix:
             print(''.join(ln))
         print()
-    
+
     # supersense scores
     print('  Acc  |   P   |   R   |   F   || R: NSST | VSST ')
     parts = [(' {:.2%}'.format(float(sststats['Exact Tag']['Acc'])),
@@ -424,16 +424,16 @@ if __name__=='__main__':
                '{:>7}'.format(sststats[y]['R'].denominatorS)) for y in ('n', 'v')]
     for pp in zip(*parts):
         print(' '.join(pp))
-    
+
     # combined acc, P, R, F
     cstats = Counter()
     cstats['Acc'] = fullAcc
-    cstats['P'] = Ratio(stats['P'].numerator + sststats[None]['P'].numerator, 
+    cstats['P'] = Ratio(stats['P'].numerator + sststats[None]['P'].numerator,
                         stats['P'].denominator + sststats[None]['P'].denominator)
-    cstats['R'] = Ratio(stats['R'].numerator + sststats[None]['R'].numerator, 
+    cstats['R'] = Ratio(stats['R'].numerator + sststats[None]['R'].numerator,
                         stats['R'].denominator + sststats[None]['R'].denominator)
     cstats['F'] = f1(cstats['P'], cstats['R'])
-    
+
     print()
     print('SUMMARY SCORES')
     print('==============')
