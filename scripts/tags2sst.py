@@ -1,25 +1,35 @@
 #!/usr/bin/env python2.7
 #coding=utf-8
-'''
-Reads a .tags file (one word per line using the OoBbĪĨīĩ encoding)
-and produces a .sst file with grouped MWE offsets, one sentence per line,
-generating a human-readable annotation of the segmentation
-and including labels, lemmas (if available), and tags in a JSON object.
+"""
+Implements a function, readsents(), that reads a file in the 9-column format of the DiMSUM 2016
+shared task <http://dimsum16.github.io/> (one word per line using the OoBbIi encoding
+for MWEs and a separate column for supersense labels).
+Also implements render(), which displays a human-readable version of an analyzed sentence.
 
 Input is in the tab-separated format:
 
 offset   word   lemma   POS   MWEtag   parent   (blank)   label   sentId
 
+If run from the command line, produces a .sst file with grouped MWE offsets, one sentence
+per line, generating a human-readable annotation of the segmentation
+and including MWE groups, labels, lemmas (if available), and tags in a JSON object.
+sst2tags.py goes in the opposite direction.
+
 Output format (3 columns):
 
-sentID   annotated_sentence   {"words": [[word1,pos1],...], "labels": {"offset1": [word1,label1], "offset2": [word2,label2]}, "lemmas": [lemma1,lemma2,...], "tags": [tag1,tag2,...], "_": [[offset1,offset2],...], "~": [[offset1,offset2,offset3],...]}
+sentID   annotated_sentence   {"words": [[word1,pos1],...], "labels": {"offset1": [word1,label1], "offset2": [word2,label2]}, "lemmas": [lemma1,lemma2,...], "tags": [tag1,tag2,...], "_": [[offset1,offset2],...], "~": []}
 
-With the -l flag, show labels in annotated_sentence.
+With the -l flag, show supersense labels in annotated_sentence.
 Otherwise, annotated_sentence will only contain the segmentation.
 
+The code was adapted from tags2sst.py in AMALGrAM <https://github.com/nschneid/pysupersensetagger/>.
+The input format for the task is slightly different from AMALGrAM's
+(the 5th column contains only the MWE tag, and there is no strength distinction).
+
 @author: Nathan Schneider (nschneid@cs.cmu.edu)
-@since: 2014-06-07
-'''
+@since: 2015-10-11
+"""
+
 from __future__ import print_function, division
 import sys, fileinput, json, StringIO
 from __builtin__ import True
@@ -186,20 +196,20 @@ def readsent(inF):
     if not words: raise StopIteration()
 
     data = process_sentence(words, lemmas, tags, labels, parents, sentId=sentId)
-    return data
+    return sentId,data
 
 def readsents(inF):
     while True:
         try:
-            data = readsent(inF)
-            yield data
+            sentId,data = readsent(inF)
+            yield sentId,data
         except StopIteration:
             break
 
 def convert(inF, outF=sys.stdout, labelsInRenderedAnno=False):
-    for data in readsents(inF):
+    for sentId,data in readsents(inF):
         print(sentId,
-              render(zip(*words)[0], data["_"], data["~"],
+              render(zip(*data["words"])[0], data["_"], data["~"],
               ({int(k): v[1] for k,v in data["labels"].items()} if labelsInRenderedAnno else {})),
               json.dumps(data), sep='\t', file=outF)
 

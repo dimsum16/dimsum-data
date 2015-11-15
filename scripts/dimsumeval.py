@@ -300,12 +300,12 @@ if __name__=='__main__':
     sent = []
     goldFP, predFP = args
     predF = readsents(fileinput.input(predFP))
-    for gdata in readsents(fileinput.input(goldFP)):
+    for sentId,gdata in readsents(fileinput.input(goldFP)):
         gtags_mwe = [t.encode('utf-8') for t in gdata["tags"]]
         assert all(len(t)<=1 for t in gtags_mwe)
         glbls = {k-1: v[1].encode('utf-8') for k,v in gdata["labels"].items()}
         goldLblsC.update(glbls.values())
-        pdata = next(predF)
+        sentId,pdata = next(predF)
         ptags_mwe = [t.encode('utf-8') for t in pdata["tags"]]
         plbls = {k-1: v[1].encode('utf-8') for k,v in pdata["labels"].items()}
         assert all(len(t)<=1 for t in ptags_mwe)
@@ -382,12 +382,13 @@ if __name__=='__main__':
                 matrix.append([colrs[d]+'{: >15}'.format(lbl)+Colors.ENDC+' {:5}'.format(n)])
                 header.append(' '+colrs[d]+fmts[d](lbl[2:])[:4]+Colors.ENDC)
         # cross-POS confusions
-        gconfsC = Counter([p for (g,p),n in conf.most_common() if g and p and g.startswith(d) and not p.startswith(d) for i in range(n)])
-        for lbl,n in gconfsC.most_common():
-            lbls.append(lbl)
-            #matrix.append([colrs[d2]+'{: >15}'.format(lbl)+Colors.ENDC+' {:5}'.format(n)])
-            header.append(' '+colrs[d2]+fmts[d2](lbl[2:])[:4]+Colors.ENDC)
-            # since this label is for the other part of speech, show as a column (predicted) but not a row (gold)
+        gconfsC = Counter([p for (g,p),n in conf.most_common() if g and p and g.startswith(d) for i in range(n)])
+        for lbl,n in sorted(gconfsC.most_common(), key=lambda (l,lN): not l.startswith(d)):
+            if lbl not in lbls:
+                lbls.append(lbl)
+                #matrix.append([colrs[d2]+'{: >15}'.format(lbl)+Colors.ENDC+' {:5}'.format(n)])
+                header.append(' '+colrs[lbl[:2]]+fmts[lbl[:2]](lbl[2:])[:4]+Colors.ENDC)
+                # since this label is for the other part of speech, show as a column (predicted) but not a row (gold)
 
         header.append(' <-- PRED')
 
@@ -400,6 +401,8 @@ if __name__=='__main__':
                 while len(matrix[i])<=j+1:
                     matrix[i].append('')
                 v = conf[g,p]
+                #if v>0 or i==j:
+                #    print(v, g,p, int((v-1)/nondiag_max*len(SPECTRUM)), nondiag_max)
                 colr = SPECTRUM[int((v-1)/nondiag_max*len(SPECTRUM))] if v>0 and i!=j else Colors.ENDC
                 matrix[i][j+1] = colr+' {:4}'.format(conf[g,p] or '')+Colors.ENDC
 
