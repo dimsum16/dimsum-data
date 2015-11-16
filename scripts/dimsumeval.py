@@ -43,6 +43,8 @@ Optional flags:
 
   -C: Do not colorize the output
 
+TODO: macroaverage by domain (using sentence ID)
+
 @author: Nathan Schneider (nschneid@cs.cmu.edu)
 @since: 2015-11-07
 """
@@ -257,15 +259,28 @@ def ssteval_sent(sent, glbls, plbls, sststats):
             sststats[x]['F'] = f1(sststats[x]['P'], sststats[x]['R'])
 
 class Colors(object):
+    """Terminal color codes. See http://misc.flogisoft.com/bash/tip_colors_and_formatting"""
     RED = '\033[91m'
     GREEN = '\033[92m'
     ORANGE = '\033[93m'
     YELLOW = '\033[33m'
     BLUE = '\033[94m'
     PINK = '\033[95m'
+    CYAN = '\033[96m'
+    WHITE = '\033[97m'
+    BLACK = '\033[30m'
     ENDC = '\033[0m'    # end color
+    BLACKBG = '\033[40m'
+    WHITEBG = '\033[107m'
+    BACKGROUND = BLACKBG
+    PLAINTEXT = WHITE
 
-SPECTRUM = [Colors.BLUE,Colors.GREEN,Colors.YELLOW,Colors.ORANGE,Colors.RED,Colors.PINK]
+class Styles(object):
+    """Terminal style codes."""
+    UNDERLINE = '\033[4m'
+    NORMAL = '\033[24m'   # normal style: not underlined or bold
+
+SPECTRUM = [Colors.BLUE,Colors.CYAN,Colors.GREEN,Colors.YELLOW,Colors.ORANGE,Colors.RED,Colors.PINK]
 
 def relativeColor(a, b):
     """Compare a value (a) to a baseline/reference value (b), and choose
@@ -275,17 +290,17 @@ def relativeColor(a, b):
         return Colors.GREEN
     elif delta<0:
         return Colors.ORANGE
-    return Colors.ENDC
+    return Colors.PLAINTEXT
 
 def color_render(*args, **kwargs):
     # terminal colors
     WORDS = Colors.YELLOW
     VERBS = Colors.RED
     NOUNS = Colors.BLUE
-    MWE = Colors.ENDC
+    MWE = Colors.PLAINTEXT
 
     s = render(*args, **kwargs)
-    c = WORDS+s.replace('_',MWE+'_'+WORDS)+Colors.ENDC
+    c = WORDS+s.replace('_',MWE+'_'+WORDS)+Colors.PLAINTEXT
     c = re.sub(r'(\|v.\w+)', VERBS+r'\1'+WORDS, c)   # verb supersenses
     c = re.sub(r'(\|n.\w+)', NOUNS+r'\1'+WORDS, c)   # noun supersenses
 
@@ -301,12 +316,16 @@ if __name__=='__main__':
             for c in dir(Colors):
                 if not c.startswith('_'):
                     setattr(Colors, c, '')
+            for s in dir(Styles):
+                if not s.startswith('_'):
+                    setattr(Styles, s, '')
             SPECTRUM = ['']
         else:
             assert False,'Unexpected option: '+args[0]
         args = args[1:]
 
-
+    # set up color defaults
+    print(Colors.BACKGROUND + Colors.PLAINTEXT, end='')
 
     nToks = 0
 
@@ -394,7 +413,7 @@ if __name__=='__main__':
             print('conf = ', dict(conf), ';', sep='')
             print()
 
-        parts = [(' {1}{0:.2%}'.format(float(stats[x]), relativeColor(stats[x],statsCs[0][x]))+Colors.ENDC,
+        parts = [(' {1}{0:.2%}'.format(float(stats[x]), relativeColor(stats[x],statsCs[0][x]))+Colors.PLAINTEXT,
                   '{:>7}'.format('' if x.endswith('F') or isinstance(stats[x],(float,int)) else stats[x].numeratorS),
                   '{:>7}'.format('' if x.endswith('F') or isinstance(stats[x],(float,int)) else stats[x].denominatorS)) for x in ('P', 'R', 'F', 'EP', 'ER', 'EF', 'Acc',
                   'Tag_R_Oo', 'Tag_R_non-Oo',
@@ -412,20 +431,20 @@ if __name__=='__main__':
         fmts = {'n.': str.upper, 'v.': str.lower}
         for d,d2 in (('n.','v.'),('v.','n.')):
             matrix = [['{: >15}'.format('----')+' {:5}'.format(goldLblsC[None] or '')]]
-            header = ['           GOLD      ',' ----']
+            header = ['           {}GOLD{}      '.format(Styles.UNDERLINE, Styles.NORMAL),' ----']
             lbls = [None]
             for lbl,n in goldLblsC.most_common():
                 if lbl.startswith(d):
                     lbls.append(lbl)
-                    matrix.append([colrs[d]+'{: >15}'.format(lbl)+Colors.ENDC+' {:5}'.format(n)])
-                    header.append(' '+colrs[d]+fmts[d](lbl[2:])[:4]+Colors.ENDC)
+                    matrix.append([colrs[d]+'{: >15}'.format(lbl)+Colors.PLAINTEXT+' {:5}'.format(n)])
+                    header.append(' '+colrs[d]+fmts[d](lbl[2:])[:4]+Colors.PLAINTEXT)
             # cross-POS confusions
             gconfsC = Counter([p for (g,p),n in conf.most_common() if g and p and g.startswith(d) for i in range(n)])
             for lbl,n in sorted(gconfsC.most_common(), key=lambda (l,lN): not l.startswith(d)):
                 if lbl not in lbls:
                     lbls.append(lbl)
-                    #matrix.append([colrs[d2]+'{: >15}'.format(lbl)+Colors.ENDC+' {:5}'.format(n)])
-                    header.append(' '+colrs[lbl[:2]]+fmts[lbl[:2]](lbl[2:])[:4]+Colors.ENDC)
+                    #matrix.append([colrs[d2]+'{: >15}'.format(lbl)+Colors.PLAINTEXT+' {:5}'.format(n)])
+                    header.append(' '+colrs[lbl[:2]]+fmts[lbl[:2]](lbl[2:])[:4]+Colors.PLAINTEXT)
                     # since this label is for the other part of speech, show as a column (predicted) but not a row (gold)
 
             header.append(' <-- PRED')
@@ -441,8 +460,8 @@ if __name__=='__main__':
                     v = conf[g,p]
                     #if v>0 or i==j:
                     #    print(v, g,p, int((v-1)/nondiag_max*len(SPECTRUM)), nondiag_max)
-                    colr = SPECTRUM[int((v-1)/nondiag_max*len(SPECTRUM))] if v>0 and i!=j else Colors.ENDC
-                    matrix[i][j+1] = colr+' {:4}'.format(conf[g,p] or '')+Colors.ENDC
+                    colr = SPECTRUM[int((v-1)/nondiag_max*len(SPECTRUM))] if v>0 and i!=j else Colors.PLAINTEXT
+                    matrix[i][j+1] = colr+' {:4}'.format(conf[g,p] or '')+Colors.PLAINTEXT
 
             print(''.join(header))
             for ln in matrix:
@@ -452,16 +471,16 @@ if __name__=='__main__':
     # supersense scores
     print(syspad+'  Acc  |   P   |   R   |   F   || R: NSST | VSST ')
     for sststats,sysprefix in zip(sststatsCs,sysprefixes):
-        parts = [(' {1}{0:.2%}'.format(float(sststats['Exact Tag']['Acc']), relativeColor(sststats['Exact Tag']['Acc'],sststatsCs[0]['Exact Tag']['Acc']))+Colors.ENDC,
+        parts = [(' {1}{0:.2%}'.format(float(sststats['Exact Tag']['Acc']), relativeColor(sststats['Exact Tag']['Acc'],sststatsCs[0]['Exact Tag']['Acc']))+Colors.PLAINTEXT,
                   '{:>7}'.format(sststats['Exact Tag']['Acc'].numeratorS),
                   '{:>7}'.format(sststats['Exact Tag']['Acc'].denominatorS))]
-        parts += [(' {1}{0:.2%}'.format(float(sststats[None][x]), relativeColor(sststats[None][x],sststatsCs[0][None][x]))+Colors.ENDC,
+        parts += [(' {1}{0:.2%}'.format(float(sststats[None][x]), relativeColor(sststats[None][x],sststatsCs[0][None][x]))+Colors.PLAINTEXT,
                    '{:>7}'.format(sststats[None][x].numeratorS),
                    '{:>7}'.format(sststats[None][x].denominatorS)) for x in ('P', 'R')]
-        parts += [(' {1}{0:.2%}  '.format(float(sststats[None]['F']), relativeColor(sststats[None]['F'],sststatsCs[0][None]['F']))+Colors.ENDC,
+        parts += [(' {1}{0:.2%}  '.format(float(sststats[None]['F']), relativeColor(sststats[None]['F'],sststatsCs[0][None]['F']))+Colors.PLAINTEXT,
                    '         ',
                    '         ')]
-        parts += [(' {1}{0:.2%}'.format(float(sststats[y]['R']), relativeColor(sststats[y]['R'],sststatsCs[0][y]['R']))+Colors.ENDC,
+        parts += [(' {1}{0:.2%}'.format(float(sststats[y]['R']), relativeColor(sststats[y]['R'],sststatsCs[0][y]['R']))+Colors.PLAINTEXT,
                    '{:>7}'.format(sststats[y]['R'].numeratorS),
                    '{:>7}'.format(sststats[y]['R'].denominatorS)) for y in ('n', 'v')]
         for j,pp in enumerate(zip(*parts)):
@@ -482,7 +501,7 @@ if __name__=='__main__':
         if cstatsBL is None:
             cstatsBL = cstats
 
-        parts = [(' {1}{0:.2%}'.format(float(cstats[x]), relativeColor(cstats[x],cstatsBL[x]))+Colors.ENDC,
+        parts = [(' {1}{0:.2%}'.format(float(cstats[x]), relativeColor(cstats[x],cstatsBL[x]))+Colors.PLAINTEXT,
                   '{:>7}'.format('' if x.endswith('F') or isinstance(cstats[x],(float,int)) else cstats[x].numeratorS),
                   '{:>7}'.format('' if x.endswith('F') or isinstance(cstats[x],(float,int)) else cstats[x].denominatorS)) for x in ('Acc', 'P', 'R', 'F')]
         for j,pp in enumerate(zip(*parts)):
@@ -492,6 +511,9 @@ if __name__=='__main__':
         print()
         print('SUMMARY SCORES')
         print('==============')
-        print(re.sub(r'=([^=]+)$', '='+Colors.YELLOW+r'\1'+Colors.ENDC, 'MWEs: P={stats[P]} R={stats[R]} F={f:.2%}'.format(stats=stats, f=float(stats['F']))))
-        print(re.sub(r'=([^=]+)$', '='+Colors.PINK+r'\1'+Colors.ENDC, 'Supersenses: P={stats[P]} R={stats[R]} F={f:.2%}'.format(stats=sststats[None], f=float(sststats[None]['F']))))
-        print(re.sub(r'=([^=]+)$', '='+Colors.GREEN+r'\1'+Colors.ENDC, 'Combined: Acc={stats[Acc]} P={stats[P]} R={stats[R]} F={f:.2%}'.format(stats=cstats, f=float(cstats['F']))))
+        print(re.sub(r'=([^=]+)$', '='+Colors.YELLOW+r'\1'+Colors.PLAINTEXT, 'MWEs: P={stats[P]} R={stats[R]} F={f:.2%}'.format(stats=stats, f=float(stats['F']))))
+        print(re.sub(r'=([^=]+)$', '='+Colors.PINK+r'\1'+Colors.PLAINTEXT, 'Supersenses: P={stats[P]} R={stats[R]} F={f:.2%}'.format(stats=sststats[None], f=float(sststats[None]['F']))))
+        print(re.sub(r'=([^=]+)$', '='+Colors.GREEN+r'\1'+Colors.PLAINTEXT, 'Combined: Acc={stats[Acc]} P={stats[P]} R={stats[R]} F={f:.2%}'.format(stats=cstats, f=float(cstats['F']))))
+
+    # restore the terminal's default colors
+    print(Colors.ENDC, end='')
