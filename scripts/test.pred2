@@ -1,0 +1,46 @@
+1	But	-	CC	O	0		
+2	Dumbledore	-	NNP	O	0		n.animal
+3	says	-	VBZ	O	0		v.stative
+4	he	-	PRP	O	0		
+5	does	-	VBZ	O	0		
+6	n't	-	RB	O	0		
+7	care	-	VB	O	0		v.emotion
+8	what	-	WP	O	0		
+9	they	-	PRP	O	0		
+10	do	-	VBP	O	0		v.change
+11	as	-	IN	B	0		
+12	long	-	JJ	I	11		
+13	as	-	IN	O	0		
+14	they	-	PRP	O	0		
+15	do	-	VBP	O	0		v.change
+16	n't	-	RB	O	0		
+17	take	-	VB	B	0		v.change
+18	him	-	PRP	I	17		
+19	off	-	RP	I	18		
+20	the	-	DT	O	0		
+21	Chocolate	-	NNP	O	0		n.food
+22	Frog	-	NNP	O	0		n.animal	
+23	cards	-	NNS	O	0		n.artifact
+24	.	-	.	O	0		
+
+1	Would	-	MD	O	0			sent2
+2	you	-	PRP	O	0			sent2
+3	care	-	VB	B	0		n.feeling	sent2
+4	for	-	IN	I	3			sent2
+5	a	-	DT	O	0			sent2
+6	lemon	-	NN	B	0		n.food	sent2
+7	drop	-	NN	I	6			sent2
+8	?	-	.	O	0			sent2
+
+1	Harry	-	NNP	O	0		n.animal
+2	had	-	VBD	B	0		v.social
+3	a	-	DT	b	0		
+4	lot	-	NN	i	3		
+5	of	-	IN	i	4		
+6	trouble	-	NN	I	2		
+7	keeping	-	VBG	O	0		v.change
+8	his	-	PRP$	O	0		
+9	mind	-	NN	O	0		v.cognition
+10	on	-	IN	O	0		
+11	his	-	PRP$	O	0		
+12	lessons	-	NNS	O	0		n.cognition
