@@ -17,10 +17,10 @@ __The training data combines and harmonizes three data-sets, the [STREUSLE 2.1](
 
 In this initial release of the training data, a few differences between the component datasets remain:
 
-- MWE annotation is less comprehensive in the Twitter datasets: in particular, all MWEs are supersense-tagged noun or verb expressions, and none of the MWEs contain gaps. 
+- MWE annotation is less comprehensive in the Twitter datasets: in particular, all MWEs are supersense-tagged noun or verb expressions, and none of the MWEs contain gaps.
   * We may release an updated version of the training data that makes the MWE annotations in the Twitter data more consistent with the STREUSLE data.
   * MWE annotations in the test set will be comprehensive, similar to the STREUSLE data.
-- The Twitter datasets replace usernames, hashtags, URLs, and numbers by special symbols, while the original text is always preserved in the STREUSLE part. 
+- The Twitter datasets replace usernames, hashtags, URLs, and numbers by special symbols, while the original text is always preserved in the STREUSLE part.
 - The Universal POS tags in the Twitter datasets do not use the new subordinating conjunction category `SCONJ`. Subordinating conjunctions are instead labeled as adpositions (`ADP`) or conjunctions (`CONJ`).
 
 
