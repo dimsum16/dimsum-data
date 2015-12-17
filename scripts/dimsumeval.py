@@ -226,7 +226,7 @@ def mweval_sent(sent, ggroups, pgroups, gmwetypes, pmwetypes, stats, indata=None
 
 
 
-def ssteval_sent(sent, glbls, plbls, sststats):
+def ssteval_sent(sent, glbls, plbls, sststats, conf):
 
     def lbl2pos(lbl): return lbl.split('.')[0].lower()  # should be "n" or "v"
 
@@ -364,7 +364,7 @@ if __name__=='__main__':
                 mweval_sent(zip(words,gtags_mwe,ptags_mwe), gdata["_"], pdata["_"],
                             gmwetypes, pmwetypes, stats, indata=(gdata,pdata))
 
-                ssteval_sent(words, glbls, plbls, sststats)
+                ssteval_sent(words, glbls, plbls, sststats, conf)
             except AssertionError as ex:
                 print(render(words, gdata["_"], []))
                 print(render(words, pdata["_"], []))
@@ -378,7 +378,7 @@ if __name__=='__main__':
 
     # MWE stats
     print(syspad+'   P   |   R   |   F   |   EP  |   ER  |   EF  |  Acc  |   O   | non-O | ingap | B vs I')
-    for stats,pmwetypes,sysprefix in zip(statsCs,pmwetypesCs,sysprefixes):
+    for stats,conf,pmwetypes,sysprefix in zip(statsCs,confCs,pmwetypesCs,sysprefixes):
         fullAcc = Ratio(stats['nFullTagCorrect'], nToks)
 
         nTags = stats['correct']+stats['incorrect']
@@ -450,6 +450,9 @@ if __name__=='__main__':
             header.append(' <-- PRED')
 
             # matrix content
+            if not conf:
+                print(Colors.RED+'No gold or predicted supersenses found: check that the input is in the right format. Exiting.'+Colors.RED+Colors.ENDC)
+                sys.exit(1)
             nondiag_max = [n for (g,p),n in conf.most_common() if (g is None or g.startswith(d)) and g!=p][0]
 
             for i,g in enumerate(lbls):
