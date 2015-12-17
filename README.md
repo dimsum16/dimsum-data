@@ -1,15 +1,15 @@
 # DiMSUM 2016 shared task data
 
-September 25, 2015
+December 16, 2015
 
 Anders Johannsen  
 Nathan Schneider  
 Dirk Hovy  
 Marine Carpuat
 
-This release contains data for the [DiMSUM](http://dimsum16.github.io/) shared task at SemEval 2016.
+This release contains data and scripts for the [DiMSUM](http://dimsum16.github.io/) shared task at SemEval 2016.
 
-## Files
+## Data files
 
 ### `dimsum16.train`, task training data
 
@@ -23,6 +23,24 @@ In this initial release of the training data, a few differences between the comp
 - The Twitter datasets replace usernames, hashtags, URLs, and numbers by special symbols, while the original text is always preserved in the STREUSLE part.
 - The Universal POS tags in the Twitter datasets do not use the new subordinating conjunction category `SCONJ`. Subordinating conjunctions are instead labeled as adpositions (`ADP`) or conjunctions (`CONJ`).
 
+
+### `dimsum16.test.blind`, task test input
+
+This is in the same format as the training data, except without MWE and supersense annotations, which are to be predicted by the system:
+
+  - there is no supersense label (column 8 is blank)
+  - MWE tags (column 5) are all `O`, and MWE parent offsets (column 6) are all `0`, indicating that no MWEs are marked
+  - sentence IDs (column 9) are unanalyzable to obscure the sentence's source dataset and its order relative to other sentences; the sentences in this file are listed in a random order
+
+#### Composition
+
+The test set consists of 16,500 words in 1,000 English sentences. The sentences are drawn from the following sources:
+
+  - online reviews from the TrustPilot corpus ([Hovy et al. 2015](http://www.www2015.it/documents/proceedings/proceedings/p452.pdf))
+  - tweets from the Tweebank corpus ([Kong et al. 2014](http://www.aclweb.org/anthology/D14-1108))
+  - TED talk transcripts from the IWSLT MT evaluation campaigns, obtained from the WIT³ archive ([Cettolo et al. 2012](http://mt-archive.info/EAMT-2012-Cettolo.pdf)), some of which were used for the NAIST-NTT TED Talk Treebank ([Neubig et al. 2014](http://www.mt-archive.info/10/IWSLT-2014-Neubig.pdf))
+
+More precise information on the composition and preparation of the test corpus will be announced after the end of the task evaluation period.
 
 ## File format
 
