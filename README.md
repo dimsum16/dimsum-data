@@ -1,6 +1,6 @@
 # DiMSUM 2016 shared task data
 
-December 16, 2015
+December 28, 2015
 
 Anders Johannsen  
 Nathan Schneider  
@@ -13,14 +13,11 @@ This release contains data and scripts for the [DiMSUM](http://dimsum16.github.i
 
 ### `dimsum16.train`, task training data
 
-__The training data combines and harmonizes three data-sets, the [STREUSLE 2.1](http://www.cs.cmu.edu/~ark/LexSem/) corpus of web reviews, as well as the Ritter and Lowlands [Twitter datasets](https://github.com/coastalcph/supersense-data-twitter).__ This harmonization consisted of: updating the POS tags to use the 17 [Universal POS categories](http://universaldependencies.github.io/docs/en/pos/all.html); naming supersenses in the form `n.person`; removing STREUSLE class labels that are not proper supersenses (such as <code>\`a</code> = auxiliary, <code>\`p</code> = preposition, `??` = unintelligible); removing weak MWE links in the STREUSLE data; separating the MWE position and supersense into different fields; and listing the supersense only for the first token of any expression.
+__The training data combines and harmonizes three data-sets, the [STREUSLE 2.1](http://www.cs.cmu.edu/~ark/LexSem/) corpus of web reviews, as well as the Ritter and Lowlands [Twitter datasets](https://github.com/coastalcph/supersense-data-twitter). The Ritter and Lowlands datasets have been reannotated for MWEs and supersenses to improve their quality and to more closely follow the conventions used in the STREUSLE annotations.__ Our harmonization also consisted of: updating the POS tags to use the 17 [Universal POS categories](http://universaldependencies.github.io/docs/en/pos/all.html); naming supersenses in the form `n.person`; removing STREUSLE class labels that are not proper supersenses (such as <code>\`a</code> = auxiliary, <code>\`p</code> = preposition, `??` = unintelligible); removing weak MWE links in the STREUSLE data; separating the MWE position and supersense into different fields; and listing the supersense only for the first token of any expression.
 
-In this initial release of the training data, a few differences between the component datasets remain:
+In this final release of the training data, a couple differences between the component datasets remain:
 
-- MWE annotation is less comprehensive in the Twitter datasets: in particular, all MWEs are supersense-tagged noun or verb expressions, and none of the MWEs contain gaps.
-  * We may release an updated version of the training data that makes the MWE annotations in the Twitter data more consistent with the STREUSLE data.
-  * MWE annotations in the test set will be comprehensive, similar to the STREUSLE data.
-- The Twitter datasets replace usernames, hashtags, URLs, and numbers by special symbols, while the original text is always preserved in the STREUSLE part.
+- The Lowlands Twitter dataset replace usernames, URLs, and numbers by special symbols, while the original text is always preserved in the other datasets.
 - The Universal POS tags in the Twitter datasets do not use the new subordinating conjunction category `SCONJ`. Subordinating conjunctions are instead labeled as adpositions (`ADP`) or conjunctions (`CONJ`).
 
 
