@@ -18,7 +18,6 @@ offset   word   [lemma]   POS   tag   parent   (blank)   label   sentId
 @author: Nathan Schneider (nschneid@cs.cmu.edu)
 @since: 2015-10-11
 '''
-from __future__ import print_function, division
 import os, sys, re, fileinput, codecs, json
 
 def convert(inF, outF=sys.stdout):
@@ -69,7 +68,7 @@ def convert(inF, outF=sys.stdout):
 
             lemma = data["lemmas"][i]
 
-            print(i+1, w.encode('utf-8'), lemma.encode('utf-8'), pos, tag.encode('utf-8'),
+            print(i+1, w, lemma, pos, tag,
                   parent, 
                   '', # Don't print strength.
                   label, sentId, sep='\t', file=outF)

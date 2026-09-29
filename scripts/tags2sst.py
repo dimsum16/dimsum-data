@@ -30,9 +30,7 @@ The input format for the task is slightly different from AMALGrAM's
 @since: 2015-10-11
 """
 
-from __future__ import print_function, division
-import sys, fileinput, json, StringIO
-from __builtin__ import True
+import sys, fileinput, json, io
 
 def render(ww, sgroups, wgroups, labels={}):
     '''
@@ -108,7 +106,7 @@ def render(ww, sgroups, wgroups, labels={}):
 
     after = ['' if x is None else x for x in after]
     before = [' ' if x is None else x for x in before]
-    return u''.join(sum(zip(before,ww,labelafter,after), ())).strip().encode('utf-8')
+    return u''.join(sum(zip(before,ww,labelafter,after), ())).strip()
 
 def process_sentence(words, lemmas, tags, labels, parents, sentId=None):
     # form groups
@@ -178,7 +176,7 @@ def readsent(inF):
             break
 
         assert ln.endswith('\n')
-        parts = ln[:-1].decode('utf-8').split('\t')
+        parts = ln[:-1].split('\t')
         assert 8<=len(parts)<=9, parts
         if len(parts)==9:
             offset, word, lemma, POS, tag, parent, strength, label, sentId = parts
@@ -278,7 +276,7 @@ mind|n.cognition on his lessons|n.cognition
 12 lessons - NNS O 0  n.cognition
 '''.lstrip().replace(' ','\t')
 
-    for data in readsents(StringIO.StringIO(t1)):
+    for data in readsents(io.StringIO(t1)):
         print(render([w for w,pos in data["words"]], data["_"], data["~"],
                      {int(k): v[1] for k,v in data["labels"].items()}))
         print('***')
